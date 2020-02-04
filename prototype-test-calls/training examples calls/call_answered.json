@@ -1,0 +1,3611 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "answered or unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 14,
+            "end": 22,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 12,
+            "end": 22,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "answered call or unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 19,
+            "end": 27,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 17,
+            "end": 27,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "answered or unanswered call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 14,
+            "end": 22,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 12,
+            "end": 22,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "answered call or unanswered call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 28,
+            "end": 32,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 19,
+            "end": 27,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 17,
+            "end": 27,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if it is answered or unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 23,
+            "end": 31,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 21,
+            "end": 31,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if it is answered call or unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 9,
+            "end": 17,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 28,
+            "end": 36,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 26,
+            "end": 36,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if it is answered or unanswered call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 32,
+            "end": 36,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 9,
+            "end": 17,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 23,
+            "end": 31,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 21,
+            "end": 31,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if it is answered call or unanswered call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 37,
+            "end": 41,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 9,
+            "end": 17,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 28,
+            "end": 36,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 26,
+            "end": 36,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "call answered or unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 5,
+            "end": 13,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 19,
+            "end": 27,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 17,
+            "end": 27,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "call answered or call unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 17,
+            "end": 21,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 5,
+            "end": 13,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 24,
+            "end": 32,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 22,
+            "end": 32,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "answered or call unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 19,
+            "end": 27,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 17,
+            "end": 27,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if it is call answered or unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 14,
+            "end": 22,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 28,
+            "end": 36,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 26,
+            "end": 36,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if it is call answered or call unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 26,
+            "end": 30,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 14,
+            "end": 22,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 33,
+            "end": 41,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 31,
+            "end": 41,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if it is answered or call unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 9,
+            "end": 17,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 28,
+            "end": 36,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 26,
+            "end": 36,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "is call answered or unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 22,
+            "end": 30,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 20,
+            "end": 30,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "is call answered call or unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 17,
+            "end": 21,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 27,
+            "end": 35,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 25,
+            "end": 35,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "is call answered or unanswered call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 31,
+            "end": 35,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 22,
+            "end": 30,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 20,
+            "end": 30,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "is call answered call or unanswered call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 17,
+            "end": 21,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 36,
+            "end": 40,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 27,
+            "end": 35,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 25,
+            "end": 35,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if call is answered or unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 25,
+            "end": 33,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 23,
+            "end": 33,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if call is answered call or unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 20,
+            "end": 24,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 30,
+            "end": 38,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 28,
+            "end": 38,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if call is answered or unanswered call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 34,
+            "end": 38,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 25,
+            "end": 33,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 23,
+            "end": 33,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if call is answered call or unanswered call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 20,
+            "end": 24,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 39,
+            "end": 43,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 30,
+            "end": 38,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 28,
+            "end": 38,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if call is call answered or unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 11,
+            "end": 15,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 16,
+            "end": 24,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 30,
+            "end": 38,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 28,
+            "end": 38,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if call is call answered or call unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 11,
+            "end": 15,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 28,
+            "end": 32,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 16,
+            "end": 24,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 35,
+            "end": 43,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 33,
+            "end": 43,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if call is answered or call unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 23,
+            "end": 27,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 30,
+            "end": 38,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 28,
+            "end": 38,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "unanswered or answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 2,
+            "end": 10,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 14,
+            "end": 22,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 0,
+            "end": 10,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "unanswered call or answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 2,
+            "end": 10,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 19,
+            "end": 27,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 0,
+            "end": 10,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "unanswered or answered call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 2,
+            "end": 10,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 14,
+            "end": 22,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 0,
+            "end": 10,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "unanswered call or answered call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 28,
+            "end": 32,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 2,
+            "end": 10,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 19,
+            "end": 27,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 0,
+            "end": 10,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if it is unanswered or answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 23,
+            "end": 31,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 9,
+            "end": 19,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if it is unanswered call or answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 28,
+            "end": 36,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 9,
+            "end": 19,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if it is unanswered or answered call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 32,
+            "end": 36,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 23,
+            "end": 31,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 9,
+            "end": 19,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if it is unanswered call or answered call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 37,
+            "end": 41,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 28,
+            "end": 36,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 9,
+            "end": 19,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "call unanswered or answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 7,
+            "end": 15,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 19,
+            "end": 27,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 5,
+            "end": 15,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "call unanswered or call answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 19,
+            "end": 23,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 7,
+            "end": 15,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 24,
+            "end": 32,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 5,
+            "end": 15,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "unanswered or call answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 2,
+            "end": 10,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 19,
+            "end": 27,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 0,
+            "end": 10,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if it is call unanswered or answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 16,
+            "end": 24,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 28,
+            "end": 36,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 14,
+            "end": 24,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if it is call unanswered or call answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 28,
+            "end": 32,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 16,
+            "end": 24,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 33,
+            "end": 41,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 14,
+            "end": 24,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if it is unanswered or call answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 28,
+            "end": 36,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 9,
+            "end": 19,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "is call unanswered or answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 10,
+            "end": 18,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 22,
+            "end": 30,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 8,
+            "end": 18,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "is call unanswered call or answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 19,
+            "end": 23,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 10,
+            "end": 18,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 27,
+            "end": 35,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 8,
+            "end": 18,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "is call unanswered or answered call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 31,
+            "end": 35,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 10,
+            "end": 18,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 22,
+            "end": 30,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 8,
+            "end": 18,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "is call unanswered call or answered call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 19,
+            "end": 23,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 36,
+            "end": 40,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 10,
+            "end": 18,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 27,
+            "end": 35,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 8,
+            "end": 18,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if call is unanswered or answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 13,
+            "end": 21,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 25,
+            "end": 33,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 11,
+            "end": 21,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if call is unanswered call or answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 22,
+            "end": 26,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 13,
+            "end": 21,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 30,
+            "end": 38,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 11,
+            "end": 21,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if call is unanswered or answered call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 34,
+            "end": 38,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 13,
+            "end": 21,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 25,
+            "end": 33,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 11,
+            "end": 21,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if call is unanswered call or answered call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 22,
+            "end": 26,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 39,
+            "end": 43,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 13,
+            "end": 21,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 30,
+            "end": 38,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 11,
+            "end": 21,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if call is call unanswered or answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 11,
+            "end": 15,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 18,
+            "end": 26,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 30,
+            "end": 38,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 16,
+            "end": 26,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if call is call unanswered or call answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 11,
+            "end": 15,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 30,
+            "end": 34,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 18,
+            "end": 26,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 35,
+            "end": 43,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 16,
+            "end": 26,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "if call is unanswered or call answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 25,
+            "end": 29,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 13,
+            "end": 21,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 30,
+            "end": 38,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 11,
+            "end": 21,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "answered call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "answered status for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "status that got answered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 29,
+            "end": 33,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 16,
+            "end": 24,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "status answered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 7,
+            "end": 15,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "call answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 5,
+            "end": 13,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "call answered status",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 5,
+            "end": 13,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "call that got answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 14,
+            "end": 22,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "status that call answered for",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 17,
+            "end": 25,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "answered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "call answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 5,
+            "end": 13,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "status that call got answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 21,
+            "end": 29,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "answered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "answered towards call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "answered status for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "answered status towards call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 24,
+            "end": 28,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "status that got answered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 29,
+            "end": 33,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 16,
+            "end": 24,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "call got answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 9,
+            "end": 17,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "how much is status that got answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "status that got answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "status that got answered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 29,
+            "end": 33,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 16,
+            "end": 24,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "how much is status that got answered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 41,
+            "end": 45,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 28,
+            "end": 36,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "status with which call got answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 27,
+            "end": 35,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "call got answered with status",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 9,
+            "end": 17,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "status with which call answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 23,
+            "end": 31,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "answered call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "answered status for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "status that got answered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 29,
+            "end": 33,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 16,
+            "end": 24,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "status answered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 7,
+            "end": 15,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "call answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 5,
+            "end": 13,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "call answered status",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 5,
+            "end": 13,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "call that got answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 14,
+            "end": 22,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "status that call answered for",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 17,
+            "end": 25,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is answered call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is answered status for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 28,
+            "end": 32,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is status that got answered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 37,
+            "end": 41,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 24,
+            "end": 32,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is status answered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 28,
+            "end": 32,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 15,
+            "end": 23,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is call answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 13,
+            "end": 21,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is call answered status",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 13,
+            "end": 21,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is call that got answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 22,
+            "end": 30,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is status that call answered for",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 25,
+            "end": 33,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is answered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is call answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 13,
+            "end": 21,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is status that call got answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 29,
+            "end": 37,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is answered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is answered towards call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 25,
+            "end": 29,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is answered status for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 28,
+            "end": 32,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is answered status towards call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 32,
+            "end": 36,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is status that got answered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 37,
+            "end": 41,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 24,
+            "end": 32,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is call got answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 17,
+            "end": 25,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is how much is status that got answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 36,
+            "end": 44,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is status that got answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is how much is status that got answered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 49,
+            "end": 53,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 36,
+            "end": 44,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is status with which call got answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 26,
+            "end": 30,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 35,
+            "end": 43,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is call got answered with status",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 17,
+            "end": 25,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is status with which call answered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 26,
+            "end": 30,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 31,
+            "end": 39,
+            "value": "answered",
+            "entity": "answered_entity"
+          }
+        ]
+      },
+      {
+        "text": "unanswered call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 10,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "unanswered status for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 10,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "status that got unanswered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 31,
+            "end": 35,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 16,
+            "end": 26,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "status unanswered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 7,
+            "end": 17,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "call unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 5,
+            "end": 15,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "call unanswered status",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 5,
+            "end": 15,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "call that got unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 14,
+            "end": 24,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "status that call unanswered for",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 17,
+            "end": 27,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "unanswered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 10,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "call unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 5,
+            "end": 15,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "status that call got unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 21,
+            "end": 31,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "unanswered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 10,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "unanswered towards call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 10,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "unanswered status for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 10,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "unanswered status towards call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 26,
+            "end": 30,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 10,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "status that got unanswered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 31,
+            "end": 35,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 16,
+            "end": 26,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "call got unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 9,
+            "end": 19,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "how much is status that got unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 28,
+            "end": 38,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "status that got unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 16,
+            "end": 26,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "status that got unanswered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 31,
+            "end": 35,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 16,
+            "end": 26,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "how much is status that got unanswered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 43,
+            "end": 47,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 28,
+            "end": 38,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "status with which call got unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 27,
+            "end": 37,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "call got unanswered with status",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 9,
+            "end": 19,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "status with which call unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 23,
+            "end": 33,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "unanswered call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 10,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "unanswered status for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 10,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "status that got unanswered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 31,
+            "end": 35,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 16,
+            "end": 26,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "status unanswered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 7,
+            "end": 17,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "call unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 5,
+            "end": 15,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "call unanswered status",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 5,
+            "end": 15,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "call that got unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 14,
+            "end": 24,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "status that call unanswered for",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 17,
+            "end": 27,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is unanswered call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 8,
+            "end": 18,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is unanswered status for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 30,
+            "end": 34,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 8,
+            "end": 18,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is status that got unanswered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 39,
+            "end": 43,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 24,
+            "end": 34,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is status unanswered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 30,
+            "end": 34,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 15,
+            "end": 25,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is call unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 13,
+            "end": 23,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is call unanswered status",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 13,
+            "end": 23,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is call that got unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 22,
+            "end": 32,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is status that call unanswered for",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 25,
+            "end": 35,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is unanswered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 8,
+            "end": 18,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is call unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 13,
+            "end": 23,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is status that call got unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 29,
+            "end": 39,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is unanswered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 8,
+            "end": 18,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is unanswered towards call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 27,
+            "end": 31,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 8,
+            "end": 18,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is unanswered status for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 30,
+            "end": 34,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 8,
+            "end": 18,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is unanswered status towards call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 34,
+            "end": 38,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 8,
+            "end": 18,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is status that got unanswered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 39,
+            "end": 43,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 24,
+            "end": 34,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is call got unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 17,
+            "end": 27,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is how much is status that got unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 36,
+            "end": 46,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is status that got unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 24,
+            "end": 34,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is how much is status that got unanswered for call",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 51,
+            "end": 55,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 36,
+            "end": 46,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is status with which call got unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 26,
+            "end": 30,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 35,
+            "end": 45,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is call got unanswered with status",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 17,
+            "end": 27,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is status with which call unanswered",
+        "intent": "call_answered",
+        "entities": [
+          {
+            "start": 26,
+            "end": 30,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 31,
+            "end": 41,
+            "value": "unanswered",
+            "entity": "unanswered_entity"
+          }
+        ]
+      },
+    ]
+  }
+}

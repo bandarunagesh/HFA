@@ -1,0 +1,68 @@
+ * Running on http://apsrp03693:5090/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 125-168-994
+10.198.55.2 - - [22/Jul/2019 11:27:44] "[37mGET / HTTP/1.1[0m" 200 -
+10.198.55.2 - - [22/Jul/2019 11:27:45] "[33mGET /static/css/chat_interface.css HTTP/1.1[0m" 404 -
+10.198.55.2 - - [22/Jul/2019 11:27:45] "[33mGET /static/img/optum_logo.png HTTP/1.1[0m" 404 -
+10.198.55.2 - - [22/Jul/2019 11:27:45] "[33mGET /static/img/mic.jpg HTTP/1.1[0m" 404 -
+10.198.55.2 - - [22/Jul/2019 11:27:45] "[33mGET /static/js/bind.js HTTP/1.1[0m" 404 -
+10.198.55.2 - - [22/Jul/2019 11:27:46] "[33mGET /static/css/chat_interface.css HTTP/1.1[0m" 404 -
+10.198.55.2 - - [22/Jul/2019 11:27:47] "[33mGET /static/js/bind.js HTTP/1.1[0m" 404 -
+10.198.55.2 - - [22/Jul/2019 11:27:47] "[33mGET /static/img/optum.jpg HTTP/1.1[0m" 404 -
+10.198.55.2 - - [22/Jul/2019 11:28:16] "[1m[31mPOST //parse?q=received%20calls%20by%20answered%20status%20in%202019&userid=asrilekh_0722_uid13&sessionid=asrilekh_0722_sessid13&providerids=111635088,113613997,133964321&q4=search&q5=bar_chart_requeste&q6=calls HTTP/1.1[0m" 405 -
+10.198.55.2 - - [22/Jul/2019 11:28:38] "[1m[31mPOST //parse?q=received%20calls%20by%20answered%20status%20in%202019&userid=asrilekh_0722_uid13&sessionid=asrilekh_0722_sessid13&providerids=111635088,113613997,133964321&q4=search&q5=bar_chart_requeste&q6=calls HTTP/1.1[0m" 405 -
+10.198.55.2 - - [22/Jul/2019 11:29:41] "[37mPOST /parse?q=received%20calls%20by%20answered%20status%20in%202019&userid=asrilekh_0722_uid13&sessionid=asrilekh_0722_sessid13&providerids=111635088,113613997,133964321&q4=search&q5=bar_chart_requeste&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 07:47:16] "[37mPOST /parse?q HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 07:47:59] "[37mPOST /parse?q=received%20calls%20by%20answered%20status%20in%202019 HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 07:49:05] "[37mPOST /parse?q=received%20calls%20by%20answered%20status%20in%202019 HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 07:55:08] "[37mPOST /parse?q=When%20%20was%20the%20call%20received%20788607957&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 07:55:22] "[37mPOST /parse?q=When%20%20was%20the%20call%20received%20788607957&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 07:58:23] "[37mPOST /parse?q=When%20%20was%20the%20call%20received%2078860795&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 08:05:03] "[37mPOST /parse?q=To%20which%20Line%20of%20Business%20does%20the%20call%20pertain%20to&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 08:05:55] "[37mPOST /parse?q=When%20%20was%20the%20call%20received%20788607957&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 08:08:17] "[37mPOST /parse?q=When%20%20was%20the%20call%20received%20788607957&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 08:12:40] "[37mPOST /parse?q=To%20which%20Line%20of%20Business%20does%20the%20call%20pertain%20to&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 08:13:43] "[37mPOST /parse?q=To%20which%20Line%20of%20Business%20does%20the%20call%20pertain%20to&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 08:14:03] "[37mPOST /parse?q=To%20which%20lob%20does%20the%20call%20pertain%20to&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+10.198.55.2 - - [23/Jul/2019 08:20:26] "[37mPOST /parse?q=To%20which%20Line%20of%20Business%20does%20the%20call%20pertain%20to&userid=asrilekh_0722_uid13&sessionid=asrilekh_0722_sessid13&providerids=111635088,113613997,133964321&q4=chat&q5=bar_chart_requeste&q6=calls HTTP/1.1[0m" 200 -
+ * Detected change in '/app/qualtrics/rasa/prototype-test-calls/pblm_solving_files/calls_mongodb_interaction.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 125-168-994
+ * Detected change in '/app/qualtrics/rasa/prototype-test-calls/app_rev_svr.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 125-168-994
+10.198.55.2 - - [23/Jul/2019 08:40:24] "[37mPOST /parse?q=Did%20the%20call%20get%20transferred?&userid=asrilekh_0722_uid13&sessionid=asrilekh_0722_sessid13&providerids=111635088,113613997,133964321&q4=chat&q5=bar_chart_requeste&q6=calls HTTP/1.1[0m" 200 -
+10.198.55.2 - - [23/Jul/2019 08:40:45] "[37mPOST /parse?q=In%20which%20language%20was%20the%20call%20answered?&userid=asrilekh_0722_uid13&sessionid=asrilekh_0722_sessid13&providerids=111635088,113613997,133964321&q4=chat&q5=bar_chart_requeste&q6=calls HTTP/1.1[0m" 200 -
+10.198.55.2 - - [23/Jul/2019 08:40:55] "[37mPOST /parse?q=Did%20the%20call%20get%20answered?&userid=asrilekh_0722_uid13&sessionid=asrilekh_0722_sessid13&providerids=111635088,113613997,133964321&q4=chat&q5=bar_chart_requeste&q6=calls HTTP/1.1[0m" 200 -
+10.198.55.2 - - [23/Jul/2019 08:41:04] "[37mPOST /parse?q=What%20was%20the%20total%20duration%20of%20the%20call?&userid=asrilekh_0722_uid13&sessionid=asrilekh_0722_sessid13&providerids=111635088,113613997,133964321&q4=chat&q5=bar_chart_requeste&q6=calls HTTP/1.1[0m" 200 -
+10.198.55.2 - - [23/Jul/2019 08:41:12] "[37mPOST /parse?q=What%27s%20the%20hold-time%20for%20the%20call?&userid=asrilekh_0722_uid13&sessionid=asrilekh_0722_sessid13&providerids=111635088,113613997,133964321&q4=chat&q5=bar_chart_requeste&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 08:44:19] "[37mPOST /parse?q=To%20which%20Line%20of%20Business%20does%20the%20call%20pertain%20to&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 08:45:36] "[37mPOST /parse?q=What%27s%20the%20product%20type%20being%20enquired%20in%20the%20call&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 08:46:23] "[37mPOST /parse?q=To%20what%20category%20does%20the%20call%20belong%20to&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 08:46:58] "[37mPOST /parse?q=What%27s%20the%20talk-time%20for%20the%20call&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 08:47:37] "[37mPOST /parse?q=What%27s%20the%20ring-time%20for%20the%20call&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 08:49:18] "[37mPOST /parse?q=What%27s%20the%20hold-time%20for%20the%20call&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 08:49:48] "[37mPOST /parse?q=What%20was%20the%20total%20duration%20of%20the%20call&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 08:51:53] "[37mPOST /parse?q=Did%20the%20call%20get%20answered&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 08:52:15] "[37mPOST /parse?q=Did%20the%20call%20get%20transferred&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 08:52:50] "[37mPOST /parse?q=In%20which%20language%20the%20call%20answered&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 08:53:56] "[37mPOST /parse?q=Show%20me%20the%20trend%20for%20the%20calls%20received%20in%202019&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=search&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 08:54:52] "[37mPOST /parse?q=Show%20me%20the%20trend%20for%20the%20calls%20received%20in%202019%20by%20lob&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=search&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 08:55:32] "[37mPOST /parse?q=Show%20me%20the%20trend%20for%20the%20calls%20received%20in%202019%20by%20product&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=search&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 08:55:41] "[37mPOST /parse?q=Show%20me%20the%20trend%20for%20the%20calls%20received%20in%202019%20by%20product&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=search&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 08:56:38] "[37mPOST /parse?q=Show%20me%20the%20trend%20for%20the%20calls%20received%20in%202019%20by%20category&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=search&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 08:57:07] "[37mPOST /parse?q=Show%20me%20the%20trend%20for%20the%20calls%20received%20in%202019%20by%20answered&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=search&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 08:57:35] "[37mPOST /parse?q=Show%20me%20the%20trend%20for%20the%20calls%20received%20in%202019%20by%20transfered&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=search&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 08:58:08] "[37mPOST /parse?q=Show%20me%20the%20trend%20for%20the%20calls%20received%20in%202019%20by%20lang&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=search&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+10.198.58.195 - - [23/Jul/2019 08:58:36] "[37mPOST /parse?q=Show%20me%20the%20trend%20for%20the%20calls%20received%20in%202019%20by%20languag&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=search&q5=junk&q6=calls HTTP/1.1[0m" 200 -
+ * Detected change in '/app/qualtrics/rasa/prototype-test-calls/app_rev_svr.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 125-168-994
+ * Detected change in '/app/qualtrics/rasa/prototype-test-calls/pblm_solving_files/calls_knowledge_rev.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 125-168-994

@@ -1,0 +1,18 @@
+{
+  "refused": "denied",
+  "cash": "amount",
+  "spent": "paid",
+  "bucks": "amount",
+  "declination": "denial",
+  "reimbursed": "paid",
+  "compensated": "paid",
+  "repudiated": "denied",
+  "declined": "denied",
+  "adjustments": "adjustment",
+  "buck": "amount",
+  "money": "amount",
+  "collected": "paid",
+  "repudiation": "denial",
+  "rejection": "denial",
+  "refusal": "denial"
+}

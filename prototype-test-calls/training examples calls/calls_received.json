@@ -1,0 +1,977 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "received calls count",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 15,
+            "end": 20,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "calls that received count",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 20,
+            "end": 25,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "calls that were received count",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 16,
+            "end": 24,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 25,
+            "end": 30,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "calls received count",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 6,
+            "end": 14,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 15,
+            "end": 20,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "calls that received count",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 20,
+            "end": 25,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is received calls count",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 23,
+            "end": 28,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is calls that received count",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 19,
+            "end": 27,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 28,
+            "end": 33,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is calls that were received count",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 24,
+            "end": 32,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 33,
+            "end": 38,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is calls received count",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 14,
+            "end": 22,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 23,
+            "end": 28,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is calls that received count",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 19,
+            "end": 27,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 28,
+            "end": 33,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "how many received callscla",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "received",
+            "entity": "recvd_entity"
+          }
+        ]
+      },
+      {
+        "text": "how many calls were received",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 20,
+            "end": 28,
+            "value": "received",
+            "entity": "recvd_entity"
+          }
+        ]
+      },
+      {
+        "text": "how many received calls",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 9,
+            "end": 17,
+            "value": "received",
+            "entity": "recvd_entity"
+          }
+        ]
+      },
+      {
+        "text": "count of received calls",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 9,
+            "end": 17,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "count of calls that were received",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 25,
+            "end": 33,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "count of calls received",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 15,
+            "end": 23,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "count of calls that received",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 20,
+            "end": 28,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is count of received calls",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 26,
+            "end": 31,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 17,
+            "end": 25,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is count of calls that were received",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 33,
+            "end": 41,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is count of calls received",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 23,
+            "end": 31,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is count of calls that received",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 28,
+            "end": 36,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "received calls count by united health corporation",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 15,
+            "end": 20,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "calls that received count by united health corporation",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 20,
+            "end": 25,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "calls that were received count by united health corporation",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 16,
+            "end": 24,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 25,
+            "end": 30,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "calls received count by united health corporation",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 6,
+            "end": 14,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 15,
+            "end": 20,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "calls that received count by united health corporation",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 20,
+            "end": 25,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is received calls count by united health corporation",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 23,
+            "end": 28,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is calls that received count by united health corporation",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 19,
+            "end": 27,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 28,
+            "end": 33,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is calls that were received count by united health corporation",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 24,
+            "end": 32,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 33,
+            "end": 38,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is calls received count by united health corporation",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 14,
+            "end": 22,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 23,
+            "end": 28,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is calls that received count by united health corporation",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 19,
+            "end": 27,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 28,
+            "end": 33,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "how many received calls by united health corporation",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 9,
+            "end": 17,
+            "value": "received",
+            "entity": "recvd_entity"
+          }
+        ]
+      },
+      {
+        "text": "how many calls were received by united health corporation",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 20,
+            "end": 28,
+            "value": "received",
+            "entity": "recvd_entity"
+          }
+        ]
+      },
+      {
+        "text": "how many received calls by united health corporation",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 9,
+            "end": 17,
+            "value": "received",
+            "entity": "recvd_entity"
+          }
+        ]
+      },
+      {
+        "text": "count of received calls by united health corporation",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 9,
+            "end": 17,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "count of calls that were received by united health corporation",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 25,
+            "end": 33,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "count of calls received by united health corporation",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 15,
+            "end": 23,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "count of calls that received by united health corporation",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 20,
+            "end": 28,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is count of received calls by united health corporation",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 26,
+            "end": 31,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 17,
+            "end": 25,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is count of calls that were received by united health corporation",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 33,
+            "end": 41,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is count of calls received by united health corporation",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 23,
+            "end": 31,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is count of calls that received by united health corporation",
+        "intent": "calls_received",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 28,
+            "end": 36,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+    ]
+  }
+}

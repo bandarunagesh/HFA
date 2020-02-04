@@ -1,0 +1,24 @@
+Rasa process starting
+Rasa process starting
+Rasa process starting
+Rasa process starting
+Rasa process starting
+Rasa process starting
+Rasa process starting
+Rasa process starting
+Rasa process starting
+Rasa process starting
+Rasa process starting
+Rasa process starting
+Rasa process starting
+Rasa process starting
+Rasa process starting
+validation.invalid
+ --- All found errors ---
+["Value '[{'greet': ['Hello! How can I help?']}, {'goodbye': ['Talk to you later.', 'Bye bye :(']}]' is not a dict. Value path: '/templates'"]
+Rasa process starting
+Rasa process starting
+Rasa process starting
+Rasa process starting
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting

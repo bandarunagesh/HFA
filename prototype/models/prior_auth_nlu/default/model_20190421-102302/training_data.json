@@ -1,0 +1,1923 @@
+{
+  "rasa_nlu_data": {
+    "entity_synonyms": [],
+    "lookup_tables": [],
+    "regex_features": [],
+    "common_examples": [
+      {
+        "text": "what is the status of prior authorization?",
+        "entities": [
+          {
+            "end": 18,
+            "value": "status",
+            "start": 12,
+            "entity": "status_entity"
+          }
+        ],
+        "intent": "status_prior_auth"
+      },
+      {
+        "text": "Give me the status of prior authorization",
+        "entities": [
+          {
+            "end": 18,
+            "value": "status",
+            "start": 12,
+            "entity": "status_entity"
+          }
+        ],
+        "intent": "status_prior_auth"
+      },
+      {
+        "text": "Get me the status of prior authorization",
+        "entities": [
+          {
+            "end": 17,
+            "value": "status",
+            "start": 11,
+            "entity": "status_entity"
+          }
+        ],
+        "intent": "status_prior_auth"
+      },
+      {
+        "text": "May I know the status of prior authorization",
+        "entities": [
+          {
+            "end": 21,
+            "value": "status",
+            "start": 15,
+            "entity": "status_entity"
+          }
+        ],
+        "intent": "status_prior_auth"
+      },
+      {
+        "text": "status prior auth",
+        "entities": [
+          {
+            "end": 6,
+            "value": "status",
+            "start": 0,
+            "entity": "status_entity"
+          }
+        ],
+        "intent": "status_prior_auth"
+      },
+      {
+        "text": "status of prior authorization",
+        "entities": [
+          {
+            "end": 6,
+            "value": "status",
+            "start": 0,
+            "entity": "status_entity"
+          }
+        ],
+        "intent": "status_prior_auth"
+      },
+      {
+        "text": "prior auth status",
+        "entities": [
+          {
+            "end": 17,
+            "value": "status",
+            "start": 11,
+            "entity": "status_entity"
+          }
+        ],
+        "intent": "status_prior_auth"
+      },
+      {
+        "text": "prior authorization status",
+        "entities": [
+          {
+            "end": 26,
+            "value": "status",
+            "start": 20,
+            "entity": "status_entity"
+          }
+        ],
+        "intent": "status_prior_auth"
+      },
+      {
+        "text": "why was my PA request denied for 7454176508?",
+        "entities": [
+          {
+            "end": 28,
+            "value": "PA request denied",
+            "start": 11,
+            "entity": "denial_actin"
+          },
+          {
+            "end": 43,
+            "value": "7454176508",
+            "start": 33,
+            "entity": "claim_number"
+          }
+        ],
+        "intent": "prior_auth_denial"
+      },
+      {
+        "text": "why was my prior authorization claim denied for 7454176508?",
+        "entities": [
+          {
+            "end": 58,
+            "value": "7454176508",
+            "start": 48,
+            "entity": "claim_number"
+          },
+          {
+            "end": 43,
+            "value": "denied",
+            "start": 37,
+            "entity": "denial_actin"
+          }
+        ],
+        "intent": "prior_auth_denial"
+      },
+      {
+        "text": "my PA denied for 7454176508 why?",
+        "entities": [
+          {
+            "end": 27,
+            "value": "7454176508",
+            "start": 17,
+            "entity": "claim_number"
+          },
+          {
+            "end": 12,
+            "value": "PA denied",
+            "start": 3,
+            "entity": "denial_actin"
+          }
+        ],
+        "intent": "prior_auth_denial"
+      },
+      {
+        "text": "why is my PA denied for 7454176508?",
+        "entities": [
+          {
+            "end": 34,
+            "value": "7454176508",
+            "start": 24,
+            "entity": "claim_number"
+          },
+          {
+            "end": 19,
+            "value": "PA denied",
+            "start": 10,
+            "entity": "denial_actin"
+          }
+        ],
+        "intent": "prior_auth_denial"
+      },
+      {
+        "text": "my prior auth denied",
+        "entities": [
+          {
+            "end": 20,
+            "value": "prior auth denied",
+            "start": 3,
+            "entity": "denial_actin"
+          }
+        ],
+        "intent": "prior_auth_denial"
+      },
+      {
+        "text": "you denied my prior authorization for 7454176508",
+        "entities": [
+          {
+            "end": 33,
+            "value": "denied my prior authorization",
+            "start": 4,
+            "entity": "denial_actin"
+          },
+          {
+            "end": 48,
+            "value": "7454176508",
+            "start": 38,
+            "entity": "claim_number"
+          }
+        ],
+        "intent": "prior_auth_denial"
+      },
+      {
+        "text": "you denied my PA?",
+        "entities": [
+          {
+            "end": 16,
+            "value": "denied my PA",
+            "start": 4,
+            "entity": "denial_actin"
+          }
+        ],
+        "intent": "prior_auth_denial"
+      },
+      {
+        "text": "My PA got denied for 7454176508",
+        "entities": [
+          {
+            "end": 16,
+            "value": "PA got denied",
+            "start": 3,
+            "entity": "denial_actin"
+          },
+          {
+            "end": 31,
+            "value": "7454176508",
+            "start": 21,
+            "entity": "claim_number"
+          }
+        ],
+        "intent": "prior_auth_denial"
+      },
+      {
+        "text": "How should I resubmit my PA to get it approved",
+        "entities": [
+          {
+            "end": 27,
+            "value": "resubmit my PA",
+            "start": 13,
+            "entity": "resubmit_actin"
+          }
+        ],
+        "intent": "prior_auth_resubmission"
+      },
+      {
+        "text": "I would like to resubmit my PA ",
+        "entities": [
+          {
+            "end": 24,
+            "value": "resubmit",
+            "start": 16,
+            "entity": "resubmit_actin"
+          }
+        ],
+        "intent": "prior_auth_resubmission"
+      },
+      {
+        "text": "I want to resubmit my prior auth to get it approved",
+        "entities": [
+          {
+            "end": 32,
+            "value": "resubmit my prior auth",
+            "start": 10,
+            "entity": "resubmit_actin"
+          }
+        ],
+        "intent": "prior_auth_resubmission"
+      },
+      {
+        "text": "I want to reapply my prior auth to get it approved for claim 7454176508",
+        "entities": [
+          {
+            "end": 31,
+            "value": "reapply my prior auth",
+            "start": 10,
+            "entity": "resubmit_actin"
+          },
+          {
+            "end": 71,
+            "value": "7454176508",
+            "start": 61,
+            "entity": "claim_number"
+          }
+        ],
+        "intent": "prior_auth_resubmission"
+      },
+      {
+        "text": "Can I resubmit my prior auth for 7454176508",
+        "entities": [
+          {
+            "end": 14,
+            "value": "resubmit",
+            "start": 6,
+            "entity": "resubmit_actin"
+          },
+          {
+            "end": 43,
+            "value": "7454176508",
+            "start": 33,
+            "entity": "claim_number"
+          }
+        ],
+        "intent": "prior_auth_resubmission"
+      },
+      {
+        "text": "How do I reapply my prior auth for 7454176508",
+        "entities": [
+          {
+            "end": 16,
+            "value": "reapply",
+            "start": 9,
+            "entity": "resubmit_actin"
+          },
+          {
+            "end": 45,
+            "value": "7454176508",
+            "start": 35,
+            "entity": "claim_number"
+          }
+        ],
+        "intent": "prior_auth_resubmission"
+      },
+      {
+        "text": "How do I redo my PA",
+        "entities": [
+          {
+            "end": 13,
+            "value": "redo",
+            "start": 9,
+            "entity": "resubmit_actin"
+          }
+        ],
+        "intent": "prior_auth_resubmission"
+      },
+      {
+        "text": "I don't know why PA got denied for 7454176508, Can I resubmit it",
+        "entities": [
+          {
+            "end": 61,
+            "value": "resubmit",
+            "start": 53,
+            "entity": "resubmit_actin"
+          },
+          {
+            "end": 45,
+            "value": "7454176508",
+            "start": 35,
+            "entity": "claim_number"
+          },
+          {
+            "end": 30,
+            "value": "denied",
+            "start": 24,
+            "entity": "denial_actin"
+          }
+        ],
+        "intent": "prior_auth_resubmission"
+      },
+      {
+        "text": "I don't know why prior auth got denied, Can I resubmit it?",
+        "entities": [
+          {
+            "end": 38,
+            "value": "prior auth got denied",
+            "start": 17,
+            "entity": "denial_actin"
+          },
+          {
+            "end": 54,
+            "value": "resubmit",
+            "start": 46,
+            "entity": "resubmit_actin"
+          }
+        ],
+        "intent": "prior_auth_resubmission"
+      },
+      {
+        "text": "Why was my PA request partially denied for 7454176508?",
+        "entities": [
+          {
+            "end": 38,
+            "value": "PA request partially denied",
+            "start": 11,
+            "entity": "prtl_den_actin"
+          },
+          {
+            "end": 53,
+            "value": "7454176508",
+            "start": 43,
+            "entity": "claim_number"
+          }
+        ],
+        "intent": "prior_auth_pardenial"
+      },
+      {
+        "text": "my prior auth got partially denied why?",
+        "entities": [
+          {
+            "end": 34,
+            "value": "partially denied",
+            "start": 18,
+            "entity": "prtl_den_actin"
+          }
+        ],
+        "intent": "prior_auth_pardenial"
+      },
+      {
+        "text": "you partially denied my prior auth for 7454176508",
+        "entities": [
+          {
+            "end": 34,
+            "value": "partially denied my prior auth",
+            "start": 4,
+            "entity": "prtl_den_actin"
+          },
+          {
+            "end": 49,
+            "value": "7454176508",
+            "start": 39,
+            "entity": "claim_number"
+          }
+        ],
+        "intent": "prior_auth_pardenial"
+      },
+      {
+        "text": "they partially denied my prior authorization",
+        "entities": [
+          {
+            "end": 21,
+            "value": "partially denied",
+            "start": 5,
+            "entity": "prtl_den_actin"
+          }
+        ],
+        "intent": "prior_auth_pardenial"
+      },
+      {
+        "text": "my PA application is partially denied for 7454176508",
+        "entities": [
+          {
+            "end": 37,
+            "value": "PA application is partially denied",
+            "start": 3,
+            "entity": "prtl_den_actin"
+          },
+          {
+            "end": 52,
+            "value": "7454176508",
+            "start": 42,
+            "entity": "claim_number"
+          }
+        ],
+        "intent": "prior_auth_pardenial"
+      },
+      {
+        "text": "PA partially denied for 7454176508",
+        "entities": [
+          {
+            "end": 19,
+            "value": "partially denied",
+            "start": 3,
+            "entity": "prtl_den_actin"
+          },
+          {
+            "end": 34,
+            "value": "7454176508",
+            "start": 24,
+            "entity": "claim_number"
+          }
+        ],
+        "intent": "prior_auth_pardenial"
+      },
+      {
+        "text": "PA got partially rejected",
+        "entities": [
+          {
+            "end": 25,
+            "value": "partially rejected",
+            "start": 7,
+            "entity": "prtl_den_actin"
+          }
+        ],
+        "intent": "prior_auth_pardenial"
+      },
+      {
+        "text": "why was my PA partially rejected for 7454176508",
+        "entities": [
+          {
+            "end": 32,
+            "value": "PA partially rejected",
+            "start": 11,
+            "entity": "prtl_den_actin"
+          },
+          {
+            "end": 47,
+            "value": "7454176508",
+            "start": 37,
+            "entity": "claim_number"
+          }
+        ],
+        "intent": "prior_auth_pardenial"
+      },
+      {
+        "text": "How can I resubmit my PA request which got partially denied for claim 7454176508?",
+        "entities": [
+          {
+            "end": 59,
+            "value": "partially denied",
+            "start": 43,
+            "entity": "prtl_den_actin"
+          },
+          {
+            "end": 80,
+            "value": "7454176508",
+            "start": 70,
+            "entity": "claim_number"
+          },
+          {
+            "end": 18,
+            "value": "resubmit",
+            "start": 10,
+            "entity": "resubmit_actin"
+          }
+        ],
+        "intent": "prior_auth_partial_denied_resubmission"
+      },
+      {
+        "text": "how should I resubmit by PA that was partially denied for claim 7454176508",
+        "entities": [
+          {
+            "end": 21,
+            "value": "resubmit",
+            "start": 13,
+            "entity": "resubmit_actin"
+          },
+          {
+            "end": 53,
+            "value": "partially denied",
+            "start": 37,
+            "entity": "prtl_den_actin"
+          },
+          {
+            "end": 74,
+            "value": "7454176508",
+            "start": 64,
+            "entity": "claim_number"
+          }
+        ],
+        "intent": "prior_auth_partial_denied_resubmission"
+      },
+      {
+        "text": "resubmit my PA please help",
+        "entities": [
+          {
+            "end": 8,
+            "value": "resubmit",
+            "start": 0,
+            "entity": "resubmit_actin"
+          }
+        ],
+        "intent": "prior_auth_resubmission"
+      },
+      {
+        "text": "Help me reapply for PA for 7454176508",
+        "entities": [
+          {
+            "end": 37,
+            "value": "7454176508",
+            "start": 27,
+            "entity": "claim_number"
+          },
+          {
+            "end": 15,
+            "value": "reapply",
+            "start": 8,
+            "entity": "resubmit_actin"
+          }
+        ],
+        "intent": "prior_auth_resubmission"
+      },
+      {
+        "text": "Help me resubmit my PA which got denied 7454176508",
+        "entities": [
+          {
+            "end": 16,
+            "value": "resubmit",
+            "start": 8,
+            "entity": "resubmit_actin"
+          },
+          {
+            "end": 39,
+            "value": "denied",
+            "start": 33,
+            "entity": "denial_actin"
+          },
+          {
+            "end": 50,
+            "value": "7454176508",
+            "start": 40,
+            "entity": "claim_number"
+          }
+        ],
+        "intent": "prior_auth_resubmission"
+      },
+      {
+        "text": "I need to resubmit my Prior auth which got denied",
+        "entities": [
+          {
+            "end": 49,
+            "value": "denied",
+            "start": 43,
+            "entity": "denial_actin"
+          },
+          {
+            "end": 18,
+            "value": "resubmit",
+            "start": 10,
+            "entity": "resubmit_actin"
+          }
+        ],
+        "intent": "prior_auth_resubmission"
+      },
+      {
+        "text": "reapply for my prioe auth, it is partially denied",
+        "entities": [
+          {
+            "end": 7,
+            "value": "reapply",
+            "start": 0,
+            "entity": "resubmit_actin"
+          },
+          {
+            "end": 49,
+            "value": "partially denied",
+            "start": 33,
+            "entity": "prtl_den_actin"
+          }
+        ],
+        "intent": "prior_auth_partial_denied_resubmission"
+      },
+      {
+        "text": "I would have to resubmit for the partially denied prior auth for 7454176508",
+        "entities": [
+          {
+            "end": 24,
+            "value": "resubmit",
+            "start": 16,
+            "entity": "resubmit_actin"
+          },
+          {
+            "end": 60,
+            "value": "partially denied prior auth",
+            "start": 33,
+            "entity": "prtl_den_actin"
+          },
+          {
+            "end": 75,
+            "value": "7454176508",
+            "start": 65,
+            "entity": "claim_number"
+          }
+        ],
+        "intent": "prior_auth_partial_denied_resubmission"
+      },
+      {
+        "text": "PA status?",
+        "entities": [
+          {
+            "end": 9,
+            "value": "status",
+            "start": 3,
+            "entity": "status_entity"
+          }
+        ],
+        "intent": "status_prior_auth"
+      },
+      {
+        "text": "my PA status?",
+        "entities": [
+          {
+            "end": 12,
+            "value": "status",
+            "start": 6,
+            "entity": "status_entity"
+          }
+        ],
+        "intent": "status_prior_auth"
+      },
+      {
+        "text": "pa partially denied want to resubmit",
+        "entities": [
+          {
+            "end": 19,
+            "value": "partially denied",
+            "start": 3,
+            "entity": "prtl_den_actin"
+          },
+          {
+            "end": 36,
+            "value": "resubmit",
+            "start": 28,
+            "entity": "resubmit_actin"
+          }
+        ],
+        "intent": "prior_auth_partial_denied_resubmission"
+      },
+      {
+        "text": "want to resubmit PA got denied for 7454176508",
+        "entities": [
+          {
+            "end": 30,
+            "value": "denied",
+            "start": 24,
+            "entity": "denial_actin"
+          },
+          {
+            "end": 45,
+            "value": "7454176508",
+            "start": 35,
+            "entity": "claim_number"
+          },
+          {
+            "end": 16,
+            "value": "resubmit",
+            "start": 8,
+            "entity": "resubmit_actin"
+          }
+        ],
+        "intent": "prior_auth_resubmission"
+      },
+      {
+        "text": "need to resubmit, my PA got denied partially",
+        "entities": [
+          {
+            "end": 44,
+            "value": "denied partially",
+            "start": 28,
+            "entity": "prtl_den_actin"
+          },
+          {
+            "end": 16,
+            "value": "resubmit",
+            "start": 8,
+            "entity": "resubmit_actin"
+          }
+        ],
+        "intent": "prior_auth_partial_denied_resubmission"
+      },
+      {
+        "text": "redo the submission of PA for 7454176508",
+        "entities": [
+          {
+            "end": 4,
+            "value": "redo",
+            "start": 0,
+            "entity": "resubmit_actin"
+          },
+          {
+            "end": 40,
+            "value": "7454176508",
+            "start": 30,
+            "entity": "claim_number"
+          }
+        ],
+        "intent": "prior_auth_resubmission"
+      },
+      {
+        "text": "know my status of PA",
+        "entities": [
+          {
+            "end": 14,
+            "value": "status",
+            "start": 8,
+            "entity": "status_entity"
+          }
+        ],
+        "intent": "status_prior_auth"
+      },
+      {
+        "text": "would like to know the status of pa for 7454176508",
+        "entities": [
+          {
+            "end": 29,
+            "value": "status",
+            "start": 23,
+            "entity": "status_entity"
+          },
+          {
+            "end": 50,
+            "value": "7454176508",
+            "start": 40,
+            "entity": "claim_number"
+          }
+        ],
+        "intent": "status_prior_auth"
+      },
+      {
+        "text": "pa got rejected partially, help me resubmit it for 7454176508",
+        "entities": [
+          {
+            "end": 43,
+            "value": "resubmit",
+            "start": 35,
+            "entity": "resubmit_actin"
+          },
+          {
+            "end": 61,
+            "value": "7454176508",
+            "start": 51,
+            "entity": "claim_number"
+          },
+          {
+            "end": 25,
+            "value": "rejected partially",
+            "start": 7,
+            "entity": "prtl_den_actin"
+          }
+        ],
+        "intent": "prior_auth_partial_denied_resubmission"
+      },
+      {
+        "text": "PA request is denied, How can I resubmit it",
+        "entities": [
+          {
+            "end": 20,
+            "value": "denied",
+            "start": 14,
+            "entity": "denial_actin"
+          },
+          {
+            "end": 40,
+            "value": "resubmit",
+            "start": 32,
+            "entity": "resubmit_actin"
+          }
+        ],
+        "intent": "prior_auth_resubmission"
+      },
+      {
+        "text": "I need your help in resubmitting the PA request for 7454176508",
+        "entities": [
+          {
+            "end": 32,
+            "value": "resubmitting",
+            "start": 20,
+            "entity": "resubmit_actin"
+          },
+          {
+            "end": 62,
+            "value": "7454176508",
+            "start": 52,
+            "entity": "claim_number"
+          }
+        ],
+        "intent": "prior_auth_resubmission"
+      },
+      {
+        "text": "Need you to help me reapply my PA which was partially denied for 7454176508",
+        "entities": [
+          {
+            "end": 60,
+            "value": "partially denied",
+            "start": 44,
+            "entity": "prtl_den_actin"
+          },
+          {
+            "end": 75,
+            "value": "7454176508",
+            "start": 65,
+            "entity": "claim_number"
+          },
+          {
+            "end": 27,
+            "value": "reapply",
+            "start": 20,
+            "entity": "resubmit_actin"
+          }
+        ],
+        "intent": "prior_auth_partial_denied_resubmission"
+      },
+      {
+        "text": "i have to resubmit by application for PA",
+        "entities": [
+          {
+            "end": 40,
+            "value": "resubmit by application for PA",
+            "start": 10,
+            "entity": "resubmit_actin"
+          }
+        ],
+        "intent": "prior_auth_resubmission"
+      },
+      {
+        "text": "application for PA got rejected, what should I do",
+        "entities": [
+          {
+            "end": 31,
+            "value": "application for PA got rejected",
+            "start": 0,
+            "entity": "denial_actin"
+          },
+          {
+            "end": 49,
+            "value": "what should I do",
+            "start": 33,
+            "entity": "resubmit_actin"
+          }
+        ],
+        "intent": "prior_auth_denial"
+      },
+      {
+        "text": "what should I do if my request got denied ",
+        "entities": [
+          {
+            "end": 16,
+            "value": "what should I do",
+            "start": 0,
+            "entity": "resubmit_actin"
+          },
+          {
+            "end": 41,
+            "value": "denied",
+            "start": 35,
+            "entity": "denial_actin"
+          }
+        ],
+        "intent": "prior_auth_resubmission"
+      },
+      {
+        "text": "my application for PA for got denied not completely, How should I repply?",
+        "entities": [
+          {
+            "end": 51,
+            "value": "denied not completely",
+            "start": 30,
+            "entity": "prtl_den_actin"
+          },
+          {
+            "end": 72,
+            "value": "repply",
+            "start": 66,
+            "entity": "resubmit_actin"
+          }
+        ],
+        "intent": "prior_auth_partial_denied_resubmission"
+      },
+      {
+        "text": "I like to check my status for prior auth",
+        "entities": [
+          {
+            "end": 40,
+            "value": "status for prior auth",
+            "start": 19,
+            "entity": "status_entity"
+          }
+        ],
+        "intent": "status_prior_auth"
+      },
+      {
+        "text": "How many PA requests received in May 2017",
+        "entities": [
+          {
+            "end": 29,
+            "value": "received",
+            "start": 21,
+            "entity": "rcvd_entity"
+          },
+          {
+            "end": 36,
+            "value": "May",
+            "start": 33,
+            "entity": "month"
+          },
+          {
+            "end": 41,
+            "value": "2017",
+            "start": 37,
+            "entity": "year"
+          }
+        ],
+        "intent": "prior_auth_nrequests"
+      },
+      {
+        "text": "count of PA requests received in December 2018",
+        "entities": [
+          {
+            "end": 5,
+            "value": "count",
+            "start": 0,
+            "entity": "count_entity"
+          },
+          {
+            "end": 29,
+            "value": "received",
+            "start": 21,
+            "entity": "rcvd_entity"
+          },
+          {
+            "end": 41,
+            "value": "December",
+            "start": 33,
+            "entity": "month"
+          },
+          {
+            "end": 46,
+            "value": "2018",
+            "start": 42,
+            "entity": "year"
+          }
+        ],
+        "intent": "prior_auth_nrequests"
+      },
+      {
+        "text": "number of PA requests received in June 2016",
+        "entities": [
+          {
+            "end": 21,
+            "value": "number of PA requests",
+            "start": 0,
+            "entity": "count_entity"
+          },
+          {
+            "end": 30,
+            "value": "received",
+            "start": 22,
+            "entity": "rcvd_entity"
+          },
+          {
+            "end": 38,
+            "value": "June",
+            "start": 34,
+            "entity": "month"
+          },
+          {
+            "end": 43,
+            "value": "2016",
+            "start": 39,
+            "entity": "year"
+          }
+        ],
+        "intent": "prior_auth_nrequests"
+      },
+      {
+        "text": "Tell me how many requests were received for PA last month",
+        "entities": [
+          {
+            "end": 25,
+            "value": "how many requests",
+            "start": 8,
+            "entity": "count_entity"
+          },
+          {
+            "end": 39,
+            "value": "received",
+            "start": 31,
+            "entity": "rcvd_entity"
+          },
+          {
+            "end": 57,
+            "value": "last month",
+            "start": 47,
+            "entity": "time_entity"
+          }
+        ],
+        "intent": "prior_auth_nrequests"
+      },
+      {
+        "text": "total number of prior auth requests received in last two months",
+        "entities": [
+          {
+            "end": 5,
+            "value": "total",
+            "start": 0,
+            "entity": "count_entity"
+          },
+          {
+            "end": 44,
+            "value": "received",
+            "start": 36,
+            "entity": "rcvd_entity"
+          },
+          {
+            "end": 63,
+            "value": "last two months",
+            "start": 48,
+            "entity": "time_entity"
+          }
+        ],
+        "intent": "prior_auth_nrequests"
+      },
+      {
+        "text": "number of requests received in last quarter",
+        "entities": [
+          {
+            "end": 18,
+            "value": "number of requests",
+            "start": 0,
+            "entity": "count_entity"
+          },
+          {
+            "end": 27,
+            "value": "received",
+            "start": 19,
+            "entity": "rcvd_entity"
+          },
+          {
+            "end": 43,
+            "value": "last quarter",
+            "start": 31,
+            "entity": "time_entity"
+          }
+        ],
+        "intent": "prior_auth_nrequests"
+      },
+      {
+        "text": "PA requests received in total in the month of January 2018",
+        "entities": [
+          {
+            "end": 58,
+            "value": "2018",
+            "start": 54,
+            "entity": "year"
+          },
+          {
+            "end": 20,
+            "value": "received",
+            "start": 12,
+            "entity": "rcvd_entity"
+          },
+          {
+            "end": 29,
+            "value": "total",
+            "start": 24,
+            "entity": "count_entity"
+          },
+          {
+            "end": 53,
+            "value": "January",
+            "start": 46,
+            "entity": "month"
+          }
+        ],
+        "intent": "prior_auth_nrequests"
+      },
+      {
+        "text": "what total number of requests received in October last year?",
+        "entities": [
+          {
+            "end": 29,
+            "value": "total number of requests",
+            "start": 5,
+            "entity": "count_entity"
+          },
+          {
+            "end": 38,
+            "value": "received",
+            "start": 30,
+            "entity": "rcvd_entity"
+          },
+          {
+            "end": 59,
+            "value": "last year",
+            "start": 50,
+            "entity": "time_entity"
+          },
+          {
+            "end": 49,
+            "value": "October",
+            "start": 42,
+            "entity": "month"
+          }
+        ],
+        "intent": "prior_auth_nrequests"
+      },
+      {
+        "text": "How many PA requests were submitted with medical records",
+        "entities": [
+          {
+            "end": 20,
+            "value": "How many PA requests",
+            "start": 0,
+            "entity": "count_entity"
+          },
+          {
+            "end": 35,
+            "value": "submitted",
+            "start": 26,
+            "entity": "sbmtd_entity"
+          },
+          {
+            "end": 56,
+            "value": "medical records",
+            "start": 41,
+            "entity": "med_records_entity"
+          }
+        ],
+        "intent": "prior_auth_med_records"
+      },
+      {
+        "text": "number of PA requests received with medical records",
+        "entities": [
+          {
+            "end": 21,
+            "value": "number of PA requests",
+            "start": 0,
+            "entity": "count_entity"
+          },
+          {
+            "end": 51,
+            "value": "medical records",
+            "start": 36,
+            "entity": "med_records_entity"
+          },
+          {
+            "end": 30,
+            "value": "received",
+            "start": 22,
+            "entity": "rcvd_entity"
+          }
+        ],
+        "intent": "prior_auth_med_records"
+      },
+      {
+        "text": "Total number of requests with medical records",
+        "entities": [
+          {
+            "end": 5,
+            "value": "Total",
+            "start": 0,
+            "entity": "count_entity"
+          },
+          {
+            "end": 45,
+            "value": "medical records",
+            "start": 30,
+            "entity": "med_records_entity"
+          }
+        ],
+        "intent": "prior_auth_med_records"
+      },
+      {
+        "text": "get the number of requests received in the last 3 months with medical records",
+        "entities": [
+          {
+            "end": 26,
+            "value": "number of requests",
+            "start": 8,
+            "entity": "count_entity"
+          },
+          {
+            "end": 35,
+            "value": "received",
+            "start": 27,
+            "entity": "rcvd_entity"
+          },
+          {
+            "end": 56,
+            "value": "last 3 months",
+            "start": 43,
+            "entity": "time_entity"
+          },
+          {
+            "end": 77,
+            "value": "medical records",
+            "start": 62,
+            "entity": "med_records_entity"
+          }
+        ],
+        "intent": "prior_auth_med_records"
+      },
+      {
+        "text": "number of requests submitted with medical records last week",
+        "entities": [
+          {
+            "end": 18,
+            "value": "number of requests",
+            "start": 0,
+            "entity": "count_entity"
+          },
+          {
+            "end": 28,
+            "value": "submitted",
+            "start": 19,
+            "entity": "sbmtd_entity"
+          },
+          {
+            "end": 49,
+            "value": "medical records",
+            "start": 34,
+            "entity": "med_records_entity"
+          },
+          {
+            "end": 59,
+            "value": "last week",
+            "start": 50,
+            "entity": "time_entity"
+          }
+        ],
+        "intent": "prior_auth_med_records"
+      },
+      {
+        "text": "total requests with medical records submitted",
+        "entities": [
+          {
+            "end": 14,
+            "value": "total requests",
+            "start": 0,
+            "entity": "count_entity"
+          },
+          {
+            "end": 35,
+            "value": "medical records",
+            "start": 20,
+            "entity": "med_records_entity"
+          },
+          {
+            "end": 45,
+            "value": "submitted",
+            "start": 36,
+            "entity": "sbmtd_entity"
+          }
+        ],
+        "intent": "prior_auth_med_records"
+      },
+      {
+        "text": "number of applications received with medical records ",
+        "entities": [
+          {
+            "end": 22,
+            "value": "number of applications",
+            "start": 0,
+            "entity": "count_entity"
+          },
+          {
+            "end": 31,
+            "value": "received",
+            "start": 23,
+            "entity": "rcvd_entity"
+          },
+          {
+            "end": 52,
+            "value": "medical records",
+            "start": 37,
+            "entity": "med_records_entity"
+          }
+        ],
+        "intent": "prior_auth_med_records"
+      },
+      {
+        "text": "What was the mode of submission of the PA requests that were received?",
+        "entities": [
+          {
+            "end": 69,
+            "value": "received",
+            "start": 61,
+            "entity": "rcvd_entity"
+          },
+          {
+            "end": 17,
+            "value": "mode",
+            "start": 13,
+            "entity": "mode_entity"
+          }
+        ],
+        "intent": "pa_mode_submission"
+      },
+      {
+        "text": "mode of submission for submitted PA requests",
+        "entities": [
+          {
+            "end": 18,
+            "value": "mode of submission",
+            "start": 0,
+            "entity": "mode_entity"
+          },
+          {
+            "end": 32,
+            "value": "submitted",
+            "start": 23,
+            "entity": "sbmtd_entity"
+          }
+        ],
+        "intent": "pa_mode_submission"
+      },
+      {
+        "text": "Mode of submission for for PA requests",
+        "entities": [
+          {
+            "end": 18,
+            "value": "Mode of submission",
+            "start": 0,
+            "entity": "mode_entity"
+          }
+        ],
+        "intent": "pa_mode_submission"
+      },
+      {
+        "text": "number of requests received by the mode of submission",
+        "entities": [
+          {
+            "end": 18,
+            "value": "number of requests",
+            "start": 0,
+            "entity": "count_entity"
+          },
+          {
+            "end": 27,
+            "value": "received",
+            "start": 19,
+            "entity": "rcvd_entity"
+          },
+          {
+            "end": 53,
+            "value": "mode of submission",
+            "start": 35,
+            "entity": "mode_entity"
+          }
+        ],
+        "intent": "pa_mode_submission"
+      },
+      {
+        "text": "total number of requests divided by mode submission",
+        "entities": [
+          {
+            "end": 24,
+            "value": "total number of requests",
+            "start": 0,
+            "entity": "count_entity"
+          },
+          {
+            "end": 40,
+            "value": "mode",
+            "start": 36,
+            "entity": "mode_entity"
+          }
+        ],
+        "intent": "pa_mode_submission"
+      },
+      {
+        "text": "how many number of requests submitted?",
+        "entities": [
+          {
+            "end": 27,
+            "value": "number of requests",
+            "start": 9,
+            "entity": "count_entity"
+          },
+          {
+            "end": 37,
+            "value": "submitted",
+            "start": 28,
+            "entity": "sbmtd_entity"
+          }
+        ],
+        "intent": "prior_auth_nrequests"
+      },
+      {
+        "text": "submission mode number of requests",
+        "entities": [
+          {
+            "end": 34,
+            "value": "number of requests",
+            "start": 16,
+            "entity": "count_entity"
+          },
+          {
+            "end": 15,
+            "value": "mode",
+            "start": 11,
+            "entity": "mode_entity"
+          }
+        ],
+        "intent": "pa_mode_submission"
+      },
+      {
+        "text": "number of requests submitted by mode",
+        "entities": [
+          {
+            "end": 18,
+            "value": "number of requests",
+            "start": 0,
+            "entity": "count_entity"
+          },
+          {
+            "end": 36,
+            "value": "mode",
+            "start": 32,
+            "entity": "mode_entity"
+          },
+          {
+            "end": 28,
+            "value": "submitted",
+            "start": 19,
+            "entity": "sbmtd_entity"
+          }
+        ],
+        "intent": "pa_mode_submission"
+      },
+      {
+        "text": "How many PA requests denied in september 2018",
+        "entities": [
+          {
+            "end": 20,
+            "value": "How many PA requests",
+            "start": 0,
+            "entity": "count_entity"
+          },
+          {
+            "end": 27,
+            "value": "denied",
+            "start": 21,
+            "entity": "denial_actin"
+          },
+          {
+            "end": 40,
+            "value": "september",
+            "start": 31,
+            "entity": "month"
+          },
+          {
+            "end": 45,
+            "value": "2018",
+            "start": 41,
+            "entity": "year"
+          }
+        ],
+        "intent": "prior_auth_ndenials"
+      },
+      {
+        "text": "number of PA requests in March 2017 that were denied",
+        "entities": [
+          {
+            "end": 21,
+            "value": "number of PA requests",
+            "start": 0,
+            "entity": "count_entity"
+          },
+          {
+            "end": 52,
+            "value": "denied",
+            "start": 46,
+            "entity": "denial_actin"
+          },
+          {
+            "end": 35,
+            "value": "2017",
+            "start": 31,
+            "entity": "year"
+          },
+          {
+            "end": 30,
+            "value": "March",
+            "start": 25,
+            "entity": "month"
+          }
+        ],
+        "intent": "prior_auth_ndenials"
+      },
+      {
+        "text": "get me the requests that were rejected in 2017 november",
+        "entities": [
+          {
+            "end": 19,
+            "value": "requests",
+            "start": 11,
+            "entity": "count_entity"
+          },
+          {
+            "end": 38,
+            "value": "rejected",
+            "start": 30,
+            "entity": "denial_actin"
+          },
+          {
+            "end": 46,
+            "value": "2017",
+            "start": 42,
+            "entity": "year"
+          },
+          {
+            "end": 55,
+            "value": "november",
+            "start": 47,
+            "entity": "month"
+          }
+        ],
+        "intent": "prior_auth_ndenials"
+      },
+      {
+        "text": "number of denials for PA last year in June",
+        "entities": [
+          {
+            "end": 17,
+            "value": "number of denials",
+            "start": 0,
+            "entity": "count_entity"
+          },
+          {
+            "end": 34,
+            "value": "last year",
+            "start": 25,
+            "entity": "time_entity"
+          },
+          {
+            "end": 42,
+            "value": "June",
+            "start": 38,
+            "entity": "month"
+          }
+        ],
+        "intent": "prior_auth_ndenials"
+      },
+      {
+        "text": "denails for PA in 2017",
+        "entities": [
+          {
+            "end": 7,
+            "value": "denails",
+            "start": 0,
+            "entity": "count_entity"
+          },
+          {
+            "end": 22,
+            "value": "2017",
+            "start": 18,
+            "entity": "year"
+          }
+        ],
+        "intent": "prior_auth_ndenials"
+      },
+      {
+        "text": "requests received in 2018 august",
+        "entities": [
+          {
+            "end": 8,
+            "value": "requests",
+            "start": 0,
+            "entity": "count_entity"
+          },
+          {
+            "end": 17,
+            "value": "received",
+            "start": 9,
+            "entity": "rcvd_entity"
+          },
+          {
+            "end": 25,
+            "value": "2018",
+            "start": 21,
+            "entity": "year"
+          },
+          {
+            "end": 32,
+            "value": "august",
+            "start": 26,
+            "entity": "month"
+          }
+        ],
+        "intent": "prior_auth_nrequests"
+      },
+      {
+        "text": "What were the Top 10 denial reasons for the PA requests that were submitted?",
+        "entities": [
+          {
+            "end": 17,
+            "value": "Top",
+            "start": 14,
+            "entity": "top_entity"
+          },
+          {
+            "end": 27,
+            "value": "denial",
+            "start": 21,
+            "entity": "denial_actin"
+          },
+          {
+            "end": 35,
+            "value": "reasons",
+            "start": 28,
+            "entity": "reasons_entity"
+          },
+          {
+            "end": 75,
+            "value": "submitted",
+            "start": 66,
+            "entity": "sbmtd_entity"
+          }
+        ],
+        "intent": "pa_top_denial_rsns"
+      },
+      {
+        "text": "top 5 denial reason codes for requests that were submitted",
+        "entities": [
+          {
+            "end": 3,
+            "value": "top",
+            "start": 0,
+            "entity": "top_entity"
+          },
+          {
+            "end": 12,
+            "value": "denial",
+            "start": 6,
+            "entity": "denial_actin"
+          },
+          {
+            "end": 58,
+            "value": "submitted",
+            "start": 49,
+            "entity": "sbmtd_entity"
+          },
+          {
+            "end": 25,
+            "value": "reason codes",
+            "start": 13,
+            "entity": "reasons_entity"
+          }
+        ],
+        "intent": "pa_top_denial_rsns"
+      },
+      {
+        "text": "get the top 10 reasons for denials",
+        "entities": [
+          {
+            "end": 11,
+            "value": "top",
+            "start": 8,
+            "entity": "top_entity"
+          },
+          {
+            "end": 22,
+            "value": "reasons",
+            "start": 15,
+            "entity": "reasons_entity"
+          },
+          {
+            "end": 34,
+            "value": "denials",
+            "start": 27,
+            "entity": "denial_actin"
+          }
+        ],
+        "intent": "pa_top_denial_rsns"
+      },
+      {
+        "text": "give me top 5 reason codes for requests that got denied",
+        "entities": [
+          {
+            "end": 11,
+            "value": "top",
+            "start": 8,
+            "entity": "top_entity"
+          },
+          {
+            "end": 26,
+            "value": "reason codes",
+            "start": 14,
+            "entity": "reasons_entity"
+          },
+          {
+            "end": 55,
+            "value": "denied",
+            "start": 49,
+            "entity": "denial_actin"
+          }
+        ],
+        "intent": "pa_top_denial_rsns"
+      },
+      {
+        "text": "denials top 20 reasons codes",
+        "entities": [
+          {
+            "end": 7,
+            "value": "denials",
+            "start": 0,
+            "entity": "denial_actin"
+          },
+          {
+            "end": 11,
+            "value": "top",
+            "start": 8,
+            "entity": "top_entity"
+          },
+          {
+            "end": 22,
+            "value": "reasons",
+            "start": 15,
+            "entity": "reasons_entity"
+          }
+        ],
+        "intent": "pa_top_denial_rsns"
+      },
+      {
+        "text": "I would like to know top 10 denial reason codes",
+        "entities": [
+          {
+            "end": 24,
+            "value": "top",
+            "start": 21,
+            "entity": "top_entity"
+          },
+          {
+            "end": 34,
+            "value": "denial",
+            "start": 28,
+            "entity": "denial_actin"
+          },
+          {
+            "end": 47,
+            "value": "reason codes",
+            "start": 35,
+            "entity": "reasons_entity"
+          }
+        ],
+        "intent": "pa_top_denial_rsns"
+      },
+      {
+        "text": "what are top reasons for requests to get denied",
+        "entities": [
+          {
+            "end": 12,
+            "value": "top",
+            "start": 9,
+            "entity": "top_entity"
+          },
+          {
+            "end": 20,
+            "value": "reasons",
+            "start": 13,
+            "entity": "reasons_entity"
+          },
+          {
+            "end": 47,
+            "value": "denied",
+            "start": 41,
+            "entity": "denial_actin"
+          }
+        ],
+        "intent": "pa_top_denial_rsns"
+      },
+      {
+        "text": "reasons for denials",
+        "entities": [
+          {
+            "end": 7,
+            "value": "reasons",
+            "start": 0,
+            "entity": "reasons_entity"
+          },
+          {
+            "end": 19,
+            "value": "denials",
+            "start": 12,
+            "entity": "denial_actin"
+          }
+        ],
+        "intent": "pa_top_denial_rsns"
+      },
+      {
+        "text": "How many PA requests were submitted with medical records among denials",
+        "entities": [
+          {
+            "end": 35,
+            "value": "submitted",
+            "start": 26,
+            "entity": "sbmtd_entity"
+          },
+          {
+            "end": 56,
+            "value": "medical records",
+            "start": 41,
+            "entity": "med_records_entity"
+          },
+          {
+            "end": 70,
+            "value": "denials",
+            "start": 63,
+            "entity": "denial_actin"
+          },
+          {
+            "end": 8,
+            "value": "How many",
+            "start": 0,
+            "entity": "count_entity"
+          }
+        ],
+        "intent": "pa_med_records_denials"
+      },
+      {
+        "text": "denial requests submitted with medical records ",
+        "entities": [
+          {
+            "end": 6,
+            "value": "denial",
+            "start": 0,
+            "entity": "denial_actin"
+          },
+          {
+            "end": 15,
+            "value": "requests",
+            "start": 7,
+            "entity": "count_entity"
+          },
+          {
+            "end": 25,
+            "value": "submitted",
+            "start": 16,
+            "entity": "sbmtd_entity"
+          },
+          {
+            "end": 46,
+            "value": "medical records",
+            "start": 31,
+            "entity": "med_records_entity"
+          }
+        ],
+        "intent": "pa_med_records_denials"
+      }
+    ]
+  }
+}

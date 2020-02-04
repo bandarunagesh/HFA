@@ -1,0 +1,179 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "lob",
+        "intent": "call_lob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "lob",
+            "entity": "lob_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is lob",
+        "intent": "call_lob",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "lob",
+            "entity": "lob_entity"
+          }
+        ]
+      },
+      {
+        "text": "lob of call",
+        "intent": "call_lob",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 3,
+            "value": "lob",
+            "entity": "lob_entity"
+          }
+        ]
+      },
+      {
+        "text": "lob given to call",
+        "intent": "call_lob",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 3,
+            "value": "lob",
+            "entity": "lob_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is lob of call",
+        "intent": "call_lob",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "lob",
+            "entity": "lob_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is lob given to call",
+        "intent": "call_lob",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "lob",
+            "entity": "lob_entity"
+          }
+        ]
+      },
+      {
+        "text": "call lob",
+        "intent": "call_lob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "lob",
+            "entity": "lob_entity"
+          }
+        ]
+      },
+      {
+        "text": "call having lob",
+        "intent": "call_lob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 12,
+            "end": 15,
+            "value": "lob",
+            "entity": "lob_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is call lob",
+        "intent": "call_lob",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 13,
+            "end": 16,
+            "value": "lob",
+            "entity": "lob_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is call having lob",
+        "intent": "call_lob",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 20,
+            "end": 23,
+            "value": "lob",
+            "entity": "lob_entity"
+          }
+        ]
+      },
+    ]
+  }
+}

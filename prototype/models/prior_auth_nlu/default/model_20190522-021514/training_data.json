@@ -1,0 +1,7999 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "what are you doing"
+      },
+      {
+        "intent": "greet",
+        "text": "How are you doing"
+      },
+      {
+        "intent": "greet",
+        "text": "what's up"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yep"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "affirm",
+        "text": "you are correct"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "stop"
+      },
+      {
+        "intent": "goodbye",
+        "text": "end"
+      },
+      {
+        "intent": "goodbye",
+        "text": "farewell"
+      },
+      {
+        "intent": "goodbye",
+        "text": "I am leaving"
+      },
+      {
+        "intent": "affirm",
+        "text": "you are absolutely right"
+      },
+      {
+        "intent": "affirm",
+        "text": "you are absolutely correct"
+      },
+      {
+        "intent": "affirm",
+        "text": "indeed"
+      },
+      {
+        "intent": "affirm",
+        "text": "that's right"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok"
+      },
+      {
+        "intent": "affirm",
+        "text": "great"
+      },
+      {
+        "intent": "goodbye",
+        "text": "leaving"
+      },
+      {
+        "intent": "goodbye",
+        "text": "I am departing"
+      },
+      {
+        "intent": "goodbye",
+        "text": "departing"
+      },
+      {
+        "intent": "affirm",
+        "text": "you have a point"
+      },
+      {
+        "intent": "affirm",
+        "text": "you have a fair point"
+      },
+      {
+        "intent": "affirm",
+        "text": "you may be right"
+      },
+      {
+        "intent": "affirm",
+        "text": "you might have a point"
+      },
+      {
+        "intent": "affirm",
+        "text": "I agree"
+      },
+      {
+        "intent": "affirm",
+        "text": "I concur"
+      },
+      {
+        "intent": "affirm",
+        "text": "I agree with you"
+      },
+      {
+        "intent": "affirm",
+        "text": "I concur with you"
+      },
+      {
+        "intent": "affirm",
+        "text": "I am aligned with you"
+      },
+      {
+        "intent": "affirm",
+        "text": "I am with u"
+      },
+      {
+        "intent": "affirm",
+        "text": "I completely agree with you"
+      },
+      {
+        "intent": "affirm",
+        "text": "I absolutely agree with you"
+      },
+      {
+        "intent": "goodbye",
+        "text": "I am going"
+      },
+      {
+        "intent": "goodbye",
+        "text": "going"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see u later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "catch u later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "talk to you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "catch you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "will catch up with you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "will see you later"
+      },
+      {
+        "intent": "affirm",
+        "text": "Yeah you are right"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah you are correct"
+      },
+      {
+        "intent": "affirm",
+        "text": "Yes you are right"
+      },
+      {
+        "intent": "affirm",
+        "text": "Yes you are correct"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey Bot"
+      },
+      {
+        "intent": "greet",
+        "text": "You there"
+      },
+      {
+        "intent": "greet",
+        "text": "you still there"
+      },
+      {
+        "intent": "greet",
+        "text": " need you help"
+      },
+      {
+        "intent": "greet",
+        "text": "need your assistance"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "status_entity",
+            "value": "status",
+            "end": 18
+          },
+          {
+            "start": 46,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 55
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "what is the status of prior authorization for 138319349?"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "status_entity",
+            "value": "status",
+            "end": 18
+          },
+          {
+            "start": 46,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 55
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "Give me the status of prior authorization for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 11,
+            "entity": "status_entity",
+            "value": "status",
+            "end": 17
+          },
+          {
+            "start": 45,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 54
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "Get me the status of prior authorization for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 15,
+            "entity": "status_entity",
+            "value": "status",
+            "end": 21
+          },
+          {
+            "start": 49,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 58
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "May I know the status of prior authorization for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 4,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 13
+          },
+          {
+            "start": 25,
+            "entity": "status_entity",
+            "value": "status",
+            "end": 31
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "for 138319349 get me the status"
+      },
+      {
+        "entities": [
+          {
+            "start": 11,
+            "entity": "status_entity",
+            "value": "status",
+            "end": 17
+          },
+          {
+            "start": 22,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 31
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "prior auth status for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 20,
+            "entity": "status_entity",
+            "value": "status",
+            "end": 26
+          },
+          {
+            "start": 31,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 40
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "prior authorization status for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 11,
+            "entity": "status_entity",
+            "value": "status",
+            "end": 17
+          },
+          {
+            "start": 27,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 36
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "what's the status of PA of 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 11,
+            "entity": "status_entity",
+            "value": "status",
+            "end": 17
+          },
+          {
+            "start": 24,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 33
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "get me the status of PA 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 14,
+            "entity": "status_entity",
+            "value": "status",
+            "end": 20
+          },
+          {
+            "start": 31,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 40
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "Can I get the status of PA for 138319349?"
+      },
+      {
+        "entities": [
+          {
+            "start": 18,
+            "entity": "status_entity",
+            "value": "status",
+            "end": 24
+          },
+          {
+            "start": 34,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 43
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "How do I know the status of PA of 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 14,
+            "entity": "status_entity",
+            "value": "status",
+            "end": 20
+          },
+          {
+            "start": 30,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 39
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "May I get the status of PA of 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 11,
+            "entity": "status_entity",
+            "value": "status",
+            "end": 17
+          },
+          {
+            "start": 28,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 37
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "I need the status of PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 18,
+            "entity": "status_entity",
+            "value": "status",
+            "end": 24
+          },
+          {
+            "start": 0,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 9
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "138319349 need PA status"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "status_entity",
+            "value": "status",
+            "end": 9
+          },
+          {
+            "start": 21,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 30
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "PA status wanted for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 22,
+            "entity": "status_entity",
+            "value": "status",
+            "end": 28
+          },
+          {
+            "start": 33,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 42
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "would like to know PA status for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 18,
+            "entity": "status_entity",
+            "value": "status",
+            "end": 24
+          },
+          {
+            "start": 28,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 37
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "Let me get the PA status of 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 30,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 39
+          },
+          {
+            "start": 16,
+            "entity": "sbmtd_entity",
+            "value": "requested",
+            "end": 25
+          }
+        ],
+        "intent": "pa_request_date",
+        "text": "when was the PA requested for 138319349?"
+      },
+      {
+        "entities": [
+          {
+            "start": 24,
+            "entity": "sbmtd_entity",
+            "value": "submitted",
+            "end": 33
+          },
+          {
+            "start": 38,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 47
+          }
+        ],
+        "intent": "pa_request_date",
+        "text": "when was the PA request submitted for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "sbmtd_entity",
+            "value": "requested",
+            "end": 12
+          },
+          {
+            "start": 22,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 31
+          }
+        ],
+        "intent": "pa_request_date",
+        "text": "PA requested when for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 21,
+            "entity": "sbmtd_entity",
+            "value": "submitted",
+            "end": 30
+          },
+          {
+            "start": 42,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 51
+          }
+        ],
+        "intent": "pa_request_date",
+        "text": "when was the request submitted for PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 45,
+            "entity": "sbmtd_entity",
+            "value": "submitted",
+            "end": 54
+          },
+          {
+            "start": 59,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 68
+          }
+        ],
+        "intent": "pa_request_date",
+        "text": "I would like to know when the PA request was submitted for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 35,
+            "entity": "sbmtd_entity",
+            "value": "submitted",
+            "end": 44
+          },
+          {
+            "start": 49,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 58
+          }
+        ],
+        "intent": "pa_request_date",
+        "text": "I need to know when PA request was submitted for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 40,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 49
+          },
+          {
+            "start": 27,
+            "entity": "sbmtd_entity",
+            "value": "requested",
+            "end": 36
+          }
+        ],
+        "intent": "pa_request_date",
+        "text": "I need to know when PA was requested of 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 16,
+            "entity": "sbmtd_entity",
+            "value": "requested",
+            "end": 25
+          },
+          {
+            "start": 30,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 39
+          }
+        ],
+        "intent": "pa_request_date",
+        "text": "when was the PA requested for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 36,
+            "entity": "sbmtd_entity",
+            "value": "submitted",
+            "end": 45
+          },
+          {
+            "start": 50,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 59
+          }
+        ],
+        "intent": "pa_request_date",
+        "text": "Let me know when the PA request was submitted for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 28,
+            "entity": "sbmtd_entity",
+            "value": "requested",
+            "end": 37
+          },
+          {
+            "start": 42,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 51
+          }
+        ],
+        "intent": "pa_request_date",
+        "text": "Let me know when the PA was requested for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 35,
+            "entity": "sbmtd_entity",
+            "value": "submitted",
+            "end": 44
+          },
+          {
+            "start": 49,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 58
+          }
+        ],
+        "intent": "pa_request_date",
+        "text": "May I know when the PA request was submitted for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 27,
+            "entity": "sbmtd_entity",
+            "value": "requested",
+            "end": 36
+          },
+          {
+            "start": 41,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 50
+          }
+        ],
+        "intent": "pa_request_date",
+        "text": "May I know when the PA was requested for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 13,
+            "entity": "decision_entity",
+            "value": "decision",
+            "end": 21
+          },
+          {
+            "start": 45,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 54
+          }
+        ],
+        "intent": "pa_decision",
+        "text": "when was the decision made on PA request for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 22,
+            "entity": "decision_entity",
+            "value": "decision",
+            "end": 30
+          },
+          {
+            "start": 48,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 57
+          }
+        ],
+        "intent": "pa_decision",
+        "text": "when did you take the decision on PA request on 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "decision_entity",
+            "value": "decision",
+            "end": 11
+          },
+          {
+            "start": 25,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 34
+          }
+        ],
+        "intent": "pa_decision",
+        "text": "PA decision was made for 138319349 when"
+      },
+      {
+        "entities": [
+          {
+            "start": 25,
+            "entity": "decision_entity",
+            "value": "decision",
+            "end": 33
+          },
+          {
+            "start": 47,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 56
+          }
+        ],
+        "intent": "pa_decision",
+        "text": "need to know when the PA decision was made for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 42,
+            "entity": "decision_entity",
+            "value": "decision",
+            "end": 50
+          },
+          {
+            "start": 64,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 73
+          }
+        ],
+        "intent": "pa_decision",
+        "text": "I would like to know the date on which PA decision was made for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 25,
+            "entity": "decision_entity",
+            "value": "decision",
+            "end": 33
+          },
+          {
+            "start": 53,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 62
+          }
+        ],
+        "intent": "pa_decision",
+        "text": "need to know when the PA decision has been taken for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 33,
+            "entity": "decision_entity",
+            "value": "decision",
+            "end": 41
+          },
+          {
+            "start": 55,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 64
+          }
+        ],
+        "intent": "pa_decision",
+        "text": "Let me know the date on which PA decision was made for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 21,
+            "entity": "decision_entity",
+            "value": "decision",
+            "end": 29
+          },
+          {
+            "start": 48,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 57
+          }
+        ],
+        "intent": "pa_decision",
+        "text": "Let me know when the decision was made on PA on 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 11,
+            "entity": "decision_entity",
+            "value": "decision",
+            "end": 19
+          },
+          {
+            "start": 29,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 38
+          }
+        ],
+        "intent": "pa_decision",
+        "text": "PA request decision date for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 24
+          },
+          {
+            "start": 35,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 44
+          }
+        ],
+        "intent": "pa_service_type",
+        "text": "what is the service type of PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 16,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 28
+          },
+          {
+            "start": 40,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 49
+          }
+        ],
+        "intent": "pa_service_type",
+        "text": "Let me know the service type for PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 11,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 23
+          },
+          {
+            "start": 33,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 42
+          }
+        ],
+        "intent": "pa_service_type",
+        "text": "get me the service type of PA of 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 11,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 23
+          },
+          {
+            "start": 34,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 43
+          }
+        ],
+        "intent": "pa_service_type",
+        "text": "I need the service type for PA on 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "service_entity",
+            "value": "type of service",
+            "end": 27
+          },
+          {
+            "start": 39,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 48
+          }
+        ],
+        "intent": "pa_service_type",
+        "text": "what is the type of service for PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 25,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 37
+          },
+          {
+            "start": 49,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 58
+          }
+        ],
+        "intent": "pa_service_type",
+        "text": "I would like to know the service type for PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 15,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 27
+          },
+          {
+            "start": 39,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 48
+          }
+        ],
+        "intent": "pa_service_type",
+        "text": "May I know the service type for PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 11,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 23
+          },
+          {
+            "start": 28,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 37
+          }
+        ],
+        "intent": "pa_service_type",
+        "text": "what is PA service type for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 23,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 35
+          },
+          {
+            "start": 40,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 49
+          }
+        ],
+        "intent": "pa_service_type",
+        "text": "what is the prior auth service type for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 11,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 23
+          },
+          {
+            "start": 42,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 51
+          }
+        ],
+        "intent": "pa_service_type",
+        "text": "get me the service type of prior auth for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 4,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 13
+          },
+          {
+            "start": 15,
+            "entity": "service_entity",
+            "value": "type of service",
+            "end": 30
+          }
+        ],
+        "intent": "pa_service_type",
+        "text": "for 138319349, type of service is "
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "service_entity",
+            "value": "type of service",
+            "end": 15
+          },
+          {
+            "start": 38,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 47
+          }
+        ],
+        "intent": "pa_service_type",
+        "text": "type of service for PA with hsc Id as 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 13,
+            "entity": "service_cat_entity",
+            "value": "service category",
+            "end": 29
+          },
+          {
+            "start": 41,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 50
+          }
+        ],
+        "intent": "pa_service_cat",
+        "text": "what was the service category for PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 16,
+            "entity": "service_cat_entity",
+            "value": "category of service",
+            "end": 35
+          },
+          {
+            "start": 47,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 56
+          }
+        ],
+        "intent": "pa_service_cat",
+        "text": "Let me know the category of service for PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "service_cat_entity",
+            "value": "service category",
+            "end": 19
+          },
+          {
+            "start": 24,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 33
+          }
+        ],
+        "intent": "pa_service_cat",
+        "text": "pA service category for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 7,
+            "entity": "service_cat_entity",
+            "value": "service category",
+            "end": 23
+          },
+          {
+            "start": 39,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 48
+          }
+        ],
+        "intent": "pa_service_cat",
+        "text": "the PA service category Can I know for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 16,
+            "entity": "service_cat_entity",
+            "value": "service category",
+            "end": 32
+          },
+          {
+            "start": 44,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 53
+          }
+        ],
+        "intent": "pa_service_cat",
+        "text": "Let me know the service category for PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 19,
+            "entity": "service_cat_entity",
+            "value": "service category",
+            "end": 35
+          },
+          {
+            "start": 47,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 56
+          }
+        ],
+        "intent": "pa_service_cat",
+        "text": "I need to know the service category for PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 25,
+            "entity": "service_cat_entity",
+            "value": "service category",
+            "end": 41
+          },
+          {
+            "start": 53,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 62
+          }
+        ],
+        "intent": "pa_service_cat",
+        "text": "I would need to know the service category for PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "tat_entity",
+            "value": "TAT",
+            "end": 15
+          },
+          {
+            "start": 20,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 29
+          }
+        ],
+        "intent": "pa_tat",
+        "text": "what is the TAT for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "tat_entity",
+            "value": "turnaround",
+            "end": 22
+          },
+          {
+            "start": 32,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 41
+          }
+        ],
+        "intent": "pa_tat",
+        "text": "what is the turnaround time for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 22,
+            "entity": "tat_entity",
+            "value": "turnaround",
+            "end": 32
+          },
+          {
+            "start": 49,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 58
+          }
+        ],
+        "intent": "pa_tat",
+        "text": "how much is the total turnaround time for PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 8,
+            "entity": "tat_entity",
+            "value": "tat",
+            "end": 11
+          },
+          {
+            "start": 24,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 33
+          }
+        ],
+        "intent": "pa_tat",
+        "text": "overall tat for PA  for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 8,
+            "entity": "tat_entity",
+            "value": "turnaround",
+            "end": 18
+          },
+          {
+            "start": 37,
+            "entity": "std_entity",
+            "value": "standard",
+            "end": 45
+          },
+          {
+            "start": 50,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 59
+          }
+        ],
+        "intent": "pa_tat",
+        "text": "Overall turnaround time taken for PA standard for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "tat_entity",
+            "value": "how much time",
+            "end": 13
+          },
+          {
+            "start": 50,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 59
+          }
+        ],
+        "intent": "pa_tat",
+        "text": "how much time is taken for PA request with hsc Id 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 28,
+            "entity": "std_entity",
+            "value": "standard",
+            "end": 36
+          },
+          {
+            "start": 20,
+            "entity": "tat_entity",
+            "value": "TAT",
+            "end": 23
+          },
+          {
+            "start": 44,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 53
+          }
+        ],
+        "intent": "pa_tat",
+        "text": "what is the overall TAT for standard PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 22,
+            "entity": "std_entity",
+            "value": "standard",
+            "end": 30
+          },
+          {
+            "start": 14,
+            "entity": "tat_entity",
+            "value": "TAT",
+            "end": 17
+          },
+          {
+            "start": 38,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 47
+          }
+        ],
+        "intent": "pa_tat",
+        "text": "Can I get the TAT for standard PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "serice_set_entity",
+            "value": "service setting",
+            "end": 27
+          },
+          {
+            "start": 43,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 52
+          }
+        ],
+        "intent": "pa_service_setting",
+        "text": "what is the service setting type for PA of 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 19,
+            "entity": "serice_set_entity",
+            "value": "service setting",
+            "end": 34
+          },
+          {
+            "start": 51,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 60
+          }
+        ],
+        "intent": "pa_service_setting",
+        "text": "get me the type of service setting type for PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 14,
+            "entity": "serice_set_entity",
+            "value": "service setting",
+            "end": 29
+          },
+          {
+            "start": 46,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 55
+          }
+        ],
+        "intent": "pa_service_setting",
+        "text": "Can I get the service setting type for PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 15,
+            "entity": "serice_set_entity",
+            "value": "service setting",
+            "end": 30
+          },
+          {
+            "start": 44,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 53
+          }
+        ],
+        "intent": "pa_service_setting",
+        "text": "get me type of service setting for my PA of 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 16,
+            "entity": "serice_set_entity",
+            "value": "service setting",
+            "end": 31
+          },
+          {
+            "start": 48,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 57
+          }
+        ],
+        "intent": "pa_service_setting",
+        "text": "Let me know the service setting for this PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 24,
+            "entity": "serice_set_entity",
+            "value": "service setting",
+            "end": 39
+          },
+          {
+            "start": 51,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 60
+          }
+        ],
+        "intent": "pa_service_setting",
+        "text": "Hello there, get me the service setting for PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 24,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 36
+          },
+          {
+            "start": 46,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 55
+          }
+        ],
+        "intent": "pa_service_type",
+        "text": "hello there, get me the service type of PA of 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "serice_set_entity",
+            "value": "service setting",
+            "end": 15
+          },
+          {
+            "start": 20,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 29
+          }
+        ],
+        "intent": "pa_service_setting",
+        "text": "service setting for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "lob_entity",
+            "value": "LOB",
+            "end": 15
+          },
+          {
+            "start": 24,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 33
+          }
+        ],
+        "intent": "pa_lob",
+        "text": "what is the LOB this PA 138319349 belongs to?"
+      },
+      {
+        "entities": [
+          {
+            "start": 6,
+            "entity": "lob_entity",
+            "value": "LOB",
+            "end": 9
+          },
+          {
+            "start": 23,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 32
+          }
+        ],
+        "intent": "pa_lob",
+        "text": "which LOB does this PA 138319349 belong to"
+      },
+      {
+        "entities": [
+          {
+            "start": 20,
+            "entity": "lob_entity",
+            "value": "LOB",
+            "end": 23
+          },
+          {
+            "start": 28,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 37
+          }
+        ],
+        "intent": "pa_lob",
+        "text": "PA belongs to which LOB for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 23,
+            "entity": "lob_entity",
+            "value": "line of business",
+            "end": 39
+          },
+          {
+            "start": 63,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 72
+          }
+        ],
+        "intent": "pa_lob",
+        "text": "would like to know the line of business this PA belongs to for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "lob_entity",
+            "value": "line of business",
+            "end": 28
+          },
+          {
+            "start": 51,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 60
+          }
+        ],
+        "intent": "pa_lob",
+        "text": "what is the line of business the PA belongs to for 138319349?"
+      },
+      {
+        "entities": [
+          {
+            "start": 6,
+            "entity": "lob_entity",
+            "value": "line of business",
+            "end": 22
+          },
+          {
+            "start": 49,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 58
+          }
+        ],
+        "intent": "pa_lob",
+        "text": "which line of business does the PA belong to for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 20,
+            "entity": "lob_entity",
+            "value": "line of business",
+            "end": 36
+          },
+          {
+            "start": 41,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 50
+          }
+        ],
+        "intent": "pa_lob",
+        "text": "PA belongs to which line of business for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 11,
+            "entity": "lob_entity",
+            "value": "line of business",
+            "end": 27
+          },
+          {
+            "start": 56,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 65
+          }
+        ],
+        "intent": "pa_lob",
+        "text": "Get me the line of business that this pa belongs to for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 14,
+            "entity": "lob_entity",
+            "value": "LOB",
+            "end": 17
+          },
+          {
+            "start": 41,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 50
+          }
+        ],
+        "intent": "pa_lob",
+        "text": "May I get the LOB this PA belongs to for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 20,
+            "entity": "lob_entity",
+            "value": "line of business",
+            "end": 36
+          },
+          {
+            "start": 53,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 62
+          }
+        ],
+        "intent": "pa_lob",
+        "text": "How would I get the line of business for this PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 11,
+            "entity": "tin_entity",
+            "value": "taxid",
+            "end": 16
+          },
+          {
+            "start": 45,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 54
+          }
+        ],
+        "intent": "pa_taxid",
+        "text": "get me the taxid of provider for this PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "tin_entity",
+            "value": "taxid",
+            "end": 17
+          },
+          {
+            "start": 46,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 55
+          }
+        ],
+        "intent": "pa_taxid",
+        "text": "what is the taxid associated with this PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "tin_entity",
+            "value": "TIN",
+            "end": 15
+          },
+          {
+            "start": 43,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 52
+          }
+        ],
+        "intent": "pa_taxid",
+        "text": "what is the TIN associated with this PA of 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "tin_entity",
+            "value": "tax ID",
+            "end": 18
+          },
+          {
+            "start": 48,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 57
+          }
+        ],
+        "intent": "pa_taxid",
+        "text": "what is the tax ID number linked to this PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 14,
+            "entity": "tin_entity",
+            "value": "TIN",
+            "end": 17
+          },
+          {
+            "start": 34,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 43
+          }
+        ],
+        "intent": "pa_taxid",
+        "text": "how about the TIN for this PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 7,
+            "entity": "tin_entity",
+            "value": "tin",
+            "end": 10
+          },
+          {
+            "start": 39,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 48
+          }
+        ],
+        "intent": "pa_taxid",
+        "text": "get me tin associated with this PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 11,
+            "entity": "tin_entity",
+            "value": "TAXID",
+            "end": 16
+          },
+          {
+            "start": 32,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 41
+          }
+        ],
+        "intent": "pa_taxid",
+        "text": "get me the TAXID for this PA of 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 23,
+            "entity": "tin_entity",
+            "value": "taxid",
+            "end": 28
+          },
+          {
+            "start": 57,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 66
+          }
+        ],
+        "intent": "pa_taxid",
+        "text": "would like to know all taxid associated with this PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 8,
+            "entity": "tin_entity",
+            "value": "tins",
+            "end": 12
+          },
+          {
+            "start": 41,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 50
+          }
+        ],
+        "intent": "pa_taxid",
+        "text": "all the tins associated with this PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 15,
+            "entity": "tin_entity",
+            "value": "TAXIDS",
+            "end": 21
+          },
+          {
+            "start": 38,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 47
+          }
+        ],
+        "intent": "pa_taxid",
+        "text": "Get me all the TAXIDS for this pa for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 17,
+            "entity": "tin_entity",
+            "value": "TINS",
+            "end": 21
+          },
+          {
+            "start": 43,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 52
+          }
+        ],
+        "intent": "pa_taxid",
+        "text": "what are all the TINS linked to this PA of 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 19,
+            "entity": "tat_entity",
+            "value": "TAT",
+            "end": 22
+          },
+          {
+            "start": 30,
+            "entity": "ugent_entity",
+            "value": "urgent",
+            "end": 36
+          },
+          {
+            "start": 41,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 50
+          }
+        ],
+        "intent": "pa_tat",
+        "text": "get me the overall TAT for PA urgent for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 11,
+            "entity": "tat_entity",
+            "value": "turnaround",
+            "end": 21
+          },
+          {
+            "start": 34,
+            "entity": "ugent_entity",
+            "value": "urgent",
+            "end": 40
+          },
+          {
+            "start": 45,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 54
+          }
+        ],
+        "intent": "pa_tat",
+        "text": "get me the turnaround time for PA urgent for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 37,
+            "entity": "tat_entity",
+            "value": "TAT",
+            "end": 40
+          },
+          {
+            "start": 53,
+            "entity": "ugent_entity",
+            "value": "urgent",
+            "end": 59
+          },
+          {
+            "start": 5,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 14
+          }
+        ],
+        "intent": "pa_tat",
+        "text": " for 138319349 how about the overall TAT for a given urgent PA"
+      },
+      {
+        "entities": [
+          {
+            "start": 16,
+            "entity": "tat_entity",
+            "value": "tat",
+            "end": 19
+          },
+          {
+            "start": 32,
+            "entity": "ugent_entity",
+            "value": "urgent",
+            "end": 38
+          },
+          {
+            "start": 43,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 52
+          }
+        ],
+        "intent": "pa_tat",
+        "text": "let me know the tat for this PA urgent for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 25,
+            "entity": "tat_entity",
+            "value": "turnaround",
+            "end": 35
+          },
+          {
+            "start": 51,
+            "entity": "std_entity",
+            "value": "standard",
+            "end": 59
+          },
+          {
+            "start": 75,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 84
+          }
+        ],
+        "intent": "pa_tat",
+        "text": "I need to know the total turnaround time for given standard prior auth for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 48,
+            "entity": "tat_entity",
+            "value": "turnaround time",
+            "end": 63
+          },
+          {
+            "start": 76,
+            "entity": "ugent_entity",
+            "value": "urgent",
+            "end": 82
+          },
+          {
+            "start": 12,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 21
+          }
+        ],
+        "intent": "pa_tat",
+        "text": " PA request 138319349, I need to know the total turnaround time for a given urgent prior auth"
+      },
+      {
+        "entities": [
+          {
+            "start": 17,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 26
+          },
+          {
+            "start": 6,
+            "entity": "tat_entity",
+            "value": "tat",
+            "end": 9
+          }
+        ],
+        "intent": "pa_tat",
+        "text": "total tat for PA 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 58,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 67
+          },
+          {
+            "start": 8,
+            "entity": "tat_entity",
+            "value": "turnaround",
+            "end": 18
+          },
+          {
+            "start": 28,
+            "entity": "ugent_entity",
+            "value": "urgent",
+            "end": 34
+          }
+        ],
+        "intent": "pa_tat",
+        "text": "overall turnaround time for urgent service for PA request 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 17,
+            "entity": "tat_entity",
+            "value": "TAT",
+            "end": 20
+          },
+          {
+            "start": 25,
+            "entity": "std_entity",
+            "value": "standard",
+            "end": 33
+          },
+          {
+            "start": 41,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 50
+          }
+        ],
+        "intent": "pa_tat",
+        "text": "I would need the TAT for standard PA for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 24,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 32
+          },
+          {
+            "start": 36,
+            "entity": "month",
+            "value": "January",
+            "end": 43
+          },
+          {
+            "start": 44,
+            "entity": "year",
+            "value": "2018",
+            "end": 48
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "Show me the trend of PA received in January 2018"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 24,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 32
+          },
+          {
+            "start": 36,
+            "entity": "month",
+            "value": "February",
+            "end": 44
+          },
+          {
+            "start": 45,
+            "entity": "year",
+            "value": "2018",
+            "end": 49
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "Show me the trend of PA received in February 2018"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 24,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 32
+          },
+          {
+            "start": 36,
+            "entity": "month",
+            "value": "march",
+            "end": 41
+          },
+          {
+            "start": 42,
+            "entity": "year",
+            "value": "2018",
+            "end": 46
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "Show me the trend of PA received in march 2018"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 24,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 32
+          },
+          {
+            "start": 36,
+            "entity": "month",
+            "value": "April",
+            "end": 41
+          },
+          {
+            "start": 42,
+            "entity": "year",
+            "value": "2018",
+            "end": 46
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "Show me the trend of PA received in April 2018"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 33,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 41
+          },
+          {
+            "start": 45,
+            "entity": "month",
+            "value": "may",
+            "end": 48
+          },
+          {
+            "start": 49,
+            "entity": "year",
+            "value": "2018",
+            "end": 53
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "Show me the trend of PA requests received in may 2018"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 24,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 32
+          },
+          {
+            "start": 36,
+            "entity": "month",
+            "value": "June",
+            "end": 40
+          },
+          {
+            "start": 41,
+            "entity": "year",
+            "value": "2018",
+            "end": 45
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "Show me the trend of PA received in June 2018"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 24,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 32
+          },
+          {
+            "start": 36,
+            "entity": "month",
+            "value": "july",
+            "end": 40
+          },
+          {
+            "start": 41,
+            "entity": "year",
+            "value": "2018",
+            "end": 45
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "Show me the trend of PA received in july 2018"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 24,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 32
+          },
+          {
+            "start": 36,
+            "entity": "month",
+            "value": "August",
+            "end": 42
+          },
+          {
+            "start": 43,
+            "entity": "year",
+            "value": "2018",
+            "end": 47
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "Show me the trend of PA received in August 2018"
+      },
+      {
+        "entities": [
+          {
+            "start": 24,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 32
+          },
+          {
+            "start": 36,
+            "entity": "month",
+            "value": "september",
+            "end": 45
+          },
+          {
+            "start": 46,
+            "entity": "year",
+            "value": "2018",
+            "end": 50
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "Show me the trend of PA received in september 2018"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 24,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 32
+          },
+          {
+            "start": 36,
+            "entity": "month",
+            "value": "october",
+            "end": 43
+          },
+          {
+            "start": 44,
+            "entity": "year",
+            "value": "2018",
+            "end": 48
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "Show me the trend of PA received in october 2018"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 24,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 32
+          },
+          {
+            "start": 36,
+            "entity": "month",
+            "value": "November",
+            "end": 44
+          },
+          {
+            "start": 45,
+            "entity": "year",
+            "value": "2018",
+            "end": 49
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "Show me the trend of PA received in November 2018"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 24,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 32
+          },
+          {
+            "start": 36,
+            "entity": "month",
+            "value": "December",
+            "end": 44
+          },
+          {
+            "start": 45,
+            "entity": "year",
+            "value": "2018",
+            "end": 49
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "Show me the trend of PA received in December 2018"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 33,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 41
+          },
+          {
+            "start": 47,
+            "entity": "time_entity",
+            "value": "last 4 months",
+            "end": 60
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "Display the trend of PA requests received over last 4 months"
+      },
+      {
+        "entities": [
+          {
+            "start": 15,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 20
+          },
+          {
+            "start": 33,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 41
+          },
+          {
+            "start": 45,
+            "entity": "clm_type_entity",
+            "value": "claim type",
+            "end": 55
+          },
+          {
+            "start": 59,
+            "entity": "month",
+            "value": "January",
+            "end": 66
+          },
+          {
+            "start": 67,
+            "entity": "year",
+            "value": "2017",
+            "end": 71
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "Display the PA trend of requests received by claim type in January 2017"
+      },
+      {
+        "entities": [
+          {
+            "start": 9,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 14
+          },
+          {
+            "start": 30,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 38
+          },
+          {
+            "start": 42,
+            "entity": "service_cat_entity",
+            "value": "service category",
+            "end": 58
+          },
+          {
+            "start": 62,
+            "entity": "month",
+            "value": "february",
+            "end": 70
+          },
+          {
+            "start": 71,
+            "entity": "year",
+            "value": "2017",
+            "end": 75
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "need the trend of PA requests received by service category in february 2017"
+      },
+      {
+        "entities": [
+          {
+            "start": 11,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 16
+          },
+          {
+            "start": 20,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 28
+          },
+          {
+            "start": 41,
+            "entity": "clm_type_entity",
+            "value": "claim type",
+            "end": 51
+          },
+          {
+            "start": 55,
+            "entity": "month",
+            "value": "june",
+            "end": 59
+          },
+          {
+            "start": 60,
+            "entity": "year",
+            "value": "2017",
+            "end": 64
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "Show me PA trend of received requests by claim type in june 2017"
+      },
+      {
+        "entities": [
+          {
+            "start": 16,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 21
+          },
+          {
+            "start": 40,
+            "entity": "month",
+            "value": "September",
+            "end": 49
+          },
+          {
+            "start": 50,
+            "entity": "year",
+            "value": "2018",
+            "end": 54
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "want to see the trend of PA requests in September 2018"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 24,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 32
+          },
+          {
+            "start": 36,
+            "entity": "month",
+            "value": "November",
+            "end": 44
+          },
+          {
+            "start": 45,
+            "entity": "year",
+            "value": "2018",
+            "end": 49
+          },
+          {
+            "start": 53,
+            "entity": "clm_type_entity",
+            "value": "claim type",
+            "end": 63
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "Show me the trend of PA received in November 2018 by claim type"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 5
+          },
+          {
+            "start": 12,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 20
+          },
+          {
+            "start": 24,
+            "entity": "serice_set_entity",
+            "value": "service setting",
+            "end": 39
+          },
+          {
+            "start": 43,
+            "entity": "month",
+            "value": "october",
+            "end": 50
+          },
+          {
+            "start": 51,
+            "entity": "year",
+            "value": "2018",
+            "end": 55
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "trend of PA received by service setting in october 2018"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 5
+          },
+          {
+            "start": 12,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 20
+          },
+          {
+            "start": 24,
+            "entity": "month",
+            "value": "august",
+            "end": 30
+          },
+          {
+            "start": 31,
+            "entity": "year",
+            "value": "2017",
+            "end": 35
+          },
+          {
+            "start": 39,
+            "entity": "serice_set_entity",
+            "value": "service setting",
+            "end": 54
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "trend of PA received in august 2017 by service setting"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 15
+          },
+          {
+            "start": 26,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 31
+          },
+          {
+            "start": 38,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 46
+          },
+          {
+            "start": 59,
+            "entity": "month",
+            "value": "december",
+            "end": 67
+          },
+          {
+            "start": 68,
+            "entity": "year",
+            "value": "2017",
+            "end": 72
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "By service type, show the trend of PA received requests in december 2017"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "service_cat_entity",
+            "value": "service category",
+            "end": 19
+          },
+          {
+            "start": 42,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 50
+          },
+          {
+            "start": 63,
+            "entity": "month",
+            "value": "december",
+            "end": 71
+          },
+          {
+            "start": 72,
+            "entity": "year",
+            "value": "2017",
+            "end": 76
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "By service category, show the trend of PA received requests in december 2017"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "serice_set_entity",
+            "value": "service setting",
+            "end": 18
+          },
+          {
+            "start": 29,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 34
+          },
+          {
+            "start": 41,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 49
+          },
+          {
+            "start": 62,
+            "entity": "month",
+            "value": "december",
+            "end": 70
+          },
+          {
+            "start": 71,
+            "entity": "year",
+            "value": "2017",
+            "end": 75
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "By service setting, show the trend of PA received requests in december 2017"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "clm_type_entity",
+            "value": "claim type",
+            "end": 13
+          },
+          {
+            "start": 36,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 44
+          },
+          {
+            "start": 24,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 29
+          },
+          {
+            "start": 57,
+            "entity": "month",
+            "value": "december",
+            "end": 65
+          },
+          {
+            "start": 66,
+            "entity": "year",
+            "value": "2017",
+            "end": 70
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "By claim type, show the trend of PA received requests in december 2017"
+      },
+      {
+        "entities": [
+          {
+            "start": 11,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 16
+          },
+          {
+            "start": 23,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 31
+          },
+          {
+            "start": 44,
+            "entity": "month",
+            "value": "November",
+            "end": 52
+          },
+          {
+            "start": 53,
+            "entity": "year",
+            "value": "2017",
+            "end": 57
+          },
+          {
+            "start": 61,
+            "entity": "lob_entity",
+            "value": "line of business",
+            "end": 77
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "get me the trend of PA received requests in November 2017 by line of business"
+      },
+      {
+        "entities": [
+          {
+            "start": 11,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 16
+          },
+          {
+            "start": 32,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 40
+          },
+          {
+            "start": 44,
+            "entity": "lob_entity",
+            "value": "LOB",
+            "end": 47
+          },
+          {
+            "start": 51,
+            "entity": "month",
+            "value": "july",
+            "end": 55
+          },
+          {
+            "start": 56,
+            "entity": "year",
+            "value": "2018",
+            "end": 60
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "Get me the trend of PA requests received by LOB in july 2018"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 18,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 26
+          },
+          {
+            "start": 30,
+            "entity": "year",
+            "value": "2018",
+            "end": 34
+          },
+          {
+            "start": 35,
+            "entity": "month",
+            "value": "May",
+            "end": 38
+          },
+          {
+            "start": 42,
+            "entity": "tat_entity",
+            "value": "TAT",
+            "end": 45
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "PA requests trend received in 2018 May by TAT"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 18,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 26
+          },
+          {
+            "start": 30,
+            "entity": "year",
+            "value": "2018",
+            "end": 34
+          },
+          {
+            "start": 35,
+            "entity": "month",
+            "value": "May",
+            "end": 38
+          },
+          {
+            "start": 42,
+            "entity": "lob_entity",
+            "value": "LOB",
+            "end": 45
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "PA requests trend received in 2018 May by LOB"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "tat_entity",
+            "value": "TAT",
+            "end": 6
+          },
+          {
+            "start": 20,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 25
+          },
+          {
+            "start": 41,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 49
+          },
+          {
+            "start": 53,
+            "entity": "month",
+            "value": "february",
+            "end": 61
+          },
+          {
+            "start": 62,
+            "entity": "year",
+            "value": "2019",
+            "end": 66
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "BY TAT, what is the trend of PA requests received in february 2019"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 5
+          },
+          {
+            "start": 9,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 17
+          },
+          {
+            "start": 37,
+            "entity": "serice_set_entity",
+            "value": "service setting",
+            "end": 52
+          },
+          {
+            "start": 56,
+            "entity": "month",
+            "value": "march",
+            "end": 61
+          },
+          {
+            "start": 62,
+            "entity": "year",
+            "value": "2017",
+            "end": 66
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "trend of received PA applications by service setting in march 2017"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 24,
+            "entity": "denial_actin",
+            "value": "denials",
+            "end": 31
+          },
+          {
+            "start": 35,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 47
+          },
+          {
+            "start": 51,
+            "entity": "month",
+            "value": "march",
+            "end": 56
+          },
+          {
+            "start": 57,
+            "entity": "year",
+            "value": "2019",
+            "end": 61
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "show me the trend pf PA denials by service type in march 2019"
+      },
+      {
+        "entities": [
+          {
+            "start": 11,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 16
+          },
+          {
+            "start": 23,
+            "entity": "denial_actin",
+            "value": "denials",
+            "end": 30
+          },
+          {
+            "start": 34,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 46
+          },
+          {
+            "start": 50,
+            "entity": "month",
+            "value": "march",
+            "end": 55
+          },
+          {
+            "start": 56,
+            "entity": "year",
+            "value": "2019",
+            "end": 60
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "get me the trend pf PA denials by service type in march 2019"
+      },
+      {
+        "entities": [
+          {
+            "start": 10,
+            "entity": "denial_actin",
+            "value": "denial",
+            "end": 16
+          },
+          {
+            "start": 17,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 22
+          },
+          {
+            "start": 26,
+            "entity": "service_cat_entity",
+            "value": "service category",
+            "end": 42
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "get me pA denial trend by service category"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 24,
+            "entity": "denial_actin",
+            "value": "denials",
+            "end": 31
+          },
+          {
+            "start": 35,
+            "entity": "serice_set_entity",
+            "value": "service setting",
+            "end": 50
+          },
+          {
+            "start": 54,
+            "entity": "month",
+            "value": "march",
+            "end": 59
+          },
+          {
+            "start": 60,
+            "entity": "year",
+            "value": "2019",
+            "end": 64
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "display the trend pf PA denials by service setting in march 2019"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "time_entity",
+            "value": "last quarter",
+            "end": 15
+          },
+          {
+            "start": 32,
+            "entity": "denial_actin",
+            "value": "denial",
+            "end": 38
+          },
+          {
+            "start": 39,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 44
+          },
+          {
+            "start": 48,
+            "entity": "lob_entity",
+            "value": "LOB",
+            "end": 51
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "In last quarter, show me the PA denial trend by LOB"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "denial_actin",
+            "value": "denials",
+            "end": 19
+          },
+          {
+            "start": 3,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 8
+          },
+          {
+            "start": 23,
+            "entity": "time_entity",
+            "value": "last 4 months",
+            "end": 36
+          },
+          {
+            "start": 40,
+            "entity": "serice_set_entity",
+            "value": "service setting",
+            "end": 55
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "PA trend of denials in last 4 months by service setting"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 8
+          },
+          {
+            "start": 12,
+            "entity": "denial_actin",
+            "value": "denials",
+            "end": 19
+          },
+          {
+            "start": 23,
+            "entity": "time_entity",
+            "value": "last 4 months",
+            "end": 36
+          },
+          {
+            "start": 40,
+            "entity": "service_cat_entity",
+            "value": "service category",
+            "end": 56
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "PA trend of denials in last 4 months by service category"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 21,
+            "entity": "denial_actin",
+            "value": "denials",
+            "end": 28
+          },
+          {
+            "start": 41,
+            "entity": "month",
+            "value": "Jan",
+            "end": 44
+          },
+          {
+            "start": 48,
+            "entity": "month",
+            "value": "april",
+            "end": 53
+          },
+          {
+            "start": 54,
+            "entity": "year",
+            "value": "2018",
+            "end": 58
+          },
+          {
+            "start": 62,
+            "entity": "clm_type_entity",
+            "value": "claim type",
+            "end": 72
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "what is the trend of denials for PA from Jan to april 2018 by claim type"
+      },
+      {
+        "entities": [
+          {
+            "start": 16,
+            "entity": "denial_actin",
+            "value": "denial",
+            "end": 22
+          },
+          {
+            "start": 23,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 28
+          },
+          {
+            "start": 32,
+            "entity": "tat_entity",
+            "value": "tat",
+            "end": 35
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "need to see the denial trend by tat"
+      },
+      {
+        "entities": [
+          {
+            "start": 14,
+            "entity": "denial_actin",
+            "value": "denials",
+            "end": 21
+          },
+          {
+            "start": 22,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 27
+          },
+          {
+            "start": 31,
+            "entity": "lob_entity",
+            "value": "line of business",
+            "end": 47
+          },
+          {
+            "start": 51,
+            "entity": "time_entity",
+            "value": "last 5 months",
+            "end": 64
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "Get me the PA denials trend by line of business in last 5 months"
+      },
+      {
+        "entities": [
+          {
+            "start": 14,
+            "entity": "denial_actin",
+            "value": "denials",
+            "end": 21
+          },
+          {
+            "start": 22,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 27
+          },
+          {
+            "start": 31,
+            "entity": "lob_entity",
+            "value": "line of business",
+            "end": 47
+          },
+          {
+            "start": 51,
+            "entity": "year",
+            "value": "2019",
+            "end": 55
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "Get me the PA denials trend by line of business in 2019"
+      },
+      {
+        "entities": [
+          {
+            "start": 14,
+            "entity": "denial_actin",
+            "value": "denials",
+            "end": 21
+          },
+          {
+            "start": 22,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 27
+          },
+          {
+            "start": 31,
+            "entity": "lob_entity",
+            "value": "lob",
+            "end": 34
+          },
+          {
+            "start": 38,
+            "entity": "time_entity",
+            "value": "last 5 months",
+            "end": 51
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "Get me the PA denials trend by lob in last 5 months"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "year",
+            "value": "2018",
+            "end": 7
+          },
+          {
+            "start": 20,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 25
+          },
+          {
+            "start": 29,
+            "entity": "approve_actin",
+            "value": "approved",
+            "end": 37
+          },
+          {
+            "start": 44,
+            "entity": "clm_type_entity",
+            "value": "claim type",
+            "end": 54
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "In 2018 what is the trend of approved PA by claim type"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 5
+          },
+          {
+            "start": 9,
+            "entity": "approve_actin",
+            "value": "approved",
+            "end": 17
+          },
+          {
+            "start": 24,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 36
+          },
+          {
+            "start": 40,
+            "entity": "time_entity",
+            "value": "last 6 months",
+            "end": 53
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "trend of approved PA by service type in last 6 months"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 5
+          },
+          {
+            "start": 9,
+            "entity": "approve_actin",
+            "value": "approved",
+            "end": 17
+          },
+          {
+            "start": 24,
+            "entity": "service_cat_entity",
+            "value": "service category",
+            "end": 40
+          },
+          {
+            "start": 44,
+            "entity": "time_entity",
+            "value": "last 6 months",
+            "end": 57
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "trend of approved PA by service category in last 6 months"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 5
+          },
+          {
+            "start": 9,
+            "entity": "approve_actin",
+            "value": "approved",
+            "end": 17
+          },
+          {
+            "start": 24,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 36
+          },
+          {
+            "start": 40,
+            "entity": "time_entity",
+            "value": "last quarter",
+            "end": 52
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "trend of approved PA by service type in last quarter"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 5
+          },
+          {
+            "start": 9,
+            "entity": "approve_actin",
+            "value": "approved",
+            "end": 17
+          },
+          {
+            "start": 24,
+            "entity": "serice_set_entity",
+            "value": "service setting",
+            "end": 39
+          },
+          {
+            "start": 43,
+            "entity": "year",
+            "value": "2018",
+            "end": 47
+          },
+          {
+            "start": 48,
+            "entity": "month",
+            "value": "October",
+            "end": 55
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "trend of approved PA by service setting in 2018 October"
+      },
+      {
+        "entities": [
+          {
+            "start": 8,
+            "entity": "approve_actin",
+            "value": "approved",
+            "end": 16
+          },
+          {
+            "start": 20,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 25
+          },
+          {
+            "start": 29,
+            "entity": "lob_entity",
+            "value": "LOB",
+            "end": 32
+          },
+          {
+            "start": 37,
+            "entity": "month",
+            "value": "January",
+            "end": 44
+          },
+          {
+            "start": 45,
+            "entity": "year",
+            "value": "2019",
+            "end": 49
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "show me approved PA trend by LOB for January 2019"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 15
+          },
+          {
+            "start": 32,
+            "entity": "denial_actin",
+            "value": "denial",
+            "end": 38
+          },
+          {
+            "start": 39,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 44
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "by service type need to see the denial trend "
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "service_cat_entity",
+            "value": "service category",
+            "end": 19
+          },
+          {
+            "start": 39,
+            "entity": "approve_actin",
+            "value": "approvals",
+            "end": 48
+          },
+          {
+            "start": 52,
+            "entity": "time_entity",
+            "value": "last 2 months",
+            "end": 65
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "By service category need to see the PA approvals in last 2 months"
+      },
+      {
+        "entities": [
+          {
+            "start": 16,
+            "entity": "approve_actin",
+            "value": "approved",
+            "end": 24
+          },
+          {
+            "start": 25,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 30
+          },
+          {
+            "start": 34,
+            "entity": "serice_set_entity",
+            "value": "service setting",
+            "end": 49
+          },
+          {
+            "start": 53,
+            "entity": "time_entity",
+            "value": "last quarter",
+            "end": 65
+          },
+          {
+            "start": 69,
+            "entity": "year",
+            "value": "2018",
+            "end": 73
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "PA applications approved trend by service setting in last quarter of 2018"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "approve_actin",
+            "value": "approval",
+            "end": 20
+          },
+          {
+            "start": 21,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 26
+          },
+          {
+            "start": 36,
+            "entity": "month",
+            "value": "april",
+            "end": 41
+          },
+          {
+            "start": 42,
+            "entity": "year",
+            "value": "2018",
+            "end": 46
+          },
+          {
+            "start": 50,
+            "entity": "clm_type_entity",
+            "value": "claim type",
+            "end": 60
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "Display the approval trend of pa in april 2018 by claim type"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "tat_entity",
+            "value": "turnaround",
+            "end": 13
+          },
+          {
+            "start": 27,
+            "entity": "approve_actin",
+            "value": "approval",
+            "end": 35
+          },
+          {
+            "start": 36,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 41
+          },
+          {
+            "start": 49,
+            "entity": "time_entity",
+            "value": "last 4 months",
+            "end": 62
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "By turnaround time what is approval trend for PA last 4 months"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "tat_entity",
+            "value": "TAT",
+            "end": 6
+          },
+          {
+            "start": 15,
+            "entity": "approve_actin",
+            "value": "approval",
+            "end": 23
+          },
+          {
+            "start": 24,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 29
+          },
+          {
+            "start": 40,
+            "entity": "month",
+            "value": "december",
+            "end": 48
+          },
+          {
+            "start": 49,
+            "entity": "year",
+            "value": "2018",
+            "end": 53
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "BY TAT what is approval trend for PA in december 2018"
+      },
+      {
+        "entities": [
+          {
+            "start": 14,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 19
+          },
+          {
+            "start": 26,
+            "entity": "approve_actin",
+            "value": "approved",
+            "end": 34
+          },
+          {
+            "start": 38,
+            "entity": "lob_entity",
+            "value": "LOB",
+            "end": 41
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "Can I see the trend of PA approved by LOB "
+      },
+      {
+        "entities": [
+          {
+            "start": 14,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 19
+          },
+          {
+            "start": 26,
+            "entity": "approve_actin",
+            "value": "approved",
+            "end": 34
+          },
+          {
+            "start": 38,
+            "entity": "tat_entity",
+            "value": "tat",
+            "end": 41
+          },
+          {
+            "start": 45,
+            "entity": "time_entity",
+            "value": "last 8 months",
+            "end": 58
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "Can I see the trend of PA approved by tat in last 8 months"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 21,
+            "entity": "cancel_actin",
+            "value": "cancelled",
+            "end": 30
+          },
+          {
+            "start": 37,
+            "entity": "clm_type_entity",
+            "value": "claim type",
+            "end": 47
+          },
+          {
+            "start": 51,
+            "entity": "year",
+            "value": "2019",
+            "end": 55
+          },
+          {
+            "start": 56,
+            "entity": "month",
+            "value": "february",
+            "end": 64
+          }
+        ],
+        "intent": "pa_trend_cancel_g",
+        "text": "show me the trend of cancelled PA by claim type in 2019 february"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 21,
+            "entity": "cancel_actin",
+            "value": "cancelled",
+            "end": 30
+          },
+          {
+            "start": 37,
+            "entity": "service_cat_entity",
+            "value": "servcie category",
+            "end": 53
+          },
+          {
+            "start": 57,
+            "entity": "year",
+            "value": "2019",
+            "end": 61
+          },
+          {
+            "start": 62,
+            "entity": "month",
+            "value": "february",
+            "end": 70
+          }
+        ],
+        "intent": "pa_trend_cancel_g",
+        "text": "show me the trend of cancelled PA by servcie category in 2019 february"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "serice_set_entity",
+            "value": "service setting",
+            "end": 18
+          },
+          {
+            "start": 31,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 36
+          },
+          {
+            "start": 40,
+            "entity": "cancel_actin",
+            "value": "cancelled",
+            "end": 49
+          }
+        ],
+        "intent": "pa_trend_cancel_g",
+        "text": "By service setting what is the trend of cancelled pA "
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "serice_set_entity",
+            "value": "service setting",
+            "end": 18
+          },
+          {
+            "start": 19,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 24
+          },
+          {
+            "start": 28,
+            "entity": "cancel_actin",
+            "value": "cancelled",
+            "end": 37
+          },
+          {
+            "start": 44,
+            "entity": "month",
+            "value": "April",
+            "end": 49
+          },
+          {
+            "start": 50,
+            "entity": "year",
+            "value": "2019",
+            "end": 54
+          }
+        ],
+        "intent": "pa_trend_cancel_g",
+        "text": "by service setting trend of cancelled PA on April 2019"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 5
+          },
+          {
+            "start": 9,
+            "entity": "cancel_actin",
+            "value": "cancelled",
+            "end": 18
+          },
+          {
+            "start": 25,
+            "entity": "tat_entity",
+            "value": "turnaround",
+            "end": 35
+          },
+          {
+            "start": 39,
+            "entity": "year",
+            "value": "2019",
+            "end": 43
+          }
+        ],
+        "intent": "pa_trend_cancel_g",
+        "text": "trend of cancelled pA by turnaround in 2019"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "tat_entity",
+            "value": "TAT",
+            "end": 6
+          },
+          {
+            "start": 19,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 24
+          },
+          {
+            "start": 28,
+            "entity": "cancel_actin",
+            "value": "cancellations",
+            "end": 41
+          },
+          {
+            "start": 52,
+            "entity": "time_entity",
+            "value": "last quarter",
+            "end": 64
+          }
+        ],
+        "intent": "pa_trend_cancel_g",
+        "text": "BY TAT what is the trend of cancellations for PA in last quarter"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 15
+          },
+          {
+            "start": 28,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 33
+          },
+          {
+            "start": 37,
+            "entity": "cancel_actin",
+            "value": "cancellations",
+            "end": 50
+          },
+          {
+            "start": 61,
+            "entity": "time_entity",
+            "value": "last quarter",
+            "end": 73
+          }
+        ],
+        "intent": "pa_trend_cancel_g",
+        "text": "BY service type what is the trend of cancellations for PA in last quarter"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 5
+          },
+          {
+            "start": 25,
+            "entity": "cancel_actin",
+            "value": "cancelled",
+            "end": 34
+          },
+          {
+            "start": 38,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 50
+          },
+          {
+            "start": 54,
+            "entity": "month",
+            "value": "August",
+            "end": 60
+          },
+          {
+            "start": 61,
+            "entity": "year",
+            "value": "2018",
+            "end": 65
+          }
+        ],
+        "intent": "pa_trend_cancel_g",
+        "text": "trend of PA applications cancelled by service type in August 2018"
+      },
+      {
+        "entities": [
+          {
+            "start": 7,
+            "entity": "top_entity",
+            "value": "top",
+            "end": 10
+          },
+          {
+            "start": 11,
+            "entity": "denial_actin",
+            "value": "denial",
+            "end": 17
+          },
+          {
+            "start": 18,
+            "entity": "reasons_entity",
+            "value": "reasons",
+            "end": 25
+          },
+          {
+            "start": 29,
+            "entity": "service_cat_entity",
+            "value": "service catgeory",
+            "end": 45
+          }
+        ],
+        "intent": "ps_denial_rsns_g",
+        "text": "get me top denial reasons by service catgeory"
+      },
+      {
+        "entities": [
+          {
+            "start": 14,
+            "entity": "top_entity",
+            "value": "top",
+            "end": 17
+          },
+          {
+            "start": 18,
+            "entity": "reasons_entity",
+            "value": "reasons",
+            "end": 25
+          },
+          {
+            "start": 30,
+            "entity": "denial_actin",
+            "value": "denials",
+            "end": 37
+          },
+          {
+            "start": 48,
+            "entity": "serice_set_entity",
+            "value": "service setting",
+            "end": 63
+          },
+          {
+            "start": 67,
+            "entity": "time_entity",
+            "value": "last 4 months",
+            "end": 80
+          }
+        ],
+        "intent": "ps_denial_rsns_g",
+        "text": "Can I get the top reasons for denials for PA by service setting in last 4 months"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "reasons_entity",
+            "value": "reasons",
+            "end": 19
+          },
+          {
+            "start": 24,
+            "entity": "denial_actin",
+            "value": "denials",
+            "end": 31
+          },
+          {
+            "start": 35,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 47
+          },
+          {
+            "start": 51,
+            "entity": "year",
+            "value": "2019",
+            "end": 55
+          }
+        ],
+        "intent": "ps_denial_rsns_g",
+        "text": "show me the reasons for denials by service type in 2019"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "reasons_entity",
+            "value": "reasons",
+            "end": 19
+          },
+          {
+            "start": 24,
+            "entity": "denial_actin",
+            "value": "denials",
+            "end": 31
+          },
+          {
+            "start": 35,
+            "entity": "lob_entity",
+            "value": "LOB",
+            "end": 38
+          },
+          {
+            "start": 42,
+            "entity": "year",
+            "value": "2019",
+            "end": 46
+          },
+          {
+            "start": 52,
+            "entity": "month",
+            "value": "Jan",
+            "end": 55
+          },
+          {
+            "start": 59,
+            "entity": "month",
+            "value": "May",
+            "end": 62
+          }
+        ],
+        "intent": "ps_denial_rsns_g",
+        "text": "show me the reasons for denials by LOB in 2019 from Jan to May"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "tat_entity",
+            "value": "turnaround",
+            "end": 13
+          },
+          {
+            "start": 31,
+            "entity": "denial_actin",
+            "value": "denial",
+            "end": 37
+          },
+          {
+            "start": 27,
+            "entity": "top_entity",
+            "value": "top",
+            "end": 30
+          },
+          {
+            "start": 38,
+            "entity": "reasons_entity",
+            "value": "reasons",
+            "end": 45
+          },
+          {
+            "start": 51,
+            "entity": "month",
+            "value": "feb",
+            "end": 54
+          },
+          {
+            "start": 58,
+            "entity": "month",
+            "value": "June",
+            "end": 62
+          },
+          {
+            "start": 63,
+            "entity": "year",
+            "value": "2018",
+            "end": 67
+          }
+        ],
+        "intent": "ps_denial_rsns_g",
+        "text": "By turnaround what are the top denial reasons from feb to June 2018"
+      },
+      {
+        "entities": [
+          {
+            "start": 7,
+            "entity": "top_entity",
+            "value": "top",
+            "end": 10
+          },
+          {
+            "start": 11,
+            "entity": "reasons_entity",
+            "value": "reasons",
+            "end": 18
+          },
+          {
+            "start": 19,
+            "entity": "denial_actin",
+            "value": "denials",
+            "end": 26
+          },
+          {
+            "start": 30,
+            "entity": "clm_type_entity",
+            "value": "claim type",
+            "end": 40
+          },
+          {
+            "start": 44,
+            "entity": "month",
+            "value": "Oct",
+            "end": 47
+          },
+          {
+            "start": 48,
+            "entity": "year",
+            "value": "2018",
+            "end": 52
+          }
+        ],
+        "intent": "ps_denial_rsns_g",
+        "text": "I need top reasons denials by claim type in Oct 2018"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "top_entity",
+            "value": "top",
+            "end": 3
+          },
+          {
+            "start": 4,
+            "entity": "denial_actin",
+            "value": "denial",
+            "end": 10
+          },
+          {
+            "start": 11,
+            "entity": "reasons_entity",
+            "value": "reasons",
+            "end": 18
+          },
+          {
+            "start": 22,
+            "entity": "service_cat_entity",
+            "value": "service category",
+            "end": 38
+          },
+          {
+            "start": 42,
+            "entity": "year",
+            "value": "2019",
+            "end": 46
+          },
+          {
+            "start": 47,
+            "entity": "month",
+            "value": "Feb",
+            "end": 50
+          }
+        ],
+        "intent": "ps_denial_rsns_g",
+        "text": "top denial reasons by service category in 2019 Feb"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "top_entity",
+            "value": "top",
+            "end": 3
+          },
+          {
+            "start": 4,
+            "entity": "reasons_entity",
+            "value": "reasons",
+            "end": 11
+          },
+          {
+            "start": 16,
+            "entity": "cancel_actin",
+            "value": "cancellations",
+            "end": 29
+          },
+          {
+            "start": 39,
+            "entity": "clm_type_entity",
+            "value": "claim type",
+            "end": 49
+          },
+          {
+            "start": 53,
+            "entity": "year",
+            "value": "2019",
+            "end": 57
+          }
+        ],
+        "intent": "pa_cancel_rsns_g",
+        "text": "top reasons for cancellations of PA by claim type in 2019"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "top_entity",
+            "value": "top",
+            "end": 3
+          },
+          {
+            "start": 4,
+            "entity": "reasons_entity",
+            "value": "reasons",
+            "end": 11
+          },
+          {
+            "start": 16,
+            "entity": "cancel_actin",
+            "value": "cancellations",
+            "end": 29
+          },
+          {
+            "start": 39,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 51
+          },
+          {
+            "start": 55,
+            "entity": "year",
+            "value": "2019",
+            "end": 59
+          }
+        ],
+        "intent": "pa_cancel_rsns_g",
+        "text": "top reasons for cancellations of PA by service type in 2019"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "top_entity",
+            "value": "top",
+            "end": 3
+          },
+          {
+            "start": 4,
+            "entity": "reasons_entity",
+            "value": "reasons",
+            "end": 11
+          },
+          {
+            "start": 16,
+            "entity": "cancel_actin",
+            "value": "cancellations",
+            "end": 29
+          },
+          {
+            "start": 39,
+            "entity": "service_cat_entity",
+            "value": "service category",
+            "end": 55
+          },
+          {
+            "start": 59,
+            "entity": "year",
+            "value": "2019",
+            "end": 63
+          },
+          {
+            "start": 64,
+            "entity": "month",
+            "value": "November",
+            "end": 72
+          }
+        ],
+        "intent": "pa_cancel_rsns_g",
+        "text": "top reasons for cancellations of PA by service category in 2019 November"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "cancel_actin",
+            "value": "cancelled",
+            "end": 12
+          },
+          {
+            "start": 13,
+            "entity": "top_entity",
+            "value": "top",
+            "end": 16
+          },
+          {
+            "start": 17,
+            "entity": "reasons_entity",
+            "value": "reasons",
+            "end": 24
+          },
+          {
+            "start": 28,
+            "entity": "serice_set_entity",
+            "value": "service setting",
+            "end": 43
+          },
+          {
+            "start": 47,
+            "entity": "time_entity",
+            "value": "third quarter",
+            "end": 60
+          },
+          {
+            "start": 64,
+            "entity": "year",
+            "value": "2018",
+            "end": 68
+          }
+        ],
+        "intent": "pa_cancel_rsns_g",
+        "text": "PA cancelled top reasons by service setting in third quarter of 2018"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "tat_entity",
+            "value": "TAT",
+            "end": 6
+          },
+          {
+            "start": 19,
+            "entity": "cancel_actin",
+            "value": "cancelled",
+            "end": 28
+          },
+          {
+            "start": 29,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 34
+          }
+        ],
+        "intent": "pa_cancel_rsns_g",
+        "text": "by TAT what is the cancelled trend for PA"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 21,
+            "entity": "cancel_actin",
+            "value": "cancelled",
+            "end": 30
+          },
+          {
+            "start": 50,
+            "entity": "tat_entity",
+            "value": "turnaround",
+            "end": 60
+          },
+          {
+            "start": 69,
+            "entity": "year",
+            "value": "2018",
+            "end": 73
+          },
+          {
+            "start": 74,
+            "entity": "month",
+            "value": "september",
+            "end": 83
+          }
+        ],
+        "intent": "pa_cancel_rsns_g",
+        "text": "show me the trend of cancelled PA applications by turnaround time in 2018 september "
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "top_entity",
+            "value": "top",
+            "end": 3
+          },
+          {
+            "start": 4,
+            "entity": "reasons_entity",
+            "value": "reasons",
+            "end": 11
+          },
+          {
+            "start": 16,
+            "entity": "cancel_actin",
+            "value": "cancellations",
+            "end": 29
+          },
+          {
+            "start": 39,
+            "entity": "lob_entity",
+            "value": "line of business",
+            "end": 55
+          },
+          {
+            "start": 59,
+            "entity": "year",
+            "value": "2019",
+            "end": 63
+          }
+        ],
+        "intent": "pa_cancel_rsns_g",
+        "text": "top reasons for cancellations of PA by line of business in 2019"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "lob_entity",
+            "value": "LOB",
+            "end": 6
+          },
+          {
+            "start": 14,
+            "entity": "denial_actin",
+            "value": "denial",
+            "end": 20
+          },
+          {
+            "start": 21,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 26
+          },
+          {
+            "start": 30,
+            "entity": "service_cat_entity",
+            "value": "service category",
+            "end": 46
+          },
+          {
+            "start": 50,
+            "entity": "year",
+            "value": "2018",
+            "end": 54
+          },
+          {
+            "start": 55,
+            "entity": "time_entity",
+            "value": "last quarter",
+            "end": 67
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "BY LOB get me denial trend by service category in 2018 last quarter"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "approve_rate",
+            "value": "approval rate",
+            "end": 13
+          },
+          {
+            "start": 14,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 19
+          },
+          {
+            "start": 23,
+            "entity": "clm_type_entity",
+            "value": "claim type",
+            "end": 33
+          }
+        ],
+        "intent": "pa_approval_rate_g",
+        "text": "approval rate trend by claim type"
+      },
+      {
+        "entities": [
+          {
+            "start": 11,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 16
+          },
+          {
+            "start": 20,
+            "entity": "approve_rate",
+            "value": "approval rate",
+            "end": 33
+          },
+          {
+            "start": 37,
+            "entity": "service_cat_entity",
+            "value": "service category",
+            "end": 53
+          },
+          {
+            "start": 57,
+            "entity": "time_entity",
+            "value": "last quarter",
+            "end": 69
+          }
+        ],
+        "intent": "pa_approval_rate_g",
+        "text": "get me the trend of approval rate by service category in last quarter"
+      },
+      {
+        "entities": [
+          {
+            "start": 11,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 16
+          },
+          {
+            "start": 20,
+            "entity": "approve_rate",
+            "value": "approval rate",
+            "end": 33
+          },
+          {
+            "start": 37,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 49
+          },
+          {
+            "start": 53,
+            "entity": "time_entity",
+            "value": "last quarter",
+            "end": 65
+          }
+        ],
+        "intent": "pa_approval_rate_g",
+        "text": "get me the trend of approval rate by service type in last quarter"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "lob_entity",
+            "value": "LOB",
+            "end": 6
+          },
+          {
+            "start": 19,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 24
+          },
+          {
+            "start": 28,
+            "entity": "approve_rate",
+            "value": "approval rate",
+            "end": 41
+          }
+        ],
+        "intent": "pa_approval_rate_g",
+        "text": "by LOB what is the trend of approval rate "
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "lob_entity",
+            "value": "LOB",
+            "end": 6
+          },
+          {
+            "start": 19,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 24
+          },
+          {
+            "start": 28,
+            "entity": "approve_rate",
+            "value": "approval rate",
+            "end": 41
+          },
+          {
+            "start": 45,
+            "entity": "year",
+            "value": "2018",
+            "end": 49
+          },
+          {
+            "start": 50,
+            "entity": "month",
+            "value": "march",
+            "end": 55
+          }
+        ],
+        "intent": "pa_approval_rate_g",
+        "text": "by LOB what is the trend of approval rate in 2018 march"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 21,
+            "entity": "approve_rate",
+            "value": "approval rate",
+            "end": 34
+          },
+          {
+            "start": 35,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 40
+          },
+          {
+            "start": 44,
+            "entity": "tat_entity",
+            "value": "turnaround",
+            "end": 54
+          }
+        ],
+        "intent": "pa_approval_rate_g",
+        "text": "need to see trend of approval rate trend by turnaround time"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "approve_rate",
+            "value": "approval rate",
+            "end": 13
+          },
+          {
+            "start": 14,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 19
+          },
+          {
+            "start": 23,
+            "entity": "tat_entity",
+            "value": "TAT",
+            "end": 26
+          },
+          {
+            "start": 30,
+            "entity": "year",
+            "value": "2018",
+            "end": 34
+          },
+          {
+            "start": 35,
+            "entity": "month",
+            "value": "Nov",
+            "end": 38
+          }
+        ],
+        "intent": "pa_approval_rate_g",
+        "text": "approval rate trend by TAT in 2018 Nov"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 21,
+            "entity": "approve_rate",
+            "value": "approval rate",
+            "end": 34
+          },
+          {
+            "start": 38,
+            "entity": "tat_entity",
+            "value": "turnaround",
+            "end": 48
+          },
+          {
+            "start": 52,
+            "entity": "time_entity",
+            "value": "last 4 months",
+            "end": 65
+          }
+        ],
+        "intent": "pa_approval_rate_g",
+        "text": "display the trend of approval rate by turnaround in last 4 months"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "lob_entity",
+            "value": "lob",
+            "end": 6
+          },
+          {
+            "start": 31,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 39
+          },
+          {
+            "start": 40,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 45
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "by lob what is the PA requests received trend "
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 8
+          },
+          {
+            "start": 21,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 26
+          },
+          {
+            "start": 30,
+            "entity": "lob_entity",
+            "value": "LOB",
+            "end": 33
+          },
+          {
+            "start": 37,
+            "entity": "month",
+            "value": "August",
+            "end": 43
+          },
+          {
+            "start": 44,
+            "entity": "year",
+            "value": "2018",
+            "end": 48
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "received PA requests trend by LOB in August 2018"
+      },
+      {
+        "entities": [
+          {
+            "start": 11,
+            "entity": "denial_rate",
+            "value": "denial rate",
+            "end": 22
+          },
+          {
+            "start": 23,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 28
+          },
+          {
+            "start": 39,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 51
+          },
+          {
+            "start": 55,
+            "entity": "time_entity",
+            "value": "last quarter",
+            "end": 67
+          }
+        ],
+        "intent": "pa_denial_rate_g",
+        "text": "get me the denial rate trend for PA by service type in last quarter"
+      },
+      {
+        "entities": [
+          {
+            "start": 11,
+            "entity": "denial_rate",
+            "value": "denial rate",
+            "end": 22
+          },
+          {
+            "start": 23,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 28
+          },
+          {
+            "start": 39,
+            "entity": "service_cat_entity",
+            "value": "service category",
+            "end": 55
+          },
+          {
+            "start": 59,
+            "entity": "time_entity",
+            "value": "last quarter",
+            "end": 71
+          }
+        ],
+        "intent": "pa_denial_rate_g",
+        "text": "get me the denial rate trend for PA by service category in last quarter"
+      },
+      {
+        "entities": [
+          {
+            "start": 18,
+            "entity": "denial_actin",
+            "value": "denial",
+            "end": 24
+          },
+          {
+            "start": 25,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 30
+          },
+          {
+            "start": 34,
+            "entity": "serice_set_entity",
+            "value": "service setting",
+            "end": 49
+          },
+          {
+            "start": 58,
+            "entity": "month",
+            "value": "october",
+            "end": 65
+          },
+          {
+            "start": 53,
+            "entity": "year",
+            "value": "2018",
+            "end": 57
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "I need to see the denial trend by service setting in 2018 october"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "denial_rate",
+            "value": "denial rate",
+            "end": 11
+          },
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 21,
+            "entity": "serice_set_entity",
+            "value": "service category",
+            "end": 37
+          },
+          {
+            "start": 41,
+            "entity": "year",
+            "value": "2019",
+            "end": 45
+          }
+        ],
+        "intent": "pa_denial_rate_g",
+        "text": "denial rate trend by service category in 2019 "
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "denial_rate",
+            "value": "denial rate",
+            "end": 23
+          },
+          {
+            "start": 24,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 29
+          },
+          {
+            "start": 33,
+            "entity": "lob_entity",
+            "value": "LOB",
+            "end": 36
+          },
+          {
+            "start": 40,
+            "entity": "time_entity",
+            "value": "last 5 months",
+            "end": 53
+          }
+        ],
+        "intent": "pa_denial_rate_g",
+        "text": "show me the denial rate trend by LOB in last 5 months"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "denial_rate",
+            "value": "denial rate",
+            "end": 11
+          },
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 21,
+            "entity": "lob_entity",
+            "value": "line of business",
+            "end": 37
+          },
+          {
+            "start": 41,
+            "entity": "time_entity",
+            "value": "last 2 months",
+            "end": 54
+          }
+        ],
+        "intent": "pa_denial_rate_g",
+        "text": "denial rate trend by line of business in last 2 months"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "denial_rate",
+            "value": "denial rate",
+            "end": 11
+          },
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 21,
+            "entity": "serice_set_entity",
+            "value": "service setting",
+            "end": 36
+          },
+          {
+            "start": 40,
+            "entity": "year",
+            "value": "2018",
+            "end": 44
+          },
+          {
+            "start": 45,
+            "entity": "month",
+            "value": "september",
+            "end": 54
+          }
+        ],
+        "intent": "pa_denial_rate_g",
+        "text": "denial rate trend by service setting in 2018 september"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "tat_entity",
+            "value": "TAT",
+            "end": 6
+          },
+          {
+            "start": 20,
+            "entity": "denial_rate",
+            "value": "denial rate",
+            "end": 31
+          },
+          {
+            "start": 32,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 37
+          },
+          {
+            "start": 42,
+            "entity": "year",
+            "value": "2019",
+            "end": 46
+          },
+          {
+            "start": 47,
+            "entity": "time_entity",
+            "value": "last quarter",
+            "end": 59
+          }
+        ],
+        "intent": "pa_denial_rate_g",
+        "text": "By TAT, what is the denial rate trend for 2019 last quarter"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "tat_entity",
+            "value": "turnaround",
+            "end": 13
+          },
+          {
+            "start": 20,
+            "entity": "denial_rate",
+            "value": "denial rate",
+            "end": 31
+          },
+          {
+            "start": 32,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 37
+          },
+          {
+            "start": 42,
+            "entity": "year",
+            "value": "2018",
+            "end": 46
+          },
+          {
+            "start": 47,
+            "entity": "month",
+            "value": "October",
+            "end": 54
+          }
+        ],
+        "intent": "pa_denial_rate_g",
+        "text": "by turnaround time, denial rate trend for 2018 October"
+      },
+      {
+        "entities": [
+          {
+            "start": 8,
+            "entity": "top_entity",
+            "value": "top",
+            "end": 11
+          },
+          {
+            "start": 12,
+            "entity": "delay_actin",
+            "value": "delayed",
+            "end": 19
+          },
+          {
+            "start": 23,
+            "entity": "trend_entity",
+            "value": "trends",
+            "end": 29
+          }
+        ],
+        "intent": "pa_tat_delay",
+        "text": "show me top delayed PA trends"
+      },
+      {
+        "entities": [
+          {
+            "start": 7,
+            "entity": "top_entity",
+            "value": "top",
+            "end": 10
+          },
+          {
+            "start": 11,
+            "entity": "delay_actin",
+            "value": "delayed",
+            "end": 18
+          },
+          {
+            "start": 22,
+            "entity": "trend_entity",
+            "value": "trends",
+            "end": 28
+          },
+          {
+            "start": 32,
+            "entity": "service_cat_entity",
+            "value": "service category",
+            "end": 48
+          }
+        ],
+        "intent": "pa_tat_delay",
+        "text": "get me top delayed PA trends by service category"
+      },
+      {
+        "entities": [
+          {
+            "start": 7,
+            "entity": "top_entity",
+            "value": "top",
+            "end": 10
+          },
+          {
+            "start": 11,
+            "entity": "delay_actin",
+            "value": "delayed",
+            "end": 18
+          },
+          {
+            "start": 22,
+            "entity": "trend_entity",
+            "value": "trends",
+            "end": 28
+          },
+          {
+            "start": 32,
+            "entity": "service_cat_entity",
+            "value": "service category",
+            "end": 48
+          },
+          {
+            "start": 52,
+            "entity": "time_entity",
+            "value": "last quarter",
+            "end": 64
+          }
+        ],
+        "intent": "pa_tat_delay",
+        "text": "get me top delayed PA trends by service category in last quarter"
+      },
+      {
+        "entities": [
+          {
+            "start": 7,
+            "entity": "top_entity",
+            "value": "top",
+            "end": 10
+          },
+          {
+            "start": 11,
+            "entity": "delay_actin",
+            "value": "delayed",
+            "end": 18
+          },
+          {
+            "start": 22,
+            "entity": "trend_entity",
+            "value": "trends",
+            "end": 28
+          },
+          {
+            "start": 32,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 44
+          }
+        ],
+        "intent": "pa_tat_delay",
+        "text": "get me top delayed PA trends by service type"
+      },
+      {
+        "entities": [
+          {
+            "start": 7,
+            "entity": "top_entity",
+            "value": "top",
+            "end": 10
+          },
+          {
+            "start": 11,
+            "entity": "delay_actin",
+            "value": "delayed",
+            "end": 18
+          },
+          {
+            "start": 22,
+            "entity": "trend_entity",
+            "value": "trends",
+            "end": 28
+          },
+          {
+            "start": 32,
+            "entity": "serice_set_entity",
+            "value": "service setting",
+            "end": 47
+          }
+        ],
+        "intent": "pa_tat_delay",
+        "text": "get me top delayed PA trends by service setting"
+      },
+      {
+        "entities": [
+          {
+            "start": 7,
+            "entity": "top_entity",
+            "value": "top",
+            "end": 10
+          },
+          {
+            "start": 11,
+            "entity": "delay_actin",
+            "value": "delayed",
+            "end": 18
+          },
+          {
+            "start": 22,
+            "entity": "trend_entity",
+            "value": "trends",
+            "end": 28
+          },
+          {
+            "start": 32,
+            "entity": "lob_entity",
+            "value": "line of business",
+            "end": 48
+          },
+          {
+            "start": 53,
+            "entity": "year",
+            "value": "2018",
+            "end": 57
+          },
+          {
+            "start": 58,
+            "entity": "month",
+            "value": "November",
+            "end": 66
+          }
+        ],
+        "intent": "pa_tat_delay",
+        "text": "get me top delayed PA trends by line of business for 2018 November"
+      },
+      {
+        "entities": [
+          {
+            "start": 7,
+            "entity": "top_entity",
+            "value": "top",
+            "end": 10
+          },
+          {
+            "start": 11,
+            "entity": "delay_actin",
+            "value": "delayed",
+            "end": 18
+          },
+          {
+            "start": 22,
+            "entity": "trend_entity",
+            "value": "trends",
+            "end": 28
+          },
+          {
+            "start": 32,
+            "entity": "lob_entity",
+            "value": "lob",
+            "end": 35
+          },
+          {
+            "start": 40,
+            "entity": "time_entity",
+            "value": "second quarter",
+            "end": 54
+          },
+          {
+            "start": 58,
+            "entity": "year",
+            "value": "2018",
+            "end": 62
+          }
+        ],
+        "intent": "pa_tat_delay",
+        "text": "get me top delayed PA trends by lob for second quarter of 2018"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "year",
+            "value": "2018",
+            "end": 7
+          },
+          {
+            "start": 8,
+            "entity": "month",
+            "value": "August",
+            "end": 14
+          },
+          {
+            "start": 28,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 33
+          },
+          {
+            "start": 37,
+            "entity": "top_entity",
+            "value": "top",
+            "end": 40
+          },
+          {
+            "start": 41,
+            "entity": "delay_actin",
+            "value": "delayed",
+            "end": 48
+          },
+          {
+            "start": 55,
+            "entity": "tat_entity",
+            "value": "TAT",
+            "end": 58
+          }
+        ],
+        "intent": "pa_tat_delay",
+        "text": "in 2018 August, what is the trend of top delayed PA by TAT"
+      },
+      {
+        "entities": [
+          {
+            "start": 7,
+            "entity": "top_entity",
+            "value": "top",
+            "end": 10
+          },
+          {
+            "start": 11,
+            "entity": "delay_actin",
+            "value": "delayed",
+            "end": 18
+          },
+          {
+            "start": 22,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 27
+          },
+          {
+            "start": 31,
+            "entity": "lob_entity",
+            "value": "LOB",
+            "end": 34
+          },
+          {
+            "start": 39,
+            "entity": "year",
+            "value": "2018",
+            "end": 43
+          },
+          {
+            "start": 44,
+            "entity": "month",
+            "value": "November",
+            "end": 52
+          }
+        ],
+        "intent": "pa_tat_delay",
+        "text": "get me top delayed PA trend by LOB for 2018 November"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "lob_entity",
+            "value": "LOB",
+            "end": 6
+          },
+          {
+            "start": 20,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 25
+          },
+          {
+            "start": 29,
+            "entity": "approve_actin",
+            "value": "approved",
+            "end": 37
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "By LOB, what is the trend of approved PA "
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 21,
+            "entity": "approve_actin",
+            "value": "approved",
+            "end": 29
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "what is the trend of approved PA"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 5
+          },
+          {
+            "start": 12,
+            "entity": "denial_actin",
+            "value": "denials",
+            "end": 19
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "trend of PA denials"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 24,
+            "entity": "denial_actin",
+            "value": "denials",
+            "end": 31
+          },
+          {
+            "start": 35,
+            "entity": "lob_entity",
+            "value": "line of business",
+            "end": 51
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "what is the trend of PA denials by line of business"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 5
+          },
+          {
+            "start": 9,
+            "entity": "cancel_actin",
+            "value": "cancelled",
+            "end": 18
+          }
+        ],
+        "intent": "pa_trend_cancel_g",
+        "text": "trend of cancelled PA"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "cancel_actin",
+            "value": "cancellation",
+            "end": 15
+          },
+          {
+            "start": 16,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 21
+          },
+          {
+            "start": 25,
+            "entity": "tat_entity",
+            "value": "turnaround",
+            "end": 35
+          },
+          {
+            "start": 44,
+            "entity": "year",
+            "value": "2018",
+            "end": 48
+          },
+          {
+            "start": 49,
+            "entity": "month",
+            "value": "sep",
+            "end": 52
+          }
+        ],
+        "intent": "pa_trend_cancel_g",
+        "text": "PA cancellation trend by turnaround time in 2018 sep"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 5
+          },
+          {
+            "start": 12,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 20
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "trend of PA received requests"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 11
+          },
+          {
+            "start": 21,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 26
+          },
+          {
+            "start": 30,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 42
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "PA received requests trend by service type"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 11
+          },
+          {
+            "start": 21,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 26
+          },
+          {
+            "start": 30,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 42
+          },
+          {
+            "start": 46,
+            "entity": "time_entity",
+            "value": "first quarter",
+            "end": 59
+          },
+          {
+            "start": 60,
+            "entity": "year",
+            "value": "2018",
+            "end": 64
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "PA received requests trend by service type in first quarter 2018"
+      },
+      {
+        "entities": [
+          {
+            "start": 10,
+            "entity": "approve_actin",
+            "value": "approved",
+            "end": 18
+          },
+          {
+            "start": 22,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 27
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "how about approved PA trend "
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "approve_actin",
+            "value": "approved",
+            "end": 8
+          },
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 21,
+            "entity": "tat_entity",
+            "value": "TAT",
+            "end": 24
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "approved PA trend by TAT"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "cancel_actin",
+            "value": "Cancelled",
+            "end": 9
+          },
+          {
+            "start": 13,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 18
+          },
+          {
+            "start": 22,
+            "entity": "lob_entity",
+            "value": "LOB",
+            "end": 25
+          },
+          {
+            "start": 29,
+            "entity": "time_entity",
+            "value": "last 2 months",
+            "end": 42
+          }
+        ],
+        "intent": "pa_trend_cancel_g",
+        "text": "Cancelled PA trend by LOB in last 2 months"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "approve_rate",
+            "value": "approval rate",
+            "end": 13
+          },
+          {
+            "start": 14,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 19
+          },
+          {
+            "start": 23,
+            "entity": "lob_entity",
+            "value": "LOB",
+            "end": 26
+          }
+        ],
+        "intent": "pa_approval_rate_g",
+        "text": "approval rate trend by LOB"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "denial_rate",
+            "value": "denial rate",
+            "end": 11
+          },
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 21,
+            "entity": "year",
+            "value": "2019",
+            "end": 25
+          }
+        ],
+        "intent": "pa_denial_rate_g",
+        "text": "denial rate trend in 2019"
+      },
+      {
+        "entities": [
+          {
+            "start": 9,
+            "entity": "denial_actin",
+            "value": "denials",
+            "end": 16
+          },
+          {
+            "start": 0,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 5
+          },
+          {
+            "start": 23,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 31
+          },
+          {
+            "start": 35,
+            "entity": "lob_entity",
+            "value": "LOB",
+            "end": 38
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "trend of denials among received by LOB"
+      },
+      {
+        "entities": [
+          {
+            "start": 9,
+            "entity": "approve_actin",
+            "value": "approved",
+            "end": 17
+          },
+          {
+            "start": 0,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 5
+          },
+          {
+            "start": 24,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 32
+          },
+          {
+            "start": 36,
+            "entity": "lob_entity",
+            "value": "LOB",
+            "end": 39
+          },
+          {
+            "start": 43,
+            "entity": "year",
+            "value": "2019",
+            "end": 47
+          },
+          {
+            "start": 48,
+            "entity": "month",
+            "value": "july",
+            "end": 52
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "trend of approved among received by LOB in 2019 july"
+      },
+      {
+        "entities": [
+          {
+            "start": 6,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 14
+          },
+          {
+            "start": 19,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 24
+          },
+          {
+            "start": 28,
+            "entity": "cancel_actin",
+            "value": "cancelled",
+            "end": 37
+          }
+        ],
+        "intent": "pa_trend_cancel_g",
+        "text": "Among received PA, trend of cancelled requests "
+      },
+      {
+        "entities": [
+          {
+            "start": 17,
+            "entity": "line_entity",
+            "value": "line items",
+            "end": 27
+          },
+          {
+            "start": 32,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 41
+          }
+        ],
+        "intent": "pa_line_items",
+        "text": "get me number of line items for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 9,
+            "entity": "line_entity",
+            "value": "line items",
+            "end": 19
+          },
+          {
+            "start": 45,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 54
+          }
+        ],
+        "intent": "pa_line_items",
+        "text": "how many line items are there for PA request 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 10,
+            "entity": "line_entity",
+            "value": "line items",
+            "end": 20
+          },
+          {
+            "start": 24,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 33
+          }
+        ],
+        "intent": "pa_line_items",
+        "text": "how about line items in 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 10,
+            "entity": "line_entity",
+            "value": "line items",
+            "end": 20
+          },
+          {
+            "start": 24,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 33
+          }
+        ],
+        "intent": "pa_line_items",
+        "text": "number of line items in 138319349 "
+      },
+      {
+        "entities": [
+          {
+            "start": 25,
+            "entity": "line_entity",
+            "value": "line items",
+            "end": 35
+          },
+          {
+            "start": 39,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 48
+          }
+        ],
+        "intent": "pa_line_items",
+        "text": "I want to know number of line items in 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 17,
+            "entity": "line_entity",
+            "value": "instances",
+            "end": 26
+          },
+          {
+            "start": 30,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 39
+          }
+        ],
+        "intent": "pa_line_items",
+        "text": "get me number of instances in 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 24,
+            "entity": "line_entity",
+            "value": "items",
+            "end": 29
+          },
+          {
+            "start": 39,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 48
+          }
+        ],
+        "intent": "pa_line_items",
+        "text": "May I get the number of items there in 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 15,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 24
+          },
+          {
+            "start": 47,
+            "entity": "line_entity",
+            "value": "line items",
+            "end": 57
+          }
+        ],
+        "intent": "pa_line_items",
+        "text": "for PA request 138319349 what is the number of line items "
+      },
+      {
+        "entities": [
+          {
+            "start": 4,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 13
+          },
+          {
+            "start": 25,
+            "entity": "line_entity",
+            "value": "instances",
+            "end": 34
+          }
+        ],
+        "intent": "pa_line_items",
+        "text": "for 138319349, number of instances please"
+      },
+      {
+        "entities": [
+          {
+            "start": 10,
+            "entity": "line_entity",
+            "value": "items",
+            "end": 15
+          },
+          {
+            "start": 19,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 28
+          }
+        ],
+        "intent": "pa_line_items",
+        "text": "Number of items in 138319349 for PA"
+      },
+      {
+        "entities": [
+          {
+            "start": 22,
+            "entity": "line_entity",
+            "value": "components",
+            "end": 32
+          },
+          {
+            "start": 36,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 45
+          }
+        ],
+        "intent": "pa_line_items",
+        "text": "what is the number of components in 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 8,
+            "entity": "reasons_entity",
+            "value": "reasons",
+            "end": 15
+          },
+          {
+            "start": 20,
+            "entity": "denial_actin",
+            "value": "denials",
+            "end": 27
+          },
+          {
+            "start": 32,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 41
+          }
+        ],
+        "intent": "pa_denial_rsns",
+        "text": "show me reasons for denials for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 7,
+            "entity": "denial_actin",
+            "value": "denial",
+            "end": 13
+          },
+          {
+            "start": 14,
+            "entity": "reasons_entity",
+            "value": "reasons",
+            "end": 21
+          },
+          {
+            "start": 26,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 35
+          }
+        ],
+        "intent": "pa_denial_rsns",
+        "text": "get me denial reasons for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 4,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 13
+          },
+          {
+            "start": 23,
+            "entity": "top_entity",
+            "value": "top",
+            "end": 26
+          },
+          {
+            "start": 27,
+            "entity": "denial_actin",
+            "value": "denial",
+            "end": 33
+          },
+          {
+            "start": 34,
+            "entity": "reasons_entity",
+            "value": "reasons",
+            "end": 41
+          }
+        ],
+        "intent": "pa_denial_rsns",
+        "text": "for 138319349 what the top denial reasons "
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "reasons_entity",
+            "value": "reasons",
+            "end": 7
+          },
+          {
+            "start": 12,
+            "entity": "denial_actin",
+            "value": "denials",
+            "end": 19
+          },
+          {
+            "start": 38,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 47
+          }
+        ],
+        "intent": "pa_denial_rsns",
+        "text": "reasons for denials for PA request Id 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 14,
+            "entity": "reasons_entity",
+            "value": "reasons",
+            "end": 21
+          },
+          {
+            "start": 26,
+            "entity": "denial_actin",
+            "value": "denials",
+            "end": 33
+          },
+          {
+            "start": 38,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 47
+          }
+        ],
+        "intent": "pa_denial_rsns",
+        "text": "what are some reasons for denials for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "reasons_entity",
+            "value": "reasons",
+            "end": 7
+          },
+          {
+            "start": 12,
+            "entity": "denial_actin",
+            "value": "denials",
+            "end": 19
+          },
+          {
+            "start": 20,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 29
+          }
+        ],
+        "intent": "pa_denial_rsns",
+        "text": "reasons for denials 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "reasons_entity",
+            "value": "reasons",
+            "end": 19
+          },
+          {
+            "start": 24,
+            "entity": "denial_actin",
+            "value": "denials",
+            "end": 31
+          },
+          {
+            "start": 36,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 45
+          }
+        ],
+        "intent": "pa_denial_rsns",
+        "text": "Display the reasons for denials for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 4,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 13
+          },
+          {
+            "start": 28,
+            "entity": "denial_actin",
+            "value": "denial",
+            "end": 34
+          },
+          {
+            "start": 35,
+            "entity": "reasons_entity",
+            "value": "reasons",
+            "end": 42
+          }
+        ],
+        "intent": "pa_denial_rsns",
+        "text": "for 138319349, what are the denial reasons "
+      },
+      {
+        "entities": [
+          {
+            "start": 14,
+            "entity": "denial_actin",
+            "value": "denial",
+            "end": 20
+          },
+          {
+            "start": 21,
+            "entity": "reasons_entity",
+            "value": "reasons",
+            "end": 28
+          },
+          {
+            "start": 33,
+            "entity": "hsc_id",
+            "value": "138319349",
+            "end": 42
+          }
+        ],
+        "intent": "pa_denial_rsns",
+        "text": "how about the denial reasons for 138319349"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "lob_entity",
+            "value": "lob",
+            "end": 15
+          },
+          {
+            "start": 16,
+            "entity": "hsc_id",
+            "value": "141087599",
+            "end": 25
+          }
+        ],
+        "intent": "pa_lob",
+        "text": "what is the lob 141087599"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "lob_entity",
+            "value": "lob",
+            "end": 3
+          },
+          {
+            "start": 4,
+            "entity": "hsc_id",
+            "value": "141087599",
+            "end": 13
+          }
+        ],
+        "intent": "pa_lob",
+        "text": "lob 141087599"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "hsc_id",
+            "value": "141087599",
+            "end": 9
+          },
+          {
+            "start": 10,
+            "entity": "lob_entity",
+            "value": "lob",
+            "end": 13
+          }
+        ],
+        "intent": "pa_lob",
+        "text": "141087599 lob for this"
+      },
+      {
+        "entities": [
+          {
+            "start": 8,
+            "entity": "lob_entity",
+            "value": "lob",
+            "end": 11
+          },
+          {
+            "start": 24,
+            "entity": "hsc_id",
+            "value": "141087599",
+            "end": 33
+          }
+        ],
+        "intent": "pa_lob",
+        "text": "show me lob for this PA 141087599"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "lob_entity",
+            "value": "LOB",
+            "end": 3
+          },
+          {
+            "start": 8,
+            "entity": "hsc_id",
+            "value": "141087599",
+            "end": 17
+          }
+        ],
+        "intent": "pa_lob",
+        "text": "LOB for 141087599"
+      },
+      {
+        "entities": [
+          {
+            "start": 7,
+            "entity": "lob_entity",
+            "value": "lob",
+            "end": 10
+          },
+          {
+            "start": 15,
+            "entity": "hsc_id",
+            "value": "141087599",
+            "end": 24
+          }
+        ],
+        "intent": "pa_lob",
+        "text": "get me lob for 141087599"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "denial_actin",
+            "value": "denials",
+            "end": 19
+          },
+          {
+            "start": 20,
+            "entity": "reasons_entity",
+            "value": "reasons",
+            "end": 27
+          },
+          {
+            "start": 28,
+            "entity": "hsc_id",
+            "value": "141087599",
+            "end": 37
+          }
+        ],
+        "intent": "pa_denial_rsns",
+        "text": "show me the denials reasons 141087599"
+      },
+      {
+        "entities": [
+          {
+            "start": 7,
+            "entity": "denial_actin",
+            "value": "denial",
+            "end": 13
+          },
+          {
+            "start": 14,
+            "entity": "reasons_entity",
+            "value": "reason codes",
+            "end": 26
+          },
+          {
+            "start": 31,
+            "entity": "hsc_id",
+            "value": "141087599",
+            "end": 40
+          }
+        ],
+        "intent": "pa_denial_rsns",
+        "text": "get me denial reason codes for 141087599"
+      },
+      {
+        "entities": [
+          {
+            "start": 8,
+            "entity": "reasons_entity",
+            "value": "reasons",
+            "end": 15
+          },
+          {
+            "start": 20,
+            "entity": "denial_actin",
+            "value": "denial codes",
+            "end": 32
+          },
+          {
+            "start": 33,
+            "entity": "hsc_id",
+            "value": "141087599",
+            "end": 42
+          }
+        ],
+        "intent": "pa_denial_rsns",
+        "text": "show me reasons for denial codes 141087599"
+      },
+      {
+        "entities": [
+          {
+            "start": 24,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 32
+          },
+          {
+            "start": 37,
+            "entity": "time_entity",
+            "value": "last 3 months",
+            "end": 50
+          },
+          {
+            "start": 15,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 20
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "what is the PA trend of received for last 3 months"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 8
+          },
+          {
+            "start": 29,
+            "entity": "time_entity",
+            "value": "last 6 months",
+            "end": 42
+          },
+          {
+            "start": 18,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 23
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "received requests trend over last 6 months"
+      },
+      {
+        "entities": [
+          {
+            "start": 11,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 19
+          },
+          {
+            "start": 29,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 34
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "show me PA received requests trend from April 2018 to August 2018"
+      },
+      {
+        "entities": [
+          {
+            "start": 22,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 30
+          },
+          {
+            "start": 43,
+            "entity": "lob_entity",
+            "value": "LOB",
+            "end": 46
+          },
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "graph",
+            "end": 17
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "display the graph for received requests by LOB"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "lob_entity",
+            "value": "lob",
+            "end": 6
+          },
+          {
+            "start": 19,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 27
+          },
+          {
+            "start": 43,
+            "entity": "time_entity",
+            "value": "last year",
+            "end": 52
+          },
+          {
+            "start": 37,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 42
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "By lob what is the received requests trend last year"
+      },
+      {
+        "entities": [
+          {
+            "start": 13,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 21
+          },
+          {
+            "start": 40,
+            "entity": "time_entity",
+            "value": "last 8 months",
+            "end": 53
+          },
+          {
+            "start": 31,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 36
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "PA trend for received requests trend in last 8 months"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 8
+          },
+          {
+            "start": 27,
+            "entity": "serice_set_entity",
+            "value": "service setting",
+            "end": 42
+          },
+          {
+            "start": 18,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 23
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "received requests trend by service setting"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 8
+          },
+          {
+            "start": 27,
+            "entity": "service_cat_entity",
+            "value": "service category",
+            "end": 43
+          },
+          {
+            "start": 18,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 23
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "received requests trend by service category"
+      },
+      {
+        "entities": [
+          {
+            "start": 22,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 30
+          },
+          {
+            "start": 46,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 58
+          },
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "what is the trend for received PA requests by service type"
+      },
+      {
+        "entities": [
+          {
+            "start": 22,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 30
+          },
+          {
+            "start": 34,
+            "entity": "tat_entity",
+            "value": "TAT",
+            "end": 37
+          },
+          {
+            "start": 0,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 5
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "trend for PA requests received by TAT"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 8
+          },
+          {
+            "start": 34,
+            "entity": "time_entity",
+            "value": "last year",
+            "end": 43
+          },
+          {
+            "start": 18,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 23
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "received requests trend of PA for last year"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 8
+          },
+          {
+            "start": 21,
+            "entity": "tat_entity",
+            "value": "turnaround",
+            "end": 31
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "received requests by turnaround time"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 8
+          },
+          {
+            "start": 27,
+            "entity": "tat_entity",
+            "value": "tat",
+            "end": 30
+          },
+          {
+            "start": 18,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 23
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "received requests trend by tat"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "tat_entity",
+            "value": "turnaround",
+            "end": 13
+          },
+          {
+            "start": 37,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 45
+          },
+          {
+            "start": 27,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 32
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "by turnaround time what is trend for received requests"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "tat_entity",
+            "value": "TAT",
+            "end": 6
+          },
+          {
+            "start": 29,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 37
+          },
+          {
+            "start": 19,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 24
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "by TAT what is the trend for received requests "
+      },
+      {
+        "entities": [
+          {
+            "start": 9,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 17
+          },
+          {
+            "start": 34,
+            "entity": "lob_entity",
+            "value": "lob",
+            "end": 37
+          },
+          {
+            "start": 25,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 30
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "requests received for PA trend by lob"
+      },
+      {
+        "entities": [
+          {
+            "start": 9,
+            "entity": "rcvd_entity",
+            "value": "received",
+            "end": 17
+          },
+          {
+            "start": 34,
+            "entity": "lob_entity",
+            "value": "line of business",
+            "end": 50
+          },
+          {
+            "start": 25,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 30
+          }
+        ],
+        "intent": "pa_trend_g",
+        "text": "requests received for PA trend by line of business"
+      },
+      {
+        "entities": [
+          {
+            "start": 7,
+            "entity": "denial_actin",
+            "value": "denied",
+            "end": 13
+          },
+          {
+            "start": 32,
+            "entity": "lob_entity",
+            "value": "lob",
+            "end": 35
+          },
+          {
+            "start": 23,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 28
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "get me denied requests trend by lob "
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "denial_actin",
+            "value": "denied",
+            "end": 18
+          },
+          {
+            "start": 28,
+            "entity": "lob_entity",
+            "value": "line of business",
+            "end": 44
+          },
+          {
+            "start": 19,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 24
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "PA requests denied trend by line of business"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "denial_actin",
+            "value": "denials",
+            "end": 10
+          },
+          {
+            "start": 20,
+            "entity": "service_cat_entity",
+            "value": "service category",
+            "end": 36
+          },
+          {
+            "start": 11,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 16
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "PA denials trend by service category"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "denial_actin",
+            "value": "denial",
+            "end": 6
+          },
+          {
+            "start": 23,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 35
+          },
+          {
+            "start": 7,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 12
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "denial trend for PA by service type"
+      },
+      {
+        "entities": [
+          {
+            "start": 22,
+            "entity": "denial_actin",
+            "value": "denials",
+            "end": 29
+          },
+          {
+            "start": 33,
+            "entity": "serice_set_entity",
+            "value": "service setting",
+            "end": 48
+          },
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "PA requests trend for denials by service setting"
+      },
+      {
+        "entities": [
+          {
+            "start": 13,
+            "entity": "denial_actin",
+            "value": "denied",
+            "end": 19
+          },
+          {
+            "start": 32,
+            "entity": "tat_entity",
+            "value": "turnaround",
+            "end": 42
+          },
+          {
+            "start": 0,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 5
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "trend for PA denied requests by turnaround time"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "tat_entity",
+            "value": "TAT",
+            "end": 6
+          },
+          {
+            "start": 28,
+            "entity": "denial_actin",
+            "value": "denied",
+            "end": 34
+          },
+          {
+            "start": 19,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 24
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "By TAT what is the trend of denied requests for PA"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 5
+          },
+          {
+            "start": 12,
+            "entity": "denial_actin",
+            "value": "denied",
+            "end": 18
+          },
+          {
+            "start": 22,
+            "entity": "month",
+            "value": "sep",
+            "end": 25
+          },
+          {
+            "start": 26,
+            "entity": "year",
+            "value": "2018",
+            "end": 30
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "trend of PA denied in sep 2018 "
+      },
+      {
+        "entities": [
+          {
+            "start": 8,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 13
+          },
+          {
+            "start": 17,
+            "entity": "denial_actin",
+            "value": "denied",
+            "end": 23
+          },
+          {
+            "start": 30,
+            "entity": "time_entity",
+            "value": "last 7 months",
+            "end": 43
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "show me trend of denied PA in last 7 months"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 5
+          },
+          {
+            "start": 12,
+            "entity": "denial_actin",
+            "value": "denials",
+            "end": 19
+          },
+          {
+            "start": 23,
+            "entity": "tat_entity",
+            "value": "tat",
+            "end": 26
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "trend of PA denials by tat"
+      },
+      {
+        "entities": [
+          {
+            "start": 9,
+            "entity": "denial_actin",
+            "value": "denied",
+            "end": 15
+          },
+          {
+            "start": 16,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 21
+          },
+          {
+            "start": 25,
+            "entity": "tat_entity",
+            "value": "turnaround",
+            "end": 35
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "requests denied trend by turnaround "
+      },
+      {
+        "entities": [
+          {
+            "start": 17,
+            "entity": "denial_actin",
+            "value": "denied",
+            "end": 23
+          },
+          {
+            "start": 24,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 29
+          },
+          {
+            "start": 33,
+            "entity": "month",
+            "value": "Feb",
+            "end": 36
+          },
+          {
+            "start": 37,
+            "entity": "year",
+            "value": "2019",
+            "end": 41
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "show me requests denied trend in Feb 2019"
+      },
+      {
+        "entities": [
+          {
+            "start": 8,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 13
+          },
+          {
+            "start": 17,
+            "entity": "denial_actin",
+            "value": "denials",
+            "end": 24
+          },
+          {
+            "start": 31,
+            "entity": "month",
+            "value": "march",
+            "end": 36
+          },
+          {
+            "start": 37,
+            "entity": "year",
+            "value": "2019",
+            "end": 41
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "show me trend of denials PA in march 2019"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 17
+          },
+          {
+            "start": 21,
+            "entity": "denial_actin",
+            "value": "denials",
+            "end": 28
+          },
+          {
+            "start": 41,
+            "entity": "lob_entity",
+            "value": "line of business",
+            "end": 57
+          }
+        ],
+        "intent": "pa_trend_denial_g",
+        "text": "display the trend of denials requests by line of business"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "approve_actin",
+            "value": "approved",
+            "end": 8
+          },
+          {
+            "start": 21,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 26
+          },
+          {
+            "start": 30,
+            "entity": "lob_entity",
+            "value": "lob",
+            "end": 33
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "approved PA requests trend by lob"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "approve_actin",
+            "value": "approval",
+            "end": 20
+          },
+          {
+            "start": 21,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 26
+          },
+          {
+            "start": 30,
+            "entity": "lob_entity",
+            "value": "line of business",
+            "end": 46
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "PA requests approval trend by line of business"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "service_cat_entity",
+            "value": "service category",
+            "end": 19
+          },
+          {
+            "start": 32,
+            "entity": "approve_actin",
+            "value": "approved",
+            "end": 40
+          },
+          {
+            "start": 50,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 55
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "by service category what is the approved requests trend"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "approve_actin",
+            "value": "approval",
+            "end": 8
+          },
+          {
+            "start": 21,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 26
+          },
+          {
+            "start": 30,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 42
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "approval PA requests trend by service type"
+      },
+      {
+        "entities": [
+          {
+            "start": 7,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 12
+          },
+          {
+            "start": 17,
+            "entity": "approve_actin",
+            "value": "approved",
+            "end": 25
+          },
+          {
+            "start": 35,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 40
+          },
+          {
+            "start": 44,
+            "entity": "time_entity",
+            "value": "last 6 months",
+            "end": 57
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "get me trend for approved requests trend in last 6 months"
+      },
+      {
+        "entities": [
+          {
+            "start": 8,
+            "entity": "approve_actin",
+            "value": "approved",
+            "end": 16
+          },
+          {
+            "start": 20,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 25
+          },
+          {
+            "start": 29,
+            "entity": "month",
+            "value": "june",
+            "end": 33
+          },
+          {
+            "start": 34,
+            "entity": "year",
+            "value": "2018",
+            "end": 38
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "show me approved PA trend in june 2018"
+      },
+      {
+        "entities": [
+          {
+            "start": 5,
+            "entity": "month",
+            "value": "september",
+            "end": 14
+          },
+          {
+            "start": 15,
+            "entity": "year",
+            "value": "2018",
+            "end": 19
+          },
+          {
+            "start": 23,
+            "entity": "month",
+            "value": "April",
+            "end": 28
+          },
+          {
+            "start": 29,
+            "entity": "year",
+            "value": "2019",
+            "end": 33
+          },
+          {
+            "start": 46,
+            "entity": "approve_actin",
+            "value": "approved",
+            "end": 54
+          },
+          {
+            "start": 55,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 60
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "from september 2018 to April 2019 what is the approved trend for PA"
+      },
+      {
+        "entities": [
+          {
+            "start": 16,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 21
+          },
+          {
+            "start": 26,
+            "entity": "approve_actin",
+            "value": "approved",
+            "end": 34
+          },
+          {
+            "start": 41,
+            "entity": "tat_entity",
+            "value": "tat",
+            "end": 44
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "need to see the trend for approved pa by tat"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "approve_actin",
+            "value": "approved",
+            "end": 8
+          },
+          {
+            "start": 21,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 26
+          },
+          {
+            "start": 30,
+            "entity": "time_entity",
+            "value": "last 2 months",
+            "end": 43
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "approved PA requests trend in last 2 months"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "approve_actin",
+            "value": "approvals",
+            "end": 9
+          },
+          {
+            "start": 10,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 15
+          },
+          {
+            "start": 26,
+            "entity": "time_entity",
+            "value": "last 2 years",
+            "end": 38
+          }
+        ],
+        "intent": "pa_trend_approve_g",
+        "text": "approvals trend for PA in last 2 years"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "entity": "cancel_actin",
+            "value": "cancelled",
+            "end": 21
+          },
+          {
+            "start": 22,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 27
+          },
+          {
+            "start": 38,
+            "entity": "time_entity",
+            "value": "last 4 months",
+            "end": 51
+          }
+        ],
+        "intent": "pa_trend_cancel_g",
+        "text": "what is the cancelled trend for PA in last 4 months"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 5
+          },
+          {
+            "start": 13,
+            "entity": "cancel_actin",
+            "value": "cancellations",
+            "end": 26
+          },
+          {
+            "start": 30,
+            "entity": "time_entity",
+            "value": "last 6 months",
+            "end": 43
+          }
+        ],
+        "intent": "pa_trend_cancel_g",
+        "text": "trend for PA cancellations in last 6 months"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "cancel_actin",
+            "value": "cancelled",
+            "end": 9
+          },
+          {
+            "start": 22,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 27
+          },
+          {
+            "start": 31,
+            "entity": "lob_entity",
+            "value": "line of business",
+            "end": 47
+          }
+        ],
+        "intent": "pa_trend_cancel_g",
+        "text": "cancelled PA requests trend by line of business"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "lob_entity",
+            "value": "LOB",
+            "end": 6
+          },
+          {
+            "start": 19,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 24
+          },
+          {
+            "start": 32,
+            "entity": "cancel_actin",
+            "value": "cancelled",
+            "end": 41
+          }
+        ],
+        "intent": "pa_trend_cancel_g",
+        "text": "By LOB what is the trend for PA cancelled requests"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "lob_entity",
+            "value": "line of business",
+            "end": 19
+          },
+          {
+            "start": 28,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 33
+          },
+          {
+            "start": 37,
+            "entity": "cancel_actin",
+            "value": "cancellations",
+            "end": 50
+          }
+        ],
+        "intent": "pa_trend_cancel_g",
+        "text": "by line of business, get me trend of cancellations for PA"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 5
+          },
+          {
+            "start": 9,
+            "entity": "cancel_actin",
+            "value": "cancelled",
+            "end": 18
+          },
+          {
+            "start": 31,
+            "entity": "service_entity",
+            "value": "service type",
+            "end": 43
+          }
+        ],
+        "intent": "pa_trend_cancel_g",
+        "text": "trend of cancelled requests by service type"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "cancel_actin",
+            "value": "cancelled",
+            "end": 12
+          },
+          {
+            "start": 22,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 27
+          },
+          {
+            "start": 31,
+            "entity": "service_cat_entity",
+            "value": "service category",
+            "end": 47
+          }
+        ],
+        "intent": "pa_trend_cancel_g",
+        "text": "PA cancelled requests trend by service category"
+      },
+      {
+        "entities": [
+          {
+            "start": 3,
+            "entity": "serice_set_entity",
+            "value": "service setting",
+            "end": 18
+          },
+          {
+            "start": 31,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 36
+          },
+          {
+            "start": 41,
+            "entity": "cancel_actin",
+            "value": "cancelled",
+            "end": 50
+          }
+        ],
+        "intent": "pa_trend_cancel_g",
+        "text": "by service setting what is the trend for cancelled PA requests"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "cancel_actin",
+            "value": "cancellations",
+            "end": 13
+          },
+          {
+            "start": 14,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 19
+          },
+          {
+            "start": 23,
+            "entity": "serice_set_entity",
+            "value": "service setting",
+            "end": 38
+          }
+        ],
+        "intent": "pa_trend_cancel_g",
+        "text": "cancellations trend by service setting"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "entity": "cancel_actin",
+            "value": "cancellations",
+            "end": 13
+          },
+          {
+            "start": 14,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 19
+          },
+          {
+            "start": 30,
+            "entity": "time_entity",
+            "value": "last quarter",
+            "end": 42
+          }
+        ],
+        "intent": "pa_trend_cancel_g",
+        "text": "cancellations trend of PA for last quarter"
+      },
+      {
+        "entities": [
+          {
+            "start": 11,
+            "entity": "cancel_actin",
+            "value": "cancelled",
+            "end": 20
+          },
+          {
+            "start": 24,
+            "entity": "trend_entity",
+            "value": "trend",
+            "end": 29
+          },
+          {
+            "start": 33,
+            "entity": "time_entity",
+            "value": "last 5 months",
+            "end": 46
+          }
+        ],
+        "intent": "pa_trend_cancel_g",
+        "text": "let me see cancelled PA trend in last 5 months"
+      }
+    ],
+    "lookup_tables": [],
+    "entity_synonyms": [],
+    "regex_features": []
+  }
+}

@@ -1,0 +1,4085 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [],
+    "lookup_tables": [],
+    "common_examples": [
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 42,
+            "start": 32,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what is the status of the claim 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 10,
+            "start": 0,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "7454192603 status"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 64,
+            "start": 54,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what is the status of the claim with reference number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 57,
+            "start": 47,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what is the status of the claim with id number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 56,
+            "start": 46,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what is the status of the claim with claim id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 60,
+            "start": 50,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what is the status of the claim with claim number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 50,
+            "start": 40,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what is the status of the claim with id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 32,
+            "start": 22,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what is the status of 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 57,
+            "start": 47,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what is the status of the claim with reference 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 66,
+            "start": 56,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what is the status of the claim having reference number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 59,
+            "start": 49,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what is the status of the claim having id number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 58,
+            "start": 48,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what is the status of the claim having claim id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 62,
+            "start": 52,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what is the status of the claim having claim number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 52,
+            "start": 42,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what is the status of the claim having id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 59,
+            "start": 49,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what is the status of the claim having reference 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 70,
+            "start": 60,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what is the status of the claim possessing reference number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 63,
+            "start": 53,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what is the status of the claim possessing id number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 62,
+            "start": 52,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what is the status of the claim possessing claim id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 66,
+            "start": 56,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what is the status of the claim possessing claim number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 56,
+            "start": 46,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what is the status of the claim possessing id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 63,
+            "start": 53,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what is the status of the claim possessing reference 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 24,
+            "start": 14,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what is claim 7454192603 status?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 18,
+            "start": 8,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what is 7454192603 status?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 41,
+            "start": 31,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "i need the status of the claim 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 63,
+            "start": 53,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "i need the status of the claim with reference number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 56,
+            "start": 46,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "i need the status of the claim with id number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 55,
+            "start": 45,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "i need the status of the claim with claim id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 59,
+            "start": 49,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "i need the status of the claim with claim number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 49,
+            "start": 39,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "i need the status of the claim with id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 31,
+            "start": 21,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "i need the status of 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 56,
+            "start": 46,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "i need the status of the claim with reference 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 65,
+            "start": 55,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "i need the status of the claim having reference number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 58,
+            "start": 48,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "i need the status of the claim having id number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 57,
+            "start": 47,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "i need the status of the claim having claim id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 61,
+            "start": 51,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "i need the status of the claim having claim number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 51,
+            "start": 41,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "i need the status of the claim having id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 58,
+            "start": 48,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "i need the status of the claim having reference 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 69,
+            "start": 59,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "i need the status of the claim possessing reference number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 62,
+            "start": 52,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "i need the status of the claim possessing id number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 61,
+            "start": 51,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "i need the status of the claim possessing claim id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 65,
+            "start": 55,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "i need the status of the claim possessing claim number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 55,
+            "start": 45,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "i need the status of the claim possessing id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 62,
+            "start": 52,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "i need the status of the claim possessing reference 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 23,
+            "start": 13,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "i need claim 7454192603 status"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 17,
+            "start": 7,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "i need 7454192603 status"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 41,
+            "start": 31,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "get me the status of the claim 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 63,
+            "start": 53,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "get me the status of the claim with reference number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 56,
+            "start": 46,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "get me the status of the claim with id number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 55,
+            "start": 45,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "get me the status of the claim with claim id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 59,
+            "start": 49,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "get me the status of the claim with claim number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 49,
+            "start": 39,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "get me the status of the claim with id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 31,
+            "start": 21,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "get me the status of 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 56,
+            "start": 46,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "get me the status of the claim with reference 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 65,
+            "start": 55,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "get me the status of the claim having reference number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 58,
+            "start": 48,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "get me the status of the claim having id number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 57,
+            "start": 47,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "get me the status of the claim having claim id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 61,
+            "start": 51,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "get me the status of the claim having claim number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 51,
+            "start": 41,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "get me the status of the claim having id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 58,
+            "start": 48,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "get me the status of the claim having reference 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 69,
+            "start": 59,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "get me the status of the claim possessing reference number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 62,
+            "start": 52,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "get me the status of the claim possessing id number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 61,
+            "start": 51,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "get me the status of the claim possessing claim id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 65,
+            "start": 55,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "get me the status of the claim possessing claim number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 55,
+            "start": 45,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "get me the status of the claim possessing id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 62,
+            "start": 52,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "get me the status of the claim possessing reference 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 23,
+            "start": 13,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "get me claim 7454192603 status"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 17,
+            "start": 7,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "get me 7454192603 status"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 59,
+            "start": 49,
+            "entity": "claim_number",
+            "value": "7454175970"
+          }
+        ],
+        "text": "How much time was taken for UHC to process Claim 7454175970"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 59,
+            "start": 49,
+            "entity": "claim_number",
+            "value": "7454176508"
+          }
+        ],
+        "text": "How much time was taken for UHC to process Claim 7454176508"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 59,
+            "start": 49,
+            "entity": "claim_number",
+            "value": "7454180740"
+          }
+        ],
+        "text": "How much time was taken for UHC to process Claim 7454180740"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 59,
+            "start": 49,
+            "entity": "claim_number",
+            "value": "7454185749"
+          }
+        ],
+        "text": "How much time was taken for UHC to process Claim 7454185749"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 46,
+            "start": 36,
+            "entity": "claim_number",
+            "value": "7454185749"
+          }
+        ],
+        "text": "How may days taken to process claim 7454185749"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 46,
+            "start": 36,
+            "entity": "claim_number",
+            "value": "7454180740"
+          }
+        ],
+        "text": "How may days taken to process claim 7454180740"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 46,
+            "start": 36,
+            "entity": "claim_number",
+            "value": "7454176508"
+          }
+        ],
+        "text": "How may days taken to process claim 7454176508"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 56,
+            "start": 46,
+            "entity": "claim_number",
+            "value": "7454175970"
+          }
+        ],
+        "text": "How may number of days taken to process claim 7454175970"
+      },
+      {
+        "intent": "time",
+        "text": "how many number of days taken for UHC to process claim"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 46,
+            "start": 36,
+            "entity": "claim_number",
+            "value": "7454175970"
+          }
+        ],
+        "text": "How may days taken to process claim 7454175970"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 51,
+            "start": 41,
+            "entity": "claim_number",
+            "value": "7454175970"
+          }
+        ],
+        "text": "How long did it take to process my claim 7454175970"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 51,
+            "start": 41,
+            "entity": "claim_number",
+            "value": "7454176508"
+          }
+        ],
+        "text": "How long did it take to process my claim 7454176508"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 51,
+            "start": 41,
+            "entity": "claim_number",
+            "value": "7454180740"
+          }
+        ],
+        "text": "How long did it take to process my claim 7454180740"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 51,
+            "start": 41,
+            "entity": "claim_number",
+            "value": "7454185749"
+          }
+        ],
+        "text": "How long did it take to process my claim 7454185749"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 56,
+            "start": 46,
+            "entity": "claim_number",
+            "value": "7454185749"
+          }
+        ],
+        "text": "what is the time period took to process claim 7454185749"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 56,
+            "start": 46,
+            "entity": "claim_number",
+            "value": "7454180740"
+          }
+        ],
+        "text": "what is the time period took to process claim 7454180740"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 56,
+            "start": 46,
+            "entity": "claim_number",
+            "value": "7454176508"
+          }
+        ],
+        "text": "what is the time period took to process claim 7454176508"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 56,
+            "start": 46,
+            "entity": "claim_number",
+            "value": "7454175970"
+          }
+        ],
+        "text": "what is the time period took to process claim 7454175970"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 51,
+            "start": 41,
+            "entity": "claim_number",
+            "value": "7454175970"
+          }
+        ],
+        "text": "what's the processing time for the claim 7454175970"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 51,
+            "start": 41,
+            "entity": "claim_number",
+            "value": "7454176508"
+          }
+        ],
+        "text": "what's the processing time for the claim 7454176508"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 51,
+            "start": 41,
+            "entity": "claim_number",
+            "value": "7454180740"
+          }
+        ],
+        "text": "what's the processing time for the claim 7454180740"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 51,
+            "start": 41,
+            "entity": "claim_number",
+            "value": "7454185749"
+          }
+        ],
+        "text": "what's the processing time for the claim 7454185749"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 49,
+            "start": 39,
+            "entity": "claim_number",
+            "value": "7454185749"
+          }
+        ],
+        "text": "what's the time taken to process claim 7454185749"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 49,
+            "start": 39,
+            "entity": "claim_number",
+            "value": "7454180740"
+          }
+        ],
+        "text": "what's the time taken to process claim 7454180740"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 49,
+            "start": 39,
+            "entity": "claim_number",
+            "value": "7454176508"
+          }
+        ],
+        "text": "what's the time taken to process claim 7454176508"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 49,
+            "start": 39,
+            "entity": "claim_number",
+            "value": "7454175970"
+          }
+        ],
+        "text": "what's the time taken to process claim 7454175970"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 56,
+            "start": 46,
+            "entity": "claim_number",
+            "value": "7454175970"
+          }
+        ],
+        "text": "what is period of time taken to process claim 7454175970"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 56,
+            "start": 46,
+            "entity": "claim_number",
+            "value": "7454180740"
+          }
+        ],
+        "text": "what is period of time taken to process claim 7454180740"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 56,
+            "start": 46,
+            "entity": "claim_number",
+            "value": "7454176508"
+          }
+        ],
+        "text": "what is period of time taken to process claim 7454176508"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 56,
+            "start": 46,
+            "entity": "claim_number",
+            "value": "7454185749"
+          }
+        ],
+        "text": "what is period of time taken to process claim 7454185749"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 45,
+            "start": 35,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "provide me the status of the claim 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 67,
+            "start": 57,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "provide me the status of the claim with reference number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 60,
+            "start": 50,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "provide me the status of the claim with id number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 59,
+            "start": 49,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "provide me the status of the claim with claim id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 63,
+            "start": 53,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "provide me the status of the claim with claim number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 53,
+            "start": 43,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "provide me the status of the claim with id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 35,
+            "start": 25,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "provide me the status of 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 60,
+            "start": 50,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "provide me the status of the claim with reference 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 69,
+            "start": 59,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "provide me the status of the claim having reference number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 62,
+            "start": 52,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "provide me the status of the claim having id number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 61,
+            "start": 51,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "provide me the status of the claim having claim id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 65,
+            "start": 55,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "provide me the status of the claim having claim number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 55,
+            "start": 45,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "provide me the status of the claim having id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 62,
+            "start": 52,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "provide me the status of the claim having reference 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 73,
+            "start": 63,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "provide me the status of the claim possessing reference number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 66,
+            "start": 56,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "provide me the status of the claim possessing id number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 65,
+            "start": 55,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "provide me the status of the claim possessing claim id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 69,
+            "start": 59,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "provide me the status of the claim possessing claim number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 59,
+            "start": 49,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "provide me the status of the claim possessing id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 66,
+            "start": 56,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "provide me the status of the claim possessing reference 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 27,
+            "start": 17,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "provide me claim 7454192603 status"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 21,
+            "start": 11,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "provide me 7454192603 status"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 40,
+            "start": 30,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "fetch the status of the claim 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 62,
+            "start": 52,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "fetch the status of the claim with reference number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 55,
+            "start": 45,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "fetch the status of the claim with id number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 54,
+            "start": 44,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "fetch the status of the claim with claim id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 58,
+            "start": 48,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "fetch the status of the claim with claim number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 48,
+            "start": 38,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "fetch the status of the claim with id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 30,
+            "start": 20,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "fetch the status of 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 55,
+            "start": 45,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "fetch the status of the claim with reference 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 64,
+            "start": 54,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "fetch the status of the claim having reference number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 57,
+            "start": 47,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "fetch the status of the claim having id number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 56,
+            "start": 46,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "fetch the status of the claim having claim id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 60,
+            "start": 50,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "fetch the status of the claim having claim number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 50,
+            "start": 40,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "fetch the status of the claim having id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 57,
+            "start": 47,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "fetch the status of the claim having reference 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 68,
+            "start": 58,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "fetch the status of the claim possessing reference number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 61,
+            "start": 51,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "fetch the status of the claim possessing id number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 60,
+            "start": 50,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "fetch the status of the claim possessing claim id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 64,
+            "start": 54,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "fetch the status of the claim possessing claim number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 54,
+            "start": 44,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "fetch the status of the claim possessing id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 61,
+            "start": 51,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "fetch the status of the claim possessing reference 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 22,
+            "start": 12,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "fetch claim 7454192603 status"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 16,
+            "start": 6,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "fetch 7454192603 status"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 45,
+            "start": 35,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "can i know the status of the claim 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 67,
+            "start": 57,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "can i know the status of the claim with reference number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 60,
+            "start": 50,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "can i know the status of the claim with id number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 59,
+            "start": 49,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "can i know the status of the claim with claim id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 63,
+            "start": 53,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "can i know the status of the claim with claim number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 53,
+            "start": 43,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "can i know the status of the claim with id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 35,
+            "start": 25,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "can i know the status of 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 60,
+            "start": 50,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "can i know the status of the claim with reference 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 69,
+            "start": 59,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "can i know the status of the claim having reference number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 62,
+            "start": 52,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "can i know the status of the claim having id number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 61,
+            "start": 51,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "can i know the status of the claim having claim id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 65,
+            "start": 55,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "can i know the status of the claim having claim number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 55,
+            "start": 45,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "can i know the status of the claim having id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 62,
+            "start": 52,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "can i know the status of the claim having reference 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 73,
+            "start": 63,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "can i know the status of the claim possessing reference number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 66,
+            "start": 56,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "can i know the status of the claim possessing id number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 65,
+            "start": 55,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "can i know the status of the claim possessing claim id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 69,
+            "start": 59,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "can i know the status of the claim possessing claim number 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 59,
+            "start": 49,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "can i know the status of the claim possessing id 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 66,
+            "start": 56,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "can i know the status of the claim possessing reference 7454192603?"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 27,
+            "start": 17,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "can i know claim 7454192603 status"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 21,
+            "start": 11,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "can i know 7454192603 status"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 10,
+            "start": 0,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "7454192603 status"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 10,
+            "start": 0,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "7454192603 status please"
+      },
+      {
+        "intent": "status",
+        "entities": [
+          {
+            "end": 20,
+            "start": 10,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "status of 7454192603"
+      },
+      {
+        "intent": "time",
+        "text": "how much time taken to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "how much time was taken to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "how much time did it take to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "how much time it took to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "how much time taken for claim processing"
+      },
+      {
+        "intent": "time",
+        "text": "how much time was taken for claim processing"
+      },
+      {
+        "intent": "time",
+        "text": "how much time did it take for claim processing"
+      },
+      {
+        "intent": "time",
+        "text": "how much time it took for claim processing"
+      },
+      {
+        "intent": "time",
+        "text": "how much time taken to claim for it's action"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 63,
+            "start": 53,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how much time taken to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 67,
+            "start": 57,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how much time was taken to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 69,
+            "start": 59,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how much time did it take to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 65,
+            "start": 55,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how much time it took to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 56,
+            "start": 46,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how much time taken for claim having claim id 7454192603 processing"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 60,
+            "start": 50,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how much time was taken for claim having claim id 7454192603 processing"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 62,
+            "start": 52,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how much time did it take for claim having claim id 7454192603 processing"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 58,
+            "start": 48,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how much time it took for claim having claim id 7454192603 processing"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 55,
+            "start": 45,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how much time taken to claim having claim id 7454192603 for it's action"
+      },
+      {
+        "intent": "time",
+        "text": "what's the time period taken to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "what the time period took to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "what's the time period taken for claim processing"
+      },
+      {
+        "intent": "time",
+        "text": "what’s the time period took for claim processing"
+      },
+      {
+        "intent": "time",
+        "text": "what's the time period that has taken to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "what's the time period that have taken to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "what's the time period that has taken for claim processing"
+      },
+      {
+        "intent": "time",
+        "text": "what's the time period that have taken for claim processing"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 72,
+            "start": 62,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the time period taken to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 69,
+            "start": 59,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what the time period took to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 65,
+            "start": 55,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the time period taken for claim having claim id 7454192603 processing"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 64,
+            "start": 54,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what’s the time period took for claim having claim id 7454192603 processing"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 81,
+            "start": 71,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the time period that has taken to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 82,
+            "start": 72,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the time period that have taken to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 74,
+            "start": 64,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the time period that has taken for claim having claim id 7454192603 processing"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 75,
+            "start": 65,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the time period that have taken for claim having claim id 7454192603 processing"
+      },
+      {
+        "intent": "time",
+        "text": "how many days taken to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "how many days was taken to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "how many days did it take to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "how many days it took to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "how many days taken for claim processing"
+      },
+      {
+        "intent": "time",
+        "text": "how many days was taken for claim processing"
+      },
+      {
+        "intent": "time",
+        "text": "how many days did it take for claim processing"
+      },
+      {
+        "intent": "time",
+        "text": "how many days it took for claim processing"
+      },
+      {
+        "intent": "time",
+        "text": "how many days taken to claim for it's action"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 63,
+            "start": 53,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how many days taken to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 67,
+            "start": 57,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how many days was taken to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 69,
+            "start": 59,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how many days did it take to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 65,
+            "start": 55,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how many days it took to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 56,
+            "start": 46,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how many days taken for claim having claim id 7454192603 processing"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 60,
+            "start": 50,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how many days was taken for claim having claim id 7454192603 processing"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 60,
+            "start": 50,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how many days was taken for claim having claim id 7454192603 processing"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 62,
+            "start": 52,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how many days did it take for claim having claim id 7454192603 processing"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 58,
+            "start": 48,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how many days it took for claim having claim id 7454192603 processing"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 55,
+            "start": 45,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how many days taken to claim having claim id 7454192603 for it's action"
+      },
+      {
+        "intent": "time",
+        "text": "what's the processing time taken to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "what the processing time took to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "what's the processing time taken for claim processing"
+      },
+      {
+        "intent": "time",
+        "text": "what’s the processing time took for claim processing"
+      },
+      {
+        "intent": "time",
+        "text": "what's the processing time that has taken to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "what's the processing time that have taken to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "what's the processing time that has taken for claim processing"
+      },
+      {
+        "intent": "time",
+        "text": "what's the processing time that have taken for claim processing"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 76,
+            "start": 66,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the processing time taken to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 73,
+            "start": 63,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what the processing time took to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 69,
+            "start": 59,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the processing time taken for claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 68,
+            "start": 58,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what’s the processing time took for claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 85,
+            "start": 75,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the processing time that has taken to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 86,
+            "start": 76,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the processing time that have taken to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 78,
+            "start": 68,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the processing time that has taken for claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 79,
+            "start": 69,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the processing time that have taken for claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "text": "how many days taken to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "how many days was taken to process laim"
+      },
+      {
+        "intent": "time",
+        "text": "how many days did it take to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "how many days it took to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "how many days taken for claim processing"
+      },
+      {
+        "intent": "time",
+        "text": "how many days was taken for claim processing"
+      },
+      {
+        "intent": "time",
+        "text": "how long did it take for claim processing"
+      },
+      {
+        "intent": "time",
+        "text": "how many days it took for claim processing"
+      },
+      {
+        "intent": "time",
+        "text": "how may days taken to claim for it's action"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 63,
+            "start": 53,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how many days taken to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 68,
+            "start": 58,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how many days were taken to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 69,
+            "start": 59,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how many days did it take to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 65,
+            "start": 55,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how many days it took to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 56,
+            "start": 46,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how many days taken for claim having claim id 7454192603 processing"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 61,
+            "start": 51,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how many days were taken for claim having claim id 7454192603 processing"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 62,
+            "start": 52,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how many days did it take for claim having claim id 7454192603 processing"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 58,
+            "start": 48,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how many days it took for claim having claim id 7454192603 processing"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 55,
+            "start": 45,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how many days taken to claim having claim id 7454192603 for it's action"
+      },
+      {
+        "intent": "time",
+        "text": "what's the duration time taken to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "what the duration took to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "what's the duration taken for claim processing"
+      },
+      {
+        "intent": "time",
+        "text": "what’s the duration took for claim processing"
+      },
+      {
+        "intent": "time",
+        "text": "what's the duration that has taken to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "what’s the duration  took for claim processing"
+      },
+      {
+        "intent": "time",
+        "text": "what's the duration  that has taken to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "what's the duration  that have taken to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "what's the duration  that has taken for claim processing"
+      },
+      {
+        "intent": "time",
+        "text": "what's the duration  that have taken for claim processing"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 70,
+            "start": 60,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the duration  taken to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 68,
+            "start": 58,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the duration took to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 63,
+            "start": 53,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the duration  taken for claim having claim id 7454192603 processing"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 61,
+            "start": 51,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what’s the duration took for claim having claim id 7454192603 processing"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 79,
+            "start": 69,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the duration  that has taken to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 80,
+            "start": 70,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the duration  that have taken to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 72,
+            "start": 62,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the duration  that has taken for claim having claim id 7454192603 processing"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 73,
+            "start": 63,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the duration  that have taken for claim having claim id 7454192603 processing"
+      },
+      {
+        "intent": "time",
+        "text": "what's the time span taken to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "what the time span took to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "what's the time span  taken for claim processing"
+      },
+      {
+        "intent": "time",
+        "text": "what’s the time span  took for claim processing"
+      },
+      {
+        "intent": "time",
+        "text": "what's the time span  that has taken to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "what's the time span  that have taken to process claim"
+      },
+      {
+        "intent": "time",
+        "text": "what's the time span  that has taken for claim processing"
+      },
+      {
+        "intent": "time",
+        "text": "what's the time span  that have taken for claim processing"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 71,
+            "start": 61,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the time span  taken to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 69,
+            "start": 59,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the time span took to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 64,
+            "start": 54,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the time span  taken for claim having claim id 7454192603 processing"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 62,
+            "start": 52,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what’s the time span took for claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 80,
+            "start": 70,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the time span  that has taken to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 81,
+            "start": 71,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the time span  that have taken to process claim having claim id 7454192603"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 73,
+            "start": 63,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the time span  that has taken for claim having claim id 7454192603 processing"
+      },
+      {
+        "intent": "time",
+        "entities": [
+          {
+            "end": 74,
+            "start": 64,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the time span  that have taken for claim having claim id 7454192603 processing"
+      },
+      {
+        "intent": "denial_reason",
+        "entities": [
+          {
+            "end": 22,
+            "start": 16,
+            "entity": "denial_action",
+            "value": "denied"
+          }
+        ],
+        "text": "why is my claim denied"
+      },
+      {
+        "intent": "denial_reason",
+        "entities": [
+          {
+            "end": 44,
+            "start": 34,
+            "entity": "claim_number",
+            "value": "7454192603"
+          },
+          {
+            "end": 55,
+            "start": 49,
+            "entity": "denial_action",
+            "value": "denied"
+          }
+        ],
+        "text": "why is my claim with claim number 7454192603 got denied"
+      },
+      {
+        "intent": "denial_reason",
+        "entities": [
+          {
+            "end": 46,
+            "start": 40,
+            "entity": "denial_action",
+            "value": "denied"
+          }
+        ],
+        "text": "what's the reason for which my claim is denied"
+      },
+      {
+        "intent": "denial_reason",
+        "entities": [
+          {
+            "end": 61,
+            "start": 51,
+            "entity": "claim_number",
+            "value": "7454192603"
+          },
+          {
+            "end": 68,
+            "start": 62,
+            "entity": "denial_action",
+            "value": "denial"
+          }
+        ],
+        "text": "what's the reason for which my claim with claim id 7454192603 denial"
+      },
+      {
+        "intent": "denial_reason",
+        "entities": [
+          {
+            "end": 40,
+            "start": 34,
+            "entity": "denial_action",
+            "value": "denial"
+          }
+        ],
+        "text": "what's the reason behind my claim denial"
+      },
+      {
+        "intent": "denial_reason",
+        "entities": [
+          {
+            "end": 69,
+            "start": 59,
+            "entity": "claim_number",
+            "value": "7454192603"
+          },
+          {
+            "end": 31,
+            "start": 25,
+            "entity": "denial_action",
+            "value": "denial"
+          }
+        ],
+        "text": "what's the reason behind denial of claim with claim number 7454192603"
+      },
+      {
+        "intent": "denial_reason",
+        "entities": [
+          {
+            "end": 47,
+            "start": 41,
+            "entity": "denial_action",
+            "value": "denied"
+          }
+        ],
+        "text": "what's the reason for which my claim got denied"
+      },
+      {
+        "intent": "denial_reason",
+        "entities": [
+          {
+            "end": 73,
+            "start": 67,
+            "entity": "denial_action",
+            "value": "denied"
+          },
+          {
+            "end": 62,
+            "start": 52,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the reason for which claim with claim number 7454192603 got denied"
+      },
+      {
+        "intent": "denial_reason",
+        "entities": [
+          {
+            "end": 32,
+            "start": 26,
+            "entity": "denial_action",
+            "value": "denial"
+          }
+        ],
+        "text": "what's the cause of claim denial"
+      },
+      {
+        "intent": "denial_reason",
+        "entities": [
+          {
+            "end": 50,
+            "start": 40,
+            "entity": "claim_number",
+            "value": "7454192603"
+          },
+          {
+            "end": 57,
+            "start": 51,
+            "entity": "denial_action",
+            "value": "denial"
+          }
+        ],
+        "text": "what's the cause of claim with claim id 7454192603 denial"
+      },
+      {
+        "intent": "denial_reason",
+        "entities": [
+          {
+            "end": 46,
+            "start": 40,
+            "entity": "denial_action",
+            "value": "denied"
+          }
+        ],
+        "text": "what's the cause for which my claim got denied"
+      },
+      {
+        "intent": "denial_reason",
+        "entities": [
+          {
+            "end": 57,
+            "start": 47,
+            "entity": "claim_number",
+            "value": "7454192603"
+          },
+          {
+            "end": 68,
+            "start": 62,
+            "entity": "denial_action",
+            "value": "denied"
+          }
+        ],
+        "text": "what's the cause for which claim with claim id 7454192603 got denied"
+      },
+      {
+        "intent": "resubmit",
+        "entities": [
+          {
+            "end": 21,
+            "start": 13,
+            "entity": "resubmit_action",
+            "value": "resubmit"
+          }
+        ],
+        "text": "how should i resubmit my claim"
+      },
+      {
+        "intent": "resubmit",
+        "entities": [
+          {
+            "end": 59,
+            "start": 49,
+            "entity": "claim_number",
+            "value": "7454192603"
+          },
+          {
+            "end": 21,
+            "start": 13,
+            "entity": "resubmit_action",
+            "value": "resubmit"
+          }
+        ],
+        "text": "how should i resubmit my claim with claim number 7454192603"
+      },
+      {
+        "intent": "resubmit",
+        "entities": [
+          {
+            "end": 21,
+            "start": 13,
+            "entity": "resubmit_action",
+            "value": "resubmit"
+          }
+        ],
+        "text": "how should i resubmit my claim to get it paid"
+      },
+      {
+        "intent": "resubmit",
+        "entities": [
+          {
+            "end": 21,
+            "start": 13,
+            "entity": "resubmit_action",
+            "value": "resubmit"
+          },
+          {
+            "end": 55,
+            "start": 45,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how should i resubmit my claim with claim id 7454192603 to get it paid"
+      },
+      {
+        "intent": "resubmit",
+        "entities": [
+          {
+            "end": 31,
+            "start": 23,
+            "entity": "resubmit_action",
+            "value": "resubmit"
+          }
+        ],
+        "text": "what is the process to resubmit claim"
+      },
+      {
+        "intent": "resubmit",
+        "entities": [
+          {
+            "end": 30,
+            "start": 22,
+            "entity": "resubmit_action",
+            "value": "resubmit"
+          },
+          {
+            "end": 65,
+            "start": 55,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the process to resubmit claim with claim number 7454192603"
+      },
+      {
+        "intent": "resubmit",
+        "entities": [
+          {
+            "end": 33,
+            "start": 25,
+            "entity": "resubmit_action",
+            "value": "resubmit"
+          }
+        ],
+        "text": "what is the procedure to resubmit claim"
+      },
+      {
+        "intent": "resubmit",
+        "entities": [
+          {
+            "end": 63,
+            "start": 53,
+            "entity": "claim_number",
+            "value": "7454192603"
+          },
+          {
+            "end": 32,
+            "start": 24,
+            "entity": "resubmit_action",
+            "value": "resubmit"
+          }
+        ],
+        "text": "what's the procedure to resubmit claim with claim id 7454192603"
+      },
+      {
+        "intent": "resubmit",
+        "entities": [
+          {
+            "end": 28,
+            "start": 15,
+            "entity": "resubmit_action",
+            "value": "re-submission"
+          }
+        ],
+        "text": "what to do for re-submission of my claim"
+      },
+      {
+        "intent": "resubmit",
+        "entities": [
+          {
+            "end": 73,
+            "start": 63,
+            "entity": "claim_number",
+            "value": "7454192603"
+          },
+          {
+            "end": 28,
+            "start": 15,
+            "entity": "resubmit_action",
+            "value": "re-submission"
+          }
+        ],
+        "text": "what to do for re-submission of my claim with reference number 7454192603"
+      },
+      {
+        "intent": "resubmit",
+        "entities": [
+          {
+            "end": 44,
+            "start": 32,
+            "entity": "resubmit_action",
+            "value": "resubmission"
+          }
+        ],
+        "text": "what is the procedure for claim resubmission"
+      },
+      {
+        "intent": "resubmit",
+        "entities": [
+          {
+            "end": 64,
+            "start": 52,
+            "entity": "resubmit_action",
+            "value": "resubmission"
+          }
+        ],
+        "text": "what's the procedure claim with claim id 7454192603 resubmission"
+      },
+      {
+        "intent": "resubmit",
+        "entities": [
+          {
+            "end": 42,
+            "start": 30,
+            "entity": "resubmit_action",
+            "value": "resubmission"
+          }
+        ],
+        "text": "what is the process for claim resubmission"
+      },
+      {
+        "intent": "resubmit",
+        "entities": [
+          {
+            "end": 64,
+            "start": 52,
+            "entity": "resubmit_action",
+            "value": "resubmission"
+          },
+          {
+            "end": 51,
+            "start": 41,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the procedure claim with claim id 7454192603 resubmission"
+      },
+      {
+        "intent": "resubmit",
+        "entities": [
+          {
+            "end": 22,
+            "start": 14,
+            "entity": "resubmit_action",
+            "value": "resubmit"
+          }
+        ],
+        "text": "what to do to resubmit my claim"
+      },
+      {
+        "intent": "resubmit",
+        "entities": [
+          {
+            "end": 58,
+            "start": 48,
+            "entity": "claim_number",
+            "value": "7454192603"
+          },
+          {
+            "end": 23,
+            "start": 14,
+            "entity": "resubmit_action",
+            "value": "resubmit "
+          }
+        ],
+        "text": "what to do to resubmit  claim with reference id 7454192603"
+      },
+      {
+        "intent": "resubmit",
+        "entities": [
+          {
+            "end": 35,
+            "start": 27,
+            "entity": "resubmit_action",
+            "value": "resubmit"
+          }
+        ],
+        "text": "give me steps to follow to resubmit my claim"
+      },
+      {
+        "intent": "resubmit",
+        "entities": [
+          {
+            "end": 35,
+            "start": 27,
+            "entity": "resubmit_action",
+            "value": "resubmit"
+          },
+          {
+            "end": 69,
+            "start": 59,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "give me steps to follow to resubmit my claim with claim id 7454192603"
+      },
+      {
+        "intent": "resubmit",
+        "entities": [
+          {
+            "end": 58,
+            "start": 48,
+            "entity": "claim_number",
+            "value": "7454192603"
+          },
+          {
+            "end": 71,
+            "start": 59,
+            "entity": "resubmit_action",
+            "value": "resubmission"
+          }
+        ],
+        "text": "give me steps to follow for claim with claim id 7454192603 resubmission"
+      },
+      {
+        "intent": "resubmit",
+        "entities": [
+          {
+            "end": 46,
+            "start": 34,
+            "entity": "resubmit_action",
+            "value": "resubmission"
+          }
+        ],
+        "text": "give me steps to follow for claim resubmission"
+      },
+      {
+        "intent": "adjusted_reason",
+        "entities": [
+          {
+            "end": 24,
+            "start": 16,
+            "entity": "adj_action",
+            "value": "adjusted"
+          }
+        ],
+        "text": "why is my claim adjusted"
+      },
+      {
+        "intent": "adjusted_reason",
+        "entities": [
+          {
+            "end": 44,
+            "start": 34,
+            "entity": "claim_number",
+            "value": "7454192603"
+          },
+          {
+            "end": 57,
+            "start": 49,
+            "entity": "adj_action",
+            "value": "adjusted"
+          }
+        ],
+        "text": "why is my claim with claim number 7454192603 got adjusted"
+      },
+      {
+        "intent": "adjusted_reason",
+        "entities": [
+          {
+            "end": 36,
+            "start": 26,
+            "entity": "adj_action",
+            "value": "adjustment"
+          }
+        ],
+        "text": "why is my claim paid with adjustment"
+      },
+      {
+        "intent": "adjusted_reason",
+        "entities": [
+          {
+            "end": 40,
+            "start": 30,
+            "entity": "claim_number",
+            "value": "7454192603"
+          },
+          {
+            "end": 61,
+            "start": 51,
+            "entity": "adj_action",
+            "value": "adjustment"
+          }
+        ],
+        "text": "why is my claim with claim id 7454192603 paid with adjustment"
+      },
+      {
+        "intent": "adjusted_reason",
+        "entities": [
+          {
+            "end": 45,
+            "start": 37,
+            "entity": "adj_action",
+            "value": "adjusted"
+          }
+        ],
+        "text": "what's the reason for which claim is adjusted"
+      },
+      {
+        "intent": "adjusted_reason",
+        "entities": [
+          {
+            "end": 89,
+            "start": 81,
+            "entity": "adj_action",
+            "value": "adjusted"
+          },
+          {
+            "end": 76,
+            "start": 66,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the reason for which  my claim with claim reference number 7454192603 got adjusted"
+      },
+      {
+        "intent": "adjusted_reason",
+        "entities": [
+          {
+            "end": 58,
+            "start": 48,
+            "entity": "adj_action",
+            "value": "adjustment"
+          }
+        ],
+        "text": "what's the reason for which  my claim paid with adjustment"
+      },
+      {
+        "intent": "adjusted_reason",
+        "entities": [
+          {
+            "end": 87,
+            "start": 77,
+            "entity": "adj_action",
+            "value": "adjustment"
+          },
+          {
+            "end": 66,
+            "start": 56,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the reason for which  claim with claim reference 7454192603 paid with adjustment"
+      },
+      {
+        "intent": "adjusted_reason",
+        "entities": [
+          {
+            "end": 44,
+            "start": 36,
+            "entity": "adj_action",
+            "value": "adjusted"
+          }
+        ],
+        "text": "what's the cause for which claim is adjusted"
+      },
+      {
+        "intent": "adjusted_reason",
+        "entities": [
+          {
+            "end": 75,
+            "start": 65,
+            "entity": "claim_number",
+            "value": "7454192603"
+          },
+          {
+            "end": 88,
+            "start": 80,
+            "entity": "adj_action",
+            "value": "adjusted"
+          }
+        ],
+        "text": "what's the cause for which  my claim with claim reference number 7454192603 got adjusted"
+      },
+      {
+        "intent": "adjusted_reason",
+        "entities": [
+          {
+            "end": 57,
+            "start": 47,
+            "entity": "adj_action",
+            "value": "adjustment"
+          }
+        ],
+        "text": "what's the cause for which  my claim paid with adjustment"
+      },
+      {
+        "intent": "adjusted_reason",
+        "entities": [
+          {
+            "end": 65,
+            "start": 55,
+            "entity": "claim_number",
+            "value": "7454192603"
+          },
+          {
+            "end": 86,
+            "start": 76,
+            "entity": "adj_action",
+            "value": "adjustment"
+          }
+        ],
+        "text": "what's the cause for which  claim with claim reference 7454192603 paid with adjustment"
+      },
+      {
+        "intent": "denial_reason",
+        "entities": [
+          {
+            "end": 24,
+            "start": 16,
+            "entity": "denial_action",
+            "value": "rejected"
+          }
+        ],
+        "text": "why is my claim rejected"
+      },
+      {
+        "intent": "denial_reason",
+        "entities": [
+          {
+            "end": 57,
+            "start": 49,
+            "entity": "denial_action",
+            "value": "rejected"
+          },
+          {
+            "end": 44,
+            "start": 34,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "why is my claim with claim number 7454192603 got rejected"
+      },
+      {
+        "intent": "denial_reason",
+        "entities": [
+          {
+            "end": 48,
+            "start": 40,
+            "entity": "denial_action",
+            "value": "rejected"
+          }
+        ],
+        "text": "what's the reason for which my claim is rejected"
+      },
+      {
+        "intent": "denial_reason",
+        "entities": [
+          {
+            "end": 49,
+            "start": 41,
+            "entity": "denial_action",
+            "value": "rejected"
+          }
+        ],
+        "text": "what's the reason for which my claim got rejected"
+      },
+      {
+        "intent": "denial_reason",
+        "entities": [
+          {
+            "end": 75,
+            "start": 67,
+            "entity": "denial_action",
+            "value": "rejected"
+          }
+        ],
+        "text": "what's the reason for which claim with claim number 7454192603 got rejected"
+      },
+      {
+        "intent": "denial_reason",
+        "entities": [
+          {
+            "end": 48,
+            "start": 40,
+            "entity": "denial_action",
+            "value": "rejected"
+          }
+        ],
+        "text": "what's the cause for which my claim got rejected"
+      },
+      {
+        "intent": "denial_reason",
+        "entities": [
+          {
+            "end": 57,
+            "start": 47,
+            "entity": "claim_number",
+            "value": "7454192603"
+          },
+          {
+            "end": 70,
+            "start": 62,
+            "entity": "denial_action",
+            "value": "rejected"
+          }
+        ],
+        "text": "what's the cause for which claim with claim id 7454192603 got rejected"
+      },
+      {
+        "intent": "adjusted_amount",
+        "entities": [
+          {
+            "end": 15,
+            "start": 9,
+            "entity": "capital",
+            "value": "amount"
+          },
+          {
+            "end": 42,
+            "start": 31,
+            "entity": "adj_action",
+            "value": "adjustment"
+          },
+          {
+            "end": 24,
+            "start": 20,
+            "entity": "action_on_claim",
+            "value": "paid"
+          }
+        ],
+        "text": "How much amount was paid after adjustment"
+      },
+      {
+        "intent": "adjusted_amount",
+        "entities": [
+          {
+            "end": 47,
+            "start": 37,
+            "entity": "adj_action",
+            "value": "adjustment"
+          },
+          {
+            "end": 17,
+            "start": 11,
+            "entity": "capital",
+            "value": "amount"
+          },
+          {
+            "end": 30,
+            "start": 26,
+            "entity": "action_on_claim",
+            "value": "paid"
+          }
+        ],
+        "text": "what's the amount that is paid after adjustment"
+      },
+      {
+        "intent": "adjusted_amount",
+        "entities": [
+          {
+            "end": 17,
+            "start": 11,
+            "entity": "capital",
+            "value": "amount"
+          },
+          {
+            "end": 22,
+            "start": 18,
+            "entity": "action_on_claim",
+            "value": "paid"
+          }
+        ],
+        "text": "what's the amount paid"
+      },
+      {
+        "intent": "adjusted_amount",
+        "entities": [
+          {
+            "end": 15,
+            "start": 11,
+            "entity": "action_on_claim",
+            "value": "paid"
+          },
+          {
+            "end": 22,
+            "start": 16,
+            "entity": "capital",
+            "value": "amount"
+          }
+        ],
+        "text": "what's the paid amount"
+      },
+      {
+        "intent": "adjusted_amount",
+        "entities": [
+          {
+            "end": 15,
+            "start": 9,
+            "entity": "capital",
+            "value": "amount"
+          },
+          {
+            "end": 23,
+            "start": 19,
+            "entity": "action_on_claim",
+            "value": "paid"
+          }
+        ],
+        "text": "how much amount is paid"
+      },
+      {
+        "intent": "adjusted_amount",
+        "entities": [
+          {
+            "end": 24,
+            "start": 20,
+            "entity": "action_on_claim",
+            "value": "paid"
+          },
+          {
+            "end": 41,
+            "start": 31,
+            "entity": "adj_action",
+            "value": "adjustment"
+          },
+          {
+            "end": 15,
+            "start": 9,
+            "entity": "capital",
+            "value": "amount"
+          }
+        ],
+        "text": "How much amount was paid after adjustment towards claim"
+      },
+      {
+        "intent": "adjusted_amount",
+        "entities": [
+          {
+            "end": 17,
+            "start": 11,
+            "entity": "capital",
+            "value": "amount"
+          },
+          {
+            "end": 30,
+            "start": 26,
+            "entity": "action_on_claim",
+            "value": "paid"
+          },
+          {
+            "end": 47,
+            "start": 37,
+            "entity": "adj_action",
+            "value": "adjustment"
+          }
+        ],
+        "text": "what's the amount that is paid after adjustment towards claim"
+      },
+      {
+        "intent": "adjusted_amount",
+        "entities": [
+          {
+            "end": 17,
+            "start": 11,
+            "entity": "capital",
+            "value": "amount"
+          },
+          {
+            "end": 22,
+            "start": 18,
+            "entity": "action_on_claim",
+            "value": "paid"
+          }
+        ],
+        "text": "what's the amount paid towards claim"
+      },
+      {
+        "intent": "adjusted_amount",
+        "entities": [
+          {
+            "end": 15,
+            "start": 11,
+            "entity": "action_on_claim",
+            "value": "paid"
+          },
+          {
+            "end": 22,
+            "start": 16,
+            "entity": "capital",
+            "value": "amount"
+          }
+        ],
+        "text": "what's the paid amount towards claim"
+      },
+      {
+        "intent": "adjusted_amount",
+        "entities": [
+          {
+            "end": 15,
+            "start": 9,
+            "entity": "capital",
+            "value": "amount"
+          },
+          {
+            "end": 23,
+            "start": 19,
+            "entity": "action_on_claim",
+            "value": "paid"
+          }
+        ],
+        "text": "how much amount is paid towards claim"
+      },
+      {
+        "intent": "adjusted_amount",
+        "entities": [
+          {
+            "end": 15,
+            "start": 9,
+            "entity": "capital",
+            "value": "amount"
+          },
+          {
+            "end": 24,
+            "start": 20,
+            "entity": "action_on_claim",
+            "value": "paid"
+          },
+          {
+            "end": 41,
+            "start": 31,
+            "entity": "adj_action",
+            "value": "adjustment"
+          },
+          {
+            "end": 80,
+            "start": 70,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "How much amount was paid after adjustment towards claim with claim id 7454192603"
+      },
+      {
+        "intent": "adjusted_amount",
+        "entities": [
+          {
+            "end": 17,
+            "start": 11,
+            "entity": "capital",
+            "value": "amount"
+          },
+          {
+            "end": 30,
+            "start": 26,
+            "entity": "action_on_claim",
+            "value": "paid"
+          },
+          {
+            "end": 47,
+            "start": 37,
+            "entity": "adj_action",
+            "value": "adjustment"
+          },
+          {
+            "end": 88,
+            "start": 78,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the amount that is paid after adjustment towards claim having claim id 7454192603"
+      },
+      {
+        "intent": "adjusted_amount",
+        "entities": [
+          {
+            "end": 17,
+            "start": 11,
+            "entity": "capital",
+            "value": "amount"
+          },
+          {
+            "end": 22,
+            "start": 18,
+            "entity": "action_on_claim",
+            "value": "paid"
+          },
+          {
+            "end": 69,
+            "start": 59,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the amount paid towards claim with reference number 7454192603"
+      },
+      {
+        "intent": "adjusted_amount",
+        "entities": [
+          {
+            "end": 15,
+            "start": 11,
+            "entity": "action_on_claim",
+            "value": "paid"
+          },
+          {
+            "end": 22,
+            "start": 16,
+            "entity": "capital",
+            "value": "amount"
+          },
+          {
+            "end": 64,
+            "start": 54,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "what's the paid amount towards claim having reference 7454192603"
+      },
+      {
+        "intent": "adjusted_amount",
+        "entities": [
+          {
+            "end": 15,
+            "start": 9,
+            "entity": "capital",
+            "value": "amount"
+          },
+          {
+            "end": 23,
+            "start": 19,
+            "entity": "action_on_claim",
+            "value": "paid"
+          },
+          {
+            "end": 66,
+            "start": 56,
+            "entity": "claim_number",
+            "value": "7454192603"
+          }
+        ],
+        "text": "how much amount is paid towards claim with reference id 7454192603"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "synonyms": [
+          "money",
+          "buck",
+          "cash",
+          "bucks"
+        ],
+        "value": "amount"
+      },
+      {
+        "synonyms": [
+          "declined",
+          "repudiated",
+          "refused"
+        ],
+        "value": "denied"
+      },
+      {
+        "synonyms": [
+          "adjustments"
+        ],
+        "value": "adjustment"
+      },
+      {
+        "synonyms": [
+          "collected",
+          "compensated",
+          "spent",
+          "reimbursed"
+        ],
+        "value": "paid"
+      },
+      {
+        "synonyms": [
+          "refusal",
+          "rejection",
+          "declination",
+          "repudiation"
+        ],
+        "value": "denial"
+      }
+    ]
+  }
+}

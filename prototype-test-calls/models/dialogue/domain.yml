@@ -1,0 +1,44 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_goodbye
+- utter_affirm
+- utter_ask_claim_number
+- actions.ActionStatus
+- action_status_claim
+config:
+  store_entities_as_slots: true
+entities:
+- claim_number
+forms: []
+intents:
+- action_status_claim:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- status:
+    use_entities: true
+- greet:
+    use_entities: true
+slots:
+  claim_number:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  status:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_affirm:
+  - text: Thats right
+  - text: You are correct
+  utter_ask_claim_number:
+  - text: which claim number?
+  - text: what is the claim number?
+  utter_goodbye:
+  - text: Talk to you later.
+  - text: Bye bye :(
+  utter_greet:
+  - text: Hello! How can I help?

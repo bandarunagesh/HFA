@@ -1,0 +1,10 @@
+Rasa process starting
+Restoring parameters from models/prior_auth_nlu/default/model_20190426-001037/intent_classifier_tensorflow_embedding.ckpt
+Rasa Core server is up and running on http://localhost:5005
+Encountered an exception while running action 'action_default_fallback'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Encountered an exception while running action 'action_default_fallback'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Encountered an exception while running action 'action_default_fallback'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Encountered an exception while running action 'action_default_fallback'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Encountered an exception while running action 'action_default_fallback'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Encountered an exception while running action 'action_default_fallback'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Encountered an exception while running action 'action_default_fallback'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.

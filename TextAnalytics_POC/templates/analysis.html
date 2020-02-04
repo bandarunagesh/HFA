@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+  <h1>Select a Text Mining Technique</h1>
+  <h3>Descriptive Analysis of your dataset</h3>
+  <form id="form1" action="/summaryanalysis" method="POST" enctype="multipart/form-data">
+    <input type="submit" value="Data Summary">
+  </form>
+  <br/>
+  <form id="form2" action="/detailedsummary" method="POST" enctype="multipart/form-data">
+    <input type="submit" value="Detailed Summary">
+  </form>
+  <br/>
+  <br/>
+  <h3>N-Gram Analysis</h3>
+  <p>Give the n value for N-grams</p>
+  <form id="form3" action="/ngramanalysis" method="POST" enctype="multipart/form-data">
+    <select id="mySelect1" name = "ngram_value">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+    </select>
+    <br/>
+    <br/>
+    <p>Enter the number of N-Grams you would like to see</p>
+    <select id="mySelect2" name = "entities">
+      <option value="1000">1000</option>
+      <option value="900">900</option>
+      <option value="800">800</option>
+      <option value="700">700</option>
+      <option value="600">600</option>
+      <option value="500">500</option>
+      <option value="400">400</option>
+      <option value="300">300</option>
+      <option value="200">200</option>
+      <option value="100">100</option>
+    </select>
+    <input type="submit" value="Ngrams">
+    <img src ="/static/img/{{userimage}}" alt = "User Image" height="300" width="300" class = "User Image"/>
+  </form>
+  <br/>
+  <br/>
+  <br/>
+  <h3>Sentiment Analysis</h3>
+  <p>Calculate the sentiments for all the comments</p>
+  <form id="form4" action="/sentimentanalysis" method="POST" enctype="multipart/form-data">
+    <select name="filterSentiment" id="mySelect3">
+      <option value="Region">Region</option>
+      <option value="Health Plan">Health Plan</option>
+      <option value="Quarter">Quarter</option>
+    </select>
+    <input type="submit" value="Sentiments based on text">
+  </form>
+  <br/>
+  <form action="/downloadsentiments" method="POST" enctype="multipart/form-data">
+    <input type="submit" value="Download the Report">
+  </form>
+  <br/>
+  <br/>
+  <br/>
+  <h3>Topic Modeling</h3>
+  <p>Get some topics from your data</p>
+  <form id="form5" action="/topicmodeling" method="POST" enctype="multipart/form-data">
+    <select name="filterQuarter" id="mySelect4">
+      <option value="NULL">NULL</option>
+      <option value="201603">201603</option>
+      <option value="201604">201604</option>
+      <option value="201701">201701</option>
+      <option value="201702">201702</option>
+      <option value="201703">201703</option>
+      <option value="201704">201704</option>
+      <option value="201801">201801</option>
+      <option value="201802">201802</option>
+      <option value="201803">201803</option>
+      <option value="201804">201804</option>
+    </select>
+    <br/>
+    <br/>
+    <select name="filterRegion" id="mySelect6">
+      <option value="NULL">NULL</option>
+      <option value="Central">Central</option>
+      <option value="Northeast">Northeast</option>
+      <option value="Southeast">Southwest</option>
+      <option value="West">West</option>
+    </select>  
+    <input type="submit" value="Topics">
+  </form>
+  <br/>
+  <br/>
+  <br/>
+  <h3>Cluster your comments</h3>
+  <p>See the clusters for your reviews</p>
+  <form id="form6" action="/clusteranalysis" method="POST" enctype="multipart/form-data">
+    <select name="filterCluster" id="mySelect5">
+      <option value="Onboarding">Onboarding</option>
+      <option value="Care Delivery">Care Delivery</option>
+      <option value="Reimbursement">Reimbursement</option>
+      <option value="Issue Resolution">Issue Resolution</option>
+      <option value="Engagement">Engagement</option>
+      <option value="All">All</option>
+    </select>
+    <input type="submit" value="Cluster Analysis">
+  </form>
+</body>
+</html>

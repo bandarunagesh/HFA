@@ -1,0 +1,2186 @@
+False
+corrected_ip_string
+time_extract
+['5', '2019']
+[[], [], ['2019'], ['5', '2019']]
+ * Serving Flask app "app_rev_svr" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+False
+corrected_ip_string
+time_extract
+['5', '2019']
+[[], [], ['2019'], ['5', '2019']]
+q=received calls by answered status in 2019&userid=asrilekh_0722_uid13&sessionid=asrilekh_0722_sessid13&providerids=111635088,113613997,133964321&q4=search&q5=bar_chart_requeste&q6=calls
+provider_lst is ['111635088', '113613997', '133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=asrilekh_0722_uid13session id=asrilekh_0722_sessid13
+received calls by answered status in 2019
+received calls by answered status in 2019
+in call id extrct function
+returned call id 0
+corrected_ip_string
+received call by answered status in 219
+entered if1 received calls by answered status in 2019
+in call id extrct function
+entered if2 received calls by answered status in 2019
+user message after call number replacement isreceived calls by answered status in 2019
+corrected_ip_string
+time_extract
+['2019']
+2019-01-01T00:00:00.000-06:00
+user message after date text replacement is received calls by answered status in 2019
+user_message is received calls by answered status in 2019
+user_message is received calls by answered status in 2019
+calls
+corrected_ip_string
+user_message is received calls by answered status in 2019
+calls
+corrected_ip_string
+user_message is received calls by answered status in 2019
+calls
+user_message is received calls by answered status in 2019
+calls
+calls_cnt_ans_by
+{'$and':[{'rcvd_date_str':{'$regex':'.*-01-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['111635088', '113613997', '133964321']}}]}
+entered if of ringnoanswer
+01
+{'$and':[{'rcvd_date_str':{'$regex':'.*-02-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['111635088', '113613997', '133964321']}}]}
+entered if of ringnoanswer
+02
+{'$and':[{'rcvd_date_str':{'$regex':'.*-03-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['111635088', '113613997', '133964321']}}]}
+entered if of ringnoanswer
+03
+{'$and':[{'rcvd_date_str':{'$regex':'.*-04-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['111635088', '113613997', '133964321']}}]}
+entered if of ringnoanswer
+04
+{'$and':[{'rcvd_date_str':{'$regex':'.*-05-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['111635088', '113613997', '133964321']}}]}
+05
+{'$and':[{'rcvd_date_str':{'$regex':'.*-06-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['111635088', '113613997', '133964321']}}]}
+entered if of ringnoanswer
+06
+{'$and':[{'rcvd_date_str':{'$regex':'.*-07-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['111635088', '113613997', '133964321']}}]}
+07
+{'$and':[{'rcvd_date_str':{'$regex':'.*-08-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['111635088', '113613997', '133964321']}}]}
+08
+{'$and':[{'rcvd_date_str':{'$regex':'.*-09-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['111635088', '113613997', '133964321']}}]}
+09
+{'$and':[{'rcvd_date_str':{'$regex':'.*-10-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['111635088', '113613997', '133964321']}}]}
+10
+{'$and':[{'rcvd_date_str':{'$regex':'.*-11-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['111635088', '113613997', '133964321']}}]}
+11
+{'$and':[{'rcvd_date_str':{'$regex':'.*-12-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['111635088', '113613997', '133964321']}}]}
+12
+{'From':'','End':'','Title':'Calls Volume (By Answered)','Graph Type':'Bar','Header':['Answered', 'Not Answered'],'Value':['11199', '19']}
+final intent calls_count
+context_context final NA
+final user message value received calls by answered status in 2019 count
+answer={'End': '', 'Graph Type': 'Bar', 'Title': 'Calls Volume (By Answered)', 'From': '', 'Value': ['11199', '19'], 'Header': ['Answered', 'Not Answered']}
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+asrilekh_0722_uid13
+asrilekh_0722_sessid13
+received calls by answered status in 2019
+{'End': '', 'Graph Type': 'Bar', 'Title': 'Calls Volume (By Answered)', 'From': '', 'Value': ['11199', '19'], 'Header': ['Answered', 'Not Answered']}
+calls_count
+0.9609736800193787
+default
+q
+list index out of range
+q=received calls by answered status in 2019
+list index out of range
+userid=DEFAULTsession id=DEFAULT
+received calls by answered status in 2019
+received calls by answered status in 2019
+in call id extrct function
+returned call id 0
+corrected_ip_string
+received call by answered status in 219
+entered if1 received calls by answered status in 2019
+in call id extrct function
+entered if2 received calls by answered status in 2019
+user message after call number replacement isreceived calls by answered status in 2019
+corrected_ip_string
+time_extract
+['2019']
+2019-01-01T00:00:00.000-06:00
+user message after date text replacement is received calls by answered status in 2019
+user_message is received calls by answered status in 2019
+user_message is received calls by answered status in 2019
+local variable 'context_call_r_calls' referenced before assignment
+q=received calls by answered status in 2019
+list index out of range
+userid=DEFAULTsession id=DEFAULT
+received calls by answered status in 2019
+received calls by answered status in 2019
+in call id extrct function
+returned call id 0
+corrected_ip_string
+received call by answered status in 219
+entered if1 received calls by answered status in 2019
+in call id extrct function
+entered if2 received calls by answered status in 2019
+user message after call number replacement isreceived calls by answered status in 2019
+corrected_ip_string
+time_extract
+['2019']
+2019-01-01T00:00:00.000-06:00
+user message after date text replacement is received calls by answered status in 2019
+user_message is received calls by answered status in 2019
+user_message is received calls by answered status in 2019
+local variable 'context_call_r_calls' referenced before assignment
+q=When  was the call received 788607957&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+When was the call received 788607957
+When was the call received 788607957
+in call id extrct function
+returned call id 788607957
+corrected_ip_string
+when was the call received
+entered if1 When was the call received 788607957
+in call id extrct function
+entered else2 When was the call received 788607957
+788607957 in get_call_id_presence function
+user message after call number replacement isWhen was the call received 
+user_message is When was the call received 
+user_message is When was the call received 
+call
+corrected_ip_string
+user_message is when was the call received
+call
+corrected_ip_string
+user_message is when was the call received
+call
+user_message is when was the call received
+call
+call_received_date
+788607957 in get_call_id_presence function
+final intent call_received_date
+context_context final NA
+final user message value when was the call received
+answer=The call was received on 17th of Jan, 2019
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+venkat_0723_1_uid
+venkat_0723_1_sessid
+When was the call received 788607957
+The call was received on 17th of Jan, 2019
+call_received_date
+0.9497871398925781
+default
+q=When  was the call received 788607957&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+When was the call received 788607957
+When was the call received 788607957
+in call id extrct function
+returned call id 788607957
+corrected_ip_string
+when was the call received
+entered if1 When was the call received 788607957
+in call id extrct function
+entered else2 When was the call received 788607957
+788607957 in get_call_id_presence function
+user message after call number replacement isWhen was the call received 
+user_message is When was the call received 
+user_message is When was the call received 
+call
+corrected_ip_string
+user_message is when was the call received
+call
+corrected_ip_string
+user_message is when was the call received
+call
+user_message is when was the call received
+call
+call_received_date
+788607957 in get_call_id_presence function
+final intent call_received_date
+context_context final NA
+final user message value when was the call received
+answer=The call was received on 17th of Jan, 2019
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+venkat_0723_1_uid
+venkat_0723_1_sessid
+When was the call received 788607957
+The call was received on 17th of Jan, 2019
+call_received_date
+0.9497871398925781
+default
+q=When  was the call received 78860795&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+When was the call received 78860795
+When was the call received 78860795
+in call id extrct function
+returned call id 78860795
+corrected_ip_string
+when was the call received
+entered if1 When was the call received 78860795
+in call id extrct function
+entered else2 When was the call received 78860795
+78860795 in get_call_id_presence function
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+q=To which Line of Business does the call pertain to&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+To which Line of Business does the call pertain to
+To which Line of Business does the call pertain to
+in call id extrct function
+returned call id 0
+corrected_ip_string
+to which of lob does the call pertain to
+entered if1 To which Line of Business does the call pertain to
+in call id extrct function
+entered if2 To which Line of Business does the call pertain to
+user message after call number replacement isTo which Line of Business does the call pertain to
+corrected_ip_string
+time_extract
+[]
+user message after date text replacement is To which Line of Business does the call pertain to
+in context history pop function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+{"$and":[{"User_ID":'venkat_0723_1_uid'},{"Session_ID":'venkat_0723_1_sessid'},{"Call_R_Calls":'CALL'}]}
+{'$and': [{'User_ID': 'venkat_0723_1_uid'}, {'Session_ID': 'venkat_0723_1_sessid'}, {'Call_R_Calls': 'CALL'}]}
+2
+788607957
+user_message is To which Line of Business does the call pertain to
+user_message is To which Line of Business does the call pertain to
+call
+corrected_ip_string
+user_message is to which of lob does the call pertain to
+call
+corrected_ip_string
+user_message is to which of lob does the call pertain to
+call
+user_message is to which of lob does the call pertain to
+call
+call_lob
+final intent call_lob
+context_context final NA
+final user message value to which of lob does the call pertain to
+answer=I am not prepare for your question as of now
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+venkat_0723_1_uid
+venkat_0723_1_sessid
+To which Line of Business does the call pertain to
+I am not prepare for your question as of now
+call_lob
+0.9666839838027954
+default
+q=When  was the call received 788607957&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+When was the call received 788607957
+When was the call received 788607957
+in call id extrct function
+returned call id 788607957
+corrected_ip_string
+when was the call received
+entered if1 When was the call received 788607957
+in call id extrct function
+entered else2 When was the call received 788607957
+788607957 in get_call_id_presence function
+user message after call number replacement isWhen was the call received 
+user_message is When was the call received 
+user_message is When was the call received 
+call
+corrected_ip_string
+user_message is when was the call received
+call
+corrected_ip_string
+user_message is when was the call received
+call
+user_message is when was the call received
+call
+call_received_date
+788607957 in get_call_id_presence function
+final intent call_received_date
+context_context final NA
+final user message value when was the call received
+answer=The call was received on 17th of Jan, 2019
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+venkat_0723_1_uid
+venkat_0723_1_sessid
+When was the call received 788607957
+The call was received on 17th of Jan, 2019
+call_received_date
+0.9497871398925781
+default
+q=When  was the call received 788607957&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+When was the call received 788607957
+When was the call received 788607957
+in call id extrct function
+returned call id 788607957
+corrected_ip_string
+when was the call received
+entered if1 When was the call received 788607957
+in call id extrct function
+entered else2 When was the call received 788607957
+788607957 in get_call_id_presence function
+user message after call number replacement isWhen was the call received 
+user_message is When was the call received 
+user_message is When was the call received 
+call
+corrected_ip_string
+user_message is when was the call received
+call
+corrected_ip_string
+user_message is when was the call received
+call
+user_message is when was the call received
+call
+call_received_date
+788607957 in get_call_id_presence function
+final intent call_received_date
+context_context final NA
+final user message value when was the call received
+answer=The call was received on 17th of Jan, 2019
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+venkat_0723_1_uid
+venkat_0723_1_sessid
+When was the call received 788607957
+The call was received on 17th of Jan, 2019
+call_received_date
+0.9497871398925781
+default
+q=To which Line of Business does the call pertain to&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+To which Line of Business does the call pertain to
+To which Line of Business does the call pertain to
+in call id extrct function
+returned call id 0
+corrected_ip_string
+to which of lob does the call pertain to
+entered if1 To which Line of Business does the call pertain to
+in call id extrct function
+entered if2 To which Line of Business does the call pertain to
+user message after call number replacement isTo which Line of Business does the call pertain to
+corrected_ip_string
+time_extract
+[]
+user message after date text replacement is To which Line of Business does the call pertain to
+in context history pop function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+{"$and":[{"User_ID":'venkat_0723_1_uid'},{"Session_ID":'venkat_0723_1_sessid'},{"Call_R_Calls":'CALL'}]}
+{'$and': [{'User_ID': 'venkat_0723_1_uid'}, {'Session_ID': 'venkat_0723_1_sessid'}, {'Call_R_Calls': 'CALL'}]}
+5
+788607957
+user_message is To which Line of Business does the call pertain to
+user_message is To which Line of Business does the call pertain to
+call
+corrected_ip_string
+user_message is to which of lob does the call pertain to
+call
+corrected_ip_string
+user_message is to which of lob does the call pertain to
+call
+user_message is to which of lob does the call pertain to
+call
+call_lob
+final intent call_lob
+context_context final NA
+final user message value to which of lob does the call pertain to
+answer=I am not prepare for your question as of now
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+venkat_0723_1_uid
+venkat_0723_1_sessid
+To which Line of Business does the call pertain to
+I am not prepare for your question as of now
+call_lob
+0.9666839838027954
+default
+q=To which Line of Business does the call pertain to&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+To which Line of Business does the call pertain to
+To which Line of Business does the call pertain to
+in call id extrct function
+returned call id 0
+corrected_ip_string
+to which of lob does the call pertain to
+entered if1 To which Line of Business does the call pertain to
+in call id extrct function
+entered if2 To which Line of Business does the call pertain to
+user message after call number replacement isTo which Line of Business does the call pertain to
+corrected_ip_string
+time_extract
+[]
+user message after date text replacement is To which Line of Business does the call pertain to
+in context history pop function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+{"$and":[{"User_ID":'venkat_0723_1_uid'},{"Session_ID":'venkat_0723_1_sessid'},{"Call_R_Calls":'CALL'}]}
+{'$and': [{'User_ID': 'venkat_0723_1_uid'}, {'Session_ID': 'venkat_0723_1_sessid'}, {'Call_R_Calls': 'CALL'}]}
+6
+788607957
+user_message is To which Line of Business does the call pertain to
+user_message is To which Line of Business does the call pertain to
+call
+corrected_ip_string
+user_message is to which of lob does the call pertain to
+call
+corrected_ip_string
+user_message is to which of lob does the call pertain to
+call
+user_message is to which of lob does the call pertain to
+call
+call_lob
+final intent call_lob
+context_context final NA
+final user message value to which of lob does the call pertain to
+answer=I am not prepare for your question as of now
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+venkat_0723_1_uid
+venkat_0723_1_sessid
+To which Line of Business does the call pertain to
+I am not prepare for your question as of now
+call_lob
+0.9666839838027954
+default
+q=To which lob does the call pertain to&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+To which lob does the call pertain to
+To which lob does the call pertain to
+in call id extrct function
+returned call id 0
+corrected_ip_string
+to which lob does the call pertain to
+entered if1 To which lob does the call pertain to
+in call id extrct function
+entered if2 To which lob does the call pertain to
+user message after call number replacement isTo which lob does the call pertain to
+corrected_ip_string
+time_extract
+[]
+user message after date text replacement is To which lob does the call pertain to
+in context history pop function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+{"$and":[{"User_ID":'venkat_0723_1_uid'},{"Session_ID":'venkat_0723_1_sessid'},{"Call_R_Calls":'CALL'}]}
+{'$and': [{'User_ID': 'venkat_0723_1_uid'}, {'Session_ID': 'venkat_0723_1_sessid'}, {'Call_R_Calls': 'CALL'}]}
+7
+788607957
+user_message is To which lob does the call pertain to
+user_message is To which lob does the call pertain to
+call
+corrected_ip_string
+user_message is to which lob does the call pertain to
+call
+corrected_ip_string
+user_message is to which lob does the call pertain to
+call
+user_message is to which lob does the call pertain to
+call
+call_lob
+final intent call_lob
+context_context final NA
+final user message value to which lob does the call pertain to
+answer=I am not prepare for your question as of now
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+venkat_0723_1_uid
+venkat_0723_1_sessid
+To which lob does the call pertain to
+I am not prepare for your question as of now
+call_lob
+0.967185378074646
+default
+q=To which Line of Business does the call pertain to&userid=asrilekh_0722_uid13&sessionid=asrilekh_0722_sessid13&providerids=111635088,113613997,133964321&q4=chat&q5=bar_chart_requeste&q6=calls
+provider_lst is ['111635088', '113613997', '133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=asrilekh_0722_uid13session id=asrilekh_0722_sessid13
+To which Line of Business does the call pertain to
+To which Line of Business does the call pertain to
+in call id extrct function
+returned call id 0
+corrected_ip_string
+to which of lob does the call pertain to
+entered if1 To which Line of Business does the call pertain to
+in call id extrct function
+entered if2 To which Line of Business does the call pertain to
+user message after call number replacement isTo which Line of Business does the call pertain to
+corrected_ip_string
+time_extract
+[]
+user message after date text replacement is To which Line of Business does the call pertain to
+in context history pop function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+{"$and":[{"User_ID":'asrilekh_0722_uid13'},{"Session_ID":'asrilekh_0722_sessid13'},{"Call_R_Calls":'CALL'}]}
+{'$and': [{'User_ID': 'asrilekh_0722_uid13'}, {'Session_ID': 'asrilekh_0722_sessid13'}, {'Call_R_Calls': 'CALL'}]}
+4
+817097999
+user_message is To which Line of Business does the call pertain to
+user_message is To which Line of Business does the call pertain to
+call
+corrected_ip_string
+user_message is to which of lob does the call pertain to
+call
+corrected_ip_string
+user_message is to which of lob does the call pertain to
+call
+user_message is to which of lob does the call pertain to
+call
+call_lob
+final intent call_lob
+context_context final NA
+final user message value to which of lob does the call pertain to
+answer=I am not prepare for your question as of now
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+asrilekh_0722_uid13
+asrilekh_0722_sessid13
+To which Line of Business does the call pertain to
+I am not prepare for your question as of now
+call_lob
+0.9666839838027954
+default
+False
+corrected_ip_string
+time_extract
+['5', '2019']
+[[], [], ['2019'], ['5', '2019']]
+817097999 in get_call_lob function
+The call pertains to C&S line of business
+False
+corrected_ip_string
+time_extract
+['5', '2019']
+[[], [], ['2019'], ['5', '2019']]
+817097999 in get_call_lob function
+The call pertains to C&S line of business
+q=Did the call get transferred%3F&userid=asrilekh_0722_uid13&sessionid=asrilekh_0722_sessid13&providerids=111635088,113613997,133964321&q4=chat&q5=bar_chart_requeste&q6=calls
+provider_lst is ['111635088', '113613997', '133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=asrilekh_0722_uid13session id=asrilekh_0722_sessid13
+Did the call get transferred
+Did the call get transferred
+in call id extrct function
+returned call id 0
+corrected_ip_string
+did the call get transferred
+entered if1 Did the call get transferred
+in call id extrct function
+entered if2 Did the call get transferred
+user message after call number replacement isDid the call get transferred
+corrected_ip_string
+time_extract
+[]
+user message after date text replacement is Did the call get transferred
+in context history pop function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+{"$and":[{"User_ID":'asrilekh_0722_uid13'},{"Session_ID":'asrilekh_0722_sessid13'},{"Call_R_Calls":'CALL'}]}
+{'$and': [{'User_ID': 'asrilekh_0722_uid13'}, {'Session_ID': 'asrilekh_0722_sessid13'}, {'Call_R_Calls': 'CALL'}]}
+16
+817097999
+user_message is Did the call get transferred
+user_message is Did the call get transferred
+call
+corrected_ip_string
+user_message is did the call get transferred
+call
+corrected_ip_string
+user_message is did the call get transferred
+call
+user_message is did the call get transferred
+call
+call_transferred
+817097999 in get_call_talk_time function
+final intent call_transferrred
+context_context final NA
+final user message value did the call get transferred
+answer=No, the call did not get transfer
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+asrilekh_0722_uid13
+asrilekh_0722_sessid13
+Did the call get transferred
+No, the call did not get transfer
+call_transferrred
+0.951572597026825
+default
+q=In which language was the call answered%3F&userid=asrilekh_0722_uid13&sessionid=asrilekh_0722_sessid13&providerids=111635088,113613997,133964321&q4=chat&q5=bar_chart_requeste&q6=calls
+provider_lst is ['111635088', '113613997', '133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=asrilekh_0722_uid13session id=asrilekh_0722_sessid13
+In which language was the call answered
+In which language was the call answered
+in call id extrct function
+returned call id 0
+corrected_ip_string
+in which language was the call answered
+entered if1 In which language was the call answered
+in call id extrct function
+entered if2 In which language was the call answered
+user message after call number replacement isIn which language was the call answered
+corrected_ip_string
+time_extract
+[]
+user message after date text replacement is In which language was the call answered
+in context history pop function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+{"$and":[{"User_ID":'asrilekh_0722_uid13'},{"Session_ID":'asrilekh_0722_sessid13'},{"Call_R_Calls":'CALL'}]}
+{'$and': [{'User_ID': 'asrilekh_0722_uid13'}, {'Session_ID': 'asrilekh_0722_sessid13'}, {'Call_R_Calls': 'CALL'}]}
+17
+817097999
+user_message is In which language was the call answered
+user_message is In which language was the call answered
+call
+corrected_ip_string
+user_message is in which language was the call answered
+call
+corrected_ip_string
+user_message is in which language was the call answered
+call
+user_message is in which language was the call answered
+call
+call_language
+817097999 in get_call_talk_time function
+final intent call_language
+context_context final NA
+final user message value in which language was the call answered
+answer=The call was answered in English
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+asrilekh_0722_uid13
+asrilekh_0722_sessid13
+In which language was the call answered
+The call was answered in English
+call_language
+0.9596427083015442
+default
+q=Did the call get answered%3F&userid=asrilekh_0722_uid13&sessionid=asrilekh_0722_sessid13&providerids=111635088,113613997,133964321&q4=chat&q5=bar_chart_requeste&q6=calls
+provider_lst is ['111635088', '113613997', '133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=asrilekh_0722_uid13session id=asrilekh_0722_sessid13
+Did the call get answered
+Did the call get answered
+in call id extrct function
+returned call id 0
+corrected_ip_string
+did the call get answered
+entered if1 Did the call get answered
+in call id extrct function
+entered if2 Did the call get answered
+user message after call number replacement isDid the call get answered
+corrected_ip_string
+time_extract
+[]
+user message after date text replacement is Did the call get answered
+in context history pop function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+{"$and":[{"User_ID":'asrilekh_0722_uid13'},{"Session_ID":'asrilekh_0722_sessid13'},{"Call_R_Calls":'CALL'}]}
+{'$and': [{'User_ID': 'asrilekh_0722_uid13'}, {'Session_ID': 'asrilekh_0722_sessid13'}, {'Call_R_Calls': 'CALL'}]}
+18
+817097999
+user_message is Did the call get answered
+user_message is Did the call get answered
+call
+corrected_ip_string
+user_message is did the call get answered
+call
+corrected_ip_string
+user_message is did the call get answered
+call
+user_message is did the call get answered
+call
+call_answered
+817097999 in get_call_talk_time function
+final intent call_answered
+context_context final NA
+final user message value did the call get answered
+answer=Yes, The call got answered
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+asrilekh_0722_uid13
+asrilekh_0722_sessid13
+Did the call get answered
+Yes, The call got answered
+call_answered
+0.9611971378326416
+default
+q=What was the total duration of the call%3F&userid=asrilekh_0722_uid13&sessionid=asrilekh_0722_sessid13&providerids=111635088,113613997,133964321&q4=chat&q5=bar_chart_requeste&q6=calls
+provider_lst is ['111635088', '113613997', '133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=asrilekh_0722_uid13session id=asrilekh_0722_sessid13
+What was the total duration of the call
+What was the total duration of the call
+in call id extrct function
+returned call id 0
+corrected_ip_string
+what was the complete time of the call
+entered if1 What was the total duration of the call
+in call id extrct function
+entered if2 What was the total duration of the call
+user message after call number replacement isWhat was the total duration of the call
+corrected_ip_string
+time_extract
+[]
+user message after date text replacement is What was the total duration of the call
+in context history pop function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+{"$and":[{"User_ID":'asrilekh_0722_uid13'},{"Session_ID":'asrilekh_0722_sessid13'},{"Call_R_Calls":'CALL'}]}
+{'$and': [{'User_ID': 'asrilekh_0722_uid13'}, {'Session_ID': 'asrilekh_0722_sessid13'}, {'Call_R_Calls': 'CALL'}]}
+19
+817097999
+user_message is What was the total duration of the call
+user_message is What was the total duration of the call
+call
+corrected_ip_string
+user_message is what was the complete time of the call
+call
+corrected_ip_string
+user_message is what was the complete time of the call
+call
+user_message is what was the complete time of the call
+call
+call_time
+817097999 in get_call_id_presence function
+final intent call_time
+context_context final NA
+final user message value what was the complete time of the call
+answer=The total duration of call is 109 seconds
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+asrilekh_0722_uid13
+asrilekh_0722_sessid13
+What was the total duration of the call
+The total duration of call is 109 seconds
+call_time
+0.9420222043991089
+default
+q=What's the hold-time for the call%3F&userid=asrilekh_0722_uid13&sessionid=asrilekh_0722_sessid13&providerids=111635088,113613997,133964321&q4=chat&q5=bar_chart_requeste&q6=calls
+provider_lst is ['111635088', '113613997', '133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=asrilekh_0722_uid13session id=asrilekh_0722_sessid13
+What's the hold-time for the call
+What's the hold-time for the call
+in call id extrct function
+returned call id 0
+corrected_ip_string
+what's the hold-time for the call
+entered if1 What's the hold-time for the call
+in call id extrct function
+entered if2 What's the hold-time for the call
+user message after call number replacement isWhat's the hold-time for the call
+corrected_ip_string
+time_extract
+[]
+user message after date text replacement is What's the hold-time for the call
+in context history pop function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+{"$and":[{"User_ID":'asrilekh_0722_uid13'},{"Session_ID":'asrilekh_0722_sessid13'},{"Call_R_Calls":'CALL'}]}
+{'$and': [{'User_ID': 'asrilekh_0722_uid13'}, {'Session_ID': 'asrilekh_0722_sessid13'}, {'Call_R_Calls': 'CALL'}]}
+20
+817097999
+user_message is What's the hold-time for the call
+user_message is What's the hold-time for the call
+call
+corrected_ip_string
+user_message is what's the hold-time for the call
+call
+corrected_ip_string
+user_message is what's the hold time for the call
+call
+user_message is what's the hold time for the call
+call
+call_hold_time
+817097999 in get_call_hold_time function
+final intent call_time
+context_context final NA
+final user message value what's the hold time for the call
+answer=The call was on hold for 0 seconds
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+asrilekh_0722_uid13
+asrilekh_0722_sessid13
+What's the hold-time for the call
+The call was on hold for 0 seconds
+call_time
+0.9715567827224731
+default
+q=To which Line of Business does the call pertain to&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+To which Line of Business does the call pertain to
+To which Line of Business does the call pertain to
+in call id extrct function
+returned call id 0
+corrected_ip_string
+to which of lob does the call pertain to
+entered if1 To which Line of Business does the call pertain to
+in call id extrct function
+entered if2 To which Line of Business does the call pertain to
+user message after call number replacement isTo which Line of Business does the call pertain to
+corrected_ip_string
+time_extract
+[]
+user message after date text replacement is To which Line of Business does the call pertain to
+in context history pop function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+{"$and":[{"User_ID":'venkat_0723_1_uid'},{"Session_ID":'venkat_0723_1_sessid'},{"Call_R_Calls":'CALL'}]}
+{'$and': [{'User_ID': 'venkat_0723_1_uid'}, {'Session_ID': 'venkat_0723_1_sessid'}, {'Call_R_Calls': 'CALL'}]}
+8
+788607957
+user_message is To which Line of Business does the call pertain to
+user_message is To which Line of Business does the call pertain to
+call
+corrected_ip_string
+user_message is to which of lob does the call pertain to
+call
+corrected_ip_string
+user_message is to which of lob does the call pertain to
+call
+user_message is to which of lob does the call pertain to
+call
+call_lob
+788607957 in get_call_lob function
+final intent call_lob
+context_context final NA
+final user message value to which of lob does the call pertain to
+answer=The call pertains to E&I line of business
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+venkat_0723_1_uid
+venkat_0723_1_sessid
+To which Line of Business does the call pertain to
+The call pertains to E&I line of business
+call_lob
+0.9666839838027954
+default
+q=What's the product type being enquired in the call&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+What's the product type being enquired in the call
+What's the product type being enquired in the call
+in call id extrct function
+returned call id 0
+corrected_ip_string
+what's the product type being enquired in the call
+entered if1 What's the product type being enquired in the call
+in call id extrct function
+entered if2 What's the product type being enquired in the call
+user message after call number replacement isWhat's the product type being enquired in the call
+corrected_ip_string
+time_extract
+[]
+user message after date text replacement is What's the product type being enquired in the call
+in context history pop function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+{"$and":[{"User_ID":'venkat_0723_1_uid'},{"Session_ID":'venkat_0723_1_sessid'},{"Call_R_Calls":'CALL'}]}
+{'$and': [{'User_ID': 'venkat_0723_1_uid'}, {'Session_ID': 'venkat_0723_1_sessid'}, {'Call_R_Calls': 'CALL'}]}
+9
+788607957
+user_message is What's the product type being enquired in the call
+user_message is What's the product type being enquired in the call
+call
+corrected_ip_string
+user_message is what's the product type being enquired in the call
+call
+corrected_ip_string
+user_message is what's the product type being enquired in the call
+call
+user_message is what's the product type being enquired in the call
+call
+call_product_type
+788607957 in get_call_type function
+final intent call_type
+context_context final NA
+final user message value what's the product type being enquired in the call
+answer=The call is related to Eligibility category
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+venkat_0723_1_uid
+venkat_0723_1_sessid
+What's the product type being enquired in the call
+The call is related to Eligibility category
+call_type
+0.9342199563980103
+default
+q=To what category does the call belong to&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+To what category does the call belong to
+To what category does the call belong to
+in call id extrct function
+returned call id 0
+corrected_ip_string
+to what type does the call belong to
+entered if1 To what category does the call belong to
+in call id extrct function
+entered if2 To what category does the call belong to
+user message after call number replacement isTo what category does the call belong to
+corrected_ip_string
+time_extract
+[]
+user message after date text replacement is To what category does the call belong to
+in context history pop function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+{"$and":[{"User_ID":'venkat_0723_1_uid'},{"Session_ID":'venkat_0723_1_sessid'},{"Call_R_Calls":'CALL'}]}
+{'$and': [{'User_ID': 'venkat_0723_1_uid'}, {'Session_ID': 'venkat_0723_1_sessid'}, {'Call_R_Calls': 'CALL'}]}
+10
+788607957
+user_message is To what category does the call belong to
+user_message is To what category does the call belong to
+call
+corrected_ip_string
+user_message is to what type does the call belong to
+call
+corrected_ip_string
+user_message is to what type does the call belong to
+call
+user_message is to what type does the call belong to
+call
+call_type
+788607957 in get_call_type function
+final intent call_type
+context_context final NA
+final user message value to what type does the call belong to
+answer=The call is related to Eligibility category
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+venkat_0723_1_uid
+venkat_0723_1_sessid
+To what category does the call belong to
+The call is related to Eligibility category
+call_type
+0.9357874393463135
+default
+q=What's the talk-time for the call&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+What's the talk-time for the call
+What's the talk-time for the call
+in call id extrct function
+returned call id 0
+corrected_ip_string
+what's the talk-time for the call
+entered if1 What's the talk-time for the call
+in call id extrct function
+entered if2 What's the talk-time for the call
+user message after call number replacement isWhat's the talk-time for the call
+corrected_ip_string
+time_extract
+[]
+user message after date text replacement is What's the talk-time for the call
+in context history pop function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+{"$and":[{"User_ID":'venkat_0723_1_uid'},{"Session_ID":'venkat_0723_1_sessid'},{"Call_R_Calls":'CALL'}]}
+{'$and': [{'User_ID': 'venkat_0723_1_uid'}, {'Session_ID': 'venkat_0723_1_sessid'}, {'Call_R_Calls': 'CALL'}]}
+11
+788607957
+user_message is What's the talk-time for the call
+user_message is What's the talk-time for the call
+call
+corrected_ip_string
+user_message is what's the talk-time for the call
+call
+corrected_ip_string
+user_message is what's the talk time for the call
+call
+user_message is what's the talk time for the call
+call
+call_talk_time
+788607957 in get_call_talk_time function
+final intent call_time
+context_context final NA
+final user message value what's the talk time for the call
+answer=The talk time for the call was 168 seconds
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+venkat_0723_1_uid
+venkat_0723_1_sessid
+What's the talk-time for the call
+The talk time for the call was 168 seconds
+call_time
+0.9715567827224731
+default
+q=What's the ring-time for the call&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+What's the ring-time for the call
+What's the ring-time for the call
+in call id extrct function
+returned call id 0
+corrected_ip_string
+what's the ring-time for the call
+entered if1 What's the ring-time for the call
+in call id extrct function
+entered if2 What's the ring-time for the call
+user message after call number replacement isWhat's the ring-time for the call
+corrected_ip_string
+time_extract
+[]
+user message after date text replacement is What's the ring-time for the call
+in context history pop function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+{"$and":[{"User_ID":'venkat_0723_1_uid'},{"Session_ID":'venkat_0723_1_sessid'},{"Call_R_Calls":'CALL'}]}
+{'$and': [{'User_ID': 'venkat_0723_1_uid'}, {'Session_ID': 'venkat_0723_1_sessid'}, {'Call_R_Calls': 'CALL'}]}
+12
+788607957
+user_message is What's the ring-time for the call
+user_message is What's the ring-time for the call
+call
+corrected_ip_string
+user_message is what's the ring-time for the call
+call
+corrected_ip_string
+user_message is what's the ring time for the call
+call
+user_message is what's the ring time for the call
+call
+call_ring_time
+788607957 in get_call_ring_time function
+final intent call_time
+context_context final NA
+final user message value what's the ring time for the call
+answer=The phone call rang for 0 seconds
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+venkat_0723_1_uid
+venkat_0723_1_sessid
+What's the ring-time for the call
+The phone call rang for 0 seconds
+call_time
+0.9715567827224731
+default
+q=What's the hold-time for the call&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+What's the hold-time for the call
+What's the hold-time for the call
+in call id extrct function
+returned call id 0
+corrected_ip_string
+what's the hold-time for the call
+entered if1 What's the hold-time for the call
+in call id extrct function
+entered if2 What's the hold-time for the call
+user message after call number replacement isWhat's the hold-time for the call
+corrected_ip_string
+time_extract
+[]
+user message after date text replacement is What's the hold-time for the call
+in context history pop function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+{"$and":[{"User_ID":'venkat_0723_1_uid'},{"Session_ID":'venkat_0723_1_sessid'},{"Call_R_Calls":'CALL'}]}
+{'$and': [{'User_ID': 'venkat_0723_1_uid'}, {'Session_ID': 'venkat_0723_1_sessid'}, {'Call_R_Calls': 'CALL'}]}
+13
+788607957
+user_message is What's the hold-time for the call
+user_message is What's the hold-time for the call
+call
+corrected_ip_string
+user_message is what's the hold-time for the call
+call
+corrected_ip_string
+user_message is what's the hold time for the call
+call
+user_message is what's the hold time for the call
+call
+call_hold_time
+788607957 in get_call_hold_time function
+final intent call_time
+context_context final NA
+final user message value what's the hold time for the call
+answer=The call was on hold for 0 seconds
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+venkat_0723_1_uid
+venkat_0723_1_sessid
+What's the hold-time for the call
+The call was on hold for 0 seconds
+call_time
+0.9715567827224731
+default
+q=What was the total duration of the call&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+What was the total duration of the call
+What was the total duration of the call
+in call id extrct function
+returned call id 0
+corrected_ip_string
+what was the complete time of the call
+entered if1 What was the total duration of the call
+in call id extrct function
+entered if2 What was the total duration of the call
+user message after call number replacement isWhat was the total duration of the call
+corrected_ip_string
+time_extract
+[]
+user message after date text replacement is What was the total duration of the call
+in context history pop function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+{"$and":[{"User_ID":'venkat_0723_1_uid'},{"Session_ID":'venkat_0723_1_sessid'},{"Call_R_Calls":'CALL'}]}
+{'$and': [{'User_ID': 'venkat_0723_1_uid'}, {'Session_ID': 'venkat_0723_1_sessid'}, {'Call_R_Calls': 'CALL'}]}
+14
+788607957
+user_message is What was the total duration of the call
+user_message is What was the total duration of the call
+call
+corrected_ip_string
+user_message is what was the complete time of the call
+call
+corrected_ip_string
+user_message is what was the complete time of the call
+call
+user_message is what was the complete time of the call
+call
+call_time
+788607957 in get_call_id_presence function
+final intent call_time
+context_context final NA
+final user message value what was the complete time of the call
+answer=The total duration of call is 168 seconds
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+venkat_0723_1_uid
+venkat_0723_1_sessid
+What was the total duration of the call
+The total duration of call is 168 seconds
+call_time
+0.9420222043991089
+default
+q=Did the call get answered&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+Did the call get answered
+Did the call get answered
+in call id extrct function
+returned call id 0
+corrected_ip_string
+did the call get answered
+entered if1 Did the call get answered
+in call id extrct function
+entered if2 Did the call get answered
+user message after call number replacement isDid the call get answered
+corrected_ip_string
+time_extract
+[]
+user message after date text replacement is Did the call get answered
+in context history pop function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+{"$and":[{"User_ID":'venkat_0723_1_uid'},{"Session_ID":'venkat_0723_1_sessid'},{"Call_R_Calls":'CALL'}]}
+{'$and': [{'User_ID': 'venkat_0723_1_uid'}, {'Session_ID': 'venkat_0723_1_sessid'}, {'Call_R_Calls': 'CALL'}]}
+15
+788607957
+user_message is Did the call get answered
+user_message is Did the call get answered
+call
+corrected_ip_string
+user_message is did the call get answered
+call
+corrected_ip_string
+user_message is did the call get answered
+call
+user_message is did the call get answered
+call
+call_answered
+788607957 in get_call_talk_time function
+final intent call_answered
+context_context final NA
+final user message value did the call get answered
+answer=Yes, The call got answered
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+venkat_0723_1_uid
+venkat_0723_1_sessid
+Did the call get answered
+Yes, The call got answered
+call_answered
+0.9611971378326416
+default
+q=Did the call get transferred&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+Did the call get transferred
+Did the call get transferred
+in call id extrct function
+returned call id 0
+corrected_ip_string
+did the call get transferred
+entered if1 Did the call get transferred
+in call id extrct function
+entered if2 Did the call get transferred
+user message after call number replacement isDid the call get transferred
+corrected_ip_string
+time_extract
+[]
+user message after date text replacement is Did the call get transferred
+in context history pop function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+{"$and":[{"User_ID":'venkat_0723_1_uid'},{"Session_ID":'venkat_0723_1_sessid'},{"Call_R_Calls":'CALL'}]}
+{'$and': [{'User_ID': 'venkat_0723_1_uid'}, {'Session_ID': 'venkat_0723_1_sessid'}, {'Call_R_Calls': 'CALL'}]}
+16
+788607957
+user_message is Did the call get transferred
+user_message is Did the call get transferred
+call
+corrected_ip_string
+user_message is did the call get transferred
+call
+corrected_ip_string
+user_message is did the call get transferred
+call
+user_message is did the call get transferred
+call
+call_transferred
+788607957 in get_call_talk_time function
+final intent call_transferrred
+context_context final NA
+final user message value did the call get transferred
+answer=No, the call did not get transfer
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+venkat_0723_1_uid
+venkat_0723_1_sessid
+Did the call get transferred
+No, the call did not get transfer
+call_transferrred
+0.951572597026825
+default
+q=In which language the call answered&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=chat&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+In which language the call answered
+In which language the call answered
+in call id extrct function
+returned call id 0
+corrected_ip_string
+in which language the call answered
+entered if1 In which language the call answered
+in call id extrct function
+entered if2 In which language the call answered
+user message after call number replacement isIn which language the call answered
+corrected_ip_string
+time_extract
+[]
+user message after date text replacement is In which language the call answered
+in context history pop function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+{"$and":[{"User_ID":'venkat_0723_1_uid'},{"Session_ID":'venkat_0723_1_sessid'},{"Call_R_Calls":'CALL'}]}
+{'$and': [{'User_ID': 'venkat_0723_1_uid'}, {'Session_ID': 'venkat_0723_1_sessid'}, {'Call_R_Calls': 'CALL'}]}
+17
+788607957
+user_message is In which language the call answered
+user_message is In which language the call answered
+call
+corrected_ip_string
+user_message is in which language the call answered
+call
+corrected_ip_string
+user_message is in which language the call answered
+call
+user_message is in which language the call answered
+call
+call_language
+788607957 in get_call_talk_time function
+final intent call_language
+context_context final NA
+final user message value in which language the call answered
+answer=The call was answered in English
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+venkat_0723_1_uid
+venkat_0723_1_sessid
+In which language the call answered
+The call was answered in English
+call_language
+0.9596427083015442
+default
+q=Show me the trend for the calls received in 2019&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=search&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+Show me the trend for the calls received in 2019
+Show me the trend for the calls received in 2019
+in call id extrct function
+returned call id 0
+corrected_ip_string
+show me the trend for the call received in 219
+entered if1 Show me the trend for the calls received in 2019
+in call id extrct function
+entered if2 Show me the trend for the calls received in 2019
+user message after call number replacement isShow me the trend for the calls received in 2019
+corrected_ip_string
+time_extract
+['2019']
+2019-01-01T00:00:00.000-06:00
+user message after date text replacement is Show me the trend for the calls received in 2019
+user_message is Show me the trend for the calls received in 2019
+user_message is Show me the trend for the calls received in 2019
+calls
+corrected_ip_string
+user_message is show me the trend for the calls received in 2019
+calls
+corrected_ip_string
+user_message is show me the trend for the calls received in 2019
+calls
+user_message is show me the trend for the calls received in 2019
+calls
+calls_cnt
+['133964321']
+{'$and':[{'rcvd_date_str':{'$regex':'.*-01-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+01
+{'$and':[{'rcvd_date_str':{'$regex':'.*-02-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+02
+{'$and':[{'rcvd_date_str':{'$regex':'.*-03-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+03
+{'$and':[{'rcvd_date_str':{'$regex':'.*-04-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+04
+{'$and':[{'rcvd_date_str':{'$regex':'.*-05-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+05
+{'$and':[{'rcvd_date_str':{'$regex':'.*-06-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+06
+{'$and':[{'rcvd_date_str':{'$regex':'.*-07-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+07
+{'$and':[{'rcvd_date_str':{'$regex':'.*-08-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+08
+{'$and':[{'rcvd_date_str':{'$regex':'.*-09-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+09
+{'$and':[{'rcvd_date_str':{'$regex':'.*-10-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+10
+{'$and':[{'rcvd_date_str':{'$regex':'.*-11-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+11
+{'$and':[{'rcvd_date_str':{'$regex':'.*-12-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+12
+{'From':'','End':'','Title':'Calls Trend (Volume)','Graph Type':'Line','Header':['Jan-19', 'Feb-19', 'Mar-19', 'Apr-19', 'May-19', 'Jun-19', 'Jul-19', 'Aug-19', 'Sep-19', 'Oct-19', 'Nov-19', 'Dec-19'],'Value':['908', '764', '865', '887', '960', '758', '0', '0', '0', '0', '0', '0']}
+final intent calls_count
+context_context final NA
+final user message value show me the trend for the calls received in 2019 count
+answer={'End': '', 'From': '', 'Header': ['Jan-19', 'Feb-19', 'Mar-19', 'Apr-19', 'May-19', 'Jun-19', 'Jul-19', 'Aug-19', 'Sep-19', 'Oct-19', 'Nov-19', 'Dec-19'], 'Graph Type': 'Line', 'Value': ['908', '764', '865', '887', '960', '758', '0', '0', '0', '0', '0', '0'], 'Title': 'Calls Trend (Volume)'}
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+venkat_0723_1_uid
+venkat_0723_1_sessid
+Show me the trend for the calls received in 2019
+{'End': '', 'From': '', 'Header': ['Jan-19', 'Feb-19', 'Mar-19', 'Apr-19', 'May-19', 'Jun-19', 'Jul-19', 'Aug-19', 'Sep-19', 'Oct-19', 'Nov-19', 'Dec-19'], 'Graph Type': 'Line', 'Value': ['908', '764', '865', '887', '960', '758', '0', '0', '0', '0', '0', '0'], 'Title': 'Calls Trend (Volume)'}
+calls_count
+0.960577666759491
+default
+q=Show me the trend for the calls received in 2019 by lob&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=search&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+Show me the trend for the calls received in 2019 by lob
+Show me the trend for the calls received in 2019 by lob
+in call id extrct function
+returned call id 0
+corrected_ip_string
+show me the trend for the call in 219 by lob
+entered if1 Show me the trend for the calls received in 2019 by lob
+in call id extrct function
+entered if2 Show me the trend for the calls received in 2019 by lob
+user message after call number replacement isShow me the trend for the calls received in 2019 by lob
+corrected_ip_string
+time_extract
+['2019']
+2019-01-01T00:00:00.000-06:00
+user message after date text replacement is Show me the trend for the calls received in by lob
+user_message is Show me the trend for the calls received in by lob
+user_message is Show me the trend for the calls received in by lob
+calls
+corrected_ip_string
+user_message is show me the trend for the calls received in by lob
+calls
+corrected_ip_string
+user_message is show me the trend for the calls received in by lob
+calls
+user_message is show me the trend for the calls received in by lob
+calls
+calls_cnt_lob
+{'$and':[{'rcvd_date_str':{'$regex':'.*-01-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+01
+{'$and':[{'rcvd_date_str':{'$regex':'.*-02-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+02
+{'$and':[{'rcvd_date_str':{'$regex':'.*-03-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+03
+{'$and':[{'rcvd_date_str':{'$regex':'.*-04-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+04
+{'$and':[{'rcvd_date_str':{'$regex':'.*-05-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+05
+{'$and':[{'rcvd_date_str':{'$regex':'.*-06-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+06
+{'$and':[{'rcvd_date_str':{'$regex':'.*-07-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+07
+{'$and':[{'rcvd_date_str':{'$regex':'.*-08-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+08
+{'$and':[{'rcvd_date_str':{'$regex':'.*-09-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+09
+{'$and':[{'rcvd_date_str':{'$regex':'.*-10-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+10
+{'$and':[{'rcvd_date_str':{'$regex':'.*-11-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+11
+{'$and':[{'rcvd_date_str':{'$regex':'.*-12-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+12
+{'From':'','End':'','Title':'Calls Volume (By LOB)','Graph Type':'Bar','Header':['E&I', 'C&S', 'M&R'],'Value':['2589', '1430', '1123']}
+final intent calls_count
+context_context final NA
+final user message value show me the trend for the calls received in by lob count
+answer={'End': '', 'From': '', 'Header': ['E&I', 'C&S', 'M&R'], 'Graph Type': 'Bar', 'Value': ['2589', '1430', '1123'], 'Title': 'Calls Volume (By LOB)'}
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+venkat_0723_1_uid
+venkat_0723_1_sessid
+Show me the trend for the calls received in 2019 by lob
+{'End': '', 'From': '', 'Header': ['E&I', 'C&S', 'M&R'], 'Graph Type': 'Bar', 'Value': ['2589', '1430', '1123'], 'Title': 'Calls Volume (By LOB)'}
+calls_count
+0.9650924205780029
+default
+q=Show me the trend for the calls received in 2019 by product&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=search&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+Show me the trend for the calls received in 2019 by product
+Show me the trend for the calls received in 2019 by product
+in call id extrct function
+returned call id 0
+corrected_ip_string
+show me the trend for the call received in 219 by product
+entered if1 Show me the trend for the calls received in 2019 by product
+in call id extrct function
+entered if2 Show me the trend for the calls received in 2019 by product
+user message after call number replacement isShow me the trend for the calls received in 2019 by product
+corrected_ip_string
+time_extract
+['2019']
+2019-01-01T00:00:00.000-06:00
+user message after date text replacement is Show me the trend for the calls received in by product
+user_message is Show me the trend for the calls received in by product
+user_message is Show me the trend for the calls received in by product
+calls
+corrected_ip_string
+user_message is show me the trend for the calls received in by product
+calls
+corrected_ip_string
+user_message is show me the trend for the calls received in by product
+calls
+user_message is show me the trend for the calls received in by product
+calls
+calls_cnt
+['133964321']
+{'$and':[{'rcvd_date_str':{'$regex':'.*-01-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+01
+{'$and':[{'rcvd_date_str':{'$regex':'.*-02-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+02
+{'$and':[{'rcvd_date_str':{'$regex':'.*-03-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+03
+{'$and':[{'rcvd_date_str':{'$regex':'.*-04-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+04
+{'$and':[{'rcvd_date_str':{'$regex':'.*-05-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+05
+{'$and':[{'rcvd_date_str':{'$regex':'.*-06-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+06
+{'$and':[{'rcvd_date_str':{'$regex':'.*-07-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+07
+{'$and':[{'rcvd_date_str':{'$regex':'.*-08-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+08
+{'$and':[{'rcvd_date_str':{'$regex':'.*-09-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+09
+{'$and':[{'rcvd_date_str':{'$regex':'.*-10-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+10
+{'$and':[{'rcvd_date_str':{'$regex':'.*-11-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+11
+{'$and':[{'rcvd_date_str':{'$regex':'.*-12-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+12
+{'From':'','End':'','Title':'Calls Trend (Volume)','Graph Type':'Line','Header':['Jan-19', 'Feb-19', 'Mar-19', 'Apr-19', 'May-19', 'Jun-19', 'Jul-19', 'Aug-19', 'Sep-19', 'Oct-19', 'Nov-19', 'Dec-19'],'Value':['908', '764', '865', '887', '960', '758', '0', '0', '0', '0', '0', '0']}
+final intent calls_count
+context_context final NA
+final user message value show me the trend for the calls received in by product count
+answer={'End': '', 'From': '', 'Header': ['Jan-19', 'Feb-19', 'Mar-19', 'Apr-19', 'May-19', 'Jun-19', 'Jul-19', 'Aug-19', 'Sep-19', 'Oct-19', 'Nov-19', 'Dec-19'], 'Graph Type': 'Line', 'Value': ['908', '764', '865', '887', '960', '758', '0', '0', '0', '0', '0', '0'], 'Title': 'Calls Trend (Volume)'}
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+venkat_0723_1_uid
+venkat_0723_1_sessid
+Show me the trend for the calls received in 2019 by product
+{'End': '', 'From': '', 'Header': ['Jan-19', 'Feb-19', 'Mar-19', 'Apr-19', 'May-19', 'Jun-19', 'Jul-19', 'Aug-19', 'Sep-19', 'Oct-19', 'Nov-19', 'Dec-19'], 'Graph Type': 'Line', 'Value': ['908', '764', '865', '887', '960', '758', '0', '0', '0', '0', '0', '0'], 'Title': 'Calls Trend (Volume)'}
+calls_count
+0.9608402848243713
+default
+q=Show me the trend for the calls received in 2019 by product&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=search&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+Show me the trend for the calls received in 2019 by product
+Show me the trend for the calls received in 2019 by product
+in call id extrct function
+returned call id 0
+corrected_ip_string
+show me the trend for the call received in 219 by product
+entered if1 Show me the trend for the calls received in 2019 by product
+in call id extrct function
+entered if2 Show me the trend for the calls received in 2019 by product
+user message after call number replacement isShow me the trend for the calls received in 2019 by product
+corrected_ip_string
+time_extract
+['2019']
+2019-01-01T00:00:00.000-06:00
+user message after date text replacement is Show me the trend for the calls received in by product
+user_message is Show me the trend for the calls received in by product
+user_message is Show me the trend for the calls received in by product
+calls
+corrected_ip_string
+user_message is show me the trend for the calls received in by product
+calls
+corrected_ip_string
+user_message is show me the trend for the calls received in by product
+calls
+user_message is show me the trend for the calls received in by product
+calls
+calls_cnt
+['133964321']
+{'$and':[{'rcvd_date_str':{'$regex':'.*-01-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+01
+{'$and':[{'rcvd_date_str':{'$regex':'.*-02-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+02
+{'$and':[{'rcvd_date_str':{'$regex':'.*-03-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+03
+{'$and':[{'rcvd_date_str':{'$regex':'.*-04-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+04
+{'$and':[{'rcvd_date_str':{'$regex':'.*-05-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+05
+{'$and':[{'rcvd_date_str':{'$regex':'.*-06-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+06
+{'$and':[{'rcvd_date_str':{'$regex':'.*-07-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+07
+{'$and':[{'rcvd_date_str':{'$regex':'.*-08-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+08
+{'$and':[{'rcvd_date_str':{'$regex':'.*-09-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+09
+{'$and':[{'rcvd_date_str':{'$regex':'.*-10-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+10
+{'$and':[{'rcvd_date_str':{'$regex':'.*-11-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+11
+{'$and':[{'rcvd_date_str':{'$regex':'.*-12-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+12
+{'From':'','End':'','Title':'Calls Trend (Volume)','Graph Type':'Line','Header':['Jan-19', 'Feb-19', 'Mar-19', 'Apr-19', 'May-19', 'Jun-19', 'Jul-19', 'Aug-19', 'Sep-19', 'Oct-19', 'Nov-19', 'Dec-19'],'Value':['908', '764', '865', '887', '960', '758', '0', '0', '0', '0', '0', '0']}
+final intent calls_count
+context_context final NA
+final user message value show me the trend for the calls received in by product count
+answer={'End': '', 'From': '', 'Header': ['Jan-19', 'Feb-19', 'Mar-19', 'Apr-19', 'May-19', 'Jun-19', 'Jul-19', 'Aug-19', 'Sep-19', 'Oct-19', 'Nov-19', 'Dec-19'], 'Graph Type': 'Line', 'Value': ['908', '764', '865', '887', '960', '758', '0', '0', '0', '0', '0', '0'], 'Title': 'Calls Trend (Volume)'}
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+venkat_0723_1_uid
+venkat_0723_1_sessid
+Show me the trend for the calls received in 2019 by product
+{'End': '', 'From': '', 'Header': ['Jan-19', 'Feb-19', 'Mar-19', 'Apr-19', 'May-19', 'Jun-19', 'Jul-19', 'Aug-19', 'Sep-19', 'Oct-19', 'Nov-19', 'Dec-19'], 'Graph Type': 'Line', 'Value': ['908', '764', '865', '887', '960', '758', '0', '0', '0', '0', '0', '0'], 'Title': 'Calls Trend (Volume)'}
+calls_count
+0.9608402848243713
+default
+q=Show me the trend for the calls received in 2019 by category&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=search&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+Show me the trend for the calls received in 2019 by category
+Show me the trend for the calls received in 2019 by category
+in call id extrct function
+returned call id 0
+corrected_ip_string
+show me the trend for the call in 219 by type
+entered if1 Show me the trend for the calls received in 2019 by category
+in call id extrct function
+entered if2 Show me the trend for the calls received in 2019 by category
+user message after call number replacement isShow me the trend for the calls received in 2019 by category
+corrected_ip_string
+time_extract
+['2019']
+2019-01-01T00:00:00.000-06:00
+user message after date text replacement is Show me the trend for the calls received in by category
+user_message is Show me the trend for the calls received in by category
+user_message is Show me the trend for the calls received in by category
+calls
+corrected_ip_string
+user_message is show me the trend for the calls received in by type
+calls
+corrected_ip_string
+user_message is show me the trend for the calls received in by type
+calls
+user_message is show me the trend for the calls received in by type
+calls
+calls_cnt_type
+{'$and':[{'rcvd_date_str':{'$regex':'.*-01-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+01
+{'$and':[{'rcvd_date_str':{'$regex':'.*-02-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+02
+{'$and':[{'rcvd_date_str':{'$regex':'.*-03-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+03
+{'$and':[{'rcvd_date_str':{'$regex':'.*-04-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+04
+{'$and':[{'rcvd_date_str':{'$regex':'.*-05-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+05
+{'$and':[{'rcvd_date_str':{'$regex':'.*-06-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+06
+{'$and':[{'rcvd_date_str':{'$regex':'.*-07-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+07
+{'$and':[{'rcvd_date_str':{'$regex':'.*-08-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+08
+{'$and':[{'rcvd_date_str':{'$regex':'.*-09-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+09
+{'$and':[{'rcvd_date_str':{'$regex':'.*-10-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+10
+{'$and':[{'rcvd_date_str':{'$regex':'.*-11-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+11
+{'$and':[{'rcvd_date_str':{'$regex':'.*-12-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+12
+{'From':'','End':'','Title':'Calls Volume (By Category)','Graph Type':'Bar','Header':['Claims', 'Others', 'Eligibility'],'Value':['2776', '1469', '897']}
+final intent calls_count
+context_context final NA
+final user message value show me the trend for the calls received in by type count
+answer={'End': '', 'From': '', 'Header': ['Claims', 'Others', 'Eligibility'], 'Graph Type': 'Bar', 'Value': ['2776', '1469', '897'], 'Title': 'Calls Volume (By Category)'}
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+venkat_0723_1_uid
+venkat_0723_1_sessid
+Show me the trend for the calls received in 2019 by category
+{'End': '', 'From': '', 'Header': ['Claims', 'Others', 'Eligibility'], 'Graph Type': 'Bar', 'Value': ['2776', '1469', '897'], 'Title': 'Calls Volume (By Category)'}
+calls_count
+0.9606509208679199
+default
+q=Show me the trend for the calls received in 2019 by answered&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=search&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+Show me the trend for the calls received in 2019 by answered
+Show me the trend for the calls received in 2019 by answered
+in call id extrct function
+returned call id 0
+corrected_ip_string
+show me the trend for the call received in 219 by answered
+entered if1 Show me the trend for the calls received in 2019 by answered
+in call id extrct function
+entered if2 Show me the trend for the calls received in 2019 by answered
+user message after call number replacement isShow me the trend for the calls received in 2019 by answered
+corrected_ip_string
+time_extract
+['2019']
+2019-01-01T00:00:00.000-06:00
+user message after date text replacement is Show me the trend for the calls received in by answered
+user_message is Show me the trend for the calls received in by answered
+user_message is Show me the trend for the calls received in by answered
+calls
+corrected_ip_string
+user_message is show me the trend for the calls received in by answered
+calls
+corrected_ip_string
+user_message is show me the trend for the calls received in by answered
+calls
+user_message is show me the trend for the calls received in by answered
+calls
+calls_cnt_ans_by
+{'$and':[{'rcvd_date_str':{'$regex':'.*-01-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+entered if of ringnoanswer
+01
+{'$and':[{'rcvd_date_str':{'$regex':'.*-02-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+entered if of ringnoanswer
+02
+{'$and':[{'rcvd_date_str':{'$regex':'.*-03-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+entered if of ringnoanswer
+03
+{'$and':[{'rcvd_date_str':{'$regex':'.*-04-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+entered if of ringnoanswer
+04
+{'$and':[{'rcvd_date_str':{'$regex':'.*-05-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+05
+{'$and':[{'rcvd_date_str':{'$regex':'.*-06-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+entered if of ringnoanswer
+06
+{'$and':[{'rcvd_date_str':{'$regex':'.*-07-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+07
+{'$and':[{'rcvd_date_str':{'$regex':'.*-08-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+08
+{'$and':[{'rcvd_date_str':{'$regex':'.*-09-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+09
+{'$and':[{'rcvd_date_str':{'$regex':'.*-10-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+10
+{'$and':[{'rcvd_date_str':{'$regex':'.*-11-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+11
+{'$and':[{'rcvd_date_str':{'$regex':'.*-12-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+12
+{'From':'','End':'','Title':'Calls Volume (By Answered)','Graph Type':'Bar','Header':['Answered', 'Not Answered'],'Value':['5130', '12']}
+final intent calls_count
+context_context final NA
+final user message value show me the trend for the calls received in by answered count
+answer={'End': '', 'From': '', 'Header': ['Answered', 'Not Answered'], 'Graph Type': 'Bar', 'Value': ['5130', '12'], 'Title': 'Calls Volume (By Answered)'}
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+venkat_0723_1_uid
+venkat_0723_1_sessid
+Show me the trend for the calls received in 2019 by answered
+{'End': '', 'From': '', 'Header': ['Answered', 'Not Answered'], 'Graph Type': 'Bar', 'Value': ['5130', '12'], 'Title': 'Calls Volume (By Answered)'}
+calls_count
+0.9609777927398682
+default
+q=Show me the trend for the calls received in 2019 by transfered&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=search&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+Show me the trend for the calls received in 2019 by transfered
+Show me the trend for the calls received in 2019 by transfered
+in call id extrct function
+returned call id 0
+corrected_ip_string
+show me the trend for the call received in 219 by transferred
+entered if1 Show me the trend for the calls received in 2019 by transfered
+in call id extrct function
+entered if2 Show me the trend for the calls received in 2019 by transfered
+user message after call number replacement isShow me the trend for the calls received in 2019 by transfered
+corrected_ip_string
+time_extract
+['2019']
+2019-01-01T00:00:00.000-06:00
+user message after date text replacement is Show me the trend for the calls received in by transfered
+user_message is Show me the trend for the calls received in by transfered
+user_message is Show me the trend for the calls received in by transfered
+calls
+corrected_ip_string
+user_message is show me the trend for the calls received in by transferred
+calls
+corrected_ip_string
+user_message is show me the trend for the calls received in by transferred
+calls
+user_message is show me the trend for the calls received in by transferred
+calls
+calls_cnt_trnsfr_by
+{'$and':[{'rcvd_date_str':{'$regex':'.*-01-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+01
+{'$and':[{'rcvd_date_str':{'$regex':'.*-02-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+02
+{'$and':[{'rcvd_date_str':{'$regex':'.*-03-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+03
+{'$and':[{'rcvd_date_str':{'$regex':'.*-04-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+04
+{'$and':[{'rcvd_date_str':{'$regex':'.*-05-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+05
+{'$and':[{'rcvd_date_str':{'$regex':'.*-06-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+06
+{'$and':[{'rcvd_date_str':{'$regex':'.*-07-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+07
+{'$and':[{'rcvd_date_str':{'$regex':'.*-08-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+08
+{'$and':[{'rcvd_date_str':{'$regex':'.*-09-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+09
+{'$and':[{'rcvd_date_str':{'$regex':'.*-10-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+10
+{'$and':[{'rcvd_date_str':{'$regex':'.*-11-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+11
+{'$and':[{'rcvd_date_str':{'$regex':'.*-12-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+12
+{'From':'','End':'','Title':'Calls Volume (By Transfer)','Graph Type':'Bar','Header':['Not Transferred', 'Transferred'],'Value':['3766', '1376']}
+final intent calls_count
+context_context final NA
+final user message value show me the trend for the calls received in by transferred count
+answer={'End': '', 'From': '', 'Header': ['Not Transferred', 'Transferred'], 'Graph Type': 'Bar', 'Value': ['3766', '1376'], 'Title': 'Calls Volume (By Transfer)'}
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+venkat_0723_1_uid
+venkat_0723_1_sessid
+Show me the trend for the calls received in 2019 by transfered
+{'End': '', 'From': '', 'Header': ['Not Transferred', 'Transferred'], 'Graph Type': 'Bar', 'Value': ['3766', '1376'], 'Title': 'Calls Volume (By Transfer)'}
+calls_count
+0.9598900079727173
+default
+q=Show me the trend for the calls received in 2019 by lang&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=search&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+Show me the trend for the calls received in 2019 by lang
+Show me the trend for the calls received in 2019 by lang
+in call id extrct function
+returned call id 0
+corrected_ip_string
+show me the trend for the call received in 219 by lang
+entered if1 Show me the trend for the calls received in 2019 by lang
+in call id extrct function
+entered if2 Show me the trend for the calls received in 2019 by lang
+user message after call number replacement isShow me the trend for the calls received in 2019 by lang
+corrected_ip_string
+time_extract
+['2019']
+2019-01-01T00:00:00.000-06:00
+user message after date text replacement is Show me the trend for the calls received in by lang
+user_message is Show me the trend for the calls received in by lang
+user_message is Show me the trend for the calls received in by lang
+calls
+corrected_ip_string
+user_message is show me the trend for the calls received in by lang
+calls
+corrected_ip_string
+user_message is show me the trend for the calls received in by lang
+calls
+user_message is show me the trend for the calls received in by lang
+calls
+calls_cnt
+['133964321']
+{'$and':[{'rcvd_date_str':{'$regex':'.*-01-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+01
+{'$and':[{'rcvd_date_str':{'$regex':'.*-02-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+02
+{'$and':[{'rcvd_date_str':{'$regex':'.*-03-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+03
+{'$and':[{'rcvd_date_str':{'$regex':'.*-04-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+04
+{'$and':[{'rcvd_date_str':{'$regex':'.*-05-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+05
+{'$and':[{'rcvd_date_str':{'$regex':'.*-06-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+06
+{'$and':[{'rcvd_date_str':{'$regex':'.*-07-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+07
+{'$and':[{'rcvd_date_str':{'$regex':'.*-08-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+08
+{'$and':[{'rcvd_date_str':{'$regex':'.*-09-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+09
+{'$and':[{'rcvd_date_str':{'$regex':'.*-10-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+10
+{'$and':[{'rcvd_date_str':{'$regex':'.*-11-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+11
+{'$and':[{'rcvd_date_str':{'$regex':'.*-12-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+12
+{'From':'','End':'','Title':'Calls Trend (Volume)','Graph Type':'Line','Header':['Jan-19', 'Feb-19', 'Mar-19', 'Apr-19', 'May-19', 'Jun-19', 'Jul-19', 'Aug-19', 'Sep-19', 'Oct-19', 'Nov-19', 'Dec-19'],'Value':['908', '764', '865', '887', '960', '758', '0', '0', '0', '0', '0', '0']}
+final intent calls_count
+context_context final NA
+final user message value show me the trend for the calls received in by lang count
+answer={'End': '', 'From': '', 'Header': ['Jan-19', 'Feb-19', 'Mar-19', 'Apr-19', 'May-19', 'Jun-19', 'Jul-19', 'Aug-19', 'Sep-19', 'Oct-19', 'Nov-19', 'Dec-19'], 'Graph Type': 'Line', 'Value': ['908', '764', '865', '887', '960', '758', '0', '0', '0', '0', '0', '0'], 'Title': 'Calls Trend (Volume)'}
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+venkat_0723_1_uid
+venkat_0723_1_sessid
+Show me the trend for the calls received in 2019 by lang
+{'End': '', 'From': '', 'Header': ['Jan-19', 'Feb-19', 'Mar-19', 'Apr-19', 'May-19', 'Jun-19', 'Jul-19', 'Aug-19', 'Sep-19', 'Oct-19', 'Nov-19', 'Dec-19'], 'Graph Type': 'Line', 'Value': ['908', '764', '865', '887', '960', '758', '0', '0', '0', '0', '0', '0'], 'Title': 'Calls Trend (Volume)'}
+calls_count
+0.9604989290237427
+default
+q=Show me the trend for the calls received in 2019 by languag&userid=venkat_0723_1_uid&sessionid=venkat_0723_1_sessid&providerids=133964321&q4=search&q5=junk&q6=calls
+provider_lst is ['133964321']
+in uid sessid function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+userid=venkat_0723_1_uidsession id=venkat_0723_1_sessid
+Show me the trend for the calls received in 2019 by languag
+Show me the trend for the calls received in 2019 by languag
+in call id extrct function
+returned call id 0
+corrected_ip_string
+show me the trend for the call received in 219 by language
+entered if1 Show me the trend for the calls received in 2019 by languag
+in call id extrct function
+entered if2 Show me the trend for the calls received in 2019 by languag
+user message after call number replacement isShow me the trend for the calls received in 2019 by languag
+corrected_ip_string
+time_extract
+['2019']
+2019-01-01T00:00:00.000-06:00
+user message after date text replacement is Show me the trend for the calls received in by languag
+user_message is Show me the trend for the calls received in by languag
+user_message is Show me the trend for the calls received in by languag
+calls
+corrected_ip_string
+user_message is show me the trend for the calls received in by language
+calls
+corrected_ip_string
+user_message is show me the trend for the calls received in by language
+calls
+user_message is show me the trend for the calls received in by language
+calls
+calls_cnt_lang
+{'$and':[{'rcvd_date_str':{'$regex':'.*-01-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+01
+{'$and':[{'rcvd_date_str':{'$regex':'.*-02-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+02
+{'$and':[{'rcvd_date_str':{'$regex':'.*-03-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+03
+{'$and':[{'rcvd_date_str':{'$regex':'.*-04-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+04
+{'$and':[{'rcvd_date_str':{'$regex':'.*-05-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+05
+{'$and':[{'rcvd_date_str':{'$regex':'.*-06-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+06
+{'$and':[{'rcvd_date_str':{'$regex':'.*-07-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+07
+{'$and':[{'rcvd_date_str':{'$regex':'.*-08-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+08
+{'$and':[{'rcvd_date_str':{'$regex':'.*-09-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+09
+{'$and':[{'rcvd_date_str':{'$regex':'.*-10-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+10
+{'$and':[{'rcvd_date_str':{'$regex':'.*-11-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+11
+{'$and':[{'rcvd_date_str':{'$regex':'.*-12-.*'}},{'rcvd_date_str':{'$regex':'2019-.*-.*'}},{'tin':{'$in':['133964321']}}]}
+12
+{'From':'','End':'','Title':'Calls Volume (By Language)','Graph Type':'Bar','Header':['English'],'Value':['5142']}
+final intent calls_count
+context_context final NA
+final user message value show me the trend for the calls received in by language count
+answer={'End': '', 'From': '', 'Header': ['English'], 'Graph Type': 'Bar', 'Value': ['5142'], 'Title': 'Calls Volume (By Language)'}
+in context history push function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+in conv history function
+['HandsFreeAnalytics', 'SELF_SERVICE_ANALYTICS', 'VOP', 'WrapperProject', 'admin', 'analytics_POC', 'blockchain', 'chatfeeds', 'config', 'local', 'mydb', 'rasa', 'siteDirector', 'test']
+['Calls_Context_History', 'undefined', 'Claims', 'hfa_calls_2019', 'PA_Conversation_History', 'calls_uid_sessid', 'Claims_2', 'conversations', 'Context_History', 'HSR_Data', 'PA_Context_History', 'Claims_4', 'hfa_claims_1819_20190619', 'IssueResolution', 'Claims_test', 'claimsSnapshotsApril', 'Calls_Conversation_History', 'hfa_claims_april', 'hfa_claims_1819', 'Advocates', 'userid_sessionid', 'Conversation_History', 'claims_sample_data', 'FCR']
+venkat_0723_1_uid
+venkat_0723_1_sessid
+Show me the trend for the calls received in 2019 by languag
+{'End': '', 'From': '', 'Header': ['English'], 'Graph Type': 'Bar', 'Value': ['5142'], 'Title': 'Calls Volume (By Language)'}
+calls_count
+0.9573935866355896
+default
+False
+corrected_ip_string
+time_extract
+['2019', '5']
+[[], [], ['2019'], ['2019', '5']]
+817097999 in get_call_lob function
+The call pertains to C&S line of business

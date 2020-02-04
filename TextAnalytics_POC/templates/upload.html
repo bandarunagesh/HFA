@@ -1,0 +1,29 @@
+<html>
+   <body>
+      <h1>Welcome to JFY - VOP Data Analytics Engine</h1>
+	  <h3>Upload your input structured data file (csv,txt,xlsx)</h3>
+      <form action = "/dataanalysis" method = "POST" 
+         enctype = "multipart/form-data">
+         <input type = "file" name = "file" />
+         <input type = "submit"/>
+         The Dimension of the dataset: ({{ data }})
+      </form>
+      <form action = "/structanalysis" method = "POST" 
+      enctype = "multipart/form-data">
+      <input type = "submit" value="Structured Data Analysis"/>
+     </form>
+      <br/>
+      <br/>
+      <br/>
+      <h3>Upload your input unstructured data file (json,xml,wav,mp3 etc)</h3>
+      <form action="/unstructureddataanalysis" method="POST"
+        enctype = "multipart/form-data">
+        <input type= "file" name = "file" />
+        <input type = "submit"/>
+      </form>
+      <form action = "/unstructanalysis" method = "POST" 
+      enctype = "multipart/form-data">
+      <input type = "submit" value="Unstructured Data Analysis"/>
+   </form>
+   </body>
+</html>

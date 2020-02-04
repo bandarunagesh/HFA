@@ -1,0 +1,779 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "transferred calls lob rate",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 18,
+            "end": 21,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 0,
+            "end": 11,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "rate of transferred calls lob",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 26,
+            "end": 29,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 8,
+            "end": 19,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "calls that transferred lob rate",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 23,
+            "end": 26,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 11,
+            "end": 22,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "rate of calls that transferred lob",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 31,
+            "end": 34,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 19,
+            "end": 30,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "calls that were transferred lob rate",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 28,
+            "end": 31,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 16,
+            "end": 27,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "rate of calls that were transferred lob",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 36,
+            "end": 39,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 24,
+            "end": 35,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "calls transferred lob rate",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 18,
+            "end": 21,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 6,
+            "end": 17,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "rate of calls transferred lob",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 26,
+            "end": 29,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 14,
+            "end": 25,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is transferred calls lob rate",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 26,
+            "end": 29,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 8,
+            "end": 19,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is rate of transferred calls lob",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 34,
+            "end": 37,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 16,
+            "end": 27,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is calls that transferred lob rate",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 31,
+            "end": 34,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 19,
+            "end": 30,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is rate of calls that transferred lob",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 39,
+            "end": 42,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 27,
+            "end": 38,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is calls that were transferred lob rate",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 36,
+            "end": 39,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 24,
+            "end": 35,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is rate of calls that were transferred lob",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 44,
+            "end": 47,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 32,
+            "end": 43,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is calls transferred lob rate",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 26,
+            "end": 29,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 14,
+            "end": 25,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is rate of calls transferred lob",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 34,
+            "end": 37,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 22,
+            "end": 33,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is calls that transferred lob rate",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 31,
+            "end": 34,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 19,
+            "end": 30,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is rate of calls that transferred lob",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 39,
+            "end": 42,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 27,
+            "end": 38,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "lob of transferred calls rate",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 0,
+            "end": 3,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 7,
+            "end": 18,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "rate of lob of transferred calls",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 27,
+            "end": 32,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 15,
+            "end": 26,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "lob of calls that were transferred rate",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 0,
+            "end": 3,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 23,
+            "end": 34,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "rate of lob of calls that were transferred",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 31,
+            "end": 42,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "lob of calls transferred rate",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 0,
+            "end": 3,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 13,
+            "end": 24,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "rate of lob of calls transferred",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 21,
+            "end": 32,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "lob of calls that transferred rate",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 0,
+            "end": 3,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 18,
+            "end": 29,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "rate of lob of calls that transferred",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 26,
+            "end": 37,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is lob of transferred calls rate",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 27,
+            "end": 32,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 15,
+            "end": 26,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is rate of lob of transferred calls",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 35,
+            "end": 40,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 16,
+            "end": 19,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 23,
+            "end": 34,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is lob of calls that were transferred rate",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 31,
+            "end": 42,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is rate of lob of calls that were transferred",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 16,
+            "end": 19,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 39,
+            "end": 50,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is lob of calls transferred rate",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 21,
+            "end": 32,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is rate of lob of calls transferred",
+        "intent": "transfer_rate_lob",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 16,
+            "end": 19,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 29,
+            "end": 40,
+            "value": "transferred",
+            "entity": "transferred_entity"
+          }
+        ]
+      },
+    ]
+  }
+}

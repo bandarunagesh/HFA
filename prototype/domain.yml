@@ -1,0 +1,37 @@
+%YAML 1.1
+---
+actions:
+- utter_goodbye
+- utter_affirm
+- action_status_claim
+- action_default_fallback
+- utter_greet
+- utter_ask_claim_number
+entities:
+- claim_number
+- status_entity
+intents:
+- greet
+- status_prior_auth
+- action_status_claim
+- goodbye
+- status
+slots:
+  claim_number:
+    type: text
+  status:
+    type: text
+templates:
+  utter_affirm:
+  - text: Thats right
+  - text: You are correct
+  utter_ask_claim_number:
+  - text: which claim number?
+  - text: what is the claim number?
+  utter_default:
+  - text: Sorry, I did not understand that, Please contact admin
+  utter_goodbye:
+  - text: Talk to you later.
+  - text: Bye bye :(
+  utter_greet:
+  - text: Hello! How can I help?

@@ -1,0 +1,26 @@
+{
+  "tensorflow": "1.12.0",
+  "python": "3.5.5",
+  "rasa_core": "0.13.2",
+  "action_fingerprints": {
+    "utter_goodbye": {
+      "slots": []
+    },
+    "action_listen": {
+      "slots": [
+        "claim_number"
+      ]
+    }
+  },
+  "max_histories": [
+    5,
+    5
+  ],
+  "trained_at": "20190411-072314",
+  "sklearn": "0.20.2",
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ]
+}

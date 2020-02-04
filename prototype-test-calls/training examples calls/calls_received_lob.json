@@ -1,0 +1,1379 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "received calls lob",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 15,
+            "end": 18,
+            "value": "lob",
+            "entity": "lob_entity"
+          }
+        ]
+      },
+      {
+        "text": "received calls lob count",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 15,
+            "end": 18,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 19,
+            "end": 24,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "count of received calls lob",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 9,
+            "end": 17,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 24,
+            "end": 27,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "calls that received lob",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 20,
+            "end": 23,
+            "value": "lob",
+            "entity": "lob_entity"
+          }
+        ]
+      },
+      {
+        "text": "calls that received lob count",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 20,
+            "end": 23,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 24,
+            "end": 29,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "count of calls that received lob",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 20,
+            "end": 28,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 29,
+            "end": 32,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "calls that were received lob",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 16,
+            "end": 24,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 25,
+            "end": 28,
+            "value": "lob",
+            "entity": "lob_entity"
+          }
+        ]
+      },
+      {
+        "text": "calls that were received lob count",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 16,
+            "end": 24,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 25,
+            "end": 28,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 29,
+            "end": 34,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "count of calls that were received lob",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 25,
+            "end": 33,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 34,
+            "end": 37,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "calls received lob",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 6,
+            "end": 14,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 15,
+            "end": 18,
+            "value": "lob",
+            "entity": "lob_entity"
+          }
+        ]
+      },
+      {
+        "text": "calls received lob count",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 6,
+            "end": 14,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 15,
+            "end": 18,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 19,
+            "end": 24,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "count of calls received lob",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 15,
+            "end": 23,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 24,
+            "end": 27,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "calls that received lob",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 20,
+            "end": 23,
+            "value": "lob",
+            "entity": "lob_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is received calls lob",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 23,
+            "end": 26,
+            "value": "lob",
+            "entity": "lob_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is received calls lob count",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 23,
+            "end": 26,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 27,
+            "end": 32,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is count of received calls lob",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 26,
+            "end": 31,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 17,
+            "end": 25,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 32,
+            "end": 35,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is calls that received lob",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 19,
+            "end": 27,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 28,
+            "end": 31,
+            "value": "lob",
+            "entity": "lob_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is calls that received lob count",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 19,
+            "end": 27,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 28,
+            "end": 31,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 32,
+            "end": 37,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is count of calls that received lob",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 28,
+            "end": 36,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 37,
+            "end": 40,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is calls that were received lob",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 24,
+            "end": 32,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 33,
+            "end": 36,
+            "value": "lob",
+            "entity": "lob_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is calls that were received lob count",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 24,
+            "end": 32,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 33,
+            "end": 36,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 37,
+            "end": 42,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is count of calls that were received lob",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 33,
+            "end": 41,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 42,
+            "end": 45,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is calls received lob",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 14,
+            "end": 22,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 23,
+            "end": 26,
+            "value": "lob",
+            "entity": "lob_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is calls received lob count",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 14,
+            "end": 22,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 23,
+            "end": 26,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 27,
+            "end": 32,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is count of calls received lob",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 23,
+            "end": 31,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 32,
+            "end": 35,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is calls that received lob",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 19,
+            "end": 27,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 28,
+            "end": 31,
+            "value": "lob",
+            "entity": "lob_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is calls that received lob count",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 19,
+            "end": 27,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 28,
+            "end": 31,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 32,
+            "end": 37,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is count of calls that received lob",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 28,
+            "end": 36,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 37,
+            "end": 40,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "lob of received calls",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 7,
+            "end": 15,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 0,
+            "end": 3,
+            "value": "lob",
+            "entity": "lob_entity"
+          }
+        ]
+      },
+      {
+        "text": "lob of received calls count",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 7,
+            "end": 15,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 0,
+            "end": 3,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 22,
+            "end": 27,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "count of lob of received calls",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 16,
+            "end": 24,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 9,
+            "end": 12,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "lob of calls that were received",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 23,
+            "end": 31,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 0,
+            "end": 3,
+            "value": "lob",
+            "entity": "lob_entity"
+          }
+        ]
+      },
+      {
+        "text": "lob of calls that were received count",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 23,
+            "end": 31,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 0,
+            "end": 3,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 32,
+            "end": 37,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "count of lob of calls that were received",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 32,
+            "end": 40,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 9,
+            "end": 12,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "lob of calls received",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 13,
+            "end": 21,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 0,
+            "end": 3,
+            "value": "lob",
+            "entity": "lob_entity"
+          }
+        ]
+      },
+      {
+        "text": "lob of calls received count",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 13,
+            "end": 21,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 0,
+            "end": 3,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 22,
+            "end": 27,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "count of lob of calls received",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 22,
+            "end": 30,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 9,
+            "end": 12,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "lob of calls that received count",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 18,
+            "end": 26,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 0,
+            "end": 3,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 27,
+            "end": 32,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "count of lob of calls that received",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 27,
+            "end": 35,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 9,
+            "end": 12,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is lob of received calls",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 15,
+            "end": 23,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "lob",
+            "entity": "lob_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is lob of received calls count",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 15,
+            "end": 23,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 30,
+            "end": 35,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is count of lob of received calls",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 33,
+            "end": 38,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 24,
+            "end": 32,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 17,
+            "end": 20,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is lob of calls that were received",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 31,
+            "end": 39,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "lob",
+            "entity": "lob_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is lob of calls that were received count",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 31,
+            "end": 39,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 40,
+            "end": 45,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is count of lob of calls that were received",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 40,
+            "end": 48,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 17,
+            "end": 20,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is lob of calls received",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 21,
+            "end": 29,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "lob",
+            "entity": "lob_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is lob of calls received count",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 21,
+            "end": 29,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 30,
+            "end": 35,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is count of lob of calls received",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 30,
+            "end": 38,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 17,
+            "end": 20,
+            "value": "lob",
+            "entity": "lob_entity"
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "value": "count",
+            "entity": "count_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is lob of calls that received",
+        "intent": "calls_received_lob",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "calls",
+            "entity": "calls_entity"
+          },
+          {
+            "start": 26,
+            "end": 34,
+            "value": "received",
+            "entity": "recvd_entity"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "lob",
+            "entity": "lob_entity"
+          }
+        ]
+      },
+    ]
+  }
+}

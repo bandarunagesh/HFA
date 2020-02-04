@@ -1,0 +1,9 @@
+tracker_store:
+    store_type: mongod
+    url: mongodb://apsrp03693.uhc.com:27017
+    db: HandsFreeAnalytics
+    collection: conversations
+    auth_source: admin
+
+action_endpoint:
+  url: "http://localhost:6000/webhook/"

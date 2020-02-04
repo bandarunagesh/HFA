@@ -1,0 +1,8 @@
+{
+  "pipeline": "tensorflow_embedding",
+  "path" : "models/",
+  "data" : "data/sample_calls_data.json",
+  "server_model_dirs" : "./model_YYYYMMDD-HHMMSS",
+  "num_threads":100,
+  "port": 5055
+}

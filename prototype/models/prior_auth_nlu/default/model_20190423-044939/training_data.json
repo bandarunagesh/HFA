@@ -1,0 +1,5355 @@
+{
+  "rasa_nlu_data": {
+    "lookup_tables": [],
+    "entity_synonyms": [],
+    "regex_features": [],
+    "common_examples": [
+      {
+        "entities": [
+          {
+            "entity": "status_entity",
+            "end": 18,
+            "value": "status",
+            "start": 12
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "what is the status of prior authorization?"
+      },
+      {
+        "entities": [
+          {
+            "entity": "status_entity",
+            "end": 18,
+            "value": "status",
+            "start": 12
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "Give me the status of prior authorization"
+      },
+      {
+        "entities": [
+          {
+            "entity": "status_entity",
+            "end": 17,
+            "value": "status",
+            "start": 11
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "Get me the status of prior authorization"
+      },
+      {
+        "entities": [
+          {
+            "entity": "status_entity",
+            "end": 21,
+            "value": "status",
+            "start": 15
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "May I know the status of prior authorization"
+      },
+      {
+        "entities": [
+          {
+            "entity": "status_entity",
+            "end": 6,
+            "value": "status",
+            "start": 0
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "status prior auth"
+      },
+      {
+        "entities": [
+          {
+            "entity": "status_entity",
+            "end": 6,
+            "value": "status",
+            "start": 0
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "status of prior authorization"
+      },
+      {
+        "entities": [
+          {
+            "entity": "status_entity",
+            "end": 17,
+            "value": "status",
+            "start": 11
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "prior auth status"
+      },
+      {
+        "entities": [
+          {
+            "entity": "status_entity",
+            "end": 26,
+            "value": "status",
+            "start": 20
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "prior authorization status"
+      },
+      {
+        "entities": [
+          {
+            "entity": "denial_actin",
+            "end": 28,
+            "value": "PA request denied",
+            "start": 11
+          },
+          {
+            "entity": "claim_number",
+            "end": 43,
+            "value": "7454176508",
+            "start": 33
+          }
+        ],
+        "intent": "prior_auth_denial",
+        "text": "why was my PA request denied for 7454176508?"
+      },
+      {
+        "entities": [
+          {
+            "entity": "claim_number",
+            "end": 58,
+            "value": "7454176508",
+            "start": 48
+          },
+          {
+            "entity": "denial_actin",
+            "end": 43,
+            "value": "denied",
+            "start": 37
+          }
+        ],
+        "intent": "prior_auth_denial",
+        "text": "why was my prior authorization claim denied for 7454176508?"
+      },
+      {
+        "entities": [
+          {
+            "entity": "claim_number",
+            "end": 27,
+            "value": "7454176508",
+            "start": 17
+          },
+          {
+            "entity": "denial_actin",
+            "end": 12,
+            "value": "PA denied",
+            "start": 3
+          }
+        ],
+        "intent": "prior_auth_denial",
+        "text": "my PA denied for 7454176508 why?"
+      },
+      {
+        "entities": [
+          {
+            "entity": "claim_number",
+            "end": 34,
+            "value": "7454176508",
+            "start": 24
+          },
+          {
+            "entity": "denial_actin",
+            "end": 19,
+            "value": "PA denied",
+            "start": 10
+          }
+        ],
+        "intent": "prior_auth_denial",
+        "text": "why is my PA denied for 7454176508?"
+      },
+      {
+        "entities": [
+          {
+            "entity": "denial_actin",
+            "end": 20,
+            "value": "prior auth denied",
+            "start": 3
+          }
+        ],
+        "intent": "prior_auth_denial",
+        "text": "my prior auth denied"
+      },
+      {
+        "entities": [
+          {
+            "entity": "denial_actin",
+            "end": 33,
+            "value": "denied my prior authorization",
+            "start": 4
+          },
+          {
+            "entity": "claim_number",
+            "end": 48,
+            "value": "7454176508",
+            "start": 38
+          }
+        ],
+        "intent": "prior_auth_denial",
+        "text": "you denied my prior authorization for 7454176508"
+      },
+      {
+        "entities": [
+          {
+            "entity": "denial_actin",
+            "end": 16,
+            "value": "denied my PA",
+            "start": 4
+          }
+        ],
+        "intent": "prior_auth_denial",
+        "text": "you denied my PA?"
+      },
+      {
+        "entities": [
+          {
+            "entity": "denial_actin",
+            "end": 16,
+            "value": "PA got denied",
+            "start": 3
+          },
+          {
+            "entity": "claim_number",
+            "end": 31,
+            "value": "7454176508",
+            "start": 21
+          }
+        ],
+        "intent": "prior_auth_denial",
+        "text": "My PA got denied for 7454176508"
+      },
+      {
+        "entities": [
+          {
+            "entity": "resubmit_actin",
+            "end": 27,
+            "value": "resubmit my PA",
+            "start": 13
+          }
+        ],
+        "intent": "prior_auth_resubmission",
+        "text": "How should I resubmit my PA to get it approved"
+      },
+      {
+        "entities": [
+          {
+            "entity": "resubmit_actin",
+            "end": 24,
+            "value": "resubmit",
+            "start": 16
+          }
+        ],
+        "intent": "prior_auth_resubmission",
+        "text": "I would like to resubmit my PA "
+      },
+      {
+        "entities": [
+          {
+            "entity": "resubmit_actin",
+            "end": 32,
+            "value": "resubmit my prior auth",
+            "start": 10
+          }
+        ],
+        "intent": "prior_auth_resubmission",
+        "text": "I want to resubmit my prior auth to get it approved"
+      },
+      {
+        "entities": [
+          {
+            "entity": "resubmit_actin",
+            "end": 31,
+            "value": "reapply my prior auth",
+            "start": 10
+          },
+          {
+            "entity": "claim_number",
+            "end": 71,
+            "value": "7454176508",
+            "start": 61
+          }
+        ],
+        "intent": "prior_auth_resubmission",
+        "text": "I want to reapply my prior auth to get it approved for claim 7454176508"
+      },
+      {
+        "entities": [
+          {
+            "entity": "resubmit_actin",
+            "end": 14,
+            "value": "resubmit",
+            "start": 6
+          },
+          {
+            "entity": "claim_number",
+            "end": 43,
+            "value": "7454176508",
+            "start": 33
+          }
+        ],
+        "intent": "prior_auth_resubmission",
+        "text": "Can I resubmit my prior auth for 7454176508"
+      },
+      {
+        "entities": [
+          {
+            "entity": "resubmit_actin",
+            "end": 16,
+            "value": "reapply",
+            "start": 9
+          },
+          {
+            "entity": "claim_number",
+            "end": 45,
+            "value": "7454176508",
+            "start": 35
+          }
+        ],
+        "intent": "prior_auth_resubmission",
+        "text": "How do I reapply my prior auth for 7454176508"
+      },
+      {
+        "entities": [
+          {
+            "entity": "resubmit_actin",
+            "end": 13,
+            "value": "redo",
+            "start": 9
+          }
+        ],
+        "intent": "prior_auth_resubmission",
+        "text": "How do I redo my PA"
+      },
+      {
+        "entities": [
+          {
+            "entity": "resubmit_actin",
+            "end": 61,
+            "value": "resubmit",
+            "start": 53
+          },
+          {
+            "entity": "claim_number",
+            "end": 45,
+            "value": "7454176508",
+            "start": 35
+          },
+          {
+            "entity": "denial_actin",
+            "end": 30,
+            "value": "denied",
+            "start": 24
+          }
+        ],
+        "intent": "prior_auth_resubmission",
+        "text": "I don't know why PA got denied for 7454176508, Can I resubmit it"
+      },
+      {
+        "entities": [
+          {
+            "entity": "denial_actin",
+            "end": 38,
+            "value": "prior auth got denied",
+            "start": 17
+          },
+          {
+            "entity": "resubmit_actin",
+            "end": 54,
+            "value": "resubmit",
+            "start": 46
+          }
+        ],
+        "intent": "prior_auth_resubmission",
+        "text": "I don't know why prior auth got denied, Can I resubmit it?"
+      },
+      {
+        "entities": [
+          {
+            "entity": "prtl_den_actin",
+            "end": 38,
+            "value": "PA request partially denied",
+            "start": 11
+          },
+          {
+            "entity": "claim_number",
+            "end": 53,
+            "value": "7454176508",
+            "start": 43
+          }
+        ],
+        "intent": "prior_auth_pardenial",
+        "text": "Why was my PA request partially denied for 7454176508?"
+      },
+      {
+        "entities": [
+          {
+            "entity": "prtl_den_actin",
+            "end": 34,
+            "value": "partially denied",
+            "start": 18
+          }
+        ],
+        "intent": "prior_auth_pardenial",
+        "text": "my prior auth got partially denied why?"
+      },
+      {
+        "entities": [
+          {
+            "entity": "prtl_den_actin",
+            "end": 34,
+            "value": "partially denied my prior auth",
+            "start": 4
+          },
+          {
+            "entity": "claim_number",
+            "end": 49,
+            "value": "7454176508",
+            "start": 39
+          }
+        ],
+        "intent": "prior_auth_pardenial",
+        "text": "you partially denied my prior auth for 7454176508"
+      },
+      {
+        "entities": [
+          {
+            "entity": "prtl_den_actin",
+            "end": 21,
+            "value": "partially denied",
+            "start": 5
+          }
+        ],
+        "intent": "prior_auth_pardenial",
+        "text": "they partially denied my prior authorization"
+      },
+      {
+        "entities": [
+          {
+            "entity": "prtl_den_actin",
+            "end": 37,
+            "value": "PA application is partially denied",
+            "start": 3
+          },
+          {
+            "entity": "claim_number",
+            "end": 52,
+            "value": "7454176508",
+            "start": 42
+          }
+        ],
+        "intent": "prior_auth_pardenial",
+        "text": "my PA application is partially denied for 7454176508"
+      },
+      {
+        "entities": [
+          {
+            "entity": "prtl_den_actin",
+            "end": 19,
+            "value": "partially denied",
+            "start": 3
+          },
+          {
+            "entity": "claim_number",
+            "end": 34,
+            "value": "7454176508",
+            "start": 24
+          }
+        ],
+        "intent": "prior_auth_pardenial",
+        "text": "PA partially denied for 7454176508"
+      },
+      {
+        "entities": [
+          {
+            "entity": "prtl_den_actin",
+            "end": 25,
+            "value": "partially rejected",
+            "start": 7
+          }
+        ],
+        "intent": "prior_auth_pardenial",
+        "text": "PA got partially rejected"
+      },
+      {
+        "entities": [
+          {
+            "entity": "prtl_den_actin",
+            "end": 32,
+            "value": "PA partially rejected",
+            "start": 11
+          },
+          {
+            "entity": "claim_number",
+            "end": 47,
+            "value": "7454176508",
+            "start": 37
+          }
+        ],
+        "intent": "prior_auth_pardenial",
+        "text": "why was my PA partially rejected for 7454176508"
+      },
+      {
+        "entities": [
+          {
+            "entity": "prtl_den_actin",
+            "end": 59,
+            "value": "partially denied",
+            "start": 43
+          },
+          {
+            "entity": "claim_number",
+            "end": 80,
+            "value": "7454176508",
+            "start": 70
+          },
+          {
+            "entity": "resubmit_actin",
+            "end": 18,
+            "value": "resubmit",
+            "start": 10
+          }
+        ],
+        "intent": "prior_auth_partial_denied_resubmission",
+        "text": "How can I resubmit my PA request which got partially denied for claim 7454176508?"
+      },
+      {
+        "entities": [
+          {
+            "entity": "resubmit_actin",
+            "end": 21,
+            "value": "resubmit",
+            "start": 13
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 53,
+            "value": "partially denied",
+            "start": 37
+          },
+          {
+            "entity": "claim_number",
+            "end": 74,
+            "value": "7454176508",
+            "start": 64
+          }
+        ],
+        "intent": "prior_auth_partial_denied_resubmission",
+        "text": "how should I resubmit by PA that was partially denied for claim 7454176508"
+      },
+      {
+        "entities": [
+          {
+            "entity": "resubmit_actin",
+            "end": 8,
+            "value": "resubmit",
+            "start": 0
+          }
+        ],
+        "intent": "prior_auth_resubmission",
+        "text": "resubmit my PA please help"
+      },
+      {
+        "entities": [
+          {
+            "entity": "claim_number",
+            "end": 37,
+            "value": "7454176508",
+            "start": 27
+          },
+          {
+            "entity": "resubmit_actin",
+            "end": 15,
+            "value": "reapply",
+            "start": 8
+          }
+        ],
+        "intent": "prior_auth_resubmission",
+        "text": "Help me reapply for PA for 7454176508"
+      },
+      {
+        "entities": [
+          {
+            "entity": "resubmit_actin",
+            "end": 16,
+            "value": "resubmit",
+            "start": 8
+          },
+          {
+            "entity": "denial_actin",
+            "end": 39,
+            "value": "denied",
+            "start": 33
+          },
+          {
+            "entity": "claim_number",
+            "end": 50,
+            "value": "7454176508",
+            "start": 40
+          }
+        ],
+        "intent": "prior_auth_resubmission",
+        "text": "Help me resubmit my PA which got denied 7454176508"
+      },
+      {
+        "entities": [
+          {
+            "entity": "denial_actin",
+            "end": 49,
+            "value": "denied",
+            "start": 43
+          },
+          {
+            "entity": "resubmit_actin",
+            "end": 18,
+            "value": "resubmit",
+            "start": 10
+          }
+        ],
+        "intent": "prior_auth_resubmission",
+        "text": "I need to resubmit my Prior auth which got denied"
+      },
+      {
+        "entities": [
+          {
+            "entity": "resubmit_actin",
+            "end": 7,
+            "value": "reapply",
+            "start": 0
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 49,
+            "value": "partially denied",
+            "start": 33
+          }
+        ],
+        "intent": "prior_auth_partial_denied_resubmission",
+        "text": "reapply for my prioe auth, it is partially denied"
+      },
+      {
+        "entities": [
+          {
+            "entity": "resubmit_actin",
+            "end": 24,
+            "value": "resubmit",
+            "start": 16
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 60,
+            "value": "partially denied prior auth",
+            "start": 33
+          },
+          {
+            "entity": "claim_number",
+            "end": 75,
+            "value": "7454176508",
+            "start": 65
+          }
+        ],
+        "intent": "prior_auth_partial_denied_resubmission",
+        "text": "I would have to resubmit for the partially denied prior auth for 7454176508"
+      },
+      {
+        "entities": [
+          {
+            "entity": "status_entity",
+            "end": 9,
+            "value": "status",
+            "start": 3
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "PA status?"
+      },
+      {
+        "entities": [
+          {
+            "entity": "status_entity",
+            "end": 12,
+            "value": "status",
+            "start": 6
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "my PA status?"
+      },
+      {
+        "entities": [
+          {
+            "entity": "prtl_den_actin",
+            "end": 19,
+            "value": "partially denied",
+            "start": 3
+          },
+          {
+            "entity": "resubmit_actin",
+            "end": 36,
+            "value": "resubmit",
+            "start": 28
+          }
+        ],
+        "intent": "prior_auth_partial_denied_resubmission",
+        "text": "pa partially denied want to resubmit"
+      },
+      {
+        "entities": [
+          {
+            "entity": "denial_actin",
+            "end": 30,
+            "value": "denied",
+            "start": 24
+          },
+          {
+            "entity": "claim_number",
+            "end": 45,
+            "value": "7454176508",
+            "start": 35
+          },
+          {
+            "entity": "resubmit_actin",
+            "end": 16,
+            "value": "resubmit",
+            "start": 8
+          }
+        ],
+        "intent": "prior_auth_resubmission",
+        "text": "want to resubmit PA got denied for 7454176508"
+      },
+      {
+        "entities": [
+          {
+            "entity": "prtl_den_actin",
+            "end": 44,
+            "value": "denied partially",
+            "start": 28
+          },
+          {
+            "entity": "resubmit_actin",
+            "end": 16,
+            "value": "resubmit",
+            "start": 8
+          }
+        ],
+        "intent": "prior_auth_partial_denied_resubmission",
+        "text": "need to resubmit, my PA got denied partially"
+      },
+      {
+        "entities": [
+          {
+            "entity": "resubmit_actin",
+            "end": 4,
+            "value": "redo",
+            "start": 0
+          },
+          {
+            "entity": "claim_number",
+            "end": 40,
+            "value": "7454176508",
+            "start": 30
+          }
+        ],
+        "intent": "prior_auth_resubmission",
+        "text": "redo the submission of PA for 7454176508"
+      },
+      {
+        "entities": [
+          {
+            "entity": "status_entity",
+            "end": 14,
+            "value": "status",
+            "start": 8
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "know my status of PA"
+      },
+      {
+        "entities": [
+          {
+            "entity": "status_entity",
+            "end": 29,
+            "value": "status",
+            "start": 23
+          },
+          {
+            "entity": "claim_number",
+            "end": 50,
+            "value": "7454176508",
+            "start": 40
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "would like to know the status of pa for 7454176508"
+      },
+      {
+        "entities": [
+          {
+            "entity": "resubmit_actin",
+            "end": 43,
+            "value": "resubmit",
+            "start": 35
+          },
+          {
+            "entity": "claim_number",
+            "end": 61,
+            "value": "7454176508",
+            "start": 51
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 25,
+            "value": "rejected partially",
+            "start": 7
+          }
+        ],
+        "intent": "prior_auth_partial_denied_resubmission",
+        "text": "pa got rejected partially, help me resubmit it for 7454176508"
+      },
+      {
+        "entities": [
+          {
+            "entity": "denial_actin",
+            "end": 20,
+            "value": "denied",
+            "start": 14
+          },
+          {
+            "entity": "resubmit_actin",
+            "end": 40,
+            "value": "resubmit",
+            "start": 32
+          }
+        ],
+        "intent": "prior_auth_resubmission",
+        "text": "PA request is denied, How can I resubmit it"
+      },
+      {
+        "entities": [
+          {
+            "entity": "resubmit_actin",
+            "end": 32,
+            "value": "resubmitting",
+            "start": 20
+          },
+          {
+            "entity": "claim_number",
+            "end": 62,
+            "value": "7454176508",
+            "start": 52
+          }
+        ],
+        "intent": "prior_auth_resubmission",
+        "text": "I need your help in resubmitting the PA request for 7454176508"
+      },
+      {
+        "entities": [
+          {
+            "entity": "prtl_den_actin",
+            "end": 60,
+            "value": "partially denied",
+            "start": 44
+          },
+          {
+            "entity": "claim_number",
+            "end": 75,
+            "value": "7454176508",
+            "start": 65
+          },
+          {
+            "entity": "resubmit_actin",
+            "end": 27,
+            "value": "reapply",
+            "start": 20
+          }
+        ],
+        "intent": "prior_auth_partial_denied_resubmission",
+        "text": "Need you to help me reapply my PA which was partially denied for 7454176508"
+      },
+      {
+        "entities": [
+          {
+            "entity": "resubmit_actin",
+            "end": 40,
+            "value": "resubmit by application for PA",
+            "start": 10
+          }
+        ],
+        "intent": "prior_auth_resubmission",
+        "text": "i have to resubmit by application for PA"
+      },
+      {
+        "entities": [
+          {
+            "entity": "denial_actin",
+            "end": 31,
+            "value": "application for PA got rejected",
+            "start": 0
+          },
+          {
+            "entity": "resubmit_actin",
+            "end": 49,
+            "value": "what should I do",
+            "start": 33
+          }
+        ],
+        "intent": "prior_auth_denial",
+        "text": "application for PA got rejected, what should I do"
+      },
+      {
+        "entities": [
+          {
+            "entity": "resubmit_actin",
+            "end": 16,
+            "value": "what should I do",
+            "start": 0
+          },
+          {
+            "entity": "denial_actin",
+            "end": 41,
+            "value": "denied",
+            "start": 35
+          }
+        ],
+        "intent": "prior_auth_resubmission",
+        "text": "what should I do if my request got denied "
+      },
+      {
+        "entities": [
+          {
+            "entity": "prtl_den_actin",
+            "end": 51,
+            "value": "denied not completely",
+            "start": 30
+          },
+          {
+            "entity": "resubmit_actin",
+            "end": 72,
+            "value": "repply",
+            "start": 66
+          }
+        ],
+        "intent": "prior_auth_partial_denied_resubmission",
+        "text": "my application for PA for got denied not completely, How should I repply?"
+      },
+      {
+        "entities": [
+          {
+            "entity": "status_entity",
+            "end": 40,
+            "value": "status for prior auth",
+            "start": 19
+          }
+        ],
+        "intent": "status_prior_auth",
+        "text": "I like to check my status for prior auth"
+      },
+      {
+        "entities": [
+          {
+            "entity": "rcvd_entity",
+            "end": 29,
+            "value": "received",
+            "start": 21
+          },
+          {
+            "entity": "month",
+            "end": 36,
+            "value": "May",
+            "start": 33
+          },
+          {
+            "entity": "year",
+            "end": 41,
+            "value": "2017",
+            "start": 37
+          }
+        ],
+        "intent": "prior_auth_nrequests",
+        "text": "How many PA requests received in May 2017"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 5,
+            "value": "count",
+            "start": 0
+          },
+          {
+            "entity": "rcvd_entity",
+            "end": 29,
+            "value": "received",
+            "start": 21
+          },
+          {
+            "entity": "month",
+            "end": 41,
+            "value": "December",
+            "start": 33
+          },
+          {
+            "entity": "year",
+            "end": 46,
+            "value": "2018",
+            "start": 42
+          }
+        ],
+        "intent": "prior_auth_nrequests",
+        "text": "count of PA requests received in December 2018"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 21,
+            "value": "number of PA requests",
+            "start": 0
+          },
+          {
+            "entity": "rcvd_entity",
+            "end": 30,
+            "value": "received",
+            "start": 22
+          },
+          {
+            "entity": "month",
+            "end": 38,
+            "value": "June",
+            "start": 34
+          },
+          {
+            "entity": "year",
+            "end": 43,
+            "value": "2016",
+            "start": 39
+          }
+        ],
+        "intent": "prior_auth_nrequests",
+        "text": "number of PA requests received in June 2016"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 25,
+            "value": "how many requests",
+            "start": 8
+          },
+          {
+            "entity": "rcvd_entity",
+            "end": 39,
+            "value": "received",
+            "start": 31
+          },
+          {
+            "entity": "time_entity",
+            "end": 57,
+            "value": "last month",
+            "start": 47
+          }
+        ],
+        "intent": "prior_auth_nrequests",
+        "text": "Tell me how many requests were received for PA last month"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 5,
+            "value": "total",
+            "start": 0
+          },
+          {
+            "entity": "rcvd_entity",
+            "end": 44,
+            "value": "received",
+            "start": 36
+          },
+          {
+            "entity": "time_entity",
+            "end": 63,
+            "value": "last two months",
+            "start": 48
+          }
+        ],
+        "intent": "prior_auth_nrequests",
+        "text": "total number of prior auth requests received in last two months"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 18,
+            "value": "number of requests",
+            "start": 0
+          },
+          {
+            "entity": "rcvd_entity",
+            "end": 27,
+            "value": "received",
+            "start": 19
+          },
+          {
+            "entity": "time_entity",
+            "end": 43,
+            "value": "last quarter",
+            "start": 31
+          }
+        ],
+        "intent": "prior_auth_nrequests",
+        "text": "number of requests received in last quarter"
+      },
+      {
+        "entities": [
+          {
+            "entity": "year",
+            "end": 58,
+            "value": "2018",
+            "start": 54
+          },
+          {
+            "entity": "rcvd_entity",
+            "end": 20,
+            "value": "received",
+            "start": 12
+          },
+          {
+            "entity": "count_entity",
+            "end": 29,
+            "value": "total",
+            "start": 24
+          },
+          {
+            "entity": "month",
+            "end": 53,
+            "value": "January",
+            "start": 46
+          }
+        ],
+        "intent": "prior_auth_nrequests",
+        "text": "PA requests received in total in the month of January 2018"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 29,
+            "value": "total number of requests",
+            "start": 5
+          },
+          {
+            "entity": "rcvd_entity",
+            "end": 38,
+            "value": "received",
+            "start": 30
+          },
+          {
+            "entity": "time_entity",
+            "end": 59,
+            "value": "last year",
+            "start": 50
+          },
+          {
+            "entity": "month",
+            "end": 49,
+            "value": "October",
+            "start": 42
+          }
+        ],
+        "intent": "prior_auth_nrequests",
+        "text": "what total number of requests received in October last year?"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 20,
+            "value": "How many PA requests",
+            "start": 0
+          },
+          {
+            "entity": "sbmtd_entity",
+            "end": 35,
+            "value": "submitted",
+            "start": 26
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 56,
+            "value": "medical records",
+            "start": 41
+          }
+        ],
+        "intent": "prior_auth_med_records",
+        "text": "How many PA requests were submitted with medical records"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 21,
+            "value": "number of PA requests",
+            "start": 0
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 51,
+            "value": "medical records",
+            "start": 36
+          },
+          {
+            "entity": "rcvd_entity",
+            "end": 30,
+            "value": "received",
+            "start": 22
+          }
+        ],
+        "intent": "prior_auth_med_records",
+        "text": "number of PA requests received with medical records"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 5,
+            "value": "Total",
+            "start": 0
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 45,
+            "value": "medical records",
+            "start": 30
+          }
+        ],
+        "intent": "prior_auth_med_records",
+        "text": "Total number of requests with medical records"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 26,
+            "value": "number of requests",
+            "start": 8
+          },
+          {
+            "entity": "rcvd_entity",
+            "end": 35,
+            "value": "received",
+            "start": 27
+          },
+          {
+            "entity": "time_entity",
+            "end": 56,
+            "value": "last 3 months",
+            "start": 43
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 77,
+            "value": "medical records",
+            "start": 62
+          }
+        ],
+        "intent": "prior_auth_med_records",
+        "text": "get the number of requests received in the last 3 months with medical records"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 18,
+            "value": "number of requests",
+            "start": 0
+          },
+          {
+            "entity": "sbmtd_entity",
+            "end": 28,
+            "value": "submitted",
+            "start": 19
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 49,
+            "value": "medical records",
+            "start": 34
+          },
+          {
+            "entity": "time_entity",
+            "end": 59,
+            "value": "last week",
+            "start": 50
+          }
+        ],
+        "intent": "prior_auth_med_records",
+        "text": "number of requests submitted with medical records last week"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 14,
+            "value": "total requests",
+            "start": 0
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 35,
+            "value": "medical records",
+            "start": 20
+          },
+          {
+            "entity": "sbmtd_entity",
+            "end": 45,
+            "value": "submitted",
+            "start": 36
+          }
+        ],
+        "intent": "prior_auth_med_records",
+        "text": "total requests with medical records submitted"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 22,
+            "value": "number of applications",
+            "start": 0
+          },
+          {
+            "entity": "rcvd_entity",
+            "end": 31,
+            "value": "received",
+            "start": 23
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 52,
+            "value": "medical records",
+            "start": 37
+          }
+        ],
+        "intent": "prior_auth_med_records",
+        "text": "number of applications received with medical records "
+      },
+      {
+        "entities": [
+          {
+            "entity": "rcvd_entity",
+            "end": 78,
+            "value": "received",
+            "start": 70
+          },
+          {
+            "entity": "mode_entity",
+            "end": 26,
+            "value": "mode",
+            "start": 22
+          },
+          {
+            "entity": "count_entity",
+            "end": 18,
+            "value": "count",
+            "start": 13
+          }
+        ],
+        "intent": "pa_mode_submission",
+        "text": "What was the count by mode of submission of the PA requests that were received?"
+      },
+      {
+        "entities": [
+          {
+            "entity": "mode_entity",
+            "end": 18,
+            "value": "mode of submission",
+            "start": 0
+          },
+          {
+            "entity": "count_entity",
+            "end": 24,
+            "value": "count",
+            "start": 19
+          },
+          {
+            "entity": "sbmtd_entity",
+            "end": 38,
+            "value": "submitted",
+            "start": 29
+          }
+        ],
+        "intent": "pa_mode_submission",
+        "text": "mode of submission count for submitted PA requests"
+      },
+      {
+        "entities": [
+          {
+            "entity": "mode_entity",
+            "end": 18,
+            "value": "Mode of submission",
+            "start": 0
+          }
+        ],
+        "intent": "pa_mode_submission",
+        "text": "Mode of submission for for PA requests"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 18,
+            "value": "number of requests",
+            "start": 0
+          },
+          {
+            "entity": "rcvd_entity",
+            "end": 27,
+            "value": "received",
+            "start": 19
+          },
+          {
+            "entity": "mode_entity",
+            "end": 53,
+            "value": "mode of submission",
+            "start": 35
+          }
+        ],
+        "intent": "pa_mode_submission",
+        "text": "number of requests received by the mode of submission"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 24,
+            "value": "total number of requests",
+            "start": 0
+          },
+          {
+            "entity": "mode_entity",
+            "end": 40,
+            "value": "mode",
+            "start": 36
+          }
+        ],
+        "intent": "pa_mode_submission",
+        "text": "total number of requests divided by mode submission"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 27,
+            "value": "number of requests",
+            "start": 9
+          },
+          {
+            "entity": "sbmtd_entity",
+            "end": 37,
+            "value": "submitted",
+            "start": 28
+          }
+        ],
+        "intent": "prior_auth_nrequests",
+        "text": "how many number of requests submitted?"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 34,
+            "value": "number of requests",
+            "start": 16
+          },
+          {
+            "entity": "mode_entity",
+            "end": 15,
+            "value": "mode",
+            "start": 11
+          }
+        ],
+        "intent": "pa_mode_submission",
+        "text": "submission mode number of requests"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 18,
+            "value": "number of requests",
+            "start": 0
+          },
+          {
+            "entity": "mode_entity",
+            "end": 36,
+            "value": "mode",
+            "start": 32
+          },
+          {
+            "entity": "sbmtd_entity",
+            "end": 28,
+            "value": "submitted",
+            "start": 19
+          }
+        ],
+        "intent": "pa_mode_submission",
+        "text": "number of requests submitted by mode"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 20,
+            "value": "How many PA requests",
+            "start": 0
+          },
+          {
+            "entity": "denial_actin",
+            "end": 27,
+            "value": "denied",
+            "start": 21
+          },
+          {
+            "entity": "month",
+            "end": 40,
+            "value": "september",
+            "start": 31
+          },
+          {
+            "entity": "year",
+            "end": 45,
+            "value": "2018",
+            "start": 41
+          }
+        ],
+        "intent": "prior_auth_ndenials",
+        "text": "How many PA requests denied in september 2018"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 21,
+            "value": "number of PA requests",
+            "start": 0
+          },
+          {
+            "entity": "denial_actin",
+            "end": 52,
+            "value": "denied",
+            "start": 46
+          },
+          {
+            "entity": "year",
+            "end": 35,
+            "value": "2017",
+            "start": 31
+          },
+          {
+            "entity": "month",
+            "end": 30,
+            "value": "March",
+            "start": 25
+          }
+        ],
+        "intent": "prior_auth_ndenials",
+        "text": "number of PA requests in March 2017 that were denied"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 19,
+            "value": "requests",
+            "start": 11
+          },
+          {
+            "entity": "denial_actin",
+            "end": 38,
+            "value": "rejected",
+            "start": 30
+          },
+          {
+            "entity": "year",
+            "end": 46,
+            "value": "2017",
+            "start": 42
+          },
+          {
+            "entity": "month",
+            "end": 55,
+            "value": "november",
+            "start": 47
+          }
+        ],
+        "intent": "prior_auth_ndenials",
+        "text": "get me the requests that were rejected in 2017 november"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 17,
+            "value": "number of denials",
+            "start": 0
+          },
+          {
+            "entity": "time_entity",
+            "end": 34,
+            "value": "last year",
+            "start": 25
+          },
+          {
+            "entity": "month",
+            "end": 42,
+            "value": "June",
+            "start": 38
+          }
+        ],
+        "intent": "prior_auth_ndenials",
+        "text": "number of denials for PA last year in June"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 7,
+            "value": "denails",
+            "start": 0
+          },
+          {
+            "entity": "year",
+            "end": 22,
+            "value": "2017",
+            "start": 18
+          }
+        ],
+        "intent": "prior_auth_ndenials",
+        "text": "denails for PA in 2017"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 8,
+            "value": "requests",
+            "start": 0
+          },
+          {
+            "entity": "rcvd_entity",
+            "end": 17,
+            "value": "received",
+            "start": 9
+          },
+          {
+            "entity": "year",
+            "end": 25,
+            "value": "2018",
+            "start": 21
+          },
+          {
+            "entity": "month",
+            "end": 32,
+            "value": "august",
+            "start": 26
+          }
+        ],
+        "intent": "prior_auth_nrequests",
+        "text": "requests received in 2018 august"
+      },
+      {
+        "entities": [
+          {
+            "entity": "top_entity",
+            "end": 17,
+            "value": "Top",
+            "start": 14
+          },
+          {
+            "entity": "denial_actin",
+            "end": 27,
+            "value": "denial",
+            "start": 21
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 35,
+            "value": "reasons",
+            "start": 28
+          },
+          {
+            "entity": "sbmtd_entity",
+            "end": 75,
+            "value": "submitted",
+            "start": 66
+          }
+        ],
+        "intent": "pa_top_denial_rsns",
+        "text": "What were the Top 10 denial reasons for the PA requests that were submitted?"
+      },
+      {
+        "entities": [
+          {
+            "entity": "top_entity",
+            "end": 3,
+            "value": "top",
+            "start": 0
+          },
+          {
+            "entity": "denial_actin",
+            "end": 12,
+            "value": "denial",
+            "start": 6
+          },
+          {
+            "entity": "sbmtd_entity",
+            "end": 58,
+            "value": "submitted",
+            "start": 49
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 25,
+            "value": "reason codes",
+            "start": 13
+          }
+        ],
+        "intent": "pa_top_denial_rsns",
+        "text": "top 5 denial reason codes for requests that were submitted"
+      },
+      {
+        "entities": [
+          {
+            "entity": "top_entity",
+            "end": 11,
+            "value": "top",
+            "start": 8
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 22,
+            "value": "reasons",
+            "start": 15
+          },
+          {
+            "entity": "denial_actin",
+            "end": 34,
+            "value": "denials",
+            "start": 27
+          }
+        ],
+        "intent": "pa_top_denial_rsns",
+        "text": "get the top 10 reasons for denials"
+      },
+      {
+        "entities": [
+          {
+            "entity": "top_entity",
+            "end": 11,
+            "value": "top",
+            "start": 8
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 26,
+            "value": "reason codes",
+            "start": 14
+          },
+          {
+            "entity": "denial_actin",
+            "end": 55,
+            "value": "denied",
+            "start": 49
+          }
+        ],
+        "intent": "pa_top_denial_rsns",
+        "text": "give me top 5 reason codes for requests that got denied"
+      },
+      {
+        "entities": [
+          {
+            "entity": "denial_actin",
+            "end": 7,
+            "value": "denials",
+            "start": 0
+          },
+          {
+            "entity": "top_entity",
+            "end": 11,
+            "value": "top",
+            "start": 8
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 22,
+            "value": "reasons",
+            "start": 15
+          }
+        ],
+        "intent": "pa_top_denial_rsns",
+        "text": "denials top 20 reasons codes"
+      },
+      {
+        "entities": [
+          {
+            "entity": "top_entity",
+            "end": 24,
+            "value": "top",
+            "start": 21
+          },
+          {
+            "entity": "denial_actin",
+            "end": 34,
+            "value": "denial",
+            "start": 28
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 47,
+            "value": "reason codes",
+            "start": 35
+          }
+        ],
+        "intent": "pa_top_denial_rsns",
+        "text": "I would like to know top 10 denial reason codes"
+      },
+      {
+        "entities": [
+          {
+            "entity": "top_entity",
+            "end": 12,
+            "value": "top",
+            "start": 9
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 20,
+            "value": "reasons",
+            "start": 13
+          },
+          {
+            "entity": "denial_actin",
+            "end": 47,
+            "value": "denied",
+            "start": 41
+          }
+        ],
+        "intent": "pa_top_denial_rsns",
+        "text": "what are top reasons for requests to get denied"
+      },
+      {
+        "entities": [
+          {
+            "entity": "reasons_entity",
+            "end": 7,
+            "value": "reasons",
+            "start": 0
+          },
+          {
+            "entity": "denial_actin",
+            "end": 19,
+            "value": "denials",
+            "start": 12
+          }
+        ],
+        "intent": "pa_top_denial_rsns",
+        "text": "reasons for denials"
+      },
+      {
+        "entities": [
+          {
+            "entity": "sbmtd_entity",
+            "end": 35,
+            "value": "submitted",
+            "start": 26
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 56,
+            "value": "medical records",
+            "start": 41
+          },
+          {
+            "entity": "denial_actin",
+            "end": 70,
+            "value": "denials",
+            "start": 63
+          },
+          {
+            "entity": "count_entity",
+            "end": 8,
+            "value": "How many",
+            "start": 0
+          }
+        ],
+        "intent": "pa_med_records_denials",
+        "text": "How many PA requests were submitted with medical records among denials"
+      },
+      {
+        "entities": [
+          {
+            "entity": "denial_actin",
+            "end": 6,
+            "value": "denial",
+            "start": 0
+          },
+          {
+            "entity": "count_entity",
+            "end": 15,
+            "value": "requests",
+            "start": 7
+          },
+          {
+            "entity": "sbmtd_entity",
+            "end": 25,
+            "value": "submitted",
+            "start": 16
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 46,
+            "value": "medical records",
+            "start": 31
+          }
+        ],
+        "intent": "pa_med_records_denials",
+        "text": "denial requests submitted with medical records "
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 5,
+            "value": "total",
+            "start": 0
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 44,
+            "value": "med records",
+            "start": 33
+          },
+          {
+            "entity": "denial_actin",
+            "end": 61,
+            "value": "denied",
+            "start": 55
+          }
+        ],
+        "intent": "pa_med_records_denials",
+        "text": "total number of PA requests with med records that were denied"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 8,
+            "value": "requests",
+            "start": 0
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 29,
+            "value": "medical records",
+            "start": 14
+          },
+          {
+            "entity": "denial_actin",
+            "end": 46,
+            "value": "denied",
+            "start": 40
+          }
+        ],
+        "intent": "pa_med_records_denials",
+        "text": "requests with medical records that were denied"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 5,
+            "value": "Total",
+            "start": 0
+          },
+          {
+            "entity": "sbmtd_entity",
+            "end": 41,
+            "value": "submitted",
+            "start": 32
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 62,
+            "value": "medical records",
+            "start": 47
+          },
+          {
+            "entity": "denial_actin",
+            "end": 76,
+            "value": "denials",
+            "start": 69
+          }
+        ],
+        "intent": "pa_med_records_denials",
+        "text": "Total number of PA applications submitted with medical records among denials"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 5,
+            "value": "count",
+            "start": 0
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 38,
+            "value": "medical records",
+            "start": 23
+          }
+        ],
+        "intent": "prior_auth_med_records",
+        "text": "count of requests with medical records "
+      },
+      {
+        "entities": [
+          {
+            "entity": "med_records_entity",
+            "end": 15,
+            "value": "medical records",
+            "start": 0
+          },
+          {
+            "entity": "count_entity",
+            "end": 24,
+            "value": "requests",
+            "start": 16
+          }
+        ],
+        "intent": "prior_auth_med_records",
+        "text": "medical records requests "
+      },
+      {
+        "entities": [
+          {
+            "entity": "denial_actin",
+            "end": 6,
+            "value": "denial",
+            "start": 0
+          },
+          {
+            "entity": "count_entity",
+            "end": 15,
+            "value": "requests",
+            "start": 7
+          },
+          {
+            "entity": "mode_entity",
+            "end": 23,
+            "value": "mode",
+            "start": 19
+          }
+        ],
+        "intent": "pa_mode_denials",
+        "text": "denial requests by mode of submission"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 20,
+            "value": "number of PA denials",
+            "start": 0
+          },
+          {
+            "entity": "mode_entity",
+            "end": 28,
+            "value": "mode",
+            "start": 24
+          }
+        ],
+        "intent": "pa_mode_denials",
+        "text": "number of PA denials by mode "
+      },
+      {
+        "entities": [
+          {
+            "entity": "mode_entity",
+            "end": 39,
+            "value": "mode of submission",
+            "start": 21
+          },
+          {
+            "entity": "denial_actin",
+            "end": 72,
+            "value": "denied",
+            "start": 66
+          },
+          {
+            "entity": "count_entity",
+            "end": 17,
+            "value": "count",
+            "start": 12
+          }
+        ],
+        "intent": "pa_mode_denials",
+        "text": "what is the count by mode of submission for PA requests that were denied"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 6,
+            "value": "number",
+            "start": 0
+          },
+          {
+            "entity": "denial_actin",
+            "end": 17,
+            "value": "denials",
+            "start": 10
+          },
+          {
+            "entity": "mode_entity",
+            "end": 47,
+            "value": "mode of submission",
+            "start": 29
+          }
+        ],
+        "intent": "pa_mode_denials",
+        "text": "number of denials divided by mode of submission"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 24,
+            "value": "Number of pa application",
+            "start": 0
+          },
+          {
+            "entity": "denial_actin",
+            "end": 32,
+            "value": "denials",
+            "start": 25
+          },
+          {
+            "entity": "mode_entity",
+            "end": 65,
+            "value": "mode of submission",
+            "start": 47
+          }
+        ],
+        "intent": "pa_mode_denials",
+        "text": "Number of pa application denials classified by mode of submission"
+      },
+      {
+        "entities": [
+          {
+            "entity": "denial_actin",
+            "end": 18,
+            "value": "denials",
+            "start": 11
+          },
+          {
+            "entity": "mode_entity",
+            "end": 40,
+            "value": "mode of submission",
+            "start": 22
+          }
+        ],
+        "intent": "pa_mode_denials",
+        "text": "get me the denials by mode of submission"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 32,
+            "value": "number of PA's",
+            "start": 18
+          },
+          {
+            "entity": "rcvd_entity",
+            "end": 41,
+            "value": "received",
+            "start": 33
+          },
+          {
+            "entity": "mode_entity",
+            "end": 63,
+            "value": "mode of submission",
+            "start": 45
+          }
+        ],
+        "intent": "pa_mode_submission",
+        "text": "i need to get the number of PA's received by mode of submission"
+      },
+      {
+        "entities": [
+          {
+            "entity": "mode_entity",
+            "end": 53,
+            "value": "submission mode",
+            "start": 38
+          },
+          {
+            "entity": "denial_actin",
+            "end": 28,
+            "value": "denials",
+            "start": 21
+          },
+          {
+            "entity": "count_entity",
+            "end": 34,
+            "value": "umber",
+            "start": 29
+          }
+        ],
+        "intent": "pa_mode_denials",
+        "text": "I would need to know denials umber by submission mode"
+      },
+      {
+        "entities": [
+          {
+            "entity": "denial_actin",
+            "end": 7,
+            "value": "denials",
+            "start": 0
+          },
+          {
+            "entity": "mode_entity",
+            "end": 23,
+            "value": "submission mode",
+            "start": 8
+          }
+        ],
+        "intent": "pa_mode_denials",
+        "text": "denials submission mode"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 20,
+            "value": "How many PA requests",
+            "start": 0
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 42,
+            "value": "partially denied",
+            "start": 26
+          },
+          {
+            "entity": "month",
+            "end": 64,
+            "value": "march",
+            "start": 59
+          },
+          {
+            "entity": "year",
+            "end": 69,
+            "value": "2019",
+            "start": 65
+          }
+        ],
+        "intent": "prior_auth_nparden",
+        "text": "How many PA requests were partially denied in the month of march 2019"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 16,
+            "value": "count",
+            "start": 11
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 31,
+            "value": "par denials",
+            "start": 20
+          },
+          {
+            "entity": "month",
+            "end": 42,
+            "value": "January",
+            "start": 35
+          },
+          {
+            "entity": "year",
+            "end": 47,
+            "value": "2018",
+            "start": 43
+          }
+        ],
+        "intent": "prior_auth_nparden",
+        "text": "get me the count of par denials in January 2018"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 5,
+            "value": "total",
+            "start": 0
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 17,
+            "value": "par denials",
+            "start": 6
+          },
+          {
+            "entity": "month",
+            "end": 37,
+            "value": "October",
+            "start": 30
+          },
+          {
+            "entity": "year",
+            "end": 42,
+            "value": "2017",
+            "start": 38
+          }
+        ],
+        "intent": "prior_auth_nparden",
+        "text": "total par denials happened in October 2017"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 5,
+            "value": "count",
+            "start": 0
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 24,
+            "value": "partial denials",
+            "start": 9
+          },
+          {
+            "entity": "month",
+            "end": 52,
+            "value": "November",
+            "start": 44
+          },
+          {
+            "entity": "year",
+            "end": 57,
+            "value": "2016",
+            "start": 53
+          }
+        ],
+        "intent": "prior_auth_nparden",
+        "text": "count of partial denials for PA requests in November 2016"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 21,
+            "value": "number of pa requests",
+            "start": 0
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 48,
+            "value": "denied partially",
+            "start": 32
+          },
+          {
+            "entity": "month",
+            "end": 61,
+            "value": "September",
+            "start": 52
+          },
+          {
+            "entity": "year",
+            "end": 66,
+            "value": "2017",
+            "start": 62
+          }
+        ],
+        "intent": "prior_auth_nparden",
+        "text": "number of pa requests that were denied partially in September 2017"
+      },
+      {
+        "entities": [
+          {
+            "entity": "prtl_den_actin",
+            "end": 28,
+            "value": "denied partially",
+            "start": 12
+          },
+          {
+            "entity": "time_entity",
+            "end": 45,
+            "value": "last 6 months",
+            "start": 32
+          }
+        ],
+        "intent": "prior_auth_nparden",
+        "text": "pa requests denied partially in last 6 months"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 32,
+            "value": "number of pa requests",
+            "start": 11
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 49,
+            "value": "partially denied",
+            "start": 33
+          },
+          {
+            "entity": "time_entity",
+            "end": 69,
+            "value": "last quarter",
+            "start": 57
+          }
+        ],
+        "intent": "prior_auth_nparden",
+        "text": "get me the number of pa requests partially denied in the last quarter"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 22,
+            "value": "number of applications",
+            "start": 0
+          },
+          {
+            "entity": "rcvd_entity",
+            "end": 38,
+            "value": "received",
+            "start": 30
+          },
+          {
+            "entity": "time_entity",
+            "end": 49,
+            "value": "last month",
+            "start": 39
+          }
+        ],
+        "intent": "prior_auth_nrequests",
+        "text": "number of applications for PA received last month"
+      },
+      {
+        "entities": [
+          {
+            "entity": "prtl_den_actin",
+            "end": 16,
+            "value": "partially denied",
+            "start": 0
+          },
+          {
+            "entity": "count_entity",
+            "end": 27,
+            "value": "count",
+            "start": 22
+          }
+        ],
+        "intent": "prior_auth_nparden",
+        "text": "partially denied pa's count I need "
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 18,
+            "value": "number of requests",
+            "start": 0
+          },
+          {
+            "entity": "denial_actin",
+            "end": 34,
+            "value": "denied",
+            "start": 28
+          },
+          {
+            "entity": "time_entity",
+            "end": 50,
+            "value": "last 2 weeks",
+            "start": 38
+          }
+        ],
+        "intent": "prior_auth_ndenials",
+        "text": "number of requests that got denied in last 2 weeks"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 29,
+            "value": "number of pa's",
+            "start": 15
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 46,
+            "value": "denied partially",
+            "start": 30
+          },
+          {
+            "entity": "time_entity",
+            "end": 69,
+            "value": "last 3 months",
+            "start": 56
+          }
+        ],
+        "intent": "prior_auth_nparden",
+        "text": "May I know the number of pa's denied partially over the last 3 months"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 15,
+            "value": "number",
+            "start": 9
+          },
+          {
+            "entity": "denial_actin",
+            "end": 26,
+            "value": "denials",
+            "start": 19
+          },
+          {
+            "entity": "time_entity",
+            "end": 41,
+            "value": "last 5 days",
+            "start": 30
+          }
+        ],
+        "intent": "prior_auth_ndenials",
+        "text": "know the number of denials on last 5 days"
+      },
+      {
+        "entities": [
+          {
+            "entity": "top_entity",
+            "end": 3,
+            "value": "top",
+            "start": 0
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 21,
+            "value": "partial denial",
+            "start": 7
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 29,
+            "value": "reasons",
+            "start": 22
+          }
+        ],
+        "intent": "pa_top_parden_rsns",
+        "text": "top 10 partial denial reasons please"
+      },
+      {
+        "entities": [
+          {
+            "entity": "top_entity",
+            "end": 16,
+            "value": "top",
+            "start": 13
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 26,
+            "value": "reasons",
+            "start": 19
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 69,
+            "value": "denied partially",
+            "start": 53
+          }
+        ],
+        "intent": "pa_top_parden_rsns",
+        "text": "what are the top 5 reasons for PA requests that were denied partially"
+      },
+      {
+        "entities": [
+          {
+            "entity": "top_entity",
+            "end": 10,
+            "value": "top",
+            "start": 7
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 29,
+            "value": "partial denials",
+            "start": 14
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 37,
+            "value": "reasons",
+            "start": 30
+          }
+        ],
+        "intent": "pa_top_parden_rsns",
+        "text": "get me top 10 partial denials reasons"
+      },
+      {
+        "entities": [
+          {
+            "entity": "top_entity",
+            "end": 12,
+            "value": "top",
+            "start": 9
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 24,
+            "value": "partial den",
+            "start": 13
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 32,
+            "value": "reasons",
+            "start": 25
+          }
+        ],
+        "intent": "pa_top_parden_rsns",
+        "text": "How many top partial den reasons "
+      },
+      {
+        "entities": [
+          {
+            "entity": "prtl_den_actin",
+            "end": 31,
+            "value": "denied partially",
+            "start": 15
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 49,
+            "value": "reasons",
+            "start": 42
+          }
+        ],
+        "intent": "pa_top_parden_rsns",
+        "text": "my request got denied partially, what are reasons for that"
+      },
+      {
+        "entities": [
+          {
+            "entity": "top_entity",
+            "end": 11,
+            "value": "top",
+            "start": 8
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 27,
+            "value": "reason codes",
+            "start": 15
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 47,
+            "value": "partial denials",
+            "start": 32
+          }
+        ],
+        "intent": "pa_top_parden_rsns",
+        "text": "give me top 20 reason codes for partial denials"
+      },
+      {
+        "entities": [
+          {
+            "entity": "top_entity",
+            "end": 12,
+            "value": "top",
+            "start": 9
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 27,
+            "value": "reason codes",
+            "start": 15
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 46,
+            "value": "partial denied",
+            "start": 32
+          }
+        ],
+        "intent": "pa_top_parden_rsns",
+        "text": "fetch me top 8 reason codes for partial denied requests"
+      },
+      {
+        "entities": [
+          {
+            "entity": "reasons_entity",
+            "end": 12,
+            "value": "reason codes",
+            "start": 0
+          },
+          {
+            "entity": "denial_actin",
+            "end": 24,
+            "value": "denials",
+            "start": 17
+          }
+        ],
+        "intent": "pa_top_denial_rsns",
+        "text": "reason codes for denials of PA"
+      },
+      {
+        "entities": [
+          {
+            "entity": "top_entity",
+            "end": 3,
+            "value": "top",
+            "start": 0
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 15,
+            "value": "rsn codes",
+            "start": 6
+          },
+          {
+            "entity": "denial_actin",
+            "end": 30,
+            "value": "denials",
+            "start": 23
+          }
+        ],
+        "intent": "pa_top_denial_rsns",
+        "text": "top 5 rsn codes for PA denials"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 21,
+            "value": "number of PA requests",
+            "start": 0
+          },
+          {
+            "entity": "sbmtd_entity",
+            "end": 31,
+            "value": "submitted",
+            "start": 22
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 52,
+            "value": "medical records",
+            "start": 37
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 70,
+            "value": "par denials",
+            "start": 59
+          }
+        ],
+        "intent": "pa_med_records_parden",
+        "text": "number of PA requests submitted with medical records among par denials"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 5,
+            "value": "total",
+            "start": 0
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 32,
+            "value": "partially denied",
+            "start": 16
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 58,
+            "value": "med records",
+            "start": 47
+          }
+        ],
+        "intent": "pa_med_records_parden",
+        "text": "total number of partially denied requests with med records"
+      },
+      {
+        "entities": [
+          {
+            "entity": "med_records_entity",
+            "end": 29,
+            "value": "medical records",
+            "start": 14
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 55,
+            "value": "denied partially",
+            "start": 39
+          }
+        ],
+        "intent": "pa_med_records_parden",
+        "text": "requests with medical records that got denied partially"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 16,
+            "value": "count",
+            "start": 11
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 34,
+            "value": "medical record",
+            "start": 20
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 65,
+            "value": "partial denials",
+            "start": 50
+          }
+        ],
+        "intent": "pa_med_records_parden",
+        "text": "get me the count of medical record requests among partial denials"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 21,
+            "value": "number of requests",
+            "start": 3
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 42,
+            "value": "medical records",
+            "start": 27
+          }
+        ],
+        "intent": "prior_auth_med_records",
+        "text": "Hi number of requests with medical records please"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 5,
+            "value": "count",
+            "start": 0
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 24,
+            "value": "partial denials",
+            "start": 9
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 45,
+            "value": "medical records",
+            "start": 30
+          }
+        ],
+        "intent": "pa_med_records_parden",
+        "text": "count of partial denials with medical records"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 36,
+            "value": "number of requests",
+            "start": 18
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 53,
+            "value": "med records",
+            "start": 42
+          },
+          {
+            "entity": "denial_actin",
+            "end": 67,
+            "value": "denials",
+            "start": 60
+          }
+        ],
+        "intent": "pa_med_records_denials",
+        "text": "How do I know the number of requests with med records among denials"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 6,
+            "value": "number",
+            "start": 0
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 25,
+            "value": "medical records",
+            "start": 10
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 45,
+            "value": "partial denials",
+            "start": 30
+          }
+        ],
+        "intent": "pa_med_records_parden",
+        "text": "number of medical records for partial denials"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 6,
+            "value": "number",
+            "start": 0
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 25,
+            "value": "medical records",
+            "start": 10
+          },
+          {
+            "entity": "denial_actin",
+            "end": 37,
+            "value": "denials",
+            "start": 30
+          }
+        ],
+        "intent": "pa_med_records_denials",
+        "text": "number of medical records for denials"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 20,
+            "value": "aggregate",
+            "start": 11
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 49,
+            "value": "med records",
+            "start": 38
+          }
+        ],
+        "intent": "prior_auth_med_records",
+        "text": "get me the aggregate of requests with med records"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 34,
+            "value": "number of par denials",
+            "start": 13
+          },
+          {
+            "entity": "sbmtd_entity",
+            "end": 44,
+            "value": "submitted",
+            "start": 35
+          },
+          {
+            "entity": "mode_entity",
+            "end": 66,
+            "value": "mode of submission",
+            "start": 48
+          }
+        ],
+        "intent": "pa_mode_parden",
+        "text": "what was the number of par denials submitted by mode of submission"
+      },
+      {
+        "entities": [
+          {
+            "entity": "mode_entity",
+            "end": 18,
+            "value": "mode of submission",
+            "start": 0
+          },
+          {
+            "entity": "count_entity",
+            "end": 24,
+            "value": "count",
+            "start": 19
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 44,
+            "value": "partial denials",
+            "start": 29
+          }
+        ],
+        "intent": "pa_mode_parden",
+        "text": "mode of submission count for partial denials"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 5,
+            "value": "count",
+            "start": 0
+          },
+          {
+            "entity": "mode_entity",
+            "end": 27,
+            "value": "mode of submission",
+            "start": 9
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 46,
+            "value": "partial denial",
+            "start": 32
+          }
+        ],
+        "intent": "pa_mode_parden",
+        "text": "count by mode of submission for partial denial pa's"
+      },
+      {
+        "entities": [
+          {
+            "entity": "mode_entity",
+            "end": 30,
+            "value": "mode of submission",
+            "start": 12
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 72,
+            "value": "partially denied",
+            "start": 56
+          }
+        ],
+        "intent": "pa_mode_parden",
+        "text": "what is the mode of submission of PA requests that were partially denied"
+      },
+      {
+        "entities": [
+          {
+            "entity": "mode_entity",
+            "end": 30,
+            "value": "mode of submission",
+            "start": 12
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 72,
+            "value": "denied partially",
+            "start": 56
+          }
+        ],
+        "intent": "pa_mode_parden",
+        "text": "what is the mode of submission of PA requests that were denied partially"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 19,
+            "value": "total",
+            "start": 14
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 35,
+            "value": "partial denials",
+            "start": 20
+          },
+          {
+            "entity": "mode_entity",
+            "end": 43,
+            "value": "mode",
+            "start": 39
+          }
+        ],
+        "intent": "pa_mode_parden",
+        "text": "Can i get the total partial denials by mode"
+      },
+      {
+        "entities": [
+          {
+            "entity": "prtl_den_actin",
+            "end": 14,
+            "value": "partial denied",
+            "start": 0
+          },
+          {
+            "entity": "mode_entity",
+            "end": 53,
+            "value": "mode of submission",
+            "start": 35
+          }
+        ],
+        "intent": "pa_mode_parden",
+        "text": "partial denied requests divided by mode of submission"
+      },
+      {
+        "entities": [
+          {
+            "entity": "mode_entity",
+            "end": 3,
+            "value": "MOS",
+            "start": 0
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 24,
+            "value": "partially denied",
+            "start": 8
+          }
+        ],
+        "intent": "pa_mode_parden",
+        "text": "MOS for partially denied requests for PA"
+      },
+      {
+        "entities": [
+          {
+            "entity": "mode_entity",
+            "end": 3,
+            "value": "mos",
+            "start": 0
+          },
+          {
+            "entity": "denial_actin",
+            "end": 14,
+            "value": "denied",
+            "start": 8
+          }
+        ],
+        "intent": "pa_mode_denials",
+        "text": "mos for denied requests of PA"
+      },
+      {
+        "entities": [
+          {
+            "entity": "mode_entity",
+            "end": 15,
+            "value": "mos",
+            "start": 12
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 57,
+            "value": "denied partially",
+            "start": 41
+          }
+        ],
+        "intent": "pa_mode_parden",
+        "text": "what is the mos of PA requests that were denied partially"
+      },
+      {
+        "entities": [
+          {
+            "entity": "mode_entity",
+            "end": 31,
+            "value": "mode of submission",
+            "start": 13
+          },
+          {
+            "entity": "prtl_den_actin",
+            "end": 62,
+            "value": "partial denials",
+            "start": 47
+          }
+        ],
+        "intent": "pa_mode_parden",
+        "text": "fetch me the mode of submission for prior auth partial denials?"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 8,
+            "value": "How many",
+            "start": 0
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 35,
+            "value": "cancelled",
+            "start": 26
+          },
+          {
+            "entity": "month",
+            "end": 42,
+            "value": "Feb",
+            "start": 39
+          },
+          {
+            "entity": "year",
+            "end": 47,
+            "value": "2018",
+            "start": 43
+          }
+        ],
+        "intent": "pa_cancel_cnt",
+        "text": "How many PA requests were cancelled in Feb 2018"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 21,
+            "value": "number of pa requests",
+            "start": 0
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 31,
+            "value": "cancelled",
+            "start": 22
+          },
+          {
+            "entity": "time_entity",
+            "end": 42,
+            "value": "last month",
+            "start": 32
+          }
+        ],
+        "intent": "pa_cancel_cnt",
+        "text": "number of pa requests cancelled last month"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 5,
+            "value": "total",
+            "start": 0
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 25,
+            "value": "cancelled",
+            "start": 16
+          }
+        ],
+        "intent": "pa_cancel_cnt",
+        "text": "total number of cancelled PA applications"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 5,
+            "value": "count",
+            "start": 0
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 18,
+            "value": "cancelled",
+            "start": 9
+          }
+        ],
+        "intent": "pa_cancel_cnt",
+        "text": "count of cancelled prior auth applications"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 32,
+            "value": "number of PA requests",
+            "start": 11
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 51,
+            "value": "cancelled",
+            "start": 42
+          }
+        ],
+        "intent": "pa_cancel_cnt",
+        "text": "get me the number of PA requests that got cancelled"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 5,
+            "value": "total",
+            "start": 0
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 15,
+            "value": "cancelled",
+            "start": 6
+          },
+          {
+            "entity": "month",
+            "end": 36,
+            "value": "december",
+            "start": 28
+          },
+          {
+            "entity": "year",
+            "end": 41,
+            "value": "2018",
+            "start": 37
+          }
+        ],
+        "intent": "pa_cancel_cnt",
+        "text": "total cancelled requests in december 2018"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 6,
+            "value": "Number",
+            "start": 0
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 19,
+            "value": "cancelled",
+            "start": 10
+          },
+          {
+            "entity": "time_entity",
+            "end": 47,
+            "value": "last 3 weeks",
+            "start": 35
+          }
+        ],
+        "intent": "pa_cancel_cnt",
+        "text": "Number of cancelled PA requests in last 3 weeks"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 6,
+            "value": "Number",
+            "start": 0
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 19,
+            "value": "cancelled",
+            "start": 10
+          },
+          {
+            "entity": "time_entity",
+            "end": 48,
+            "value": "last 3 months",
+            "start": 35
+          }
+        ],
+        "intent": "pa_cancel_cnt",
+        "text": "Number of cancelled PA requests in last 3 months"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 8,
+            "value": "how many",
+            "start": 0
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 18,
+            "value": "cancelled",
+            "start": 9
+          },
+          {
+            "entity": "time_entity",
+            "end": 46,
+            "value": "last 3 weeks",
+            "start": 34
+          }
+        ],
+        "intent": "pa_cancel_cnt",
+        "text": "how many cancelled PA requests in last 3 weeks"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 6,
+            "value": "Number",
+            "start": 0
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 19,
+            "value": "cancelled",
+            "start": 10
+          },
+          {
+            "entity": "time_entity",
+            "end": 47,
+            "value": "last 10 days",
+            "start": 35
+          }
+        ],
+        "intent": "pa_cancel_cnt",
+        "text": "Number of cancelled PA requests in last 10 days"
+      },
+      {
+        "entities": [
+          {
+            "entity": "cancel_actin",
+            "end": 9,
+            "value": "Cancelled",
+            "start": 0
+          },
+          {
+            "entity": "time_entity",
+            "end": 40,
+            "value": "second quarter",
+            "start": 26
+          },
+          {
+            "entity": "year",
+            "end": 48,
+            "value": "2017",
+            "start": 44
+          }
+        ],
+        "intent": "pa_cancel_cnt",
+        "text": "Cancelled requests in the second quarter of 2017"
+      },
+      {
+        "entities": [
+          {
+            "entity": "cancel_actin",
+            "end": 9,
+            "value": "cancelled",
+            "start": 0
+          },
+          {
+            "entity": "month",
+            "end": 30,
+            "value": "march",
+            "start": 25
+          },
+          {
+            "entity": "year",
+            "end": 35,
+            "value": "2019",
+            "start": 31
+          }
+        ],
+        "intent": "pa_cancel_cnt",
+        "text": "cancelled pa requests in march 2019"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 9,
+            "value": "aggregate",
+            "start": 0
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 31,
+            "value": "cancelled",
+            "start": 22
+          },
+          {
+            "entity": "month",
+            "end": 44,
+            "value": "september",
+            "start": 35
+          },
+          {
+            "entity": "year",
+            "end": 49,
+            "value": "2016",
+            "start": 45
+          }
+        ],
+        "intent": "pa_cancel_cnt",
+        "text": "aggregate of requests cancelled in september 2016"
+      },
+      {
+        "entities": [
+          {
+            "entity": "top_entity",
+            "end": 3,
+            "value": "top",
+            "start": 0
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 14,
+            "value": "reasons",
+            "start": 7
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 28,
+            "value": "cancelled",
+            "start": 19
+          }
+        ],
+        "intent": "pa_cancel_rsns",
+        "text": "top 10 reasons for cancelled requests"
+      },
+      {
+        "entities": [
+          {
+            "entity": "top_entity",
+            "end": 10,
+            "value": "top",
+            "start": 7
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 26,
+            "value": "reason codes",
+            "start": 14
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 58,
+            "value": "cancelled",
+            "start": 49
+          }
+        ],
+        "intent": "pa_cancel_rsns",
+        "text": "get me top 10 reason codes for requests that got cancelled"
+      },
+      {
+        "entities": [
+          {
+            "entity": "top_entity",
+            "end": 11,
+            "value": "top",
+            "start": 8
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 27,
+            "value": "reason codes",
+            "start": 15
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 59,
+            "value": "cancelled",
+            "start": 50
+          }
+        ],
+        "intent": "pa_cancel_rsns",
+        "text": "give me top 20 reason codes for requests that got cancelled"
+      },
+      {
+        "entities": [
+          {
+            "entity": "top_entity",
+            "end": 12,
+            "value": "top",
+            "start": 9
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 28,
+            "value": "reason codes",
+            "start": 16
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 60,
+            "value": "cancelled",
+            "start": 51
+          }
+        ],
+        "intent": "pa_cancel_rsns",
+        "text": "fetch me top 20 reason codes for requests that got cancelled"
+      },
+      {
+        "entities": [
+          {
+            "entity": "top_entity",
+            "end": 10,
+            "value": "top",
+            "start": 7
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 20,
+            "value": "reasons",
+            "start": 13
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 34,
+            "value": "cancelled",
+            "start": 25
+          }
+        ],
+        "intent": "pa_cancel_rsns",
+        "text": "i need top 5 reasons for cancelled requests "
+      },
+      {
+        "entities": [
+          {
+            "entity": "top_entity",
+            "end": 17,
+            "value": "top",
+            "start": 14
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 27,
+            "value": "reason",
+            "start": 21
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 45,
+            "value": "cancelled",
+            "start": 36
+          }
+        ],
+        "intent": "pa_cancel_rsns",
+        "text": "Can i see the top 10 reason  for pa cancelled applications"
+      },
+      {
+        "entities": [
+          {
+            "entity": "top_entity",
+            "end": 21,
+            "value": "top",
+            "start": 18
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 31,
+            "value": "reason",
+            "start": 25
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 49,
+            "value": "cancelled",
+            "start": 40
+          }
+        ],
+        "intent": "pa_cancel_rsns",
+        "text": "i want to see the top 10 reason  for pa cancelled applications"
+      },
+      {
+        "entities": [
+          {
+            "entity": "top_entity",
+            "end": 27,
+            "value": "top",
+            "start": 24
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 43,
+            "value": "reason codes",
+            "start": 31
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 69,
+            "value": "cancelled",
+            "start": 60
+          }
+        ],
+        "intent": "pa_cancel_rsns",
+        "text": "I would like to see the top 15 reason codes for pa requests cancelled"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 8,
+            "value": "How many",
+            "start": 0
+          },
+          {
+            "entity": "sbmtd_entity",
+            "end": 30,
+            "value": "submitted",
+            "start": 21
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 51,
+            "value": "medical records",
+            "start": 36
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 67,
+            "value": "cancelled",
+            "start": 58
+          }
+        ],
+        "intent": "pa_cancel_med_records",
+        "text": "How many pa requests submitted with medical records among cancelled"
+      },
+      {
+        "entities": [
+          {
+            "entity": "med_records_entity",
+            "end": 49,
+            "value": "medical records",
+            "start": 34
+          },
+          {
+            "entity": "count_entity",
+            "end": 6,
+            "value": "number",
+            "start": 0
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 19,
+            "value": "cancelled",
+            "start": 10
+          }
+        ],
+        "intent": "pa_cancel_med_records",
+        "text": "number of cancelled requests with medical records"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 5,
+            "value": "total",
+            "start": 0
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 27,
+            "value": "cancelled",
+            "start": 18
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 48,
+            "value": "medical records",
+            "start": 33
+          }
+        ],
+        "intent": "pa_cancel_med_records",
+        "text": "total pa requests cancelled with medical records"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 5,
+            "value": "count",
+            "start": 0
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 24,
+            "value": "medical records",
+            "start": 9
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 34,
+            "value": "cancelled",
+            "start": 25
+          }
+        ],
+        "intent": "pa_cancel_med_records",
+        "text": "count of medical records cancelled requests"
+      },
+      {
+        "entities": [
+          {
+            "entity": "med_records_entity",
+            "end": 56,
+            "value": "medical records",
+            "start": 41
+          },
+          {
+            "entity": "count_entity",
+            "end": 13,
+            "value": "number",
+            "start": 7
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 26,
+            "value": "cancelled",
+            "start": 17
+          }
+        ],
+        "intent": "pa_cancel_med_records",
+        "text": "get me number of cancelled requests with medical records"
+      },
+      {
+        "entities": [
+          {
+            "entity": "med_records_entity",
+            "end": 61,
+            "value": "medical records",
+            "start": 46
+          },
+          {
+            "entity": "count_entity",
+            "end": 18,
+            "value": "number",
+            "start": 12
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 31,
+            "value": "cancelled",
+            "start": 22
+          }
+        ],
+        "intent": "pa_cancel_med_records",
+        "text": "let me know number of cancelled requests with medical records"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 14,
+            "value": "count",
+            "start": 9
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 27,
+            "value": "cancelled",
+            "start": 18
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 57,
+            "value": "medical records",
+            "start": 42
+          }
+        ],
+        "intent": "pa_cancel_med_records",
+        "text": "fetch me count of cancelled requests with medical records"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 5,
+            "value": "count",
+            "start": 0
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 18,
+            "value": "cancelled",
+            "start": 9
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 48,
+            "value": "medical records",
+            "start": 33
+          },
+          {
+            "entity": "month",
+            "end": 58,
+            "value": "August",
+            "start": 52
+          },
+          {
+            "entity": "year",
+            "end": 63,
+            "value": "2018",
+            "start": 59
+          }
+        ],
+        "intent": "pa_cancel_med_records",
+        "text": "count of cancelled requests with medical records in August 2018"
+      },
+      {
+        "entities": [
+          {
+            "entity": "mode_entity",
+            "end": 3,
+            "value": "mos",
+            "start": 0
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 17,
+            "value": "cancelled",
+            "start": 8
+          }
+        ],
+        "intent": "pa_cancel_mode",
+        "text": "mos for cancelled PA requests"
+      },
+      {
+        "entities": [
+          {
+            "entity": "mode_entity",
+            "end": 30,
+            "value": "mode of submission",
+            "start": 12
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 66,
+            "value": "cancelled",
+            "start": 57
+          }
+        ],
+        "intent": "pa_cancel_mode",
+        "text": "what is the mode of submission for PA requests that were cancelled"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 5,
+            "value": "count",
+            "start": 0
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 18,
+            "value": "cancelled",
+            "start": 9
+          },
+          {
+            "entity": "mode_entity",
+            "end": 34,
+            "value": "mos",
+            "start": 31
+          }
+        ],
+        "intent": "pa_cancel_mode",
+        "text": "count of cancelled requests by mos"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 17,
+            "value": "number",
+            "start": 11
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 30,
+            "value": "cancelled",
+            "start": 21
+          },
+          {
+            "entity": "mode_entity",
+            "end": 38,
+            "value": "mode",
+            "start": 34
+          }
+        ],
+        "intent": "pa_cancel_mode",
+        "text": "divide the number of cancelled by mode"
+      },
+      {
+        "entities": [
+          {
+            "entity": "mode_entity",
+            "end": 18,
+            "value": "mode of submission",
+            "start": 0
+          },
+          {
+            "entity": "count_entity",
+            "end": 24,
+            "value": "count",
+            "start": 19
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 54,
+            "value": "cancelled",
+            "start": 45
+          }
+        ],
+        "intent": "pa_cancel_mode",
+        "text": "mode of submission count for PA applications cancelled"
+      },
+      {
+        "entities": [
+          {
+            "entity": "mode_entity",
+            "end": 3,
+            "value": "mos",
+            "start": 0
+          },
+          {
+            "entity": "count_entity",
+            "end": 9,
+            "value": "count",
+            "start": 4
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 39,
+            "value": "cancelled",
+            "start": 30
+          }
+        ],
+        "intent": "pa_cancel_mode",
+        "text": "mos count for PA applications cancelled"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 5,
+            "value": "count",
+            "start": 0
+          },
+          {
+            "entity": "mode_entity",
+            "end": 12,
+            "value": "mos",
+            "start": 9
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 29,
+            "value": "cancelled",
+            "start": 20
+          }
+        ],
+        "intent": "pa_cancel_mode",
+        "text": "count by mos for PA cancelled requests"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 8,
+            "value": "group by",
+            "start": 0
+          },
+          {
+            "entity": "mode_entity",
+            "end": 12,
+            "value": "mos",
+            "start": 9
+          },
+          {
+            "entity": "cancel_actin",
+            "end": 22,
+            "value": "cancelled",
+            "start": 13
+          }
+        ],
+        "intent": "pa_cancel_mode",
+        "text": "group by mos cancelled requests"
+      },
+      {
+        "entities": [
+          {
+            "entity": "cancel_actin",
+            "end": 9,
+            "value": "cancelled",
+            "start": 0
+          },
+          {
+            "entity": "count_entity",
+            "end": 27,
+            "value": "group by",
+            "start": 19
+          },
+          {
+            "entity": "mode_entity",
+            "end": 32,
+            "value": "mode",
+            "start": 28
+          }
+        ],
+        "intent": "pa_cancel_mode",
+        "text": "cancelled requests group by mode "
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 8,
+            "value": "How many",
+            "start": 0
+          },
+          {
+            "entity": "pend_actin",
+            "end": 34,
+            "value": "pending",
+            "start": 27
+          },
+          {
+            "entity": "month",
+            "end": 45,
+            "value": "october",
+            "start": 38
+          },
+          {
+            "entity": "year",
+            "end": 50,
+            "value": "2016",
+            "start": 46
+          }
+        ],
+        "intent": "pa_pend_cnt",
+        "text": "How many PA requested were pending in october 2016"
+      },
+      {
+        "entities": [
+          {
+            "entity": "pend_actin",
+            "end": 7,
+            "value": "pending",
+            "start": 0
+          },
+          {
+            "entity": "count_entity",
+            "end": 22,
+            "value": "count",
+            "start": 17
+          },
+          {
+            "entity": "month",
+            "end": 35,
+            "value": "september",
+            "start": 26
+          },
+          {
+            "entity": "year",
+            "end": 40,
+            "value": "2017",
+            "start": 36
+          }
+        ],
+        "intent": "pa_pend_cnt",
+        "text": "pending requests count in september 2017"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 5,
+            "value": "total",
+            "start": 0
+          },
+          {
+            "entity": "pend_actin",
+            "end": 32,
+            "value": "pending",
+            "start": 25
+          },
+          {
+            "entity": "time_entity",
+            "end": 49,
+            "value": "last 3 months",
+            "start": 36
+          }
+        ],
+        "intent": "pa_pend_cnt",
+        "text": "total requests that were pending in last 3 months"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 12,
+            "value": "total",
+            "start": 7
+          },
+          {
+            "entity": "pend_actin",
+            "end": 39,
+            "value": "pending",
+            "start": 32
+          },
+          {
+            "entity": "time_entity",
+            "end": 56,
+            "value": "last 3 months",
+            "start": 43
+          }
+        ],
+        "intent": "pa_pend_cnt",
+        "text": "get me total requests that were pending in last 3 months"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 32,
+            "value": "number of requests",
+            "start": 14
+          },
+          {
+            "entity": "pend_actin",
+            "end": 49,
+            "value": "pended",
+            "start": 43
+          },
+          {
+            "entity": "time_entity",
+            "end": 59,
+            "value": "last year",
+            "start": 50
+          }
+        ],
+        "intent": "pa_pend_cnt",
+        "text": "May I get the number of requests that were pended last year"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 9,
+            "value": "aggregate",
+            "start": 0
+          },
+          {
+            "entity": "pend_actin",
+            "end": 19,
+            "value": "pended",
+            "start": 13
+          },
+          {
+            "entity": "month",
+            "end": 47,
+            "value": "February",
+            "start": 39
+          },
+          {
+            "entity": "year",
+            "end": 52,
+            "value": "2019",
+            "start": 48
+          }
+        ],
+        "intent": "pa_pend_cnt",
+        "text": "aggregate of pended PA applications in February 2019"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 20,
+            "value": "total",
+            "start": 15
+          },
+          {
+            "entity": "pend_actin",
+            "end": 28,
+            "value": "pending",
+            "start": 21
+          }
+        ],
+        "intent": "pa_pend_cnt",
+        "text": "I need to know total pending requests "
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 30,
+            "value": "number of requests",
+            "start": 12
+          },
+          {
+            "entity": "pend_actin",
+            "end": 48,
+            "value": "pending",
+            "start": 41
+          },
+          {
+            "entity": "time_entity",
+            "end": 64,
+            "value": "last 6 weeks",
+            "start": 52
+          }
+        ],
+        "intent": "pa_pend_cnt",
+        "text": "Give me the number of requests that were pending in last 6 weeks"
+      },
+      {
+        "entities": [
+          {
+            "entity": "top_entity",
+            "end": 3,
+            "value": "top",
+            "start": 0
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 14,
+            "value": "reasons",
+            "start": 7
+          },
+          {
+            "entity": "pend_actin",
+            "end": 44,
+            "value": "pended",
+            "start": 38
+          }
+        ],
+        "intent": "pa_pend_rsns",
+        "text": "top 10 reasons for requests that were pended"
+      },
+      {
+        "entities": [
+          {
+            "entity": "reasons_entity",
+            "end": 7,
+            "value": "reasons",
+            "start": 0
+          },
+          {
+            "entity": "pend_actin",
+            "end": 18,
+            "value": "pended",
+            "start": 12
+          }
+        ],
+        "intent": "pa_pend_rsns",
+        "text": "reasons for pended requests"
+      },
+      {
+        "entities": [
+          {
+            "entity": "top_entity",
+            "end": 10,
+            "value": "top",
+            "start": 7
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 25,
+            "value": "reason codes",
+            "start": 13
+          },
+          {
+            "entity": "pend_actin",
+            "end": 37,
+            "value": "pending",
+            "start": 30
+          }
+        ],
+        "intent": "pa_pend_rsns",
+        "text": "get me top 5 reason codes for pending PA's"
+      },
+      {
+        "entities": [
+          {
+            "entity": "top_entity",
+            "end": 11,
+            "value": "top",
+            "start": 8
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 27,
+            "value": "reason codes",
+            "start": 15
+          },
+          {
+            "entity": "pend_actin",
+            "end": 39,
+            "value": "pending",
+            "start": 32
+          }
+        ],
+        "intent": "pa_pend_rsns",
+        "text": "give me top 15 reason codes for pending PA's"
+      },
+      {
+        "entities": [
+          {
+            "entity": "top_entity",
+            "end": 12,
+            "value": "top",
+            "start": 9
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 27,
+            "value": "reason codes",
+            "start": 15
+          },
+          {
+            "entity": "pend_actin",
+            "end": 39,
+            "value": "pending",
+            "start": 32
+          }
+        ],
+        "intent": "pa_pend_rsns",
+        "text": "fetch me top 5 reason codes for pending PA's"
+      },
+      {
+        "entities": [
+          {
+            "entity": "pend_actin",
+            "end": 7,
+            "value": "pending",
+            "start": 0
+          },
+          {
+            "entity": "top_entity",
+            "end": 20,
+            "value": "top",
+            "start": 17
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 33,
+            "value": "rsn codes",
+            "start": 24
+          }
+        ],
+        "intent": "pa_pend_rsns",
+        "text": "pending requests top 10 rsn codes"
+      },
+      {
+        "entities": [
+          {
+            "entity": "reasons_entity",
+            "end": 25,
+            "value": "reason codes",
+            "start": 13
+          },
+          {
+            "entity": "pend_actin",
+            "end": 36,
+            "value": "pended",
+            "start": 30
+          },
+          {
+            "entity": "top_entity",
+            "end": 55,
+            "value": "top",
+            "start": 52
+          }
+        ],
+        "intent": "pa_pend_rsns",
+        "text": "what are the reason codes for pended ones, guive me top 10"
+      },
+      {
+        "entities": [
+          {
+            "entity": "top_entity",
+            "end": 13,
+            "value": "top",
+            "start": 10
+          },
+          {
+            "entity": "reasons_entity",
+            "end": 29,
+            "value": "reason codes",
+            "start": 17
+          },
+          {
+            "entity": "pend_actin",
+            "end": 41,
+            "value": "pending",
+            "start": 34
+          }
+        ],
+        "intent": "pa_pend_rsns",
+        "text": "Can I see top 10 reason codes for pending"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 14,
+            "value": "number of PA's",
+            "start": 0
+          },
+          {
+            "entity": "sbmtd_entity",
+            "end": 24,
+            "value": "submitted",
+            "start": 15
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 45,
+            "value": "medical records",
+            "start": 30
+          },
+          {
+            "entity": "pend_actin",
+            "end": 58,
+            "value": "pended",
+            "start": 52
+          }
+        ],
+        "intent": "pa_pend_med_records",
+        "text": "number of PA's submitted with medical records among pended ones"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 5,
+            "value": "total",
+            "start": 0
+          },
+          {
+            "entity": "sbmtd_entity",
+            "end": 20,
+            "value": "submitted",
+            "start": 11
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 41,
+            "value": "medical records",
+            "start": 26
+          },
+          {
+            "entity": "pend_actin",
+            "end": 54,
+            "value": "pended",
+            "start": 48
+          }
+        ],
+        "intent": "pa_pend_med_records",
+        "text": "total PA's submitted with medical records among pended ones"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 29,
+            "value": "number of requests",
+            "start": 11
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 50,
+            "value": "medical records",
+            "start": 35
+          },
+          {
+            "entity": "pend_actin",
+            "end": 64,
+            "value": "pending",
+            "start": 57
+          }
+        ],
+        "intent": "pa_pend_med_records",
+        "text": "get me the number of requests with medical records among pending"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 17,
+            "value": "number",
+            "start": 11
+          },
+          {
+            "entity": "pend_actin",
+            "end": 28,
+            "value": "pending",
+            "start": 21
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 58,
+            "value": "medical records",
+            "start": 43
+          }
+        ],
+        "intent": "pa_pend_med_records",
+        "text": "get me the number of pending requests with medical records"
+      },
+      {
+        "entities": [
+          {
+            "entity": "pend_actin",
+            "end": 16,
+            "value": "pending",
+            "start": 9
+          },
+          {
+            "entity": "count_entity",
+            "end": 5,
+            "value": "count",
+            "start": 0
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 42,
+            "value": "med records",
+            "start": 31
+          }
+        ],
+        "intent": "pa_pend_med_records",
+        "text": "count of pending requests with med records"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 5,
+            "value": "count",
+            "start": 0
+          },
+          {
+            "entity": "pend_actin",
+            "end": 34,
+            "value": "pending",
+            "start": 27
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 51,
+            "value": "med records",
+            "start": 40
+          }
+        ],
+        "intent": "pa_pend_med_records",
+        "text": "count of requests that are pending with med records"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 15,
+            "value": "aggregate count",
+            "start": 0
+          },
+          {
+            "entity": "pend_actin",
+            "end": 44,
+            "value": "pending",
+            "start": 37
+          },
+          {
+            "entity": "med_records_entity",
+            "end": 61,
+            "value": "med records",
+            "start": 50
+          }
+        ],
+        "intent": "pa_pend_med_records",
+        "text": "aggregate count of requests that are pending with med records"
+      },
+      {
+        "entities": [
+          {
+            "entity": "mode_entity",
+            "end": 15,
+            "value": "mos",
+            "start": 12
+          },
+          {
+            "entity": "pend_actin",
+            "end": 26,
+            "value": "pended",
+            "start": 20
+          }
+        ],
+        "intent": "pa_pend_mode",
+        "text": "what is the mos for pended PA requests"
+      },
+      {
+        "entities": [
+          {
+            "entity": "count_entity",
+            "end": 5,
+            "value": "count",
+            "start": 0
+          },
+          {
+            "entity": "pend_actin",
+            "end": 16,
+            "value": "pending",
+            "start": 9
+          },
+          {
+            "entity": "mode_entity",
+            "end": 47,
+            "value": "mode of submission",
+            "start": 29
+          }
+        ],
+        "intent": "pa_pend_mode",
+        "text": "count of pending requests by mode of submission"
+      },
+      {
+        "entities": [
+          {
+            "entity": "mode_entity",
+            "end": 15,
+            "value": "mode",
+            "start": 11
+          },
+          {
+            "entity": "pend_actin",
+            "end": 26,
+            "value": "pended",
+            "start": 20
+          }
+        ],
+        "intent": "pa_pend_mode",
+        "text": "get me the mode for pended requests"
+      },
+      {
+        "entities": [
+          {
+            "entity": "pend_actin",
+            "end": 18,
+            "value": "pending",
+            "start": 11
+          },
+          {
+            "entity": "mode_entity",
+            "end": 34,
+            "value": "mos",
+            "start": 31
+          }
+        ],
+        "intent": "pa_pend_mode",
+        "text": "Divide the pending requests by mos"
+      },
+      {
+        "entities": [
+          {
+            "entity": "mode_entity",
+            "end": 27,
+            "value": "mode of submission",
+            "start": 9
+          },
+          {
+            "entity": "pend_actin",
+            "end": 39,
+            "value": "pending",
+            "start": 32
+          }
+        ],
+        "intent": "pa_pend_mode",
+        "text": "know the mode of submission for pending requests"
+      },
+      {
+        "entities": [
+          {
+            "entity": "mode_entity",
+            "end": 14,
+            "value": "mos",
+            "start": 11
+          },
+          {
+            "entity": "pend_actin",
+            "end": 45,
+            "value": "pending",
+            "start": 38
+          },
+          {
+            "entity": "month",
+            "end": 56,
+            "value": "January",
+            "start": 49
+          },
+          {
+            "entity": "year",
+            "end": 61,
+            "value": "2017",
+            "start": 57
+          }
+        ],
+        "intent": "pa_pend_mode",
+        "text": "get me the mos for requests that were pending in January 2017"
+      },
+      {
+        "entities": [
+          {
+            "entity": "mode_entity",
+            "end": 3,
+            "value": "mos",
+            "start": 0
+          },
+          {
+            "entity": "pend_actin",
+            "end": 15,
+            "value": "pending",
+            "start": 8
+          }
+        ],
+        "intent": "pa_pend_mode",
+        "text": "mos for pending requests"
+      },
+      {
+        "entities": [
+          {
+            "entity": "mode_entity",
+            "end": 4,
+            "value": "mode",
+            "start": 0
+          },
+          {
+            "entity": "pend_actin",
+            "end": 20,
+            "value": "pended",
+            "start": 14
+          }
+        ],
+        "intent": "pa_pend_mode",
+        "text": "mode requests pended"
+      },
+      {
+        "entities": [
+          {
+            "entity": "mode_entity",
+            "end": 3,
+            "value": "mos",
+            "start": 0
+          },
+          {
+            "entity": "pend_actin",
+            "end": 15,
+            "value": "pending",
+            "start": 8
+          },
+          {
+            "entity": "time_entity",
+            "end": 42,
+            "value": "last 7 months",
+            "start": 29
+          }
+        ],
+        "intent": "pa_pend_mode",
+        "text": "mos for pending requests for last 7 months"
+      },
+      {
+        "entities": [
+          {
+            "entity": "time_entity",
+            "end": 24,
+            "value": "average TAT",
+            "start": 13
+          },
+          {
+            "entity": "sbmtd_entity",
+            "end": 50,
+            "value": "submitted",
+            "start": 41
+          },
+          {
+            "entity": "month",
+            "end": 57,
+            "value": "May",
+            "start": 54
+          },
+          {
+            "entity": "year",
+            "end": 62,
+            "value": "2018",
+            "start": 58
+          },
+          {
+            "entity": "adjudicate_actn",
+            "end": 81,
+            "value": "adjudicated",
+            "start": 70
+          }
+        ],
+        "intent": "pa_avgtat_adjud",
+        "text": "what was the average TAT for PA requests submitted in May 2018 to get adjudicated"
+      },
+      {
+        "entities": [
+          {
+            "entity": "time_entity",
+            "end": 37,
+            "value": "turn around time",
+            "start": 21
+          },
+          {
+            "entity": "sbmtd_entity",
+            "end": 63,
+            "value": "submitted",
+            "start": 54
+          },
+          {
+            "entity": "month",
+            "end": 70,
+            "value": "May",
+            "start": 67
+          },
+          {
+            "entity": "year",
+            "end": 75,
+            "value": "2018",
+            "start": 71
+          },
+          {
+            "entity": "adjudicate_actn",
+            "end": 94,
+            "value": "adjudicated",
+            "start": 83
+          }
+        ],
+        "intent": "pa_avgtat_adjud",
+        "text": "what was the average turn around time for PA requests submitted in May 2018 to get adjudicated"
+      },
+      {
+        "entities": [
+          {
+            "entity": "time_entity",
+            "end": 15,
+            "value": "TAT",
+            "start": 12
+          },
+          {
+            "entity": "sbmtd_entity",
+            "end": 38,
+            "value": "submitted",
+            "start": 29
+          },
+          {
+            "entity": "month",
+            "end": 46,
+            "value": "June",
+            "start": 42
+          },
+          {
+            "entity": "year",
+            "end": 51,
+            "value": "2018",
+            "start": 47
+          },
+          {
+            "entity": "adjudicate_actn",
+            "end": 68,
+            "value": "adjudication",
+            "start": 56
+          }
+        ],
+        "intent": "pa_avgtat_adjud",
+        "text": "what is the TAT for requests submitted in June 2018 for adjudication"
+      },
+      {
+        "entities": [
+          {
+            "entity": "time_entity",
+            "end": 3,
+            "value": "TAT",
+            "start": 0
+          },
+          {
+            "entity": "sbmtd_entity",
+            "end": 17,
+            "value": "submitted",
+            "start": 8
+          },
+          {
+            "entity": "month",
+            "end": 34,
+            "value": "july",
+            "start": 30
+          },
+          {
+            "entity": "year",
+            "end": 39,
+            "value": "2018",
+            "start": 35
+          }
+        ],
+        "intent": "pa_avgtat_adjud",
+        "text": "TAT for submitted requests in july 2018"
+      },
+      {
+        "entities": [
+          {
+            "entity": "time_entity",
+            "end": 23,
+            "value": "resolution time",
+            "start": 8
+          },
+          {
+            "entity": "month",
+            "end": 48,
+            "value": "December",
+            "start": 40
+          },
+          {
+            "entity": "year",
+            "end": 53,
+            "value": "2018",
+            "start": 49
+          }
+        ],
+        "intent": "pa_avgtat_adjud",
+        "text": "what is resolution time for requests in December 2018"
+      },
+      {
+        "entities": [
+          {
+            "entity": "time_entity",
+            "end": 27,
+            "value": "tat",
+            "start": 24
+          },
+          {
+            "entity": "sbmtd_entity",
+            "end": 52,
+            "value": "submitted",
+            "start": 43
+          },
+          {
+            "entity": "month",
+            "end": 61,
+            "value": "march",
+            "start": 56
+          },
+          {
+            "entity": "year",
+            "end": 66,
+            "value": "2019",
+            "start": 62
+          },
+          {
+            "entity": "adjudicate_actn",
+            "end": 82,
+            "value": "adjudiation",
+            "start": 71
+          }
+        ],
+        "intent": "pa_avgtat_adjud",
+        "text": "Let me know the average tat for my request submitted in march 2019 for adjudiation"
+      },
+      {
+        "entities": [
+          {
+            "entity": "time_entity",
+            "end": 14,
+            "value": "TAT",
+            "start": 11
+          },
+          {
+            "entity": "month",
+            "end": 52,
+            "value": "April",
+            "start": 47
+          },
+          {
+            "entity": "year",
+            "end": 57,
+            "value": "2018",
+            "start": 53
+          },
+          {
+            "entity": "sbmtd_entity",
+            "end": 43,
+            "value": "sent",
+            "start": 39
+          }
+        ],
+        "intent": "pa_avgtat_adjud",
+        "text": "Get me the TAT roughly for application sent in April 2018"
+      },
+      {
+        "entities": [
+          {
+            "entity": "time_entity",
+            "end": 30,
+            "value": "turnaroundtime",
+            "start": 16
+          },
+          {
+            "entity": "sbmtd_entity",
+            "end": 53,
+            "value": "submitted",
+            "start": 44
+          },
+          {
+            "entity": "month",
+            "end": 65,
+            "value": "November",
+            "start": 57
+          },
+          {
+            "entity": "year",
+            "end": 70,
+            "value": "2016",
+            "start": 66
+          }
+        ],
+        "intent": "pa_avgtat_adjud",
+        "text": "how long is the turnaroundtime for requests submitted in November 2016"
+      },
+      {
+        "entities": [
+          {
+            "entity": "time_entity",
+            "end": 15,
+            "value": "TAT",
+            "start": 12
+          },
+          {
+            "entity": "approve_actin",
+            "end": 28,
+            "value": "approved",
+            "start": 20
+          },
+          {
+            "entity": "sbmtd_entity",
+            "end": 43,
+            "value": "submitted",
+            "start": 34
+          },
+          {
+            "entity": "month",
+            "end": 54,
+            "value": "October",
+            "start": 47
+          },
+          {
+            "entity": "year",
+            "end": 59,
+            "value": "2018",
+            "start": 55
+          }
+        ],
+        "intent": "pa_tat_approved",
+        "text": "what is the TAT for approved PA's submitted in October 2018"
+      },
+      {
+        "entities": [
+          {
+            "entity": "time_entity",
+            "end": 3,
+            "value": "TAT",
+            "start": 0
+          },
+          {
+            "entity": "approve_actin",
+            "end": 16,
+            "value": "approved",
+            "start": 8
+          },
+          {
+            "entity": "month",
+            "end": 28,
+            "value": "march",
+            "start": 23
+          },
+          {
+            "entity": "year",
+            "end": 33,
+            "value": "2018",
+            "start": 29
+          }
+        ],
+        "intent": "pa_tat_approved",
+        "text": "TAT for approved PA in march 2018"
+      },
+      {
+        "entities": [
+          {
+            "entity": "time_entity",
+            "end": 3,
+            "value": "tat",
+            "start": 0
+          },
+          {
+            "entity": "approve_actin",
+            "end": 16,
+            "value": "approved",
+            "start": 8
+          },
+          {
+            "entity": "month",
+            "end": 36,
+            "value": "July",
+            "start": 32
+          },
+          {
+            "entity": "year",
+            "end": 41,
+            "value": "2017",
+            "start": 37
+          }
+        ],
+        "intent": "pa_tat_approved",
+        "text": "tat for approved pa requests in July 2017"
+      },
+      {
+        "entities": [
+          {
+            "entity": "time_entity",
+            "end": 3,
+            "value": "TAT",
+            "start": 0
+          },
+          {
+            "entity": "denial_actin",
+            "end": 14,
+            "value": "denied",
+            "start": 8
+          },
+          {
+            "entity": "month",
+            "end": 26,
+            "value": "march",
+            "start": 21
+          },
+          {
+            "entity": "year",
+            "end": 31,
+            "value": "2018",
+            "start": 27
+          }
+        ],
+        "intent": "pa_tat_denied",
+        "text": "TAT for denied PA in march 2018"
+      },
+      {
+        "entities": [
+          {
+            "entity": "time_entity",
+            "end": 16,
+            "value": "Turn around time",
+            "start": 0
+          },
+          {
+            "entity": "denial_actin",
+            "end": 27,
+            "value": "denied",
+            "start": 21
+          },
+          {
+            "entity": "month",
+            "end": 39,
+            "value": "march",
+            "start": 34
+          },
+          {
+            "entity": "year",
+            "end": 44,
+            "value": "2018",
+            "start": 40
+          }
+        ],
+        "intent": "pa_tat_denied",
+        "text": "Turn around time for denied PA in march 2018"
+      },
+      {
+        "entities": [
+          {
+            "entity": "time_entity",
+            "end": 31,
+            "value": "Turn around time",
+            "start": 15
+          },
+          {
+            "entity": "denial_actin",
+            "end": 42,
+            "value": "denied",
+            "start": 36
+          },
+          {
+            "entity": "month",
+            "end": 54,
+            "value": "march",
+            "start": 49
+          },
+          {
+            "entity": "year",
+            "end": 59,
+            "value": "2018",
+            "start": 55
+          }
+        ],
+        "intent": "pa_tat_denied",
+        "text": "get me average Turn around time for denied PA in march 2018"
+      },
+      {
+        "entities": [
+          {
+            "entity": "time_entity",
+            "end": 31,
+            "value": "Turn around time",
+            "start": 15
+          },
+          {
+            "entity": "denial_actin",
+            "end": 43,
+            "value": "denials",
+            "start": 36
+          },
+          {
+            "entity": "month",
+            "end": 52,
+            "value": "march",
+            "start": 47
+          },
+          {
+            "entity": "year",
+            "end": 52,
+            "value": "march",
+            "start": 47
+          }
+        ],
+        "intent": "pa_tat_denied",
+        "text": "get me average Turn around time for denials in march 2018"
+      }
+    ]
+  }
+}

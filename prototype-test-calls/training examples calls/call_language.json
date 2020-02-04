@@ -1,0 +1,581 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "language",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is it's language",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+      {
+        "text": "language of call",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+      {
+        "text": "call language",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 5,
+            "end": 13,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+      {
+        "text": "call's language",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is language of call",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is call language",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 13,
+            "end": 21,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is call's language",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 15,
+            "end": 23,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+      {
+        "text": "answered language",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 9,
+            "end": 17,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+      {
+        "text": "language answered",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is answered language",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 17,
+            "end": 25,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is language in which it is answered",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 32,
+            "end": 40,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+      {
+        "text": "language in which it is answered",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+      {
+        "text": "language in which call is answered",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 26,
+            "end": 34,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is language in which call is answered",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 26,
+            "end": 30,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 34,
+            "end": 42,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+      {
+        "text": "language of answered call",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 12,
+            "end": 20,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is language of answered call",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 29,
+            "end": 33,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 20,
+            "end": 28,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+      {
+        "text": "call language which is answered",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 23,
+            "end": 31,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 5,
+            "end": 13,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is call language which is answered",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 31,
+            "end": 39,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 13,
+            "end": 21,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is call answered language",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 13,
+            "end": 21,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 22,
+            "end": 30,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+      {
+        "text": "answered language of call",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 9,
+            "end": 17,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is answered language of call",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 29,
+            "end": 33,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 17,
+            "end": 25,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+      {
+        "text": "answered call language",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 14,
+            "end": 22,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is answered call language",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 22,
+            "end": 30,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+      {
+        "text": "answered language call",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 9,
+            "end": 17,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+      {
+        "text": "call answered language",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 5,
+            "end": 13,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 14,
+            "end": 22,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+      {
+        "text": "call language answered",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 14,
+            "end": 22,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 5,
+            "end": 13,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+      {
+        "text": "language call answered",
+        "intent": "call_language",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 14,
+            "end": 22,
+            "value": "answered",
+            "entity": "answered_entity"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "language",
+            "entity": "language_entity"
+          }
+        ]
+      },
+    ]
+  }
+}

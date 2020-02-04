@@ -1,0 +1,169 @@
+{% extends "layout.html" %}
+
+{% block header %}
+<link rel="shortcut icon" href="{{ url_for('static', filename="img/optum.jpg") }}" type="image/x-icon">
+
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename="css/chat_interface.css") }}">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300|Open+Sans:300|Oxygen|Material+Icons" rel="stylesheet">
+
+<style>
+.quick_resp_btns {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #fff;
+  padding: 10px 10px;
+  bottom: 0;
+  visibility: hidden;
+}
+
+/* .btn1 {
+  width: 100px;
+}​ */
+
+.quick_resp_btns .btn1,.quick_resp_btns .btn2,.quick_resp_btns .btn3,.quick_resp_btns .btn4 {
+  min-width: 80px;
+  padding: 2px 10px;
+  /* height: 50px; */
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #a3d063;
+  border: 2px solid #a3d063;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  text-align: center;
+  float: right;
+  visibility: hidden;
+}
+.quick_resp_btns .btn1:hover,.quick_resp_btns .btn2:hover,.quick_resp_btns .btn3:hover,.quick_resp_btns .btn4:hover {
+  color: #a3d063;
+  background-color: #fff;
+}
+.quick_resp_btns .btn1.btn1_txt,.quick_resp_btns .btn2.btn2_txt,.quick_resp_btns .btn3.btn3_txt,.quick_resp_btns .btn4.btn4_txt {
+  font-size: 18px;
+  font-weight: 300;
+  display: inline-block;
+  line-height: 48px;
+}
+.messages .message.left .avatar {
+  background-color: #f5886e;
+  background-image: url({{ url_for('static', filename="img/computer.png") }});
+  float: left;
+  background-size: 100%;
+}
+.messages .message.right .avatar {
+    background-color: #fdbf68;
+    background-size: 100%;
+float: right;
+    background-image: url({{ url_for('static', filename="img/person.png") }});
+    
+}
+
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-sm-10  chat_window_column">
+            
+            <div class="chat_window">
+                <ul class="messages"></ul>
+                
+                <div class="quick_resp_btns">
+                    <div class="btn1"><div class="btn_txt1" onclick="btn_txt1_action()">Test1</div></div>
+                    <script>
+                        function btn_txt1_action() {
+                            document.getElementById('msg_input').value= document.getElementsByClassName('btn_txt1')[0].innerHTML;
+                            document.getElementsByClassName('send_message')[0].click();
+                        }
+                    </script>
+                    <div class="btn2"><div class="btn_txt2" onclick="btn_txt2_action()">Test2</div></div>
+                    <script>
+                        function btn_txt2_action() {
+                            document.getElementById('msg_input').value= document.getElementsByClassName('btn_txt2')[0].innerHTML;
+                            document.getElementsByClassName('send_message')[0].click();
+                        }
+                    </script>
+    
+                    <div class="btn3"><div class="btn_txt3" onclick="btn_txt3_action()">Test3</div></div>
+                    <script>
+                        function btn_txt3_action() {
+                            document.getElementById('msg_input').value= document.getElementsByClassName('btn_txt3')[0].innerHTML;
+                            document.getElementsByClassName('send_message')[0].click();
+                        }
+                    </script>
+    
+                    <div class="btn4"><div class="btn_txt4" onclick="btn_txt4_action()">Test4</div></div>                    
+                    <script>
+                        function btn_txt4_action() {
+                            document.getElementById('msg_input').value= document.getElementsByClassName('btn_txt4')[0].innerHTML;
+                            document.getElementsByClassName('send_message')[0].click();
+                        }
+                    </script>
+                </div>
+                
+                <div class="bottom_wrapper clearfix">
+                    <div class="message_input_wrapper">
+                        <input id="msg_input" class="message_input" autofocus placeholder="Say Hi to begin chat..." />
+                        <!-- add mic image and add functionality to it -->
+                        <img onclick="startDictation()" src="{{ url_for('static', filename="img/mic.jpg") }}" alt="mic" class="mic" />
+                        <script>
+                            function startDictation() {
+                            
+                                if (window.hasOwnProperty('webkitSpeechRecognition')) {
+                            
+                                var recognition = new webkitSpeechRecognition();
+                            
+                                recognition.continuous = false;
+                                recognition.interimResults = false;
+                            
+                                recognition.lang = "en-US";
+                                recognition.start();
+                            
+                                recognition.onresult = function(e) {
+                                    // writing recognized voice to text box
+                                    document.getElementById('msg_input').value
+                                                            = e.results[0][0].transcript;
+                                    // performing click operation once voice recognising is completed
+                                    document.getElementsByClassName('send_message')[0].click();
+                                    recognition.stop();
+                                    
+                                };
+                            
+                                recognition.onerror = function(e) {
+                                    recognition.stop();
+                                }
+                            
+                                }
+                            }
+                        </script>
+                        <!-- add mic image and add functionality to it -->
+                    </div>
+                    
+                    <div class="send_message">
+                         <div class="text">Send</div>
+                    </div>
+                    
+                </div>
+                
+                
+            </div>
+            <div class="message_template">
+                <li class="message">
+                    <div class="avatar"> </div>
+                    <div class="text_wrapper">
+                        <div class="text"></div>
+                    </div>
+                </li>
+            </div>
+            
+    </div>
+</div>
+
+{% endblock %}
+
+{% block other_footers %}
+<script src="{{ url_for('static', filename="js/bind.js") }}"></script>
+{% endblock %}

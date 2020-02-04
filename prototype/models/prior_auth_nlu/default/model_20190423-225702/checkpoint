@@ -1,0 +1,2 @@
+model_checkpoint_path: "/app/qualtrics/nlp_rasa/prototype/models/prior_auth_nlu/default/model_20190423-225702/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/app/qualtrics/nlp_rasa/prototype/models/prior_auth_nlu/default/model_20190423-225702/intent_classifier_tensorflow_embedding.ckpt"

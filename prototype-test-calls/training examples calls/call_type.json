@@ -1,0 +1,553 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "type",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "type",
+            "entity": "type_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is type",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "type",
+            "entity": "type_entity"
+          }
+        ]
+      },
+      {
+        "text": "type of call",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 4,
+            "value": "type",
+            "entity": "type_entity"
+          }
+        ]
+      },
+      {
+        "text": "type given to call",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 0,
+            "end": 4,
+            "value": "type",
+            "entity": "type_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is type of call",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 8,
+            "end": 12,
+            "value": "type",
+            "entity": "type_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is type given to call",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 8,
+            "end": 12,
+            "value": "type",
+            "entity": "type_entity"
+          }
+        ]
+      },
+      {
+        "text": "call type",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 5,
+            "end": 9,
+            "value": "type",
+            "entity": "type_entity"
+          }
+        ]
+      },
+      {
+        "text": "call having type",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 12,
+            "end": 16,
+            "value": "type",
+            "entity": "type_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is call type",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 13,
+            "end": 17,
+            "value": "type",
+            "entity": "type_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is call having type",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "call",
+            "entity": "call_entity"
+          },
+          {
+            "start": 20,
+            "end": 24,
+            "value": "type",
+            "entity": "type_entity"
+          }
+        ]
+      },
+      {
+        "text": "product type",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "type",
+            "entity": "type_entity"
+          },
+          {
+            "start": 0,
+            "end": 7,
+            "value": "product",
+            "entity": "product_entity"
+          }
+        ]
+      },
+      {
+        "text": "type of product",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "type",
+            "entity": "type_entity"
+          },
+          {
+            "start": 8,
+            "end": 15,
+            "value": "product",
+            "entity": "product_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is type of product",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "type",
+            "entity": "type_entity"
+          },
+          {
+            "start": 16,
+            "end": 23,
+            "value": "product",
+            "entity": "product_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is product type",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "type",
+            "entity": "type_entity"
+          },
+          {
+            "start": 8,
+            "end": 15,
+            "value": "product",
+            "entity": "product_entity"
+          }
+        ]
+      },
+      {
+        "text": "product type of claim",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "type",
+            "entity": "type_entity"
+          },
+          {
+            "start": 0,
+            "end": 7,
+            "value": "product",
+            "entity": "product_entity"
+          }
+        ]
+      },
+      {
+        "text": "type of product of claim",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "type",
+            "entity": "type_entity"
+          },
+          {
+            "start": 8,
+            "end": 15,
+            "value": "product",
+            "entity": "product_entity"
+          }
+        ]
+      },
+      {
+        "text": "product type given to claim",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "type",
+            "entity": "type_entity"
+          },
+          {
+            "start": 0,
+            "end": 7,
+            "value": "product",
+            "entity": "product_entity"
+          }
+        ]
+      },
+      {
+        "text": "type of product given to claim",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "type",
+            "entity": "type_entity"
+          },
+          {
+            "start": 8,
+            "end": 15,
+            "value": "product",
+            "entity": "product_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is product type of claim",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "type",
+            "entity": "type_entity"
+          },
+          {
+            "start": 8,
+            "end": 15,
+            "value": "product",
+            "entity": "product_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is type of product of claim",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "type",
+            "entity": "type_entity"
+          },
+          {
+            "start": 16,
+            "end": 23,
+            "value": "product",
+            "entity": "product_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is product type given to claim",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "type",
+            "entity": "type_entity"
+          },
+          {
+            "start": 8,
+            "end": 15,
+            "value": "product",
+            "entity": "product_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is type of product given to claim",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "type",
+            "entity": "type_entity"
+          },
+          {
+            "start": 16,
+            "end": 23,
+            "value": "product",
+            "entity": "product_entity"
+          }
+        ]
+      },
+      {
+        "text": "claim type of product",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "type",
+            "entity": "type_entity"
+          },
+          {
+            "start": 14,
+            "end": 21,
+            "value": "product",
+            "entity": "product_entity"
+          }
+        ]
+      },
+      {
+        "text": "claim product type",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "type",
+            "entity": "type_entity"
+          },
+          {
+            "start": 6,
+            "end": 13,
+            "value": "product",
+            "entity": "product_entity"
+          }
+        ]
+      },
+      {
+        "text": "claim having type of product",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "type",
+            "entity": "type_entity"
+          },
+          {
+            "start": 21,
+            "end": 28,
+            "value": "product",
+            "entity": "product_entity"
+          }
+        ]
+      },
+      {
+        "text": "claim having product type",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "type",
+            "entity": "type_entity"
+          },
+          {
+            "start": 13,
+            "end": 20,
+            "value": "product",
+            "entity": "product_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is claim product type",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "type",
+            "entity": "type_entity"
+          },
+          {
+            "start": 14,
+            "end": 21,
+            "value": "product",
+            "entity": "product_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is claim type of product",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "type",
+            "entity": "type_entity"
+          },
+          {
+            "start": 22,
+            "end": 29,
+            "value": "product",
+            "entity": "product_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is claim having product type",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 29,
+            "end": 33,
+            "value": "type",
+            "entity": "type_entity"
+          },
+          {
+            "start": 21,
+            "end": 28,
+            "value": "product",
+            "entity": "product_entity"
+          }
+        ]
+      },
+      {
+        "text": "what is claim having type of product",
+        "intent": "call_type",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "type",
+            "entity": "type_entity"
+          },
+          {
+            "start": 29,
+            "end": 36,
+            "value": "product",
+            "entity": "product_entity"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "intent": "call_type",
+        "entities": [
+
+        ]
+      },
+      {
+        "text": "",
+        "intent": "call_type",
+        "entities": [
+
+        ]
+      },
+    ]
+  }
+}

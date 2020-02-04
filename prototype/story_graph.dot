@@ -1,0 +1,33 @@
+digraph  {
+0 [class="start active", fillcolor=green, fontsize=12, label=START, style=filled];
+1 [class=active, fontsize=12, label=utter_greet];
+2 [class="", fontsize=12, label=utter_ask_claim_number];
+3 [class="", fontsize=12, label=action_status_claim];
+5 [class="", fontsize=12, label=action_status_claim];
+6 [class="", fontsize=12, label=utter_goodbye];
+8 [class=active, fontsize=12, label=action_default_fallback];
+9 [class="intent dashed active", label="  ?  ", shape=rect];
+10 [class="intent active", fillcolor=lightblue, label=Hello, shape=rect, style=filled];
+11 [class="intent active", fillcolor=lightblue, label="status of claim", shape=rect, style=filled];
+12 [class=intent, fillcolor=lightblue, label=status, shape=rect, style=filled];
+13 [class=intent, fillcolor=lightblue, label=statusclaim_number7454176508, shape=rect, style=filled];
+14 [class=intent, fillcolor=lightblue, label=statusclaim_number7454176508, shape=rect, style=filled];
+15 [class=intent, fillcolor=lightblue, label=goodbye, shape=rect, style=filled];
+"-4" [class=ellipsis, label="..."];
+"-3" [class=ellipsis, label="..."];
+0 -> 10  [class=active, key=0];
+1 -> 11  [class=active, key=0];
+1 -> 12  [class="", key=0];
+1 -> 13  [class="", key=0];
+2 -> 14  [class="", key=0];
+3 -> "-3"  [class="", key=NONE, label=""];
+5 -> 15  [class="", key=0];
+6 -> "-4"  [class="", key=NONE, label=""];
+8 -> 9  [class=active, key=NONE, label=""];
+10 -> 1  [class=active, key=0];
+11 -> 8  [class=active, key=0];
+12 -> 2  [class="", key=0];
+13 -> 5  [class="", key=0];
+14 -> 3  [class="", key=0];
+15 -> 6  [class="", key=0];
+}
